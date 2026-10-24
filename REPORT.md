@@ -19,6 +19,18 @@
   - The episode folder is separate.
   - `README.md` explains how to start Episode 2.
 
+## Gate C result
+- Every check passed (`episodes/ep01_story_stick/build/qa_report.md`):
+  - runtime 5:26.33; 1080p30 H.264; 11 chapters embedded
+  - fit check 0 mm³; post marks = stick definition, by construction and asserted
+  - −16.0 LUFS / −1.2 dBTP
+  - captions identical to the final narration
+  - every on-screen kanji traces to a verified research row
+  - named items appear within 0.5 s of being spoken
+  - study holds 3.6–4.5 s, glossary 8.5 s
+- I inspected all 28 stills from the final MP4 by eye. One known weakness: in S15 the standing height-stick is thin at that camera distance, so the "heights: posts" label does the work. This is cosmetic and I didn't re-render for it.
+- Render: about 0.34 s/frame wall (3 workers, software GL), about 55 min for the episode.
+
 ## Main decisions (details in `decisions.md`)
 - **Stack:** three.js on headless Chromium (software GL), with frames piped to FFmpeg. There is no GPU here, so Blender Cycles would have taken many hours. All geometry is generated from one parameter file and booleans are exact (manifold3d).
 - **Mark list:** the stick, all four posts' marks and the frame's joint positions all come from one list, so the transferred marks provably match.
@@ -48,7 +60,7 @@
 - **Add the formal rod names to Ep 3.** Introduce 尺杖 shakuzue / 矩計杖 kanabakari-zue (verified) as the formal names for what Ep 1 called the bakabō, alongside ita-zu and aiban.
 
 ## Spend
-- **Total: SPEND_TOTAL of the $5.00 cap**, actual costs from OpenRouter's generation stats, in `spend.csv` (CALLS calls).
+- **Total: $0.32 ($0.3186) of the $5.00 cap**, actual costs from OpenRouter's generation stats, in `spend.csv` (133 calls).
 - **Breakdown:** about $0.06 on auditions and pronunciation tests, about $0.20 on narration takes and retakes, and the rest on audio-model listening checks.
 - **Never reached:** the $3.50 caution line.
 

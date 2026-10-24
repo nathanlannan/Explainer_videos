@@ -72,4 +72,9 @@ Each line is a decision and its one-line reason. Times are UTC on 2026-10-24.
 - **First pass:** the wide camera made the marks unreadable, so I added a close camera that follows the tool mark to mark on post 1. Listeners said the marking SFX were harsh and 3–4 dB hot (fixed), the stick knock was too weak (fixed), and the post-2 strokes collided with "Same stick, same lines" (post 2–4 strokes now start late in or after their line).
 - **Pipeline fixes found here:** a concat path bug in `render.js` (it now uses absolute paths) and a page-load timeout raised for parallel workers.
 
-## Gate C: final (see final report and `episodes/ep01_story_stick/build/qa_report.md`)
+## Gate C: final
+- Full render: 9,790 frames in resumable 1,200-frame chunks (`render_full.sh`), after the first single-run attempt hit the 30-minute background-job limit. Took about 0.34 s/frame wall.
+- All QA checks PASS (`episodes/ep01_story_stick/build/qa_report.md`). Stills from the final MP4 were inspected by eye. The S15 height-stick reads thin; this is cosmetic, I accepted it and didn't re-render.
+
+## Final spend
+$0.3186 of $5.00 over 133 logged calls (actual costs from OpenRouter generation stats).
