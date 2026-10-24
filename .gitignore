@@ -1,0 +1,14 @@
+node_modules/
+**/.seg/
+__pycache__/
+episodes/*/build/stills*/
+episodes/*/audio/raw/
+episodes/*/audio/takes/
+episodes/*/out/video_only.mp4
+shared/audio/voice/auditions/*.pcm
+shared/audio/voice/_nettest.mp3
+/tmp/
+shared/audio/music/bed_*.wav
+episodes/*/build/mix.wav
+episodes/*/gates/B_test_sequence/test_video.mp4
+episodes/*/gates/B_test_sequence/test_mix.wav

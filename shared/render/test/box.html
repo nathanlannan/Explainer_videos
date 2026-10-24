@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#F3EEE4;overflow:hidden}canvas{display:block}</style>
+<script type="importmap">{"imports":{"three":"../node_modules/three/build/three.module.js"}}</script></head><body>
+<script type="module">
+import * as THREE from 'three';
+const W=1920,H=1080;
+const r=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});
+r.setSize(W,H);r.setPixelRatio(1);r.shadowMap.enabled=true;r.shadowMap.type=THREE.PCFSoftShadowMap;
+r.outputColorSpace=THREE.SRGBColorSpace;r.toneMapping=THREE.ACESFilmicToneMapping;r.toneMappingExposure=1.0;
+document.body.appendChild(r.domElement);
+const s=new THREE.Scene();s.background=new THREE.Color('#F3EEE4');
+const cam=new THREE.PerspectiveCamera(30,W/H,0.01,100);
+function grain(w,h,seed){const c=document.createElement('canvas');c.width=w;c.height=h;const g=c.getContext('2d');
+ g.fillStyle='#E6C9A0';g.fillRect(0,0,w,h);let x=seed;const rnd=()=>{x=(x*16807)%2147483647;return x/2147483647};
+ for(let i=0;i<140;i++){const y0=rnd()*h,a=0.04+rnd()*0.1,ph=rnd()*6;g.strokeStyle=`rgba(150,100,55,${a})`;g.lineWidth=0.6+rnd()*2.2;g.beginPath();
+  for(let X=0;X<=w;X+=8){const y=y0+Math.sin(X/w*6.28*(0.5+rnd()*0.02)+ph)*4+Math.sin(X/97+ph)*1.5;X?g.lineTo(X,y):g.moveTo(X,y)}g.stroke()}
+ const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=8;return t}
+const mat=new THREE.MeshStandardMaterial({map:grain(2048,256,7),roughness:0.75});
+const box=new THREE.Mesh(new THREE.BoxGeometry(1.2,0.12,0.12),mat);box.castShadow=true;box.position.y=0.06;s.add(box);
+const fl=new THREE.Mesh(new THREE.PlaneGeometry(10,10),new THREE.ShadowMaterial({opacity:0.18}));fl.rotation.x=-Math.PI/2;fl.receiveShadow=true;s.add(fl);
+s.add(new THREE.HemisphereLight('#fff8ee','#b8a890',1.2));
+const d=new THREE.DirectionalLight('#fff4e0',2.2);d.position.set(2,4,3);d.castShadow=true;d.shadow.mapSize.set(2048,2048);d.shadow.radius=6;
+Object.assign(d.shadow.camera,{left:-2,right:2,top:2,bottom:-2});s.add(d);
+window.renderFrame=(f)=>{const a=f/90*0.6;cam.position.set(Math.sin(a)*2.2,0.9,Math.cos(a)*2.2);cam.lookAt(0,0.06,0);r.render(s,cam);return true};
+window.glinfo=()=>{const gl=r.getContext();const e=gl.getExtension('WEBGL_debug_renderer_info');return e?gl.getParameter(e.UNMASKED_RENDERER_WEBGL):gl.getParameter(gl.RENDERER)};
+window.ready=true;
+</script></body></html>

@@ -1,0 +1,56 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=23633
+title=Cold open
+[CHAPTER]
+TIMEBASE=1/1000
+START=23633
+END=71066
+title=Two ways to put a mark on wood
+[CHAPTER]
+TIMEBASE=1/1000
+START=71066
+END=129533
+title=Reference first: the center line
+[CHAPTER]
+TIMEBASE=1/1000
+START=129533
+END=146466
+title=Study: face vs. center line
+[CHAPTER]
+TIMEBASE=1/1000
+START=146466
+END=180633
+title=The story stick
+[CHAPTER]
+TIMEBASE=1/1000
+START=180633
+END=211833
+title=Study: the marked story stick
+[CHAPTER]
+TIMEBASE=1/1000
+START=211833
+END=242433
+title=Study: four posts, identical marks
+[CHAPTER]
+TIMEBASE=1/1000
+START=242433
+END=284766
+title=Study: tape drift vs. story stick
+[CHAPTER]
+TIMEBASE=1/1000
+START=284766
+END=304933
+title=Looking ahead
+[CHAPTER]
+TIMEBASE=1/1000
+START=304933
+END=314633
+title=Recap and glossary
+[CHAPTER]
+TIMEBASE=1/1000
+START=314633
+END=326333
+title=Glossary

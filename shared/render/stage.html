@@ -1,0 +1,39 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:#F3EEE4}
+#stage{position:absolute;inset:0}#gl{position:absolute;inset:0}
+#overlay,.shotov{position:absolute;inset:0;pointer-events:none}
+.svg{position:absolute;left:0;top:0}
+.label,.txt{position:absolute;color:#1B1B1B;font-family:'Noto Sans','Noto Sans CJK JP',sans-serif;line-height:1.18;white-space:nowrap}
+.label .term{font-weight:700;font-size:40px}.label .romaji{font-style:italic;margin-right:.45em}.label .kanji{font-family:'Noto Serif CJK JP',serif;font-weight:600;font-style:normal}
+.label .gloss{color:#4A4642;font-weight:400;margin-top:4px;font-size:36px}
+.txt.wrap{white-space:normal}.soft{color:#4A4642}.acc{color:#B8432F}
+#fader{position:absolute;inset:0;background:#F3EEE4;opacity:0;pointer-events:none}
+</style>
+<script type="importmap">{"imports":{"three":"/shared/render/node_modules/three/build/three.module.js"}}</script>
+</head><body><div id="stage"></div><div id="overlay"></div><div id="fader"></div>
+<script type="module">
+import * as lib from '/shared/render/lib.js';
+const q = new URLSearchParams(location.search);
+const ep = await import('/' + q.get('ep'));
+await document.fonts.load('700 40px "Noto Sans CJK JP"'); await document.fonts.load('600 40px "Noto Serif CJK JP"');
+const r = lib.getRenderer();
+const { shots, fps, total } = await ep.init(lib);
+for (const s of shots) { s.ov = lib.el('div', { class: 'shotov' }, document.getElementById('overlay')); s.ov.style.display = 'none'; lib.setOverlay(s.ov); s.built = s.build ? s.build() : null; }
+lib.setOverlay(null);
+let active = null;
+window.total = total;
+window.shotAt = (f) => { const t = f / fps; return shots.find((s) => t >= s.start && t < s.end) || shots[shots.length - 1]; };
+window.renderFrame = (f) => {
+  const t = f / fps, s = window.shotAt(f);
+  if (active !== s) { if (active) active.ov.style.display = 'none'; s.ov.style.display = ''; active = s; }
+  const out = s.frame(t - s.start, s) || {};
+  if (out.scene && out.camera) { r.domElement.style.display = ''; r.render(out.scene, out.camera); } else { r.domElement.style.display = 'none'; }
+  // fade through paper at shot boundaries unless the shot opts out
+  const fi = s.fadeIn ?? 0.4, fo = s.fadeOut ?? 0.4, lt = t - s.start, d = s.end - s.start;
+  let a = 0; if (fi && lt < fi) a = 1 - lt / fi; if (fo && lt > d - fo) a = Math.max(a, (lt - (d - fo)) / fo);
+  document.getElementById('fader').style.opacity = lib.ease(a);
+  return s.id;
+};
+window.ready = true;
+</script></body></html>

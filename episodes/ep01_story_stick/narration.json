@@ -1,0 +1,144 @@
+{
+ "voice": "see shared/audio/voice/voice_settings.md",
+ "lines": [
+  {
+   "id": "N01",
+   "section": 1,
+   "text": "Four posts, a sill, a rail between each pair, and a beam across the top. Every joint closes on the first try."
+  },
+  {
+   "id": "N02",
+   "section": 1,
+   "text": "So how does every piece fit the first time, when nobody measured them with a tape?",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N03",
+   "section": 2,
+   "text": "Most of us lay out with a tape. Hook the end, read the number, make a mark. Then the next piece, and the next. Every piece gets its own measurement, and every measurement is a fresh chance to be slightly off.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N04",
+   "section": 2,
+   "text": "Traditional Japanese carpentry leans the other way. Each position is decided once, on a single reference, and copied onto every piece. After that, nothing is measured again."
+  },
+  {
+   "id": "N05",
+   "section": 2,
+   "text": "This marking out of the timber is called sumitsuke: drawing every line in ink before a saw touches the wood. It is where the fit of a joint is decided.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "This marking out of the timber is called sumi-tsuke: drawing every line in ink before a saw touches the wood. It is where the fit of a joint is decided."
+  },
+  {
+   "id": "N06",
+   "section": 3,
+   "text": "But copying needs something to copy from. Real timber is never quite the size on the drawing. One post comes out a few millimeters thinner than the next. It may not be square, and it moves as it dries.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N07",
+   "section": 3,
+   "text": "Lay out from a face, and that face lines up perfectly, but every difference in size lands on the other side. A post a few millimeters thin ends up with its middle off the line its neighbors share.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N08",
+   "section": 3,
+   "text": "On a Japanese plan, the lines that place the posts and walls usually run through the middle of the members. So the carpenter lays out from the middle too: each member gets a center line, the shinzumi, struck in ink.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N09",
+   "section": 3,
+   "text": "A thinner post still has its center on the line. The difference splits, half to each side.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N10",
+   "section": 3,
+   "text": "Where a Western woodworker marks a reference face, the main Japanese layout reference is this line. In this series, a center line always looks like this.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N11",
+   "section": 4,
+   "text": "Now the story stick itself. You may know it from Western shops: a straight, plain batten, cut to the length of the post.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N12",
+   "section": 4,
+   "text": "On it, you mark every position the post needs, once. The bottom end. The top of the sill, where the post seats. The bottom and top of the rail. The underside of the beam. The top end. Beside each line, a short note says what it is for.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N13",
+   "section": 4,
+   "text": "More on the marking tools, next time.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N14",
+   "section": 4,
+   "text": "Then the stick goes against the first post, ends flush, and each line is carried straight across."
+  },
+  {
+   "id": "N15",
+   "section": 4,
+   "text": "The second post. Same stick, same lines."
+  },
+  {
+   "id": "N16",
+   "section": 4,
+   "text": "The third."
+  },
+  {
+   "id": "N17",
+   "section": 4,
+   "text": "And the fourth post.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N18",
+   "section": 4,
+   "text": "Now the worst case with a tape. Each position is measured from the last, and each reading is off by up to a millimeter either way, drawn here twenty times larger. The errors add up along the post, and every post adds them up differently.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N19",
+   "section": 4,
+   "text": "And here are the four story stick posts, on the same scale. No difference between them at all."
+  },
+  {
+   "id": "N20",
+   "section": 4,
+   "text": "If the stick is a millimeter off, all four posts are a millimeter off, together. The stick doesn't make the posts accurate. It makes them identical. And identical is what joinery needs: a joint only cares that its two pieces agree.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N21",
+   "section": 4,
+   "text": "In the shop, a stick like this is also called a bakabō: literally, a fool's stick. The usual explanation: with it, anyone gets the same length, every time.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "In the shop, a stick like this is also called a baka-bō: literally, a fool's stick. The usual explanation: with it, anyone gets the same length, every time."
+  },
+  {
+   "id": "N22",
+   "section": 5,
+   "text": "A real building needs more than one stick: heights for the posts, lengths along the walls.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N23",
+   "section": 5,
+   "text": "And the whole building is drawn out on a board, the itazu, with every piece named. That board is episode three.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N24",
+   "section": 6,
+   "text": "Mark it once. Copy it everywhere. Pieces that agree with each other will fit, even when they disagree with the tape."
+  }
+ ]
+}
