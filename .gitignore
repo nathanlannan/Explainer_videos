@@ -13,3 +13,4 @@ episodes/*/build/mix.wav
 episodes/*/gates/B_test_sequence/test_video.mp4
 episodes/*/gates/B_test_sequence/test_mix.wav
 episodes/*/out/chunks/
+episodes/*/build/render.log
