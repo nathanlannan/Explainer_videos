@@ -2,7 +2,27 @@
 
 Correct first, then beautiful. These are motion-graphics explainers on Japanese hand-tool layout and joinery (the *daiku* and *sashimono* traditions), for a Western hobbyist woodworker.
 
-**Episode 1, "Measure Once: The Story Stick":** see `episodes/ep01_story_stick/out/` and the final report in `REPORT.md`.
+## Episodes
+Each episode folder has `out/` (the MP4, .srt, chapters, glossary and bench exercise), `REPORT.md`, `script.md` and `storyboard.md`. `SERIES_REPORT.md` summarises the series and its spend.
+
+| # | Folder | Title |
+|---|---|---|
+| 1 | `ep01_story_stick` | Measure Once: The Story Stick |
+| 2 | `ep02_sashigane` | The Marking Kit: The Sashigane |
+| 2b | `ep02b_ink_and_gauges` | Ink Line, Pen and Gauges |
+| 3 | `ep03_plan_to_timber` | From Plan to Timber |
+| 4 | `ep04_saws_and_line` | Saws and the Line |
+| 4b | `ep04b_chisels_and_plane` | Chisels, Hammer and Plane |
+| 5 | `ep05_koshikake_aritsugi` | The First Joint: Koshikake Ari-tsugi |
+| 6 | `ep06_aritsugi_cutting` | Marking Out and Cutting the Koshikake Ari-tsugi |
+| 7 | `ep07_hozo` | Mortise and Tenon: Hozo |
+| 8 | `ep08_watari_ago` | Beam Over Beam: Watari-ago |
+| 9 | `ep09_kama_tsugi` | The Gooseneck: Koshikake Kama-tsugi |
+| 10 | `ep10_kama_cutting` | Cutting the Gooseneck |
+| 11 | `ep11_okkake` | The Other Splice: Okkake Daisen-tsugi |
+| 12 | `ep12_okkake_cutting` | Cutting the Okkake |
+
+Research: `research/research_table.md` plus one fact pack per joint (`research/ep04_fact_pack.md` … `ep11_fact_pack.md`).
 
 ## Layout
 ```
@@ -44,6 +64,8 @@ cd ../.. && node shared/render/render.js --ep episodes/ep01_story_stick/shots.js
 # then mux: see episodes/ep01_story_stick/finish.sh
 ```
 Stills for review: `node shared/render/render.js --ep … --stills $(python3 episodes/ep01_story_stick/keyframes.py) --outdir …`
+
+Layout check (run it before any full render): `node shared/render/render.js --ep episodes/<ep>/shots.js --layout 15`. Every 15 frames it measures each visible text box and reports any that fall outside the 5% title-safe area, are under 36 px, or overlap another. Ep6–Ep12 are clean.
 
 ## Starting Episode 2 ("The Marking Kit")
 1. Copy the episode skeleton: `cp -r episodes/ep01_story_stick episodes/ep02_marking_kit`. Delete `audio/`, `build/`, `gates/` and `out/`, and keep the scripts.
