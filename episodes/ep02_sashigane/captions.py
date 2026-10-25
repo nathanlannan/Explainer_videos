@@ -9,7 +9,7 @@ import difflib, json, pathlib, re
 HERE = pathlib.Path(__file__).resolve().parent
 tl = json.loads((HERE / "build/timeline.json").read_text())
 qa = json.loads((HERE / "build/narration_qa.json").read_text())
-ONSCREEN = {"itazu": "ita-zu"}          # caption spelling matches the on-screen term
+ONSCREEN = {}          # caption spelling matches the on-screen term
 norm = lambda w: re.sub(r"[^a-z0-9ō]", "", w.lower())
 
 

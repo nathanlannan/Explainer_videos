@@ -26,6 +26,32 @@ Books I could not access directly (archive.org lending copies refused search-ins
 | R-15 | Post spacing 910 mm | 半間 (3尺) | Used here only as the model's spacing | common module; not separately sourced here | model choice | dimension shown in diagrams only, not taught |
 | R-16 | Readings / pitch | see pronunciation sheet | kana verified (Kotobank 尺杖 etc.); pitch accent not found | Kotobank; agent check | kana verified; pitch unverified | — |
 
+## Episode 2 · Part 1 (the sashigane)
+
+Key sources: **JIS B 7534:2005** 金属製角度直尺 (https://kikakurui.com/b7/B7534-2005-01.html; table images read directly); Kotobank 曲尺 (https://kotobank.jp/word/%E6%9B%B2%E5%B0%BA-45948: 世界大百科, 精選版日本国語大辞典, デジタル大辞泉, マイペディア, ブリタニカ, 家とインテリアの用語がわかる辞典); MHLW ものづくりマイスター 大工工事作業編 p.9; Okamura et al. 2014, 山口大学教育学部附属教育実践総合センター研究紀要 37 (https://petit.lib.yamaguchi-u.ac.jp/24345/files/156058); JAANUS kanejaku.
+
+| ID | Item | Kanji / kana / romaji | Claim as used | Sources | Confidence | On screen? |
+|---|---|---|---|---|---|---|
+| R2-01 | The Japanese carpenter's square | 差金 (also 指矩, 指金) / さしがね / sashigane; also 曲尺 かねじゃく kanejaku, 矩 かね | An L-shaped metal square that is also a ruler | 精選版 (鋼または真鍮…直角に折れ曲がった形の物差し); デジタル大辞泉 (差(し)金, 「指矩」とも書く); ブリタニカ | verified | yes: 差金 |
+| R2-02 | Long arm / short arm | 長手 ながて nagate; 妻手 つまて (also つまで) tsumate; JIS: 長枝/短枝 | names of the two arms | 世界大百科; マイペディア; MHLW manual | verified | yes |
+| R2-03 | Common size | — | 50 cm on the long arm, 25 cm on the short (outer scales); overall about 52 cm | JIS B 7534 (500/250, overall 520); MHLW (長手が50cmまで); Yamaguchi 2014 | verified | yes |
+| R2-04 | Blade section | — | about 15 mm wide, at most about 1.4 mm thick (JIS A形 15.0±0.3 × 1.4±0.4, edges thinner) | JIS B 7534; 世界大百科 (幅5分, 厚さ2–3厘) | verified | yes ("about 15 mm wide, barely more than a millimeter thick") |
+| R2-05 | Material | — | steel or brass traditionally; stainless today | 精選版; JIS (SUS410/420) | verified | yes ("today usually stainless") |
+| R2-06 | Springy blade | — | designed to flex and spring back; carpenters flex it slightly with their fingers to press it flat on the work | JIS A形 (復元力) + bend test 6.4; Yamaguchi 2014 quoting 山下ほか『木材の性質と加工』 | verified | yes |
+| R2-07 | "Flexes to wrap round logs" | — | — | no reliable source | unverified | **no** |
+| R2-08 | Front scale | 表目 おもてめ omote-me | ordinary units | デジタル大辞泉 | verified (single dictionary + general) | yes |
+| R2-09 | Back √2 scale | 裏目 うらめ ura-me; formally 角目 かくめ kakume | units are √2 (≈1.414) × the front unit | 世界大百科; ブリタニカ; JIS (角目=√2倍); デジタル大辞泉 | verified | yes |
+| R2-10 | Log use of ura-me | — | across a log's small end, the ura-me reading = side of the largest square beam (side = diameter ÷ √2) | 世界大百科 (旧版 ものさし); マイペディア; 家とインテリア辞典; elementary geometry | verified | yes |
+| R2-11 | Round scale | 丸目 まるめ marume | units are 1/π × the front unit; across a diameter it reads the circumference | JIS; 世界大百科; 家とインテリア辞典. **MHLW manual p.9 has this wrong: do not copy.** | verified | yes |
+| R2-12 | Scale placement varies by model | 表裏同目 ひょうりどうめ | e.g. √2 on the back of the long arm (outer edge), 丸目 on the back of the short arm (inner edge); some have a plain back | 世界大百科 ("…があるものがある"); retail listings | front/back basics verified; specific placement single-source | shown as "one common layout" |
+| R2-13 | Metric now standard; shaku versions exist | 尺相当目盛 | — | 世界大百科; ブリタニカ; retail | metric shift verified | yes ("some carry traditional shaku units") |
+| R2-14 | Roof layout geometry | 規矩術 きくじゅつ kikujutsu | the carpenter's geometry of layout, roof slopes and hips using front and back scales; systematized in the Edo period | Kotobank 規矩術 (世界大百科, 精選版, Nipponica); MHLW (角目…隅木の墨付け); JAANUS | verified | yes (named only) |
+| R2-15 | Western framing square | — | body 24 × 2 in, tongue 16 × 1½ in; tables (rafter, Essex board measure, brace, octagon) stamped on it | Fire Engineering training article; Stanley 45-910 and Johnson CS2 listings; Wikipedia "Steel square" | sizes verified; table placement single-source | sizes + "tables" only |
+| R2-16 | Weights (750 g vs 115 g) | — | — | retail only | single-source | no |
+| R2-17 | Squaring a line | — | short arm (妻手) to the board's edge, hold the long arm near its middle, draw along the long arm's outer edge | MHLW p.9; Yamaguchi 2014 | verified | yes, in top view (2D) |
+| R2-18 | 45° uses the front scale (same number on both arms); ura-me is for diagonals/hips | — | kept apart in the script | research note | — | not taught |
+| R2-19 | Early record of 曲尺 (905) | — | — | 精選版 citing 観世音寺資財帳 | single-source (one dictionary citing one record) | no |
+
 ## Later episodes (candidates, not yet researched)
 指金/差金 sashigane · 裏目 ura-me · 墨壺 sumitsubo · 墨差し sumisashi · 毛引 kebiki · 白引 shirabiki · 合番 aiban · 両刃 ryōba · 胴付 dozuki · 片刃 kataba · 鑿 nomi · 玄能 gennō · 鉋 kanna · 腰掛蟻継ぎ koshikake ari-tsugi · 枘/枘穴 hozo/hozo-ana · 鎌継ぎ kama-tsugi · 渡り腮 watari-ago · 追掛大栓継ぎ okkake daisen-tsugi
 

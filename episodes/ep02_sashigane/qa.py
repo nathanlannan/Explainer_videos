@@ -9,7 +9,7 @@ import mixer  # noqa: E402
 MP4 = HERE / "out/ep02_sashigane.mp4"
 tl = json.loads((HERE / "build/timeline.json").read_text())
 geo = json.loads((HERE / "build/geometry.json").read_text())
-fit = json.loads((HERE / "build/fitcheck.json").read_text())
+chk = json.loads((HERE / "build/checks.json").read_text())
 rows, ok_all = [], True
 
 
@@ -25,17 +25,16 @@ v = [s for s in probe["streams"] if s["codec_type"] == "video"][0]
 check("Runtime 4:30–5:30", 270 <= dur <= 330, f"{dur:.2f} s ({int(dur // 60)}:{dur % 60:05.2f})")
 check("Format 1080p30 H.264", v["width"] == 1920 and v["height"] == 1080 and v["codec_name"] == "h264" and v["r_frame_rate"] == "30/1", f"{v['width']}×{v['height']} {v['codec_name']} {v['r_frame_rate']}")
 check("Chapters embedded", len(probe.get("chapters", [])) == len(tl["chapters"]), f"{len(probe.get('chapters', []))} chapters")
-check("Fit check (cold-open frame)", fit["ok"], f"max interference {max(r['volume_mm3'] for r in fit['interference'])} mm³ over {len(fit['interference'])} pairs; {sum(r['ok'] for r in fit['gaps'])}/{len(fit['gaps'])} mates in contact; {sum(r['ok'] for r in fit['insertion'])}/{len(fit['insertion'])} insertion paths clear")
-same = all(pm == geo["stick_marks"] for pm in geo["post_marks"])
-shots_src = (HERE / "shots.js").read_text()
-by_constr = "MARKS().map((x) => { const g = new THREE.Group(); g.rotation.y = Math.PI / 2; g.position.set(x, YT" in shots_src
-check("Post marks == story-stick definition", same and by_constr, f"post_marks == stick_marks for all {len(geo['post_marks'])} posts; renderer draws both from the same MARKS() list ({geo['stick_marks']} mm)")
+check("Geometry checks (√2 reading = largest inscribed square)", chk["ok"], f"ura-me across {geo['log_d']:.0f} mm reads {chk['ura_reading_across_diameter']}; largest square side {chk['largest_square_side']}; corners at r = {chk['corner_radius']}; overhang at that side {chk['poke_out_at_side_mm3']} mm³, at +1 mm {chk['poke_out_at_side_plus_1mm_mm3']} mm³; marume across 300 → {chk['maru_reading_across_diameter']}")
+sc = geo["scales"]
+ok_sc = all(abs(x - v * u) < 1e-3 for key, u in (("omote_long", 1.0), ("ura_long", geo["root2"]), ("maru_short", 1 / geo["pi"])) for v, x in sc[key])
+check("Scales computed from definition", ok_sc, f"omote {len(sc['omote_long'])} ticks ×1 mm; ura-me {len(sc['ura_long'])} ticks ×√2; marume {len(sc['maru_short'])} ticks ×1/π (renderer draws these lists)")
 lo = mixer.measure(MP4)
 check("Loudness −16 LUFS ±1, TP ≤ −1 dBTP", abs(lo["integrated_LUFS"] + 16) <= 1 and lo["true_peak_dBTP"] <= -1.0, f"{lo['integrated_LUFS']} LUFS, {lo['true_peak_dBTP']} dBTP, LRA {lo['LRA_LU']} LU (ffmpeg ebur128 on the MP4)")
 # captions vs narration
 srt = (HERE / "out/ep02_sashigane.srt").read_text()
 cap_text = " ".join(l for l in srt.splitlines() if l and not l[0].isdigit())
-nar_text = " ".join(n["text"].replace("itazu", "ita-zu") for n in tl["narration"])
+nar_text = " ".join(n["text"] for n in tl["narration"])
 norm = lambda s: re.sub(r"\s+", " ", s).strip()
 cues = re.findall(r"(\d\d):(\d\d):(\d\d),(\d{3}) --> (\d\d):(\d\d):(\d\d),(\d{3})", srt)
 tt = lambda a: int(a[0]) * 3600 + int(a[1]) * 60 + int(a[2]) + int(a[3]) / 1000
@@ -52,8 +51,8 @@ for s in tl["shots"]:
     for lid, ln in s["lines"].items():
         for w, ws, we in ln["words"]:
             pass
-pairs = [("S05", "term", "N05", "called"), ("S07", "term", "N08", "shinzumi"), ("S14", "term", "N21", "called"), ("S16", "term", "N23", "itazu"),
-         ("S10", "m0", "N12", "bottom"), ("S10", "m4", "N12", "underside"), ("S12", "x20", "N18", "drawn"), ("S01", "beam", "N01", "beam")]
+pairs = [("S03", "term", "N03", "sashigane"), ("S03", "nagate", "N04", "nagate"), ("S03", "tsumate", "N04", "tsumate"), ("S07", "term", "N08", "omote"),
+         ("S08", "term", "N09", "urame"), ("S10", "read", "N13", "read"), ("S12", "term", "N16", "marume"), ("S11", "term", "N15", "own")]
 worst = 0
 for sid, ev, lid, word in pairs:
     s = next(x for x in tl["shots"] if x["id"] == sid)
@@ -64,7 +63,7 @@ for sid, ev, lid, word in pairs:
 check("Narration/visual sync (named thing on screen when named)", worst <= 0.6, "; ".join(sync))
 # study holds
 holds = [(s["id"], b - a) for s in tl["shots"] for a, b in s["holds"]]
-need = {"S07": 3, "S10": 3, "S11": 3, "S12": 3, "S17": 8}
+need = {"S09": 3, "S10": 3, "S15": 8}
 check("Study holds", all(any(h[0] == k and h[1] >= v for h in holds) for k, v in need.items()), ", ".join(f"{k} {v:.1f}s" for k, v in holds))
 # stills from the final MP4 at every hold midpoint and the 75% point of each shot
 out = HERE / "build/qa_stills"

@@ -1,0 +1,12 @@
+{
+ "ura_reading_across_diameter": 212.13,
+ "largest_square_side": 212.13,
+ "reading_equals_side": true,
+ "corner_radius": 150.0,
+ "poke_out_at_side_mm3": 0.0,
+ "poke_out_at_side_plus_1mm_mm3": 2.0,
+ "maru_reading_across_diameter": 942.5,
+ "pythagoras_example_diagonal": 141.42,
+ "pythagoras_example_ura_reading": 100.0,
+ "ok": true
+}

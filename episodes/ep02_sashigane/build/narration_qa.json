@@ -1,0 +1,3175 @@
+{
+ "N01": {
+  "take": 1,
+  "duration": 8.436,
+  "asr": "This log measures 300 millimeters across its small end. What is the biggest square beam you could cut from it?",
+  "words": [
+   [
+    "This",
+    0.0,
+    0.56
+   ],
+   [
+    "log",
+    0.56,
+    0.92
+   ],
+   [
+    "measures",
+    0.92,
+    1.46
+   ],
+   [
+    "300",
+    1.46,
+    2.34
+   ],
+   [
+    "millimeters",
+    2.34,
+    2.98
+   ],
+   [
+    "across",
+    2.98,
+    3.44
+   ],
+   [
+    "its",
+    3.44,
+    3.72
+   ],
+   [
+    "small",
+    3.72,
+    4.02
+   ],
+   [
+    "end.",
+    4.02,
+    4.4
+   ],
+   [
+    "What",
+    5.24,
+    5.42
+   ],
+   [
+    "is",
+    5.42,
+    5.58
+   ],
+   [
+    "the",
+    5.58,
+    5.72
+   ],
+   [
+    "biggest",
+    5.72,
+    6.22
+   ],
+   [
+    "square",
+    6.22,
+    6.9
+   ],
+   [
+    "beam",
+    6.9,
+    7.34
+   ],
+   [
+    "you",
+    7.34,
+    7.68
+   ],
+   [
+    "could",
+    7.68,
+    7.82
+   ],
+   [
+    "cut",
+    7.82,
+    8.02
+   ],
+   [
+    "from",
+    8.02,
+    8.22
+   ],
+   [
+    "it?",
+    8.22,
+    8.4
+   ]
+  ],
+  "wpm": 149.4
+ },
+ "N02": {
+  "take": 1,
+  "duration": 5.522,
+  "asr": "A Japanese carpenter doesn't reach for a calculator. They turn their square over.",
+  "words": [
+   [
+    "A",
+    0.0,
+    0.2
+   ],
+   [
+    "Japanese",
+    0.2,
+    0.72
+   ],
+   [
+    "carpenter",
+    0.72,
+    1.3
+   ],
+   [
+    "doesn't",
+    1.3,
+    1.96
+   ],
+   [
+    "reach",
+    1.96,
+    2.14
+   ],
+   [
+    "for",
+    2.14,
+    2.42
+   ],
+   [
+    "a",
+    2.42,
+    2.54
+   ],
+   [
+    "calculator.",
+    2.54,
+    3.04
+   ],
+   [
+    "They",
+    3.74,
+    3.9
+   ],
+   [
+    "turn",
+    3.9,
+    4.32
+   ],
+   [
+    "their",
+    4.32,
+    4.64
+   ],
+   [
+    "square",
+    4.64,
+    4.94
+   ],
+   [
+    "over.",
+    4.94,
+    5.3
+   ]
+  ],
+  "wpm": 141.3
+ },
+ "N03": {
+  "take": 1,
+  "duration": 11.252,
+  "asr": "This is a sashigane, the Japanese carpenter's square. It's a thin L of steel, today usually stainless, marked as a ruler along its edges.",
+  "words": [
+   [
+    "This",
+    0.0,
+    0.36
+   ],
+   [
+    "is",
+    0.36,
+    0.8
+   ],
+   [
+    "a",
+    0.8,
+    1.0
+   ],
+   [
+    "sashigane,",
+    1.0,
+    1.66
+   ],
+   [
+    "the",
+    2.12,
+    2.32
+   ],
+   [
+    "Japanese",
+    2.32,
+    2.84
+   ],
+   [
+    "carpenter's",
+    2.84,
+    3.64
+   ],
+   [
+    "square.",
+    3.64,
+    3.9
+   ],
+   [
+    "It's",
+    4.66,
+    4.88
+   ],
+   [
+    "a",
+    4.88,
+    5.06
+   ],
+   [
+    "thin",
+    5.06,
+    5.4
+   ],
+   [
+    "L",
+    5.4,
+    5.78
+   ],
+   [
+    "of",
+    5.78,
+    6.04
+   ],
+   [
+    "steel,",
+    6.04,
+    6.48
+   ],
+   [
+    "today",
+    6.92,
+    7.26
+   ],
+   [
+    "usually",
+    7.26,
+    7.8
+   ],
+   [
+    "stainless,",
+    7.8,
+    8.34
+   ],
+   [
+    "marked",
+    8.96,
+    9.28
+   ],
+   [
+    "as",
+    9.28,
+    9.6
+   ],
+   [
+    "a",
+    9.6,
+    9.7
+   ],
+   [
+    "ruler",
+    9.7,
+    10.04
+   ],
+   [
+    "along",
+    10.04,
+    10.5
+   ],
+   [
+    "its",
+    10.5,
+    10.72
+   ],
+   [
+    "edges.",
+    10.72,
+    11.02
+   ]
+  ],
+  "wpm": 128.0,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "sashigane",
+     "heard_kana": "さしがね",
+     "correct": true,
+     "note": "Clean, natural pronunciation with correct short vowel lengths and accurate mora timing."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "sashigane",
+     "heard_kana": "さしがねえ",
+     "correct": false,
+     "note": "Heard a long 'e' sound at the end ('ねえ') instead of the expected short 'e' sound ('ね')."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "sashigane",
+      "heard_kana": "さしがね",
+      "correct": true,
+      "note": "Clean, natural pronunciation with correct short vowel lengths and accurate mora timing."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 5,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "sashigane",
+      "heard_kana": "さしがねえ",
+      "correct": false,
+      "note": "Heard a long 'e' sound at the end ('ねえ') instead of the expected short 'e' sound ('ね')."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 3,
+    "script_deviations": [
+     "'tingents' instead of 'stainless' heard"
+    ],
+    "artifacts": [
+     "Slight clipping at the end of the sentence."
+    ]
+   }
+  }
+ },
+ "N04": {
+  "take": 1,
+  "duration": 11.937,
+  "asr": "The long arm is the nagate. The short arm is the tsumate. The common size is scaled to 50 centimeters on the long arm and 25 on the short.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.2
+   ],
+   [
+    "long",
+    0.2,
+    0.52
+   ],
+   [
+    "arm",
+    0.52,
+    0.84
+   ],
+   [
+    "is",
+    0.84,
+    1.28
+   ],
+   [
+    "the",
+    1.28,
+    1.5
+   ],
+   [
+    "nagate.",
+    1.5,
+    2.0
+   ],
+   [
+    "The",
+    2.64,
+    2.88
+   ],
+   [
+    "short",
+    2.88,
+    3.1
+   ],
+   [
+    "arm",
+    3.1,
+    3.4
+   ],
+   [
+    "is",
+    3.4,
+    3.8
+   ],
+   [
+    "the",
+    3.8,
+    3.98
+   ],
+   [
+    "tsumate.",
+    3.98,
+    4.4
+   ],
+   [
+    "The",
+    5.44,
+    5.74
+   ],
+   [
+    "common",
+    5.74,
+    6.12
+   ],
+   [
+    "size",
+    6.12,
+    6.44
+   ],
+   [
+    "is",
+    6.44,
+    6.76
+   ],
+   [
+    "scaled",
+    6.76,
+    7.1
+   ],
+   [
+    "to",
+    7.1,
+    7.5
+   ],
+   [
+    "50",
+    7.5,
+    8.0
+   ],
+   [
+    "centimeters",
+    8.0,
+    8.42
+   ],
+   [
+    "on",
+    8.42,
+    8.92
+   ],
+   [
+    "the",
+    8.92,
+    9.06
+   ],
+   [
+    "long",
+    9.06,
+    9.28
+   ],
+   [
+    "arm",
+    9.28,
+    9.6
+   ],
+   [
+    "and",
+    9.6,
+    10.24
+   ],
+   [
+    "25",
+    10.24,
+    10.66
+   ],
+   [
+    "on",
+    10.66,
+    11.26
+   ],
+   [
+    "the",
+    11.26,
+    11.4
+   ],
+   [
+    "short.",
+    11.4,
+    11.64
+   ]
+  ],
+  "wpm": 145.8,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "nagate",
+     "heard_kana": "ながて",
+     "correct": true,
+     "note": "English-accented with slightly lengthened vowels, but clear and phonetically accurate to ながて."
+    },
+    {
+     "term": "tsumate",
+     "heard_kana": "つまて",
+     "correct": true,
+     "note": "Pronounced clearly with correct Japanese mora timing, slight English diphthong on the final 'e' syllable."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "nagate",
+     "heard_kana": "ながて",
+     "correct": true,
+     "note": "This aligns exactly with the expected pronunciation of 'ながて'."
+    },
+    {
+     "term": "tsumate",
+     "heard_kana": "つまて",
+     "correct": true,
+     "note": "This matches the target pronunciation 'つまて' precisely."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "nagate",
+      "heard_kana": "ながて",
+      "correct": true,
+      "note": "English-accented with slightly lengthened vowels, but clear and phonetically accurate to ながて."
+     },
+     {
+      "term": "tsumate",
+      "heard_kana": "つまて",
+      "correct": true,
+      "note": "Pronounced clearly with correct Japanese mora timing, slight English diphthong on the final 'e' syllable."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "nagate",
+      "heard_kana": "ながて",
+      "correct": true,
+      "note": "This aligns exactly with the expected pronunciation of 'ながて'."
+     },
+     {
+      "term": "tsumate",
+      "heard_kana": "つまて",
+      "correct": true,
+      "note": "This matches the target pronunciation 'つまて' precisely."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 3,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ },
+ "N05": {
+  "take": 1,
+  "duration": 17.753,
+  "asr": "Beside it, the western framing square, 24 inches by 16 with a two -inch blade. Both are squares and rulers at once, but the sashigane is only about 15 millimeters wide and barely more than a millimeter thick.",
+  "words": [
+   [
+    "Beside",
+    0.0,
+    0.5
+   ],
+   [
+    "it,",
+    0.5,
+    0.72
+   ],
+   [
+    "the",
+    1.06,
+    1.18
+   ],
+   [
+    "western",
+    1.18,
+    1.58
+   ],
+   [
+    "framing",
+    1.58,
+    2.0
+   ],
+   [
+    "square,",
+    2.0,
+    2.52
+   ],
+   [
+    "24",
+    3.2,
+    3.58
+   ],
+   [
+    "inches",
+    3.58,
+    4.02
+   ],
+   [
+    "by",
+    4.02,
+    4.38
+   ],
+   [
+    "16",
+    4.38,
+    4.9
+   ],
+   [
+    "with",
+    4.9,
+    5.56
+   ],
+   [
+    "a",
+    5.56,
+    5.72
+   ],
+   [
+    "two",
+    5.72,
+    5.98
+   ],
+   [
+    "-inch",
+    5.98,
+    6.18
+   ],
+   [
+    "blade.",
+    6.18,
+    6.5
+   ],
+   [
+    "Both",
+    7.5,
+    7.72
+   ],
+   [
+    "are",
+    7.72,
+    8.08
+   ],
+   [
+    "squares",
+    8.08,
+    8.6
+   ],
+   [
+    "and",
+    8.6,
+    9.04
+   ],
+   [
+    "rulers",
+    9.04,
+    9.4
+   ],
+   [
+    "at",
+    9.4,
+    9.68
+   ],
+   [
+    "once,",
+    9.68,
+    10.16
+   ],
+   [
+    "but",
+    10.8,
+    11.02
+   ],
+   [
+    "the",
+    11.02,
+    11.18
+   ],
+   [
+    "sashigane",
+    11.18,
+    11.78
+   ],
+   [
+    "is",
+    11.78,
+    12.2
+   ],
+   [
+    "only",
+    12.2,
+    12.7
+   ],
+   [
+    "about",
+    12.7,
+    13.12
+   ],
+   [
+    "15",
+    13.12,
+    13.88
+   ],
+   [
+    "millimeters",
+    13.88,
+    14.4
+   ],
+   [
+    "wide",
+    14.4,
+    14.9
+   ],
+   [
+    "and",
+    14.9,
+    15.6
+   ],
+   [
+    "barely",
+    15.6,
+    16.14
+   ],
+   [
+    "more",
+    16.14,
+    16.5
+   ],
+   [
+    "than",
+    16.5,
+    16.68
+   ],
+   [
+    "a",
+    16.68,
+    16.8
+   ],
+   [
+    "millimeter",
+    16.8,
+    17.2
+   ],
+   [
+    "thick.",
+    17.2,
+    17.52
+   ]
+  ],
+  "wpm": 125.0,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "sashigane",
+     "heard_kana": "さしがね",
+     "correct": true,
+     "note": "Clean and accurate pronunciation."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "sashigane",
+     "heard_kana": "さしがねえ",
+     "correct": false,
+     "note": "The listener heard an extra 'え' sound, elongating it incorrectly. The correct kana is 'さしがね', with a short vowel."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "sashigane",
+      "heard_kana": "さしがね",
+      "correct": true,
+      "note": "Clean and accurate pronunciation."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "sashigane",
+      "heard_kana": "さしがねえ",
+      "correct": false,
+      "note": "The listener heard an extra 'え' sound, elongating it incorrectly. The correct kana is 'さしがね', with a short vowel."
+     }
+    ],
+    "clarity": 3,
+    "warmth": 3,
+    "naturalness": 3,
+    "script_deviations": [
+     "The pronunciation added an extra 'え' sound at the end of 'sashigane'"
+    ],
+    "artifacts": []
+   }
+  }
+ },
+ "N06": {
+  "take": 2,
+  "duration": 13.254,
+  "asr": "That thinness is deliberate. The blade flexes and springs back so the carpenter can bend it slightly with their fingers and press it flat against the wood, right where the line goes.",
+  "words": [
+   [
+    "That",
+    0.0,
+    0.3
+   ],
+   [
+    "thinness",
+    0.3,
+    1.12
+   ],
+   [
+    "is",
+    1.12,
+    1.38
+   ],
+   [
+    "deliberate.",
+    1.38,
+    1.86
+   ],
+   [
+    "The",
+    2.68,
+    2.82
+   ],
+   [
+    "blade",
+    2.82,
+    3.12
+   ],
+   [
+    "flexes",
+    3.12,
+    4.08
+   ],
+   [
+    "and",
+    4.08,
+    4.4
+   ],
+   [
+    "springs",
+    4.4,
+    4.84
+   ],
+   [
+    "back",
+    4.84,
+    5.3
+   ],
+   [
+    "so",
+    5.3,
+    6.1
+   ],
+   [
+    "the",
+    6.1,
+    6.34
+   ],
+   [
+    "carpenter",
+    6.34,
+    6.74
+   ],
+   [
+    "can",
+    6.74,
+    7.1
+   ],
+   [
+    "bend",
+    7.1,
+    7.5
+   ],
+   [
+    "it",
+    7.5,
+    7.72
+   ],
+   [
+    "slightly",
+    7.72,
+    8.18
+   ],
+   [
+    "with",
+    8.18,
+    8.54
+   ],
+   [
+    "their",
+    8.54,
+    8.7
+   ],
+   [
+    "fingers",
+    8.7,
+    9.04
+   ],
+   [
+    "and",
+    9.04,
+    9.7
+   ],
+   [
+    "press",
+    9.7,
+    9.98
+   ],
+   [
+    "it",
+    9.98,
+    10.2
+   ],
+   [
+    "flat",
+    10.2,
+    10.58
+   ],
+   [
+    "against",
+    10.58,
+    11.04
+   ],
+   [
+    "the",
+    11.04,
+    11.28
+   ],
+   [
+    "wood,",
+    11.28,
+    11.5
+   ],
+   [
+    "right",
+    11.94,
+    12.18
+   ],
+   [
+    "where",
+    12.18,
+    12.42
+   ],
+   [
+    "the",
+    12.42,
+    12.56
+   ],
+   [
+    "line",
+    12.56,
+    12.74
+   ],
+   [
+    "goes.",
+    12.74,
+    13.0
+   ]
+  ],
+  "wpm": 144.9
+ },
+ "N07": {
+  "take": 3,
+  "duration": 16.968,
+  "asr": "To square a line across a board, the short arm goes against the board's edge. Hold the long arm near its middle and draw along its outer edge. It's the tool that carried the lines across the posts in the last episode.",
+  "words": [
+   [
+    "To",
+    0.0,
+    0.18
+   ],
+   [
+    "square",
+    0.18,
+    0.58
+   ],
+   [
+    "a",
+    0.58,
+    0.82
+   ],
+   [
+    "line",
+    0.82,
+    1.16
+   ],
+   [
+    "across",
+    1.16,
+    1.52
+   ],
+   [
+    "a",
+    1.52,
+    1.8
+   ],
+   [
+    "board,",
+    1.8,
+    2.1
+   ],
+   [
+    "the",
+    2.62,
+    2.84
+   ],
+   [
+    "short",
+    2.84,
+    3.24
+   ],
+   [
+    "arm",
+    3.24,
+    3.64
+   ],
+   [
+    "goes",
+    3.64,
+    3.9
+   ],
+   [
+    "against",
+    3.9,
+    4.34
+   ],
+   [
+    "the",
+    4.34,
+    4.66
+   ],
+   [
+    "board's",
+    4.66,
+    5.08
+   ],
+   [
+    "edge.",
+    5.08,
+    5.48
+   ],
+   [
+    "Hold",
+    6.28,
+    6.6
+   ],
+   [
+    "the",
+    6.6,
+    6.86
+   ],
+   [
+    "long",
+    6.86,
+    7.2
+   ],
+   [
+    "arm",
+    7.2,
+    7.62
+   ],
+   [
+    "near",
+    7.62,
+    7.94
+   ],
+   [
+    "its",
+    7.94,
+    8.16
+   ],
+   [
+    "middle",
+    8.16,
+    8.48
+   ],
+   [
+    "and",
+    8.96,
+    9.3
+   ],
+   [
+    "draw",
+    9.3,
+    9.66
+   ],
+   [
+    "along",
+    9.66,
+    10.16
+   ],
+   [
+    "its",
+    10.16,
+    10.5
+   ],
+   [
+    "outer",
+    10.5,
+    10.9
+   ],
+   [
+    "edge.",
+    10.9,
+    11.5
+   ],
+   [
+    "It's",
+    12.42,
+    12.68
+   ],
+   [
+    "the",
+    12.68,
+    12.84
+   ],
+   [
+    "tool",
+    12.84,
+    13.08
+   ],
+   [
+    "that",
+    13.08,
+    13.38
+   ],
+   [
+    "carried",
+    13.38,
+    13.8
+   ],
+   [
+    "the",
+    13.8,
+    14.04
+   ],
+   [
+    "lines",
+    14.04,
+    14.38
+   ],
+   [
+    "across",
+    14.38,
+    14.76
+   ],
+   [
+    "the",
+    14.76,
+    15.02
+   ],
+   [
+    "posts",
+    15.02,
+    15.38
+   ],
+   [
+    "in",
+    15.38,
+    15.78
+   ],
+   [
+    "the",
+    15.78,
+    15.94
+   ],
+   [
+    "last",
+    15.94,
+    16.22
+   ],
+   [
+    "episode.",
+    16.22,
+    16.66
+   ]
+  ],
+  "wpm": 148.5
+ },
+ "N08": {
+  "take": 3,
+  "duration": 11.613,
+  "asr": "The front carries ordinary measurements, the omoteme. Today, that's usually millimeters. Some squares carry the traditional shaku units instead.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.24
+   ],
+   [
+    "front",
+    0.24,
+    0.68
+   ],
+   [
+    "carries",
+    0.68,
+    1.42
+   ],
+   [
+    "ordinary",
+    1.42,
+    2.04
+   ],
+   [
+    "measurements,",
+    2.04,
+    2.7
+   ],
+   [
+    "the",
+    3.36,
+    3.42
+   ],
+   [
+    "omoteme.",
+    3.42,
+    4.12
+   ],
+   [
+    "Today,",
+    5.18,
+    5.58
+   ],
+   [
+    "that's",
+    5.9,
+    6.14
+   ],
+   [
+    "usually",
+    6.14,
+    6.64
+   ],
+   [
+    "millimeters.",
+    6.64,
+    7.3
+   ],
+   [
+    "Some",
+    8.14,
+    8.3
+   ],
+   [
+    "squares",
+    8.3,
+    8.72
+   ],
+   [
+    "carry",
+    8.72,
+    9.2
+   ],
+   [
+    "the",
+    9.2,
+    9.46
+   ],
+   [
+    "traditional",
+    9.46,
+    9.98
+   ],
+   [
+    "shaku",
+    9.98,
+    10.42
+   ],
+   [
+    "units",
+    10.42,
+    10.9
+   ],
+   [
+    "instead.",
+    10.9,
+    11.4
+   ]
+  ],
+  "wpm": 98.2,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "omote-meh",
+     "heard_kana": "おもてめ",
+     "correct": true,
+     "note": "Clean, accurate pronunciation of each mora without unnatural elongation."
+    },
+    {
+     "term": "shaku",
+     "heard_kana": "しゃく",
+     "correct": true,
+     "note": "Correctly pronounced with natural short vowel and mora timing."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "omote-me",
+     "heard_kana": "おもてめ",
+     "correct": true,
+     "note": "Heard matches the target kana perfectly. No extra syllables detected."
+    },
+    {
+     "term": "shaku",
+     "heard_kana": "しゃく",
+     "correct": true,
+     "note": "Heard as 'しゃく'. Pronunciation correct. No distortions or extra sounds."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "omote-meh",
+      "heard_kana": "おもてめ",
+      "correct": true,
+      "note": "Clean, accurate pronunciation of each mora without unnatural elongation."
+     },
+     {
+      "term": "shaku",
+      "heard_kana": "しゃく",
+      "correct": true,
+      "note": "Correctly pronounced with natural short vowel and mora timing."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "omote-me",
+      "heard_kana": "おもてめ",
+      "correct": true,
+      "note": "Heard matches the target kana perfectly. No extra syllables detected."
+     },
+     {
+      "term": "shaku",
+      "heard_kana": "しゃく",
+      "correct": true,
+      "note": "Heard as 'しゃく'. Pronunciation correct. No distortions or extra sounds."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ },
+ "N09": {
+  "take": 2,
+  "duration": 16.406,
+  "asr": "turn it over, and the long arm carries a second scale, the urame. Its marks are spaced wider. Each unit is a front unit times the square root of 2, about 1 .414.",
+  "words": [
+   [
+    "turn",
+    0.0,
+    0.26
+   ],
+   [
+    "it",
+    0.26,
+    0.42
+   ],
+   [
+    "over,",
+    0.42,
+    0.78
+   ],
+   [
+    "and",
+    1.14,
+    1.34
+   ],
+   [
+    "the",
+    1.34,
+    1.5
+   ],
+   [
+    "long",
+    1.5,
+    1.84
+   ],
+   [
+    "arm",
+    1.84,
+    2.2
+   ],
+   [
+    "carries",
+    2.2,
+    2.64
+   ],
+   [
+    "a",
+    2.64,
+    2.9
+   ],
+   [
+    "second",
+    2.9,
+    3.26
+   ],
+   [
+    "scale,",
+    3.26,
+    3.7
+   ],
+   [
+    "the",
+    4.28,
+    4.36
+   ],
+   [
+    "urame.",
+    4.36,
+    4.84
+   ],
+   [
+    "Its",
+    5.74,
+    6.12
+   ],
+   [
+    "marks",
+    6.12,
+    6.46
+   ],
+   [
+    "are",
+    6.46,
+    6.78
+   ],
+   [
+    "spaced",
+    6.78,
+    7.16
+   ],
+   [
+    "wider.",
+    7.16,
+    7.8
+   ],
+   [
+    "Each",
+    8.68,
+    8.86
+   ],
+   [
+    "unit",
+    8.86,
+    9.24
+   ],
+   [
+    "is",
+    9.24,
+    9.7
+   ],
+   [
+    "a",
+    9.7,
+    9.98
+   ],
+   [
+    "front",
+    9.98,
+    10.22
+   ],
+   [
+    "unit",
+    10.22,
+    10.66
+   ],
+   [
+    "times",
+    10.66,
+    11.14
+   ],
+   [
+    "the",
+    11.14,
+    11.42
+   ],
+   [
+    "square",
+    11.42,
+    11.78
+   ],
+   [
+    "root",
+    11.78,
+    12.12
+   ],
+   [
+    "of",
+    12.12,
+    12.38
+   ],
+   [
+    "2,",
+    12.38,
+    12.74
+   ],
+   [
+    "about",
+    13.28,
+    13.72
+   ],
+   [
+    "1",
+    13.72,
+    14.46
+   ],
+   [
+    ".414.",
+    14.46,
+    15.34
+   ]
+  ],
+  "wpm": 131.7,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "ura-me",
+     "heard_kana": "うらめ",
+     "correct": true,
+     "note": "Clean and accurate pronunciation."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "ura-me",
+     "heard_kana": "うらめ",
+     "correct": true,
+     "note": "Heard as 'うらめ' with correct pronunciation of each syllable, no extra sounds or altered consonants noted."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "ura-me",
+      "heard_kana": "うらめ",
+      "correct": true,
+      "note": "Clean and accurate pronunciation."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 5,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "ura-me",
+      "heard_kana": "うらめ",
+      "correct": true,
+      "note": "Heard as 'うらめ' with correct pronunciation of each syllable, no extra sounds or altered consonants noted."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ },
+ "N10": {
+  "take": 1,
+  "duration": 14.367,
+  "asr": "Why would anyone want a stretched ruler? Because of one shape that is everywhere in timber, the square. A square's diagonal is always its side times the square root of 2.",
+  "words": [
+   [
+    "Why",
+    0.0,
+    0.4
+   ],
+   [
+    "would",
+    0.4,
+    0.66
+   ],
+   [
+    "anyone",
+    0.66,
+    1.24
+   ],
+   [
+    "want",
+    1.24,
+    1.6
+   ],
+   [
+    "a",
+    1.6,
+    1.76
+   ],
+   [
+    "stretched",
+    1.76,
+    2.1
+   ],
+   [
+    "ruler?",
+    2.1,
+    2.54
+   ],
+   [
+    "Because",
+    3.62,
+    3.7
+   ],
+   [
+    "of",
+    3.7,
+    3.92
+   ],
+   [
+    "one",
+    3.92,
+    4.26
+   ],
+   [
+    "shape",
+    4.26,
+    4.76
+   ],
+   [
+    "that",
+    4.76,
+    5.14
+   ],
+   [
+    "is",
+    5.14,
+    5.34
+   ],
+   [
+    "everywhere",
+    5.34,
+    5.88
+   ],
+   [
+    "in",
+    5.88,
+    6.38
+   ],
+   [
+    "timber,",
+    6.38,
+    6.72
+   ],
+   [
+    "the",
+    7.4,
+    7.56
+   ],
+   [
+    "square.",
+    7.56,
+    7.88
+   ],
+   [
+    "A",
+    8.78,
+    9.08
+   ],
+   [
+    "square's",
+    9.08,
+    9.78
+   ],
+   [
+    "diagonal",
+    9.78,
+    10.28
+   ],
+   [
+    "is",
+    10.28,
+    10.94
+   ],
+   [
+    "always",
+    10.94,
+    11.46
+   ],
+   [
+    "its",
+    11.46,
+    11.8
+   ],
+   [
+    "side",
+    11.8,
+    12.34
+   ],
+   [
+    "times",
+    12.34,
+    13.08
+   ],
+   [
+    "the",
+    13.08,
+    13.36
+   ],
+   [
+    "square",
+    13.36,
+    13.66
+   ],
+   [
+    "root",
+    13.66,
+    13.88
+   ],
+   [
+    "of",
+    13.88,
+    14.02
+   ],
+   [
+    "2.",
+    14.02,
+    14.2
+   ]
+  ],
+  "wpm": 129.5
+ },
+ "N11": {
+  "take": 1,
+  "duration": 19.399,
+  "asr": "So, measure a diagonal with the backscale, and the number you read is the side. A square 100 millimeters on a side has a diagonal of 141 .4. On the backscale, that same length reads 100.",
+  "words": [
+   [
+    "So,",
+    0.0,
+    0.48
+   ],
+   [
+    "measure",
+    0.96,
+    1.16
+   ],
+   [
+    "a",
+    1.16,
+    1.48
+   ],
+   [
+    "diagonal",
+    1.48,
+    2.0
+   ],
+   [
+    "with",
+    2.0,
+    2.4
+   ],
+   [
+    "the",
+    2.4,
+    2.56
+   ],
+   [
+    "backscale,",
+    2.56,
+    3.1
+   ],
+   [
+    "and",
+    3.66,
+    4.02
+   ],
+   [
+    "the",
+    4.02,
+    4.28
+   ],
+   [
+    "number",
+    4.28,
+    4.6
+   ],
+   [
+    "you",
+    4.6,
+    4.9
+   ],
+   [
+    "read",
+    4.9,
+    5.28
+   ],
+   [
+    "is",
+    5.28,
+    5.84
+   ],
+   [
+    "the",
+    5.84,
+    6.02
+   ],
+   [
+    "side.",
+    6.02,
+    6.32
+   ],
+   [
+    "A",
+    7.46,
+    7.68
+   ],
+   [
+    "square",
+    7.68,
+    8.14
+   ],
+   [
+    "100",
+    8.14,
+    9.26
+   ],
+   [
+    "millimeters",
+    9.26,
+    9.84
+   ],
+   [
+    "on",
+    9.84,
+    10.12
+   ],
+   [
+    "a",
+    10.12,
+    10.26
+   ],
+   [
+    "side",
+    10.26,
+    10.62
+   ],
+   [
+    "has",
+    10.62,
+    11.22
+   ],
+   [
+    "a",
+    11.22,
+    11.44
+   ],
+   [
+    "diagonal",
+    11.44,
+    11.94
+   ],
+   [
+    "of",
+    11.94,
+    12.36
+   ],
+   [
+    "141",
+    12.36,
+    13.4
+   ],
+   [
+    ".4.",
+    13.4,
+    14.42
+   ],
+   [
+    "On",
+    15.12,
+    15.46
+   ],
+   [
+    "the",
+    15.46,
+    15.6
+   ],
+   [
+    "backscale,",
+    15.6,
+    16.22
+   ],
+   [
+    "that",
+    16.56,
+    16.8
+   ],
+   [
+    "same",
+    16.8,
+    17.2
+   ],
+   [
+    "length",
+    17.2,
+    17.7
+   ],
+   [
+    "reads",
+    17.7,
+    18.36
+   ],
+   [
+    "100.",
+    18.36,
+    19.02
+   ]
+  ],
+  "wpm": 133.0
+ },
+ "N12": {
+  "take": 1,
+  "duration": 11.233,
+  "asr": "Back to the log. The biggest square you can cut from a round end has its corners on the circle, so its diagonal is the log's diameter.",
+  "words": [
+   [
+    "Back",
+    0.0,
+    0.38
+   ],
+   [
+    "to",
+    0.38,
+    0.62
+   ],
+   [
+    "the",
+    0.62,
+    0.8
+   ],
+   [
+    "log.",
+    0.8,
+    1.06
+   ],
+   [
+    "The",
+    1.88,
+    2.08
+   ],
+   [
+    "biggest",
+    2.08,
+    2.46
+   ],
+   [
+    "square",
+    2.46,
+    2.96
+   ],
+   [
+    "you",
+    2.96,
+    3.26
+   ],
+   [
+    "can",
+    3.26,
+    3.48
+   ],
+   [
+    "cut",
+    3.48,
+    3.84
+   ],
+   [
+    "from",
+    3.84,
+    4.16
+   ],
+   [
+    "a",
+    4.16,
+    4.34
+   ],
+   [
+    "round",
+    4.34,
+    4.68
+   ],
+   [
+    "end",
+    4.68,
+    5.14
+   ],
+   [
+    "has",
+    5.14,
+    5.76
+   ],
+   [
+    "its",
+    5.76,
+    5.98
+   ],
+   [
+    "corners",
+    5.98,
+    6.38
+   ],
+   [
+    "on",
+    6.38,
+    6.92
+   ],
+   [
+    "the",
+    6.92,
+    7.1
+   ],
+   [
+    "circle,",
+    7.1,
+    7.44
+   ],
+   [
+    "so",
+    7.86,
+    8.32
+   ],
+   [
+    "its",
+    8.32,
+    8.68
+   ],
+   [
+    "diagonal",
+    8.68,
+    9.3
+   ],
+   [
+    "is",
+    9.3,
+    9.9
+   ],
+   [
+    "the",
+    9.9,
+    10.08
+   ],
+   [
+    "log's",
+    10.08,
+    10.56
+   ],
+   [
+    "diameter.",
+    10.56,
+    10.9
+   ]
+  ],
+  "wpm": 144.2
+ },
+ "N13": {
+  "take": 1,
+  "duration": 14.332,
+  "asr": "lay the backscale across the small end and read it. 212. That's the side of the largest square beam this log can give, 212 millimeters.",
+  "words": [
+   [
+    "lay",
+    0.0,
+    0.42
+   ],
+   [
+    "the",
+    0.42,
+    0.64
+   ],
+   [
+    "backscale",
+    0.64,
+    1.3
+   ],
+   [
+    "across",
+    1.3,
+    1.82
+   ],
+   [
+    "the",
+    1.82,
+    2.16
+   ],
+   [
+    "small",
+    2.16,
+    2.58
+   ],
+   [
+    "end",
+    2.58,
+    3.1
+   ],
+   [
+    "and",
+    3.1,
+    3.94
+   ],
+   [
+    "read",
+    3.94,
+    4.18
+   ],
+   [
+    "it.",
+    4.18,
+    4.82
+   ],
+   [
+    "212.",
+    6.04,
+    6.34
+   ],
+   [
+    "That's",
+    7.72,
+    8.22
+   ],
+   [
+    "the",
+    8.22,
+    8.4
+   ],
+   [
+    "side",
+    8.4,
+    8.68
+   ],
+   [
+    "of",
+    8.68,
+    8.96
+   ],
+   [
+    "the",
+    8.96,
+    9.12
+   ],
+   [
+    "largest",
+    9.12,
+    9.64
+   ],
+   [
+    "square",
+    9.64,
+    10.26
+   ],
+   [
+    "beam",
+    10.26,
+    10.68
+   ],
+   [
+    "this",
+    10.68,
+    11.02
+   ],
+   [
+    "log",
+    11.02,
+    11.34
+   ],
+   [
+    "can",
+    11.34,
+    11.6
+   ],
+   [
+    "give,",
+    11.6,
+    11.9
+   ],
+   [
+    "212",
+    12.5,
+    13.32
+   ],
+   [
+    "millimeters.",
+    13.32,
+    14.02
+   ]
+  ],
+  "wpm": 125.6
+ },
+ "N14": {
+  "take": 1,
+  "duration": 8.434,
+  "asr": "No multiplying, no tables, no chance to slip a digit. The arithmetic is built into the tool.",
+  "words": [
+   [
+    "No",
+    0.0,
+    0.48
+   ],
+   [
+    "multiplying,",
+    0.48,
+    1.1
+   ],
+   [
+    "no",
+    1.92,
+    2.14
+   ],
+   [
+    "tables,",
+    2.14,
+    2.62
+   ],
+   [
+    "no",
+    3.34,
+    3.6
+   ],
+   [
+    "chance",
+    3.6,
+    3.94
+   ],
+   [
+    "to",
+    3.94,
+    4.34
+   ],
+   [
+    "slip",
+    4.34,
+    4.6
+   ],
+   [
+    "a",
+    4.6,
+    4.82
+   ],
+   [
+    "digit.",
+    4.82,
+    5.1
+   ],
+   [
+    "The",
+    6.06,
+    6.24
+   ],
+   [
+    "arithmetic",
+    6.24,
+    6.58
+   ],
+   [
+    "is",
+    6.58,
+    7.28
+   ],
+   [
+    "built",
+    7.28,
+    7.52
+   ],
+   [
+    "into",
+    7.52,
+    7.92
+   ],
+   [
+    "the",
+    7.92,
+    8.1
+   ],
+   [
+    "tool.",
+    8.1,
+    8.28
+   ]
+  ],
+  "wpm": 120.9
+ },
+ "N15": {
+  "take": 1,
+  "duration": 12.489,
+  "asr": "The same scale is used in laying out roofs, where hips run on diagonals. That craft has its own name, Kikujutsu, and it's beyond this series.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.26
+   ],
+   [
+    "same",
+    0.26,
+    0.62
+   ],
+   [
+    "scale",
+    0.62,
+    1.1
+   ],
+   [
+    "is",
+    1.1,
+    1.42
+   ],
+   [
+    "used",
+    1.42,
+    1.82
+   ],
+   [
+    "in",
+    1.82,
+    2.2
+   ],
+   [
+    "laying",
+    2.2,
+    2.52
+   ],
+   [
+    "out",
+    2.52,
+    2.84
+   ],
+   [
+    "roofs,",
+    2.84,
+    3.28
+   ],
+   [
+    "where",
+    3.88,
+    3.96
+   ],
+   [
+    "hips",
+    3.96,
+    4.38
+   ],
+   [
+    "run",
+    4.38,
+    4.86
+   ],
+   [
+    "on",
+    4.86,
+    5.16
+   ],
+   [
+    "diagonals.",
+    5.16,
+    5.88
+   ],
+   [
+    "That",
+    6.76,
+    6.96
+   ],
+   [
+    "craft",
+    6.96,
+    7.22
+   ],
+   [
+    "has",
+    7.22,
+    7.66
+   ],
+   [
+    "its",
+    7.66,
+    7.92
+   ],
+   [
+    "own",
+    7.92,
+    8.24
+   ],
+   [
+    "name,",
+    8.24,
+    8.62
+   ],
+   [
+    "Kikujutsu,",
+    9.3,
+    9.82
+   ],
+   [
+    "and",
+    10.34,
+    10.76
+   ],
+   [
+    "it's",
+    10.76,
+    11.22
+   ],
+   [
+    "beyond",
+    11.22,
+    11.62
+   ],
+   [
+    "this",
+    11.62,
+    11.9
+   ],
+   [
+    "series.",
+    11.9,
+    12.2
+   ]
+  ],
+  "wpm": 124.9,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "kikujutsu",
+     "heard_kana": "きくじゅつ",
+     "correct": true,
+     "note": "Accurately pronounced with natural mora timing and correct vowels."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "kikujutsu",
+     "heard_kana": "きくじゅつ",
+     "correct": true,
+     "note": "The pronunciation matches the intended kana exactly. No doubling of consonants or extra syllables heard."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "kikujutsu",
+      "heard_kana": "きくじゅつ",
+      "correct": true,
+      "note": "Accurately pronounced with natural mora timing and correct vowels."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "kikujutsu",
+      "heard_kana": "きくじゅつ",
+      "correct": true,
+      "note": "The pronunciation matches the intended kana exactly. No doubling of consonants or extra syllables heard."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ },
+ "N16": {
+  "take": 4,
+  "duration": 12.99,
+  "asr": "Some squares add one more scale, the marume. Its units are a front unit divided by pi. Lay it across a log's diameter, and it reads the circumference.",
+  "words": [
+   [
+    "Some",
+    0.0,
+    0.36
+   ],
+   [
+    "squares",
+    0.36,
+    0.8
+   ],
+   [
+    "add",
+    0.8,
+    1.34
+   ],
+   [
+    "one",
+    1.34,
+    1.72
+   ],
+   [
+    "more",
+    1.72,
+    2.0
+   ],
+   [
+    "scale,",
+    2.0,
+    2.38
+   ],
+   [
+    "the",
+    3.12,
+    3.18
+   ],
+   [
+    "marume.",
+    3.18,
+    3.68
+   ],
+   [
+    "Its",
+    4.54,
+    4.86
+   ],
+   [
+    "units",
+    4.86,
+    5.22
+   ],
+   [
+    "are",
+    5.22,
+    5.62
+   ],
+   [
+    "a",
+    5.62,
+    5.86
+   ],
+   [
+    "front",
+    5.86,
+    6.1
+   ],
+   [
+    "unit",
+    6.1,
+    6.56
+   ],
+   [
+    "divided",
+    6.56,
+    7.22
+   ],
+   [
+    "by",
+    7.22,
+    7.58
+   ],
+   [
+    "pi.",
+    7.58,
+    7.92
+   ],
+   [
+    "Lay",
+    8.82,
+    9.02
+   ],
+   [
+    "it",
+    9.02,
+    9.18
+   ],
+   [
+    "across",
+    9.18,
+    9.44
+   ],
+   [
+    "a",
+    9.44,
+    9.74
+   ],
+   [
+    "log's",
+    9.74,
+    10.16
+   ],
+   [
+    "diameter,",
+    10.16,
+    10.6
+   ],
+   [
+    "and",
+    11.06,
+    11.3
+   ],
+   [
+    "it",
+    11.3,
+    11.4
+   ],
+   [
+    "reads",
+    11.4,
+    11.8
+   ],
+   [
+    "the",
+    11.8,
+    12.14
+   ],
+   [
+    "circumference.",
+    12.14,
+    12.52
+   ]
+  ],
+  "wpm": 129.3,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "maroo-meh",
+     "heard_kana": "まるめ",
+     "correct": true,
+     "note": "Pronounced cleanly with natural short vowels matching まるめ."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "maroo-meh",
+     "heard_kana": "まーるめ",
+     "correct": false,
+     "note": "The listener actually hears 'まーるめ'. There is a slight lengthening of the vowel sound 'ー', which wasn’t in the original target 'まるめ'. The target 'maroo-meh' suggests more of a short 'a' sound and no long vowel where the stress likely falls on the second syllable."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "maroo-meh",
+      "heard_kana": "まるめ",
+      "correct": true,
+      "note": "Pronounced cleanly with natural short vowels matching まるめ."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "maroo-meh",
+      "heard_kana": "まーるめ",
+      "correct": false,
+      "note": "The listener actually hears 'まーるめ'. There is a slight lengthening of the vowel sound 'ー', which wasn’t in the original target 'まるめ'. The target 'maroo-meh' suggests more of a short 'a' sound and no long vowel where the stress likely falls on the second syllable."
+     }
+    ],
+    "clarity": 3,
+    "warmth": 3,
+    "naturalness": 3,
+    "script_deviations": [
+     "'maroo-meh' was pronounced as 'まーるめ' with a long vowel."
+    ],
+    "artifacts": []
+   }
+  }
+ },
+ "N17": {
+  "take": 1,
+  "duration": 14.905,
+  "asr": "The framing square plays the same trick in its own way. Its rafter and board measure tables put the arithmetic on the steel too. Two traditions, one idea. Let the tool do the math.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.44
+   ],
+   [
+    "framing",
+    0.44,
+    0.8
+   ],
+   [
+    "square",
+    0.8,
+    1.32
+   ],
+   [
+    "plays",
+    1.32,
+    1.74
+   ],
+   [
+    "the",
+    1.74,
+    2.04
+   ],
+   [
+    "same",
+    2.04,
+    2.26
+   ],
+   [
+    "trick",
+    2.26,
+    2.62
+   ],
+   [
+    "in",
+    2.62,
+    3.04
+   ],
+   [
+    "its",
+    3.04,
+    3.18
+   ],
+   [
+    "own",
+    3.18,
+    3.34
+   ],
+   [
+    "way.",
+    3.34,
+    3.84
+   ],
+   [
+    "Its",
+    4.46,
+    4.6
+   ],
+   [
+    "rafter",
+    4.6,
+    5.12
+   ],
+   [
+    "and",
+    5.12,
+    5.64
+   ],
+   [
+    "board",
+    5.64,
+    6.06
+   ],
+   [
+    "measure",
+    6.06,
+    6.4
+   ],
+   [
+    "tables",
+    6.4,
+    6.94
+   ],
+   [
+    "put",
+    6.94,
+    7.34
+   ],
+   [
+    "the",
+    7.34,
+    7.54
+   ],
+   [
+    "arithmetic",
+    7.54,
+    7.92
+   ],
+   [
+    "on",
+    7.92,
+    8.36
+   ],
+   [
+    "the",
+    8.36,
+    8.5
+   ],
+   [
+    "steel",
+    8.5,
+    8.8
+   ],
+   [
+    "too.",
+    8.8,
+    9.14
+   ],
+   [
+    "Two",
+    10.14,
+    10.38
+   ],
+   [
+    "traditions,",
+    10.38,
+    10.9
+   ],
+   [
+    "one",
+    11.66,
+    11.88
+   ],
+   [
+    "idea.",
+    11.88,
+    12.42
+   ],
+   [
+    "Let",
+    13.24,
+    13.36
+   ],
+   [
+    "the",
+    13.36,
+    13.54
+   ],
+   [
+    "tool",
+    13.54,
+    13.88
+   ],
+   [
+    "do",
+    13.88,
+    14.34
+   ],
+   [
+    "the",
+    14.34,
+    14.48
+   ],
+   [
+    "math.",
+    14.48,
+    14.7
+   ]
+  ],
+  "wpm": 132.8
+ },
+ "N18": {
+  "take": 2,
+  "duration": 12.888,
+  "asr": "Next time, the rest of the marking kit, the ink line and the ink pen, and the gauges that scribe parallel lines, each beside its western cousin.",
+  "words": [
+   [
+    "Next",
+    0.0,
+    0.34
+   ],
+   [
+    "time,",
+    0.34,
+    0.74
+   ],
+   [
+    "the",
+    1.08,
+    1.24
+   ],
+   [
+    "rest",
+    1.24,
+    1.58
+   ],
+   [
+    "of",
+    1.58,
+    1.96
+   ],
+   [
+    "the",
+    1.96,
+    2.14
+   ],
+   [
+    "marking",
+    2.14,
+    2.48
+   ],
+   [
+    "kit,",
+    2.48,
+    2.86
+   ],
+   [
+    "the",
+    3.64,
+    3.7
+   ],
+   [
+    "ink",
+    3.7,
+    4.0
+   ],
+   [
+    "line",
+    4.0,
+    4.5
+   ],
+   [
+    "and",
+    4.5,
+    5.16
+   ],
+   [
+    "the",
+    5.16,
+    5.28
+   ],
+   [
+    "ink",
+    5.28,
+    5.52
+   ],
+   [
+    "pen,",
+    5.52,
+    5.88
+   ],
+   [
+    "and",
+    6.64,
+    6.96
+   ],
+   [
+    "the",
+    6.96,
+    7.26
+   ],
+   [
+    "gauges",
+    7.26,
+    7.88
+   ],
+   [
+    "that",
+    7.88,
+    8.12
+   ],
+   [
+    "scribe",
+    8.12,
+    8.74
+   ],
+   [
+    "parallel",
+    8.74,
+    9.32
+   ],
+   [
+    "lines,",
+    9.32,
+    9.88
+   ],
+   [
+    "each",
+    10.46,
+    10.76
+   ],
+   [
+    "beside",
+    10.76,
+    11.4
+   ],
+   [
+    "its",
+    11.4,
+    11.72
+   ],
+   [
+    "western",
+    11.72,
+    12.3
+   ],
+   [
+    "cousin.",
+    12.3,
+    12.62
+   ]
+  ],
+  "wpm": 125.7
+ },
+ "N19": {
+  "take": 1,
+  "duration": 11.298,
+  "asr": "A thin, springy square that is also a calculator. The front measures lengths, the back measures diagonals, and reads you the side.",
+  "words": [
+   [
+    "A",
+    0.0,
+    0.18
+   ],
+   [
+    "thin,",
+    0.18,
+    0.74
+   ],
+   [
+    "springy",
+    1.04,
+    1.74
+   ],
+   [
+    "square",
+    1.74,
+    2.16
+   ],
+   [
+    "that",
+    2.16,
+    2.68
+   ],
+   [
+    "is",
+    2.68,
+    2.96
+   ],
+   [
+    "also",
+    2.96,
+    3.46
+   ],
+   [
+    "a",
+    3.46,
+    3.86
+   ],
+   [
+    "calculator.",
+    3.86,
+    4.34
+   ],
+   [
+    "The",
+    5.3,
+    5.48
+   ],
+   [
+    "front",
+    5.48,
+    5.82
+   ],
+   [
+    "measures",
+    5.82,
+    6.3
+   ],
+   [
+    "lengths,",
+    6.3,
+    6.8
+   ],
+   [
+    "the",
+    7.44,
+    7.62
+   ],
+   [
+    "back",
+    7.62,
+    8.04
+   ],
+   [
+    "measures",
+    8.04,
+    8.64
+   ],
+   [
+    "diagonals,",
+    8.64,
+    9.42
+   ],
+   [
+    "and",
+    9.94,
+    10.02
+   ],
+   [
+    "reads",
+    10.02,
+    10.38
+   ],
+   [
+    "you",
+    10.38,
+    10.68
+   ],
+   [
+    "the",
+    10.68,
+    10.84
+   ],
+   [
+    "side.",
+    10.84,
+    11.08
+   ]
+  ],
+  "wpm": 116.8
+ }
+}
