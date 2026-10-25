@@ -105,7 +105,7 @@ const SHOTS = {
   S02: { fadeIn: 0.5, fadeOut: 0.6, build() { titleCard(); }, frame() { return {}; } },
   S03: {
     build() {
-      this.m = L.text('<b>male</b> · the upper piece · the anchor bolt goes in it, beside the joint', { x: 0, y: 0, size: 40, cls: 'plate' });
+      this.m = L.text('<b>male</b> · the upper piece<br>the anchor bolt goes in it, beside the joint', { x: 0, y: 0, size: 40, cls: 'plate' });
       this.f = L.text('<b>female</b>', { x: 0, y: 0, size: 40, cls: 'plate' });
       this.mk = L.text('mark each piece clearly first', { x: 96, y: 990, size: 40, cls: 'plate' });
       this.bolt = null;
@@ -255,7 +255,7 @@ const SHOTS = {
       this.l3 = L.text('it bears on its faces, never on its tip', { x: 96, y: 990, size: 40, cls: 'plate' });
       // inset: side section through the dovetail's head, showing the deepened pocket (neutral, not an error)
       const svg = L.svgLayer(); this.inset = el2(svg, 'g', {}); const ix = 1300, iy = 220, S = 4;
-      el2(this.inset, 'rect', { x: ix - 30, y: iy - 30, width: 560, height: 420, fill: '#F3EEE4', stroke: INK, 'stroke-width': 2, rx: 8 });
+      el2(this.inset, 'rect', { x: ix - 30, y: iy - 30, width: 560, height: 460, fill: '#F3EEE4', stroke: INK, 'stroke-width': 2, rx: 8 });
       el2(this.inset, 'path', { d: `M${ix},${iy + 52.5 * S} H${ix + 500} V${iy + 280} H${ix} Z`, fill: WOOD, stroke: INK, 'stroke-width': 2 });
       el2(this.inset, 'rect', { x: ix + 200, y: iy + 52.5 * S, width: 15 * S, height: 3 * S, fill: '#F3EEE4', stroke: INK, 'stroke-width': 2 });
       el2(this.inset, 'rect', { x: ix + 200, y: iy, width: 300, height: 52.5 * S, fill: '#EAD3AE', stroke: INK, 'stroke-width': 2 });

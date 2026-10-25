@@ -1,0 +1,3157 @@
+{
+ "N01": {
+  "take": 1,
+  "duration": 14.349,
+  "asr": "Two timbers meet end to end. The male piece drops in from above. A head on a narrow neck slides down into a socket, and the timber comes to rest on a seat.",
+  "words": [
+   [
+    "Two",
+    0.0,
+    0.3
+   ],
+   [
+    "timbers",
+    0.3,
+    0.94
+   ],
+   [
+    "meet",
+    0.94,
+    1.44
+   ],
+   [
+    "end",
+    1.44,
+    2.04
+   ],
+   [
+    "to",
+    2.04,
+    2.32
+   ],
+   [
+    "end.",
+    2.32,
+    2.68
+   ],
+   [
+    "The",
+    3.4,
+    3.58
+   ],
+   [
+    "male",
+    3.58,
+    3.82
+   ],
+   [
+    "piece",
+    3.82,
+    4.32
+   ],
+   [
+    "drops",
+    4.32,
+    4.8
+   ],
+   [
+    "in",
+    4.8,
+    5.2
+   ],
+   [
+    "from",
+    5.2,
+    5.46
+   ],
+   [
+    "above.",
+    5.46,
+    5.78
+   ],
+   [
+    "A",
+    6.56,
+    6.74
+   ],
+   [
+    "head",
+    6.74,
+    7.08
+   ],
+   [
+    "on",
+    7.08,
+    7.42
+   ],
+   [
+    "a",
+    7.42,
+    7.6
+   ],
+   [
+    "narrow",
+    7.6,
+    7.92
+   ],
+   [
+    "neck",
+    7.92,
+    8.42
+   ],
+   [
+    "slides",
+    8.42,
+    9.06
+   ],
+   [
+    "down",
+    9.06,
+    9.6
+   ],
+   [
+    "into",
+    9.6,
+    10.06
+   ],
+   [
+    "a",
+    10.06,
+    10.22
+   ],
+   [
+    "socket,",
+    10.22,
+    10.58
+   ],
+   [
+    "and",
+    11.12,
+    11.7
+   ],
+   [
+    "the",
+    11.7,
+    12.06
+   ],
+   [
+    "timber",
+    12.06,
+    12.42
+   ],
+   [
+    "comes",
+    12.42,
+    12.76
+   ],
+   [
+    "to",
+    12.76,
+    13.04
+   ],
+   [
+    "rest",
+    13.04,
+    13.36
+   ],
+   [
+    "on",
+    13.36,
+    13.86
+   ],
+   [
+    "a",
+    13.86,
+    13.98
+   ],
+   [
+    "seat.",
+    13.98,
+    14.16
+   ]
+  ],
+  "wpm": 138.0
+ },
+ "N03": {
+  "take": 1,
+  "duration": 20.39,
+  "asr": "Two dictionaries read it kamatsugi, and they also list kama alone as a short form. On its own, kama means a sickle. Two sources compare the tenon to a kamakubi, a snake raising its head on a neck curved like a sickle.",
+  "words": [
+   [
+    "Two",
+    0.0,
+    0.34
+   ],
+   [
+    "dictionaries",
+    0.34,
+    1.1
+   ],
+   [
+    "read",
+    1.1,
+    1.48
+   ],
+   [
+    "it",
+    1.48,
+    1.8
+   ],
+   [
+    "kamatsugi,",
+    1.8,
+    2.66
+   ],
+   [
+    "and",
+    3.66,
+    3.78
+   ],
+   [
+    "they",
+    3.78,
+    3.94
+   ],
+   [
+    "also",
+    3.94,
+    4.32
+   ],
+   [
+    "list",
+    4.32,
+    4.72
+   ],
+   [
+    "kama",
+    4.72,
+    5.38
+   ],
+   [
+    "alone",
+    5.38,
+    6.14
+   ],
+   [
+    "as",
+    6.14,
+    6.52
+   ],
+   [
+    "a",
+    6.52,
+    6.66
+   ],
+   [
+    "short",
+    6.66,
+    6.84
+   ],
+   [
+    "form.",
+    6.84,
+    7.2
+   ],
+   [
+    "On",
+    8.36,
+    8.48
+   ],
+   [
+    "its",
+    8.48,
+    8.66
+   ],
+   [
+    "own,",
+    8.66,
+    8.98
+   ],
+   [
+    "kama",
+    9.6,
+    9.7
+   ],
+   [
+    "means",
+    9.7,
+    10.2
+   ],
+   [
+    "a",
+    10.2,
+    10.52
+   ],
+   [
+    "sickle.",
+    10.52,
+    11.06
+   ],
+   [
+    "Two",
+    12.38,
+    12.66
+   ],
+   [
+    "sources",
+    12.66,
+    13.1
+   ],
+   [
+    "compare",
+    13.1,
+    13.66
+   ],
+   [
+    "the",
+    13.66,
+    13.9
+   ],
+   [
+    "tenon",
+    13.9,
+    14.3
+   ],
+   [
+    "to",
+    14.3,
+    14.72
+   ],
+   [
+    "a",
+    14.72,
+    15.0
+   ],
+   [
+    "kamakubi,",
+    15.0,
+    15.78
+   ],
+   [
+    "a",
+    16.48,
+    16.62
+   ],
+   [
+    "snake",
+    16.62,
+    17.04
+   ],
+   [
+    "raising",
+    17.04,
+    17.64
+   ],
+   [
+    "its",
+    17.64,
+    17.94
+   ],
+   [
+    "head",
+    17.94,
+    18.24
+   ],
+   [
+    "on",
+    18.24,
+    18.56
+   ],
+   [
+    "a",
+    18.56,
+    18.74
+   ],
+   [
+    "neck",
+    18.74,
+    19.04
+   ],
+   [
+    "curved",
+    19.04,
+    19.46
+   ],
+   [
+    "like",
+    19.46,
+    19.8
+   ],
+   [
+    "a",
+    19.8,
+    19.96
+   ],
+   [
+    "sickle.",
+    19.96,
+    20.3
+   ]
+  ],
+  "wpm": 123.6,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "kama-tsugi",
+     "heard_kana": "かまつぎ",
+     "correct": true,
+     "note": "Clean, accurate pronunciation with appropriate short vowels and pitch."
+    },
+    {
+     "term": "kah-mah",
+     "heard_kana": "かま",
+     "correct": true,
+     "note": "Pronounced accurately both times as short vowels without elongation."
+    },
+    {
+     "term": "kah-mah-koo-bee",
+     "heard_kana": "かまくび",
+     "correct": true,
+     "note": "Accurately pronounced with correct vowel lengths."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "kama-tsugi",
+     "heard_kana": "かまつぎ",
+     "correct": true,
+     "note": "Accurately pronounced, with clear syllables. Slightly more emphasis on 'tsu' would be ideal."
+    },
+    {
+     "term": "kah-ma",
+     "heard_kana": "かま",
+     "correct": true,
+     "note": "Perfect match to 'かま'. Slight issue with the short vowel length, could slightly elongate 'a'."
+    },
+    {
+     "term": "kah-ma-koo-bee",
+     "heard_kana": "かまくぅび",
+     "correct": false,
+     "note": "The lengthened 'ku' vowel was pronounced as 'くぅ'. The target was 'くび'."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "kama-tsugi",
+      "heard_kana": "かまつぎ",
+      "correct": true,
+      "note": "Clean, accurate pronunciation with appropriate short vowels and pitch."
+     },
+     {
+      "term": "kah-mah",
+      "heard_kana": "かま",
+      "correct": true,
+      "note": "Pronounced accurately both times as short vowels without elongation."
+     },
+     {
+      "term": "kah-mah-koo-bee",
+      "heard_kana": "かまくび",
+      "correct": true,
+      "note": "Accurately pronounced with correct vowel lengths."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 5,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "kama-tsugi",
+      "heard_kana": "かまつぎ",
+      "correct": true,
+      "note": "Accurately pronounced, with clear syllables. Slightly more emphasis on 'tsu' would be ideal."
+     },
+     {
+      "term": "kah-ma",
+      "heard_kana": "かま",
+      "correct": true,
+      "note": "Perfect match to 'かま'. Slight issue with the short vowel length, could slightly elongate 'a'."
+     },
+     {
+      "term": "kah-ma-koo-bee",
+      "heard_kana": "かまくぅび",
+      "correct": false,
+      "note": "The lengthened 'ku' vowel was pronounced as 'くぅ'. The target was 'くび'."
+     }
+    ],
+    "clarity": 3,
+    "warmth": 3,
+    "naturalness": 3,
+    "script_deviations": [
+     "'kah-ma-koo-bee' pronounced with a lengthened vowel 'くぅ' unintentionally."
+    ],
+    "artifacts": [
+     "Slight audio clipping on 'kah-ma-koo-bee', making the vowel elongation unclear."
+    ]
+   }
+  }
+ },
+ "N04": {
+  "take": 1,
+  "duration": 7.632,
+  "asr": "Gooseneck is an English name, not a translation. The Japanese name says nothing about geese.",
+  "words": [
+   [
+    "Gooseneck",
+    0.0,
+    1.02
+   ],
+   [
+    "is",
+    1.02,
+    1.36
+   ],
+   [
+    "an",
+    1.36,
+    1.6
+   ],
+   [
+    "English",
+    1.6,
+    2.02
+   ],
+   [
+    "name,",
+    2.02,
+    2.46
+   ],
+   [
+    "not",
+    2.84,
+    3.12
+   ],
+   [
+    "a",
+    3.12,
+    3.28
+   ],
+   [
+    "translation.",
+    3.28,
+    3.8
+   ],
+   [
+    "The",
+    4.68,
+    4.9
+   ],
+   [
+    "Japanese",
+    4.9,
+    5.34
+   ],
+   [
+    "name",
+    5.34,
+    5.76
+   ],
+   [
+    "says",
+    5.76,
+    6.28
+   ],
+   [
+    "nothing",
+    6.28,
+    6.68
+   ],
+   [
+    "about",
+    6.68,
+    7.08
+   ],
+   [
+    "geese.",
+    7.08,
+    7.5
+   ]
+  ],
+  "wpm": 117.9
+ },
+ "N06": {
+  "take": 4,
+  "duration": 8.456,
+  "asr": "A narrow neck carries a wider head at its end. On screen are the names a glossary gives each part.",
+  "words": [
+   [
+    "A",
+    0.0,
+    0.32
+   ],
+   [
+    "narrow",
+    0.32,
+    0.66
+   ],
+   [
+    "neck",
+    0.66,
+    1.2
+   ],
+   [
+    "carries",
+    1.2,
+    1.78
+   ],
+   [
+    "a",
+    1.78,
+    2.08
+   ],
+   [
+    "wider",
+    2.08,
+    2.5
+   ],
+   [
+    "head",
+    2.5,
+    2.98
+   ],
+   [
+    "at",
+    2.98,
+    3.28
+   ],
+   [
+    "its",
+    3.28,
+    3.48
+   ],
+   [
+    "end.",
+    3.48,
+    3.86
+   ],
+   [
+    "On",
+    4.62,
+    4.86
+   ],
+   [
+    "screen",
+    4.86,
+    5.26
+   ],
+   [
+    "are",
+    5.26,
+    5.74
+   ],
+   [
+    "the",
+    5.74,
+    5.92
+   ],
+   [
+    "names",
+    5.92,
+    6.36
+   ],
+   [
+    "a",
+    6.36,
+    6.64
+   ],
+   [
+    "glossary",
+    6.64,
+    7.24
+   ],
+   [
+    "gives",
+    7.24,
+    7.62
+   ],
+   [
+    "each",
+    7.62,
+    7.92
+   ],
+   [
+    "part.",
+    7.92,
+    8.24
+   ]
+  ],
+  "wpm": 141.9
+ },
+ "N07": {
+  "take": 1,
+  "duration": 20.474,
+  "asr": "It goes together like the dovetail, the male drops straight down and rests on the seat. Pull along the timbers and the flared back of the head bears against the socket. In our model, it can't slide sideways either. Nothing stops it lifting though.",
+  "words": [
+   [
+    "It",
+    0.0,
+    0.3
+   ],
+   [
+    "goes",
+    0.3,
+    0.68
+   ],
+   [
+    "together",
+    0.68,
+    1.28
+   ],
+   [
+    "like",
+    1.28,
+    1.82
+   ],
+   [
+    "the",
+    1.82,
+    2.1
+   ],
+   [
+    "dovetail,",
+    2.1,
+    2.56
+   ],
+   [
+    "the",
+    3.3,
+    3.58
+   ],
+   [
+    "male",
+    3.58,
+    3.96
+   ],
+   [
+    "drops",
+    3.96,
+    4.4
+   ],
+   [
+    "straight",
+    4.4,
+    4.86
+   ],
+   [
+    "down",
+    4.86,
+    5.28
+   ],
+   [
+    "and",
+    5.28,
+    5.78
+   ],
+   [
+    "rests",
+    5.78,
+    6.14
+   ],
+   [
+    "on",
+    6.14,
+    6.48
+   ],
+   [
+    "the",
+    6.48,
+    6.62
+   ],
+   [
+    "seat.",
+    6.62,
+    7.0
+   ],
+   [
+    "Pull",
+    8.04,
+    8.32
+   ],
+   [
+    "along",
+    8.32,
+    8.74
+   ],
+   [
+    "the",
+    8.74,
+    9.0
+   ],
+   [
+    "timbers",
+    9.0,
+    9.4
+   ],
+   [
+    "and",
+    9.4,
+    10.06
+   ],
+   [
+    "the",
+    10.06,
+    10.18
+   ],
+   [
+    "flared",
+    10.18,
+    10.6
+   ],
+   [
+    "back",
+    10.6,
+    11.04
+   ],
+   [
+    "of",
+    11.04,
+    11.22
+   ],
+   [
+    "the",
+    11.22,
+    11.36
+   ],
+   [
+    "head",
+    11.36,
+    11.74
+   ],
+   [
+    "bears",
+    11.74,
+    12.36
+   ],
+   [
+    "against",
+    12.36,
+    12.72
+   ],
+   [
+    "the",
+    12.72,
+    12.98
+   ],
+   [
+    "socket.",
+    12.98,
+    13.32
+   ],
+   [
+    "In",
+    14.06,
+    14.34
+   ],
+   [
+    "our",
+    14.34,
+    14.56
+   ],
+   [
+    "model,",
+    14.56,
+    14.92
+   ],
+   [
+    "it",
+    15.16,
+    15.42
+   ],
+   [
+    "can't",
+    15.42,
+    15.86
+   ],
+   [
+    "slide",
+    15.86,
+    16.12
+   ],
+   [
+    "sideways",
+    16.12,
+    16.66
+   ],
+   [
+    "either.",
+    16.66,
+    17.18
+   ],
+   [
+    "Nothing",
+    18.34,
+    18.6
+   ],
+   [
+    "stops",
+    18.6,
+    19.06
+   ],
+   [
+    "it",
+    19.06,
+    19.3
+   ],
+   [
+    "lifting",
+    19.3,
+    19.8
+   ],
+   [
+    "though.",
+    19.8,
+    20.32
+   ]
+  ],
+  "wpm": 128.9
+ },
+ "N08": {
+  "take": 1,
+  "duration": 13.514,
+  "asr": "The Gooseneck's proportions on screen come from one test series on 120 millimeter timbers. No carpentry source we found gives standard sizes.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.24
+   ],
+   [
+    "Gooseneck's",
+    0.24,
+    0.94
+   ],
+   [
+    "proportions",
+    0.94,
+    1.66
+   ],
+   [
+    "on",
+    1.66,
+    2.26
+   ],
+   [
+    "screen",
+    2.26,
+    2.66
+   ],
+   [
+    "come",
+    2.66,
+    3.32
+   ],
+   [
+    "from",
+    3.32,
+    3.62
+   ],
+   [
+    "one",
+    3.62,
+    4.08
+   ],
+   [
+    "test",
+    4.08,
+    4.54
+   ],
+   [
+    "series",
+    4.54,
+    5.08
+   ],
+   [
+    "on",
+    5.08,
+    5.7
+   ],
+   [
+    "120",
+    5.7,
+    6.7
+   ],
+   [
+    "millimeter",
+    6.7,
+    7.48
+   ],
+   [
+    "timbers.",
+    7.48,
+    8.02
+   ],
+   [
+    "No",
+    9.0,
+    9.42
+   ],
+   [
+    "carpentry",
+    9.42,
+    10.04
+   ],
+   [
+    "source",
+    10.04,
+    10.4
+   ],
+   [
+    "we",
+    10.4,
+    10.64
+   ],
+   [
+    "found",
+    10.64,
+    11.08
+   ],
+   [
+    "gives",
+    11.08,
+    11.86
+   ],
+   [
+    "standard",
+    11.86,
+    12.68
+   ],
+   [
+    "sizes.",
+    12.68,
+    13.22
+   ]
+  ],
+  "wpm": 97.7
+ },
+ "N09": {
+  "take": 1,
+  "duration": 23.855,
+  "asr": "In these drawings, the gooseneck reaches much further than our dovetail. A long neck, then a head. In one national test database, the gooseneck specimens held roughly two to three times the pull of the dovetail specimens. The timber grades and joint sizes differed, so take that as a rough guide, not a rule.",
+  "words": [
+   [
+    "In",
+    0.0,
+    0.26
+   ],
+   [
+    "these",
+    0.26,
+    0.56
+   ],
+   [
+    "drawings,",
+    0.56,
+    1.02
+   ],
+   [
+    "the",
+    1.48,
+    1.56
+   ],
+   [
+    "gooseneck",
+    1.56,
+    2.14
+   ],
+   [
+    "reaches",
+    2.14,
+    2.58
+   ],
+   [
+    "much",
+    2.58,
+    3.1
+   ],
+   [
+    "further",
+    3.1,
+    3.58
+   ],
+   [
+    "than",
+    3.58,
+    4.0
+   ],
+   [
+    "our",
+    4.0,
+    4.2
+   ],
+   [
+    "dovetail.",
+    4.2,
+    4.66
+   ],
+   [
+    "A",
+    5.34,
+    5.54
+   ],
+   [
+    "long",
+    5.54,
+    5.84
+   ],
+   [
+    "neck,",
+    5.84,
+    6.3
+   ],
+   [
+    "then",
+    6.66,
+    6.94
+   ],
+   [
+    "a",
+    6.94,
+    7.24
+   ],
+   [
+    "head.",
+    7.24,
+    7.44
+   ],
+   [
+    "In",
+    8.6,
+    8.76
+   ],
+   [
+    "one",
+    8.76,
+    9.02
+   ],
+   [
+    "national",
+    9.02,
+    9.58
+   ],
+   [
+    "test",
+    9.58,
+    9.94
+   ],
+   [
+    "database,",
+    9.94,
+    10.46
+   ],
+   [
+    "the",
+    11.18,
+    11.28
+   ],
+   [
+    "gooseneck",
+    11.28,
+    11.9
+   ],
+   [
+    "specimens",
+    11.9,
+    12.44
+   ],
+   [
+    "held",
+    12.44,
+    12.84
+   ],
+   [
+    "roughly",
+    12.84,
+    13.4
+   ],
+   [
+    "two",
+    13.4,
+    13.92
+   ],
+   [
+    "to",
+    13.92,
+    14.14
+   ],
+   [
+    "three",
+    14.14,
+    14.46
+   ],
+   [
+    "times",
+    14.46,
+    14.9
+   ],
+   [
+    "the",
+    14.9,
+    15.2
+   ],
+   [
+    "pull",
+    15.2,
+    15.58
+   ],
+   [
+    "of",
+    15.58,
+    15.96
+   ],
+   [
+    "the",
+    15.96,
+    16.12
+   ],
+   [
+    "dovetail",
+    16.12,
+    16.48
+   ],
+   [
+    "specimens.",
+    16.48,
+    17.0
+   ],
+   [
+    "The",
+    17.96,
+    18.22
+   ],
+   [
+    "timber",
+    18.22,
+    18.56
+   ],
+   [
+    "grades",
+    18.56,
+    18.92
+   ],
+   [
+    "and",
+    18.92,
+    19.26
+   ],
+   [
+    "joint",
+    19.26,
+    19.6
+   ],
+   [
+    "sizes",
+    19.6,
+    20.02
+   ],
+   [
+    "differed,",
+    20.02,
+    20.46
+   ],
+   [
+    "so",
+    20.8,
+    20.94
+   ],
+   [
+    "take",
+    20.94,
+    21.6
+   ],
+   [
+    "that",
+    21.6,
+    21.82
+   ],
+   [
+    "as",
+    21.82,
+    21.98
+   ],
+   [
+    "a",
+    21.98,
+    22.16
+   ],
+   [
+    "rough",
+    22.16,
+    22.34
+   ],
+   [
+    "guide,",
+    22.34,
+    22.68
+   ],
+   [
+    "not",
+    23.08,
+    23.28
+   ],
+   [
+    "a",
+    23.28,
+    23.44
+   ],
+   [
+    "rule.",
+    23.44,
+    23.64
+   ]
+  ],
+  "wpm": 135.8
+ },
+ "N10": {
+  "take": 1,
+  "duration": 15.933,
+  "asr": "And, a longer goose neck isn't simply stronger. Researchers found stress gathers near the neck. And one study found the depth of the timbers mattered more than the length of the splice.",
+  "words": [
+   [
+    "And,",
+    0.0,
+    0.96
+   ],
+   [
+    "a",
+    1.02,
+    1.3
+   ],
+   [
+    "longer",
+    1.3,
+    1.8
+   ],
+   [
+    "goose",
+    1.8,
+    2.16
+   ],
+   [
+    "neck",
+    2.16,
+    2.52
+   ],
+   [
+    "isn't",
+    2.52,
+    3.14
+   ],
+   [
+    "simply",
+    3.14,
+    3.78
+   ],
+   [
+    "stronger.",
+    3.78,
+    4.46
+   ],
+   [
+    "Researchers",
+    5.9,
+    6.02
+   ],
+   [
+    "found",
+    6.02,
+    6.72
+   ],
+   [
+    "stress",
+    6.72,
+    7.3
+   ],
+   [
+    "gathers",
+    7.3,
+    7.86
+   ],
+   [
+    "near",
+    7.86,
+    8.3
+   ],
+   [
+    "the",
+    8.3,
+    8.54
+   ],
+   [
+    "neck.",
+    8.54,
+    8.9
+   ],
+   [
+    "And",
+    9.5,
+    9.6
+   ],
+   [
+    "one",
+    9.6,
+    10.22
+   ],
+   [
+    "study",
+    10.22,
+    10.52
+   ],
+   [
+    "found",
+    10.52,
+    11.0
+   ],
+   [
+    "the",
+    11.0,
+    11.38
+   ],
+   [
+    "depth",
+    11.38,
+    11.78
+   ],
+   [
+    "of",
+    11.78,
+    12.02
+   ],
+   [
+    "the",
+    12.02,
+    12.2
+   ],
+   [
+    "timbers",
+    12.2,
+    12.76
+   ],
+   [
+    "mattered",
+    12.76,
+    13.34
+   ],
+   [
+    "more",
+    13.34,
+    13.8
+   ],
+   [
+    "than",
+    13.8,
+    14.16
+   ],
+   [
+    "the",
+    14.16,
+    14.34
+   ],
+   [
+    "length",
+    14.34,
+    14.72
+   ],
+   [
+    "of",
+    14.72,
+    15.1
+   ],
+   [
+    "the",
+    15.1,
+    15.22
+   ],
+   [
+    "splice.",
+    15.22,
+    15.66
+   ]
+  ],
+  "wpm": 116.7
+ },
+ "N11": {
+  "take": 1,
+  "duration": 21.916,
+  "asr": "It often ends in a sudden, brittle failure. The head or neck shears off. Sometimes the flared edges crush into the socket first. The test database notes it's often treated as a pin in design. It holds against a pull, but resists bending very little.",
+  "words": [
+   [
+    "It",
+    0.0,
+    0.22
+   ],
+   [
+    "often",
+    0.22,
+    0.54
+   ],
+   [
+    "ends",
+    0.54,
+    0.94
+   ],
+   [
+    "in",
+    0.94,
+    1.22
+   ],
+   [
+    "a",
+    1.22,
+    1.38
+   ],
+   [
+    "sudden,",
+    1.38,
+    1.84
+   ],
+   [
+    "brittle",
+    2.4,
+    2.52
+   ],
+   [
+    "failure.",
+    2.52,
+    3.16
+   ],
+   [
+    "The",
+    3.86,
+    4.06
+   ],
+   [
+    "head",
+    4.06,
+    4.4
+   ],
+   [
+    "or",
+    4.4,
+    4.74
+   ],
+   [
+    "neck",
+    4.74,
+    5.16
+   ],
+   [
+    "shears",
+    5.16,
+    5.84
+   ],
+   [
+    "off.",
+    5.84,
+    6.16
+   ],
+   [
+    "Sometimes",
+    7.26,
+    7.86
+   ],
+   [
+    "the",
+    7.86,
+    8.22
+   ],
+   [
+    "flared",
+    8.22,
+    8.58
+   ],
+   [
+    "edges",
+    8.58,
+    9.08
+   ],
+   [
+    "crush",
+    9.08,
+    9.58
+   ],
+   [
+    "into",
+    9.58,
+    9.98
+   ],
+   [
+    "the",
+    9.98,
+    10.18
+   ],
+   [
+    "socket",
+    10.18,
+    10.52
+   ],
+   [
+    "first.",
+    10.52,
+    10.94
+   ],
+   [
+    "The",
+    12.14,
+    12.36
+   ],
+   [
+    "test",
+    12.36,
+    12.64
+   ],
+   [
+    "database",
+    12.64,
+    13.12
+   ],
+   [
+    "notes",
+    13.12,
+    13.6
+   ],
+   [
+    "it's",
+    13.6,
+    14.14
+   ],
+   [
+    "often",
+    14.14,
+    14.48
+   ],
+   [
+    "treated",
+    14.48,
+    14.88
+   ],
+   [
+    "as",
+    14.88,
+    15.24
+   ],
+   [
+    "a",
+    15.24,
+    15.42
+   ],
+   [
+    "pin",
+    15.42,
+    15.78
+   ],
+   [
+    "in",
+    15.78,
+    16.32
+   ],
+   [
+    "design.",
+    16.32,
+    16.76
+   ],
+   [
+    "It",
+    17.4,
+    17.66
+   ],
+   [
+    "holds",
+    17.66,
+    18.04
+   ],
+   [
+    "against",
+    18.04,
+    18.34
+   ],
+   [
+    "a",
+    18.34,
+    18.58
+   ],
+   [
+    "pull,",
+    18.58,
+    18.9
+   ],
+   [
+    "but",
+    19.32,
+    19.6
+   ],
+   [
+    "resists",
+    19.6,
+    20.06
+   ],
+   [
+    "bending",
+    20.06,
+    20.7
+   ],
+   [
+    "very",
+    20.7,
+    21.42
+   ],
+   [
+    "little.",
+    21.42,
+    21.7
+   ]
+  ],
+  "wpm": 123.2
+ },
+ "N12": {
+  "take": 1,
+  "duration": 19.938,
+  "asr": "The Flat 35 house specification offers it, alongside the dovetail splice, for sills, eavesplates, and purlins. For the beams in the outer walls, at second floor level, it offers the gooseneck or another splice, but not the dovetail.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.42
+   ],
+   [
+    "Flat",
+    0.42,
+    0.82
+   ],
+   [
+    "35",
+    0.82,
+    1.68
+   ],
+   [
+    "house",
+    1.68,
+    2.08
+   ],
+   [
+    "specification",
+    2.08,
+    2.8
+   ],
+   [
+    "offers",
+    2.8,
+    3.62
+   ],
+   [
+    "it,",
+    3.62,
+    3.94
+   ],
+   [
+    "alongside",
+    4.44,
+    4.9
+   ],
+   [
+    "the",
+    4.9,
+    5.24
+   ],
+   [
+    "dovetail",
+    5.24,
+    5.6
+   ],
+   [
+    "splice,",
+    5.6,
+    6.1
+   ],
+   [
+    "for",
+    6.58,
+    6.78
+   ],
+   [
+    "sills,",
+    6.78,
+    7.46
+   ],
+   [
+    "eavesplates,",
+    8.16,
+    8.72
+   ],
+   [
+    "and",
+    9.26,
+    9.34
+   ],
+   [
+    "purlins.",
+    9.34,
+    9.8
+   ],
+   [
+    "For",
+    10.94,
+    11.06
+   ],
+   [
+    "the",
+    11.06,
+    11.22
+   ],
+   [
+    "beams",
+    11.22,
+    11.52
+   ],
+   [
+    "in",
+    11.52,
+    11.8
+   ],
+   [
+    "the",
+    11.8,
+    11.9
+   ],
+   [
+    "outer",
+    11.9,
+    12.18
+   ],
+   [
+    "walls,",
+    12.18,
+    12.7
+   ],
+   [
+    "at",
+    13.04,
+    13.14
+   ],
+   [
+    "second",
+    13.14,
+    13.6
+   ],
+   [
+    "floor",
+    13.6,
+    13.88
+   ],
+   [
+    "level,",
+    13.88,
+    14.26
+   ],
+   [
+    "it",
+    14.66,
+    14.94
+   ],
+   [
+    "offers",
+    14.94,
+    15.36
+   ],
+   [
+    "the",
+    15.36,
+    15.62
+   ],
+   [
+    "gooseneck",
+    15.62,
+    16.4
+   ],
+   [
+    "or",
+    16.4,
+    16.9
+   ],
+   [
+    "another",
+    16.9,
+    17.42
+   ],
+   [
+    "splice,",
+    17.42,
+    17.98
+   ],
+   [
+    "but",
+    18.42,
+    18.64
+   ],
+   [
+    "not",
+    18.64,
+    19.1
+   ],
+   [
+    "the",
+    19.1,
+    19.36
+   ],
+   [
+    "dovetail.",
+    19.36,
+    19.74
+   ]
+  ],
+  "wpm": 114.4
+ },
+ "N13": {
+  "take": 1,
+  "duration": 19.015,
+  "asr": "For roof beams, the spec allows it only where the beam is about 120 millimeters deep, and then adds steel straps on both faces, bolted through. One option for second floor floor beams does the same. On purlins, two nails.",
+  "words": [
+   [
+    "For",
+    0.0,
+    0.42
+   ],
+   [
+    "roof",
+    0.42,
+    0.82
+   ],
+   [
+    "beams,",
+    0.82,
+    1.42
+   ],
+   [
+    "the",
+    1.76,
+    1.82
+   ],
+   [
+    "spec",
+    1.82,
+    2.1
+   ],
+   [
+    "allows",
+    2.1,
+    2.58
+   ],
+   [
+    "it",
+    2.58,
+    2.88
+   ],
+   [
+    "only",
+    2.88,
+    3.24
+   ],
+   [
+    "where",
+    3.24,
+    3.66
+   ],
+   [
+    "the",
+    3.66,
+    3.82
+   ],
+   [
+    "beam",
+    3.82,
+    4.12
+   ],
+   [
+    "is",
+    4.12,
+    4.4
+   ],
+   [
+    "about",
+    4.4,
+    4.86
+   ],
+   [
+    "120",
+    4.86,
+    6.0
+   ],
+   [
+    "millimeters",
+    6.0,
+    6.58
+   ],
+   [
+    "deep,",
+    6.58,
+    6.96
+   ],
+   [
+    "and",
+    7.16,
+    7.76
+   ],
+   [
+    "then",
+    7.76,
+    7.9
+   ],
+   [
+    "adds",
+    7.9,
+    8.34
+   ],
+   [
+    "steel",
+    8.34,
+    8.72
+   ],
+   [
+    "straps",
+    8.72,
+    9.24
+   ],
+   [
+    "on",
+    9.24,
+    9.72
+   ],
+   [
+    "both",
+    9.72,
+    9.98
+   ],
+   [
+    "faces,",
+    9.98,
+    10.5
+   ],
+   [
+    "bolted",
+    11.1,
+    11.4
+   ],
+   [
+    "through.",
+    11.4,
+    11.8
+   ],
+   [
+    "One",
+    12.74,
+    13.02
+   ],
+   [
+    "option",
+    13.02,
+    13.36
+   ],
+   [
+    "for",
+    13.36,
+    13.66
+   ],
+   [
+    "second",
+    13.66,
+    14.0
+   ],
+   [
+    "floor",
+    14.0,
+    14.38
+   ],
+   [
+    "floor",
+    14.38,
+    14.76
+   ],
+   [
+    "beams",
+    14.76,
+    15.24
+   ],
+   [
+    "does",
+    15.24,
+    15.74
+   ],
+   [
+    "the",
+    15.74,
+    15.94
+   ],
+   [
+    "same.",
+    15.94,
+    16.16
+   ],
+   [
+    "On",
+    17.04,
+    17.3
+   ],
+   [
+    "purlins,",
+    17.3,
+    17.82
+   ],
+   [
+    "two",
+    18.4,
+    18.48
+   ],
+   [
+    "nails.",
+    18.48,
+    18.72
+   ]
+  ],
+  "wpm": 132.5
+ },
+ "N14": {
+  "take": 1,
+  "duration": 9.917,
+  "asr": "On a sill, as in episode 5, the public works specification puts the anchor bolt in the upper piece, beside the splice.",
+  "words": [
+   [
+    "On",
+    0.0,
+    0.46
+   ],
+   [
+    "a",
+    0.46,
+    0.66
+   ],
+   [
+    "sill,",
+    0.66,
+    0.92
+   ],
+   [
+    "as",
+    1.44,
+    1.64
+   ],
+   [
+    "in",
+    1.64,
+    1.9
+   ],
+   [
+    "episode",
+    1.9,
+    2.26
+   ],
+   [
+    "5,",
+    2.26,
+    2.74
+   ],
+   [
+    "the",
+    3.4,
+    3.54
+   ],
+   [
+    "public",
+    3.54,
+    3.92
+   ],
+   [
+    "works",
+    3.92,
+    4.34
+   ],
+   [
+    "specification",
+    4.34,
+    5.08
+   ],
+   [
+    "puts",
+    5.08,
+    5.86
+   ],
+   [
+    "the",
+    5.86,
+    6.12
+   ],
+   [
+    "anchor",
+    6.12,
+    6.48
+   ],
+   [
+    "bolt",
+    6.48,
+    6.78
+   ],
+   [
+    "in",
+    6.78,
+    7.1
+   ],
+   [
+    "the",
+    7.1,
+    7.26
+   ],
+   [
+    "upper",
+    7.26,
+    7.58
+   ],
+   [
+    "piece,",
+    7.58,
+    8.14
+   ],
+   [
+    "beside",
+    8.46,
+    8.98
+   ],
+   [
+    "the",
+    8.98,
+    9.26
+   ],
+   [
+    "splice.",
+    9.26,
+    9.6
+   ]
+  ],
+  "wpm": 127.1
+ },
+ "N15": {
+  "take": 1,
+  "duration": 12.104,
+  "asr": "A short stub tenon is sometimes added under the seat. Its job is to resist twisting. In one test series, it added no pulling strength.",
+  "words": [
+   [
+    "A",
+    0.0,
+    0.22
+   ],
+   [
+    "short",
+    0.22,
+    0.62
+   ],
+   [
+    "stub",
+    0.62,
+    1.3
+   ],
+   [
+    "tenon",
+    1.3,
+    2.02
+   ],
+   [
+    "is",
+    2.02,
+    2.44
+   ],
+   [
+    "sometimes",
+    2.44,
+    3.0
+   ],
+   [
+    "added",
+    3.0,
+    3.48
+   ],
+   [
+    "under",
+    3.48,
+    3.92
+   ],
+   [
+    "the",
+    3.92,
+    4.1
+   ],
+   [
+    "seat.",
+    4.1,
+    4.38
+   ],
+   [
+    "Its",
+    5.18,
+    5.34
+   ],
+   [
+    "job",
+    5.34,
+    5.62
+   ],
+   [
+    "is",
+    5.62,
+    5.94
+   ],
+   [
+    "to",
+    5.94,
+    6.18
+   ],
+   [
+    "resist",
+    6.18,
+    6.62
+   ],
+   [
+    "twisting.",
+    6.62,
+    7.22
+   ],
+   [
+    "In",
+    8.06,
+    8.2
+   ],
+   [
+    "one",
+    8.2,
+    8.54
+   ],
+   [
+    "test",
+    8.54,
+    8.9
+   ],
+   [
+    "series,",
+    8.9,
+    9.38
+   ],
+   [
+    "it",
+    9.96,
+    10.12
+   ],
+   [
+    "added",
+    10.12,
+    10.5
+   ],
+   [
+    "no",
+    10.5,
+    10.88
+   ],
+   [
+    "pulling",
+    10.88,
+    11.44
+   ],
+   [
+    "strength.",
+    11.44,
+    11.84
+   ]
+  ],
+  "wpm": 123.9
+ },
+ "N16": {
+  "take": 1,
+  "duration": 9.921,
+  "asr": "and knots or grain run out at the splice weaken it. The test database advises a generous safety margin or added hardware.",
+  "words": [
+   [
+    "and",
+    0.0,
+    0.32
+   ],
+   [
+    "knots",
+    0.32,
+    0.76
+   ],
+   [
+    "or",
+    0.76,
+    1.22
+   ],
+   [
+    "grain",
+    1.22,
+    1.62
+   ],
+   [
+    "run",
+    1.62,
+    1.9
+   ],
+   [
+    "out",
+    1.9,
+    2.18
+   ],
+   [
+    "at",
+    2.18,
+    2.36
+   ],
+   [
+    "the",
+    2.36,
+    2.52
+   ],
+   [
+    "splice",
+    2.52,
+    3.02
+   ],
+   [
+    "weaken",
+    3.02,
+    3.36
+   ],
+   [
+    "it.",
+    3.36,
+    3.84
+   ],
+   [
+    "The",
+    4.46,
+    4.66
+   ],
+   [
+    "test",
+    4.66,
+    5.02
+   ],
+   [
+    "database",
+    5.02,
+    5.58
+   ],
+   [
+    "advises",
+    5.58,
+    6.28
+   ],
+   [
+    "a",
+    6.28,
+    6.64
+   ],
+   [
+    "generous",
+    6.64,
+    7.12
+   ],
+   [
+    "safety",
+    7.12,
+    7.68
+   ],
+   [
+    "margin",
+    7.68,
+    8.16
+   ],
+   [
+    "or",
+    8.16,
+    8.82
+   ],
+   [
+    "added",
+    8.82,
+    9.32
+   ],
+   [
+    "hardware.",
+    9.32,
+    9.74
+   ]
+  ],
+  "wpm": 127.0
+ },
+ "N17": {
+  "take": 1,
+  "duration": 3.687,
+  "asr": "Next time, marking out and cutting the gooseneck.",
+  "words": [
+   [
+    "Next",
+    0.0,
+    0.32
+   ],
+   [
+    "time,",
+    0.32,
+    0.72
+   ],
+   [
+    "marking",
+    1.16,
+    1.5
+   ],
+   [
+    "out",
+    1.5,
+    1.92
+   ],
+   [
+    "and",
+    1.92,
+    2.34
+   ],
+   [
+    "cutting",
+    2.34,
+    2.68
+   ],
+   [
+    "the",
+    2.68,
+    2.94
+   ],
+   [
+    "gooseneck.",
+    2.94,
+    3.56
+   ]
+  ],
+  "wpm": 130.2
+ },
+ "N18": {
+  "take": 2,
+  "duration": 13.29,
+  "asr": "The Koshikake Kamatsugi, a head on a neck, dropped onto a seat. It holds against a pole, but engineers often model it as a pin.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.2
+   ],
+   [
+    "Koshikake",
+    0.2,
+    1.22
+   ],
+   [
+    "Kamatsugi,",
+    1.22,
+    2.02
+   ],
+   [
+    "a",
+    2.94,
+    3.18
+   ],
+   [
+    "head",
+    3.18,
+    3.52
+   ],
+   [
+    "on",
+    3.52,
+    3.9
+   ],
+   [
+    "a",
+    3.9,
+    4.04
+   ],
+   [
+    "neck,",
+    4.04,
+    4.38
+   ],
+   [
+    "dropped",
+    4.96,
+    5.32
+   ],
+   [
+    "onto",
+    5.32,
+    5.74
+   ],
+   [
+    "a",
+    5.74,
+    5.96
+   ],
+   [
+    "seat.",
+    5.96,
+    6.28
+   ],
+   [
+    "It",
+    7.46,
+    7.82
+   ],
+   [
+    "holds",
+    7.82,
+    8.28
+   ],
+   [
+    "against",
+    8.28,
+    8.7
+   ],
+   [
+    "a",
+    8.7,
+    8.98
+   ],
+   [
+    "pole,",
+    8.98,
+    9.34
+   ],
+   [
+    "but",
+    10.18,
+    10.28
+   ],
+   [
+    "engineers",
+    10.28,
+    11.02
+   ],
+   [
+    "often",
+    11.02,
+    11.66
+   ],
+   [
+    "model",
+    11.66,
+    12.02
+   ],
+   [
+    "it",
+    12.02,
+    12.32
+   ],
+   [
+    "as",
+    12.32,
+    12.66
+   ],
+   [
+    "a",
+    12.66,
+    12.86
+   ],
+   [
+    "pin.",
+    12.86,
+    13.08
+   ]
+  ],
+  "wpm": 112.9,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "koshikake",
+     "heard_kana": "こしかけ",
+     "correct": true,
+     "note": "Clean, accurate pronunciation with proper mora timing."
+    },
+    {
+     "term": "kama-tsugi",
+     "heard_kana": "かまつぎ",
+     "correct": true,
+     "note": "Accurate vowel lengths and clear consonant articulation."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "koshikake",
+     "heard_kana": "こしかけ",
+     "correct": true,
+     "note": "Heard accurately, with correct syllables and no unexpected elongation or doubling."
+    },
+    {
+     "term": "kama-tsugi",
+     "heard_kana": "かまつぎ",
+     "correct": true,
+     "note": "Heard accurately, with clear short vowels and no doubling issue."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "koshikake",
+      "heard_kana": "こしかけ",
+      "correct": true,
+      "note": "Clean, accurate pronunciation with proper mora timing."
+     },
+     {
+      "term": "kama-tsugi",
+      "heard_kana": "かまつぎ",
+      "correct": true,
+      "note": "Accurate vowel lengths and clear consonant articulation."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "koshikake",
+      "heard_kana": "こしかけ",
+      "correct": true,
+      "note": "Heard accurately, with correct syllables and no unexpected elongation or doubling."
+     },
+     {
+      "term": "kama-tsugi",
+      "heard_kana": "かまつぎ",
+      "correct": true,
+      "note": "Heard accurately, with clear short vowels and no doubling issue."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 3,
+    "script_deviations": [
+     "'kama-tsugi' pronounced correctly as intended, some slight pause before 'as a pin' changed pronunciation flow"
+    ],
+    "artifacts": []
+   }
+  }
+ },
+ "N02": {
+  "take": 1,
+  "duration": 6.831,
+  "asr": "This is the koshikake kamatsugi. In English, it's often called a gooseneck joint.",
+  "words": [
+   [
+    "This",
+    0.0,
+    0.42
+   ],
+   [
+    "is",
+    0.42,
+    0.8
+   ],
+   [
+    "the",
+    0.8,
+    1.0
+   ],
+   [
+    "koshikake",
+    1.0,
+    1.82
+   ],
+   [
+    "kamatsugi.",
+    1.82,
+    2.54
+   ],
+   [
+    "In",
+    3.22,
+    3.44
+   ],
+   [
+    "English,",
+    3.44,
+    3.78
+   ],
+   [
+    "it's",
+    4.24,
+    4.48
+   ],
+   [
+    "often",
+    4.48,
+    4.8
+   ],
+   [
+    "called",
+    4.8,
+    5.32
+   ],
+   [
+    "a",
+    5.32,
+    5.56
+   ],
+   [
+    "gooseneck",
+    5.56,
+    6.32
+   ],
+   [
+    "joint.",
+    6.32,
+    6.58
+   ]
+  ],
+  "wpm": 114.2,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "koshikake",
+     "heard_kana": "こしかけ",
+     "correct": true,
+     "note": "Clean, natural pronunciation with accurate vowels and consonants."
+    },
+    {
+     "term": "kama-tsugi",
+     "heard_kana": "かまつぎ",
+     "correct": true,
+     "note": "Accurately pronounced with clear 'tsu' consonant."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "koshikake",
+     "heard_kana": "こしかけ",
+     "correct": true,
+     "note": "Pronunciation matches the target kana exactly."
+    },
+    {
+     "term": "kama-tsugi",
+     "heard_kana": "かまっつぎ",
+     "correct": false,
+     "note": "There is an extra doubled consonant 'っ' heard, making it 'かまっつぎ' instead of 'かまつぎ'."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "koshikake",
+      "heard_kana": "こしかけ",
+      "correct": true,
+      "note": "Clean, natural pronunciation with accurate vowels and consonants."
+     },
+     {
+      "term": "kama-tsugi",
+      "heard_kana": "かまつぎ",
+      "correct": true,
+      "note": "Accurately pronounced with clear 'tsu' consonant."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "koshikake",
+      "heard_kana": "こしかけ",
+      "correct": true,
+      "note": "Pronunciation matches the target kana exactly."
+     },
+     {
+      "term": "kama-tsugi",
+      "heard_kana": "かまっつぎ",
+      "correct": false,
+      "note": "There is an extra doubled consonant 'っ' heard, making it 'かまっつぎ' instead of 'かまつぎ'."
+     }
+    ],
+    "clarity": 3,
+    "warmth": 4,
+    "naturalness": 3,
+    "script_deviations": [
+     "None"
+    ],
+    "artifacts": [
+     "Slight echo/reverb noted in the background"
+    ]
+   }
+  }
+ },
+ "N05": {
+  "take": 1,
+  "duration": 16.294,
+  "asr": "Like the dovetail splice in episode 5, there's a male piece, the upper one, and a female, the lower one. The head and its socket take about the upper half of the depth. The lower half is the seat, the koshikake.",
+  "words": [
+   [
+    "Like",
+    0.0,
+    0.36
+   ],
+   [
+    "the",
+    0.36,
+    0.62
+   ],
+   [
+    "dovetail",
+    0.62,
+    1.08
+   ],
+   [
+    "splice",
+    1.08,
+    1.62
+   ],
+   [
+    "in",
+    1.62,
+    1.86
+   ],
+   [
+    "episode",
+    1.86,
+    2.12
+   ],
+   [
+    "5,",
+    2.12,
+    2.66
+   ],
+   [
+    "there's",
+    3.36,
+    3.52
+   ],
+   [
+    "a",
+    3.52,
+    3.62
+   ],
+   [
+    "male",
+    3.62,
+    3.84
+   ],
+   [
+    "piece,",
+    3.84,
+    4.24
+   ],
+   [
+    "the",
+    4.72,
+    4.86
+   ],
+   [
+    "upper",
+    4.86,
+    5.12
+   ],
+   [
+    "one,",
+    5.12,
+    5.38
+   ],
+   [
+    "and",
+    5.8,
+    6.16
+   ],
+   [
+    "a",
+    6.16,
+    6.32
+   ],
+   [
+    "female,",
+    6.32,
+    6.54
+   ],
+   [
+    "the",
+    7.0,
+    7.16
+   ],
+   [
+    "lower",
+    7.16,
+    7.34
+   ],
+   [
+    "one.",
+    7.34,
+    7.64
+   ],
+   [
+    "The",
+    8.4,
+    8.66
+   ],
+   [
+    "head",
+    8.66,
+    8.92
+   ],
+   [
+    "and",
+    8.92,
+    9.32
+   ],
+   [
+    "its",
+    9.32,
+    9.5
+   ],
+   [
+    "socket",
+    9.5,
+    9.96
+   ],
+   [
+    "take",
+    9.96,
+    10.48
+   ],
+   [
+    "about",
+    10.48,
+    10.82
+   ],
+   [
+    "the",
+    10.82,
+    11.1
+   ],
+   [
+    "upper",
+    11.1,
+    11.48
+   ],
+   [
+    "half",
+    11.48,
+    11.86
+   ],
+   [
+    "of",
+    11.86,
+    12.14
+   ],
+   [
+    "the",
+    12.14,
+    12.28
+   ],
+   [
+    "depth.",
+    12.28,
+    12.6
+   ],
+   [
+    "The",
+    13.3,
+    13.52
+   ],
+   [
+    "lower",
+    13.52,
+    13.7
+   ],
+   [
+    "half",
+    13.7,
+    14.02
+   ],
+   [
+    "is",
+    14.02,
+    14.44
+   ],
+   [
+    "the",
+    14.44,
+    14.68
+   ],
+   [
+    "seat,",
+    14.68,
+    14.92
+   ],
+   [
+    "the",
+    15.44,
+    15.48
+   ],
+   [
+    "koshikake.",
+    15.48,
+    16.04
+   ]
+  ],
+  "wpm": 151.0,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "koshikake",
+     "heard_kana": "こしかけ",
+     "correct": true,
+     "note": "Accurately pronounced with natural mora timing."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "koshikake",
+     "heard_kana": "こしかけ",
+     "correct": true,
+     "note": "Accurate pronunciation; all sounds captured correctly with no extra syllables."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "koshikake",
+      "heard_kana": "こしかけ",
+      "correct": true,
+      "note": "Accurately pronounced with natural mora timing."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "koshikake",
+      "heard_kana": "こしかけ",
+      "correct": true,
+      "note": "Accurate pronunciation; all sounds captured correctly with no extra syllables."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ }
+}

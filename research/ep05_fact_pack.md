@@ -67,3 +67,4 @@ Gathered by a research agent on 2026-10-25. Status: **verified** = 2+ independen
 - "arizugi".
 - Calling it a shiguchi.
 - "Ant joint". 蟻 is literally "ant", but here it names the dovetail shape.
+| R6-35 | ものつくり大学 (Institute of Technologists): the name of the university that publishes the WBT course, shown on screen as a source credit only | W site (monotsukuri.net/wbt); university homepage iot.ac.jp header 「ものつくり大学 INSTITUTE OF TECHNOLOGISTS」 | verified |

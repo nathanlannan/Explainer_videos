@@ -200,3 +200,20 @@ $0.3186 of $5.00 over 133 logged calls (actual costs from OpenRouter generation 
   - hardware pairings are complete;
   - the Art. 44 point states facts only;
   - kanji use the spec spellings かぶとあり掛け / 大入れあり掛け.
+
+## Episode 9: research and Gate A
+- Fact pack R9-01 … R9-57 (research agent, then the Gate A reviewer). No carpentry source gives kama proportions, so the model uses one test series' specimen geometry on 120 mm members (D3/T: neck 30, L 150, flare 7.5, seat 15), tagged on screen.
+- Gate A blockers fixed:
+  - The stub tenon (目違い) added no pulling strength in T only; in D3 it was higher in 3 of 4 pairs. R9-23 is corrected, and the narration says "one test series".
+  - Failure wording follows D3: often brittle shear; crushing at the flares can come first; "often treated as a pin in design".
+  - The name: W and KN compare the tenon to a 鎌首 (read かまくび, literally a sickle-curved neck). No etymology is claimed.
+  - "The Japanese name says nothing about geese" replaces an unprovable absence claim.
+  - Head outline: widest at the jaw (45), narrowing to a flat tip of about 30, as measured from the D3 drawing. It was 45 → 40.
+- Should-fixes applied:
+  - "often called a gooseneck joint";
+  - bearing wording;
+  - grain run-out (目切れ);
+  - the roof-beam clause limited to about 120 mm deep, and the floor beams to one option;
+  - the anchor bolt attributed to the public-works spec;
+  - hardware kanji (F only) replaced with English;
+  - "engineers often model it as a pin".

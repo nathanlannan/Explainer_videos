@@ -8,8 +8,9 @@ Sources (research/ep09_fact_pack.md):
     (each L/2), flare e = 7.5 per side, head height h/2, seat projecting 15 beyond the shoulder. No carpentry source
     gives standard sizes (R9-47), so these are tagged on screen as test-specimen values, never "standard".
   * they sit inside the engineering applicability range (R9-45): L = 1.15W-1.75W, b = W/4-W/3, e = L/15-L/20.
-  * the head's taper toward its tip and the 1/10 bearing slope (R9-20, R9-21) are simplified away: the head is drawn
-    as a plain trapezoid narrowing to the tip (an assumption, labelled "shape simplified").
+  * the head is widest at its back (the 'jaw', NECK + 2E = 45) and narrows to a flat tip about the neck's width, read
+    from the D3 specimen drawing (Gate A measurement, not dimensioned there). The 1/10 bearing slope and the entry
+    taper (R9-20, R9-21) are omitted; on screen: "1/10 slope and entry taper omitted".
 Fit check (exact solids): no interference, faces in contact, the male drops in along -Y, cannot be pulled apart
 along the timber (+X) or slid sideways (Z), rests on the seat, and is free to lift.
 """
@@ -25,7 +26,7 @@ from timber import Box, Member, PlanPrism  # noqa: E402
 H = W = 120.0
 HALF = H / 2
 L, NECK, E = 150.0, 30.0, 7.5        # R9-46 (test specimens)
-TIP = 40.0                           # head width at its tip: drawing assumption (shape simplified)
+TIP = 30.0                           # head width at its tip, read from the D3 specimen drawing (not dimensioned)
 SEAT = 15.0                          # R9-46 (D3 drawing), single-source
 LF, LM = 700.0, 700.0
 

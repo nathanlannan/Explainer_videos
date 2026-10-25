@@ -49,9 +49,9 @@ for s in tl["shots"]:
     for lid, ln in s["lines"].items():
         for w, ws, we in ln["words"]:
             pass
-pairs = [("S03", "crossing", "N04", "crossing"), ("S03", "jaw", "N04", "jaw"), ("S04", "groove", "N06", "groove"), ("S04", "comes", "N07", "comes"),
-         ("S04", "slide", "N07", "slide"), ("S05", "aigaki", "N10", "aigaki"), ("S06", "roof", "N12", "roof"), ("S06", "flush", "N13", "flush"),
-         ("S07", "plate", "N16", "plate"), ("S07", "forbid", "N17", "forbid")]
+pairs = [("S03", "sickle", "N03", "sickle"), ("S03", "kubi", "N03", "kamakubi"), ("S04", "male", "N05", "male"), ("S04", "drops", "N07", "drops"),
+         ("S04", "slide", "N07", "slide"), ("S05", "test", "N08", "test"), ("S05", "stress", "N10", "stress"), ("S06", "sills", "N12", "sills"),
+         ("S06", "bolt", "N14", "anchor"), ("S07", "stub", "N15", "stub")]
 worst = 0
 for sid, ev, lid, word in pairs:
     s = next(x for x in tl["shots"] if x["id"] == sid)

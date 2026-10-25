@@ -48,7 +48,7 @@ Gathered by a research agent, 2026-10-25. Status: **verified** (2+ independent s
 | R9-20 | Tapers in elevation (W): (a) male head cheeks get 入り勝手勾配: 「入り勝手勾配を付けるため、上端部分は墨を残し、下端部分は墨を払うようにして、鎌の部分を縦挽き鋸で鎌の首部分まで引いてゆく。」 (b) the head's back (bearing) faces get すべり勾配; in the female, 「鎌首のすべり勾配を考慮し、鎌首部分は墨より１分先端側を掘る。」 | W t0725 (= t0735), t0723 (= t0733), t0726, t0728 | single-source (training site). Compare Ep5 R6-24 (same entry taper for the ari) |
 | R9-21 | Slope value: T Fig.1 labels 「すべり勾配 slope 1/10」 on the head's bearing face | T Fig.1 (p.11) | single-source (test drawing). If used, attribute it: "in one test specimen drawing" |
 | R9-22 | Variant 腰掛鎌継ぎ目違い付: a 目違い (stub tenon) under the seat; its purpose is to stop twisting: 「目違いは、材のねじれを防ぐために、腰掛け部分に目違いほぞを付けたものである。」 J: 腰入目違付鎌継, "The half blind tenon prevents damage from twisting forces." D3: 「面外せん断耐力と剛性を高くした「標準形＋目違いほぞ」」 | W t0701; J; D3 p.13 | verified (purpose: twist and out-of-plane shear) |
-| R9-23 | The 目違い did not raise tensile strength: 「目違いによる効果は認められなかった」. In T: KM-1815 and KM-1815m both Pmax av 17.1 kN. In D3: B2-3 (no 目違い) 18.71 vs B1-3 (目違い) 18.48 kN av, e = 7.5, L = 150, h = 120 | T §3.1 p.13, Table 2 p.12; D3 pp.6–7 | verified (T + D3; the D3 comparison is my reading of its table) |
+| R9-23 | The 目違い did not raise tensile strength in T: 「目違いによる効果は認められなかった」 (KM-1815 and KM-1815m both Pmax av 17.1 kN). D3 matched pairs (B2 without vs B1 with, h = 120): L120 17.05→18.92; e15/L150 21.22→23.61; e7.5/L150 18.71→18.48; L180 15.71→23.01, so higher in 3 of 4 pairs (n = 3, inconclusive) | T §3.1 p.13, Table 2 p.12; D3 pp.6–7 (corrected at Gate A) | single-source (T): narration says "in one test series" |
 | R9-24 | Other variant: 目違ほぞ付鎌継 = 大鎌継 / 真鎌継: "used for purlins and ground sills and must have supporting members beneath it" | J mechigaihozotsuki kamatsugi | single-source; don't use the names in narration |
 | R9-25 | F, sill: 「2．継手は、柱及び床下換気孔の位置を避け、腰掛けあり継ぎ又は腰掛けかま継ぎとする。」 | F §5.1.2-2 p.37 | verified (with Ep5 R6-07/09) |
 | R9-26 | F, 胴差し: 「2．継手は、はり及び筋かいを受ける柱間を避け、柱より持ち出し、追掛け大栓継ぎ又は腰掛けかま継ぎとする。」 For 胴差し F allows kama but not ari | F §5.1.6-2 p.38 | single-source (official spec), read directly |
@@ -81,6 +81,8 @@ Gathered by a research agent, 2026-10-25. Status: **verified** (2+ independent s
 | R9-53 | The WBT exercise is the 目違い付 variant, not the plain joint | W t0701 title | verified (read directly) |
 | R9-54 | MHLW: no kama-tsugi procedure in the 大工工事作業編 manual; no other MHLW 技能検定 material found | M (searched text) | absent |
 | R9-55 | JAANUS kamatsugi says the double-headed variant "is called chigiritsugi 千切継", but J's own chigiritsugi entry describes a separate spline (bow-tie) | J kamatsugi; J chigiritsugi | inconsistent: don't use |
+| R9-56 | 鎌首 is read かまくび; 「鎌のように湾曲した首の格好。蛇・カマキリなどが頭を持ち上げたさまにいう。」 (大辞泉); 「鎌のように曲がった形の首」 (精選版) | KKu (both dictionaries; Gate A check) | verified |
+| R9-57 | W and KN compare the tenon to a 鎌首; neither states this is the origin of the name | W t0701; KN (Gate A) | verified (comparison only): no etymology claim |
 
 **Avoid:**
 - Saying 鎌首 means the head. Sources use 鎌 / 鎌頭 for the head and 首 / 鎌首 for the neck. The 鎌首 image is a snake's raised neck and head.

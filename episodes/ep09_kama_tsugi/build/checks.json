@@ -10,9 +10,9 @@
  "flare_in_D3_range_L20_L15": true,
  "head_wider_than_neck": true,
  "collision_volumes_mm3": {
-  "pull_apart_+x": 4450.0,
+  "pull_apart_+x": 4350.0,
   "slide_sideways_+z": 45000.0,
-  "push_down_-y": 14475.0,
+  "push_down_-y": 13725.0,
   "lift_+y": 0.0
  },
  "ok": true
