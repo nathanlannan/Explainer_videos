@@ -1,11 +1,11 @@
-# Episode 9 plan: The Gooseneck, koshikake kama-tsugi 腰掛鎌継ぎ
+# Episode 9 plan: The Gooseneck, koshikake kama-tsugi 腰掛け鎌継ぎ
 
 Narration: `narration.json` (N01–N18). Facts: `research/ep09_fact_pack.md` (R9-01 … R9-55). No cutting tools are shown, so there is no sharp-tool note; Ep10 covers marking and cutting.
 
 | Shot | Lines | Visual |
 |---|---|---|
 | S01 Cold open | N01–N02 | 3D: the male (upper piece) drops into the female and seats. |
-| S02 Title | — | Card: Episode 9 · The Gooseneck · koshikake kama-tsugi 腰掛鎌継ぎ |
+| S02 Title | — | Card: Episode 9 · The Gooseneck · koshikake kama-tsugi 腰掛け鎌継ぎ |
 | S03 The name | N03–N04 | 2D: 鎌継ぎ kama-tsugi (かまつぎ); 鎌 "sickle" (small sickle icon); 鎌首 kamakubi "a snake's raised head and neck (lit. a neck curved like a sickle)" (snake silhouette icon, schematic); "gooseneck: an English name, not a translation · the Japanese name says nothing about geese". |
 | S04 The parts | N05–N07 | 3D exploded: male 男木 above female 女木; labels head 鎌 kama, neck 首 kubi, seat 腰掛 koshikake. Drop in; ghost slides ✕ (fit-checked); neutral lift arrow. Study hold. |
 | S05 Proportions and strength | N08–N11 | 2D plan to scale: the kama outline (neck 30, L 150, flare 7.5 per side, 120 mm member) beside Ep5's dovetail drawing (105 mm), each tagged with its source. Then attributed bars or text: D1 ari ≈ 6.3–7.6 kN vs D3 kama ≈ 15.7–21.2 kN, "timber grades and joint sizes differ · not a controlled comparison". Neck stress concentration (schematic highlight at the neck/jaw root); "depth mattered more than length (one study)". Failure: shear of the head/neck or crushing at the flares; "treated as a pin". Study hold. |

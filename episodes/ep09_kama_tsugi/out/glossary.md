@@ -4,7 +4,7 @@ Sizes in the episode are one test series' specimen geometry on 120 mm timbers (d
 
 | Romaji | Kanji | Kana | English gloss | One-line description |
 |---|---|---|---|---|
-| koshikake kama-tsugi | 腰掛鎌継ぎ | こしかけかまつぎ | seated gooseneck splice | A head on a neck in the upper half, a seat in the lower half; the male (upper piece) drops in from above. (R9-04, R9-16, R9-17) |
+| koshikake kama-tsugi | 腰掛け鎌継ぎ | こしかけかまつぎ | seated gooseneck splice | A head on a neck in the upper half, a seat in the lower half; the male (upper piece) drops in from above. (R9-04, R9-16, R9-17) |
 | kama-tsugi | 鎌継ぎ | かまつぎ | gooseneck splice | Read かまつぎ in two dictionaries; also shortened to 鎌 kama. "Gooseneck" is an English name. (R9-01, R9-02, R9-06) |
 | kama | 鎌 | かま | head (of the tenon) | The head, per JAANUS's and the training course's labels; on its own, a sickle. (R9-08, R9-13) |
 | kubi | 首 | くび | neck | Between the shoulder and the head. (R9-13) |

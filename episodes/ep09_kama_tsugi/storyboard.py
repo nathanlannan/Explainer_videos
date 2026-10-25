@@ -16,7 +16,7 @@ def _(s):
     s.pause(1.0)
 
 
-@shot("S02", "Title card", "card", "Series title card: Episode 9 · The Gooseneck · koshikake kama-tsugi 腰掛鎌継ぎ.")
+@shot("S02", "Title card", "card", "Series title card: Episode 9 · The Gooseneck · koshikake kama-tsugi 腰掛け鎌継ぎ.")
 def _(s):
     s.pause(3.8)
 

@@ -1,4 +1,4 @@
-"""Episode 9 -- the koshikake kama-tsugi (腰掛鎌継ぎ), a seated "gooseneck" splice, drawn on 120 mm members.
+"""Episode 9 -- the koshikake kama-tsugi (腰掛け鎌継ぎ), a seated "gooseneck" splice, drawn on 120 mm members.
 
 Sources (research/ep09_fact_pack.md):
   * head and socket in about the upper half, seat in the lower half (R9-16); the male (男木) is the upper piece and

@@ -10,7 +10,7 @@
   {
    "id": "N02",
    "section": 1,
-   "text": "That course's exercise adds a short stub tenon under the seat. We'll leave it out and follow the steps for the joint itself.",
+   "text": "That course's exercise adds a small stub tenon at the seat, to stop the pieces twisting. We'll leave it out and follow the steps for the joint itself.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
@@ -22,7 +22,7 @@
   {
    "id": "N04",
    "section": 2,
-   "text": "Center lines go on both pieces first, as in episode one. The neck and head are laid out from them.",
+   "text": "Both pieces already carry center lines, as in episode one. The neck and head are laid out from them.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
@@ -34,9 +34,9 @@
   {
    "id": "N06",
    "section": 3,
-   "text": "The neck lines are split evenly from the center line, using the width of the sashigane's blade, about fifteen millimeters, each side.",
+   "text": "The neck lines are split evenly from the center line. The course notes that a sashigane's blade is about fifteen millimeters wide, which makes these lines quick to mark.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress. Say 'sashi-gah-neh' as sa-shi-ga-ne, four short even syllables.",
-   "tts": "The neck lines are split evenly from the center line, using the width of the sashi-gah-neh's blade, about fifteen millimeters, each side."
+   "tts": "The neck lines are split evenly from the center line. The course notes that a sashi-gah-neh's blade is about fifteen millimeters wide, which makes these lines quick to mark."
   },
   {
    "id": "N07",
@@ -47,55 +47,55 @@
   {
    "id": "N08",
    "section": 4,
-   "text": "The male gets the same lines, in the same order: the end line, the neck and tip lines and the cut line, the neck lines from the center, the slanted head lines, and the seat lines down both sides.",
+   "text": "The male is marked the same way: the end line, the neck and tip lines and the cut line, the neck lines from the center, the slanted head lines, and the seat lines down both sides.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N09",
    "section": 5,
-   "text": "Cutting the female. Rip down the end grain, leaving half the line, and angle the saw so it doesn't cut into the seat. Then crosscut to free the seat.",
+   "text": "Cutting the female. Cut the end at the end line and mark the end grain. Rip in, leaving half the line, angling the saw so it doesn't damage the seat. Then crosscut, leaving half the line, to form the seat.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N10",
    "section": 5,
-   "text": "Chop the head's tip straight down first, then its sides, then clear out the socket.",
+   "text": "Chop the head's tip straight down, taking the line. Then chop along both sides, using the saw kerfs as a guide, and clear out the socket from the side.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N11",
    "section": 5,
    "text": "The course digs a little past the line at the tip, about three millimeters, and checks that the floor is flat and level with the seat.",
-   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 115 words per minute, unhurried, one smooth phrase, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N12",
    "section": 5,
-   "text": "Where the head meets the neck, it also digs about three millimeters past the line, toward the tip, to allow for a slight slope on the head's bearing faces.",
+   "text": "Along the head's sides, it chops leaving half the line. Where the head meets the neck, it stops about three millimeters short of the line, on the tip side, then pares that strip into a slight slope on the bearing faces.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N13",
    "section": 6,
-   "text": "Cutting the male. Rip down to the seat and crosscut the shoulder, leaving half the line.",
+   "text": "Cutting the male. Cut the end at the end line and mark the end grain. Rip in along the face that will rest on the seat, then crosscut the shoulder, leaving half the line on both.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N14",
    "section": 6,
-   "text": "Rip the head's sides down to the neck, leaving the line at the top and taking it at the bottom, so it enters easily and tightens as it seats.",
+   "text": "Rip the head's sides down to the neck, leaving the line at the top and taking it at the bottom. The head is a hair narrower below, so it enters easily and gets snug as it goes down.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N15",
    "section": 6,
-   "text": "Crosscut short of the neck line and split the waste off. Saw the bearing slope with kerfs about a chisel's width apart, and chop the neck to its line, with the same taper.",
+   "text": "Crosscut the shoulder, stopping short of the neck line, and the waste beside the head splits off with the chisel. Saw the bearing slope, leaving half the line.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N16",
    "section": 6,
-   "text": "Finally, pare the slope smooth, and chamfer the bearing edges of the head and neck.",
+   "text": "Add kerfs about a chisel's width apart beside the neck, and chop the neck, leaving half the line, with the same taper. Finally, pare the bearing slope, and chamfer the bottom edges of the head and neck.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
@@ -107,13 +107,13 @@
   {
    "id": "N18",
    "section": 8,
-   "text": "Next time: the other splice the specification offers for the outer-wall beams.",
-   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+   "text": "Next time: the other splice the house specification from episode nine offers for the outer-wall beams.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 115 words per minute, unhurried, one smooth phrase, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N19",
    "section": 9,
-   "text": "Center lines first. Mark both pieces the same way, split the neck from the center, and cut so the head enters easily and tightens.",
+   "text": "Center lines first. Mark both pieces the same way, split the neck from the center, and cut a slight taper so the head enters easily.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {

@@ -225,7 +225,7 @@ const SHOTS = {
     build() {
       const h = L.text('A head on a neck, dropped onto a seat. It holds a pull, but engineers often model it as a pin.', { x: 96, y: 60, size: 48, w: 1728 }); h.style.fontWeight = 700; h.classList.add('wrap');
       const rows = [
-        ['koshikake kama-tsugi', '腰掛鎌継ぎ', 'seated gooseneck splice', 'the male drops in from above onto the seat'],
+        ['koshikake kama-tsugi', '腰掛け鎌継ぎ', 'seated gooseneck splice', 'the male drops in from above onto the seat'],
         ['kama', '鎌', 'head', 'also a short form of kama-tsugi; on its own, a sickle'],
         ['kubi', '首', 'neck', 'between the shoulder and the head'],
         ['kamakubi', '鎌首', "a snake's raised head and neck", 'literally a neck curved like a sickle; two sources compare the tenon to one'],
@@ -246,7 +246,7 @@ function titleCard() {
   const a = L.text('JAPANESE JOINERY BY HAND', { x: 96, y: 300, size: 40 }); a.style.letterSpacing = '0.18em';
   const b = L.text('EPISODE 9', { x: 96, y: 370, size: 48 }); b.style.fontWeight = 700; b.style.letterSpacing = '0.12em';
   const c = L.text('The Gooseneck', { x: 96, y: 510, size: 96 }); c.style.fontWeight = 700;
-  L.text(`<i>koshikake kama-tsugi</i> ${kj('腰掛鎌継ぎ')}`, { x: 96, y: 650, size: 56, cls: 'soft' });
+  L.text(`<i>koshikake kama-tsugi</i> ${kj('腰掛け鎌継ぎ')}`, { x: 96, y: 650, size: 56, cls: 'soft' });
   // the tenon in plan
   const S = 2.2, gx = 1600, cy = 520;
   el2(svg, 'rect', { x: gx, y: cy - 60 * S, width: 140, height: 120 * S, fill: WOODL, stroke: INK, 'stroke-width': 3 });

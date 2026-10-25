@@ -45,7 +45,7 @@ Gathered by a research agent on 2026-10-25. Status: **verified** = 2+ independen
 | R6-21 | Example: dovetail length 50, head 50, neck 30 mm, measured from the 胴付き | [B] | single-source (snippet) |
 | R6-22 | Flare about 1:4–1:5 per side; do not use the Western 1:6–1:8 furniture rule | calculated from [D1][D2][B] | verified by calculation |
 | R6-23 | Seat length: no number found; 30 mm is a modelling assumption | — | unverified (model only, not stated) |
-| R6-24 | Male cheeks tapered in elevation: leave the line at the top and take it at the bottom, so the joint enters easily and tightens | [W t0536] | single-source |
+| R6-24 | Male cheeks tapered in elevation: leave the line at the top and take it at the bottom, so the joint enters easily (W: 入り勝手勾配). "Tightens as it seats" is the geometric consequence (narrower below, full width at the top), demonstrated by the Ep6 fit check (gap at the bottom, contact at the top), not a quote | [W t0536]; params.py checks | single-source (+ geometry) |
 | R6-25 | JHF sill size: at least 105 mm square; 120 mm square is standard | [JHF 5.1.2-1] | single-source (official) |
 | R6-26 | Female marking: 砂切り; seat lines; dovetail lines split evenly from the centre line; sides angled using the sashigane width; seat lines on both side faces | [W t0511–0514] | single-source |
 | R6-27 | Male marking: 砂切り, dovetail tip, cut line; centre and dovetail lines carried onto the end grain | [W t0515–16, 0534] | single-source |
