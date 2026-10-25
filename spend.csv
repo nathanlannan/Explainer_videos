@@ -244,3 +244,32 @@ timestamp,model,purpose,units,cost_usd,generation_id
 2026-10-25T00:53:16Z,google/gemini-3.8-flash-tts,ep02b narration N13 take 1,157 chars,0.002782,gen-tts-1792889588-lvPjxD85oz6Gw1iuTeBW
 2026-10-25T00:53:41Z,google/gemini-3.8-flash-tts,ep02b narration N14 take 1,114 chars,0.002510,gen-tts-1792889603-nwJ8viaHAjyZQzzszbK7
 2026-10-25T00:53:56Z,google/gemini-3.8-flash,ep02b listen N14,2010 tokens,0.005995,gen-1792889628-k9YUJBdqjVToOAs63vIY
+2026-10-25T00:56:54Z,google/gemini-3.8-flash-tts,ep02b pronunciation test,64 chars,0.001226,gen-tts-1792889798-T0SmJieBJAGWYrYbMgt4
+2026-10-25T00:57:01Z,google/gemini-3.8-flash,ep02b listen test,918 tokens,0.002429,gen-1792889817-jQIGu4ah73hxk11fFTRM
+2026-10-25T00:57:02Z,openai/gpt-audio-mini,ep02b listen test,367 tokens,0.000402,gen-1792889823-5EWEzIWYBMvl4jVFyLcU
+2026-10-25T00:57:20Z,google/gemini-3.8-flash-tts,ep02b pronunciation test,59 chars,0.001171,gen-tts-1792889825-SGEZxnR9VB1IDLgjAxCQ
+2026-10-25T00:57:28Z,google/gemini-3.8-flash,ep02b listen test,1062 tokens,0.003004,gen-1792889842-x62hyojbKSMgAeqBwuQ2
+2026-10-25T00:57:29Z,openai/gpt-audio-mini,ep02b listen test,350 tokens,0.000376,gen-1792889850-A7vddgNMI5SK970zdhnS
+2026-10-25T00:57:47Z,google/gemini-3.8-flash-tts,ep02b pronunciation test,60 chars,0.001190,gen-tts-1792889851-duWFfgXXLNLJM9wkhvGT
+2026-10-25T00:57:55Z,google/gemini-3.8-flash,ep02b listen test,1327 tokens,0.003980,gen-1792889869-8MLHFdq4G5qeay9FwNEJ
+2026-10-25T00:57:57Z,openai/gpt-audio-mini,ep02b listen test,349 tokens,0.000370,gen-1792889878-8DhiLC42nJv8psgmRgij
+2026-10-25T00:58:05Z,google/gemini-3.8-flash-tts,ep02b pronunciation test,60 chars,0.001322,gen-tts-1792889879-8rxRArANWYUI5tKYQoWq
+2026-10-25T00:58:10Z,google/gemini-3.8-flash,ep02b listen test,942 tokens,0.002488,gen-1792889887-BHkN26FS4qjcDV7LGc1n
+2026-10-25T00:58:12Z,openai/gpt-audio-mini,ep02b listen test,435 tokens,0.000562,gen-1792889892-1KjSWPQ9ihaPfvlofHQY
+2026-10-25T00:58:50Z,google/gemini-3.8-flash-tts,ep02b narration N12 take 2,271 chars,0.004777,gen-tts-1792889910-vWBvGmTsPS5AG2RObGzd
+2026-10-25T00:59:08Z,google/gemini-3.8-flash,ep02b listen N12,1358 tokens,0.002786,gen-1792889943-F12H562eWSiq3hcg4eOV
+2026-10-25T00:59:10Z,openai/gpt-audio-mini,ep02b listen N12,558 tokens,0.000500,gen-1792889950-9k93ExQrT3Ex1Ks1nNUZ
+2026-10-25T00:59:26Z,google/gemini-3.8-flash,ep02b listen N14,1811 tokens,0.005204,gen-1792889957-slkkZpM2qf5NhnpmNazU
+2026-10-25T00:59:29Z,openai/gpt-audio-mini,ep02b listen N14,667 tokens,0.000920,gen-1792889969-V6DEBtojGVHJHH0NYhaQ
+2026-10-25T00:59:49Z,google/gemini-3.8-flash-tts,ep02b narration N15 take 1,131 chars,0.002873,gen-tts-1792889971-L50tyFs7jSMalrfZY0dm
+2026-10-25T01:00:01Z,google/gemini-3.8-flash,ep02b listen N15,1369 tokens,0.003523,gen-1792889996-sjj5cDudPKkPZYoLBOwb
+2026-10-25T01:00:03Z,openai/gpt-audio-mini,ep02b listen N15,601 tokens,0.000793,gen-1792890003-erO4GYcP2nk2YlcTUnj0
+2026-10-25T01:00:22Z,google/gemini-3.8-flash-tts,ep02b narration N16 take 1,113 chars,0.002282,gen-tts-1792890005-qAsol2WORf6agXYfMvuM
+2026-10-25T01:00:45Z,google/gemini-3.8-flash-tts,ep02b narration N17 take 1,92 chars,0.001641,gen-tts-1792890029-oN7VsoPAWbWQYrJaDNuw
+2026-10-25T01:01:10Z,google/gemini-3.8-flash-tts,ep02b narration N18 take 1,135 chars,0.003400,gen-tts-1792890051-bQhVT3c8XnEOWY3F5SUa
+2026-10-25T01:01:25Z,google/gemini-3.8-flash,ep02b listen N18,985 tokens,0.001939,gen-1792890080-DZLMf7ZjiQXmc1oHuOVV
+2026-10-25T01:01:27Z,openai/gpt-audio-mini,ep02b listen N18,508 tokens,0.000546,gen-1792890088-WSSChTetJsXeXIcOlMtL
+2026-10-25T01:02:24Z,google/gemini-3.8-flash-tts,ep02b narration N04 take 2,116 chars,0.002148,gen-tts-1792890112-PMt8DW3wnSIsCtocBq3F
+2026-10-25T01:03:16Z,google/gemini-3.8-flash-tts,ep02b narration N06 take 2,218 chars,0.003850,gen-tts-1792890154-I7ICotmwLmmgbJvWysva
+2026-10-25T01:03:49Z,google/gemini-3.8-flash-tts,ep02b narration N11 take 2,230 chars,0.003683,gen-tts-1792890205-8dNNjFRFgUc1DuS3SbfX
+2026-10-25T01:04:15Z,google/gemini-3.8-flash-tts,ep02b narration N17 take 2,92 chars,0.001669,gen-tts-1792890239-u6OoJQxACsZCoiLpBn7S

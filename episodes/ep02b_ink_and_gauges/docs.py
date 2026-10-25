@@ -4,7 +4,7 @@ HERE = pathlib.Path(__file__).resolve().parent
 tl = json.loads((HERE / "build/timeline.json").read_text())
 fmt = lambda x: f"{int(x // 60)}:{x % 60:04.1f}"
 narr = {n["id"]: n for n in tl["narration"]}
-sec = {1: "Cold open", 2: "Meet the sashigane", 3: "Front and back scales", 4: "The log: largest square beam", 5: "Same idea, two traditions", 6: "Recap"}
+sec = {1: "Cold open", 2: "The ink line", 3: "The ink pen", 4: "Squaring with the sashigane", 5: "The marking gauge", 6: "The marking knife", 7: "Next", 8: "Recap"}
 lines = json.loads((HERE / "narration.json").read_text())["lines"]
 out = ["# Episode 2 · Part 2 — Ink Line, Pen and Gauges · final script", "",
        f"Runtime {fmt(tl['total'])} · {sum(len(l['text'].split()) for l in lines)} words · timestamps are narration start–end in the final cut.", ""]

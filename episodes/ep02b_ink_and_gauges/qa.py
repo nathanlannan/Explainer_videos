@@ -25,10 +25,7 @@ v = [s for s in probe["streams"] if s["codec_type"] == "video"][0]
 check("Runtime 4:30–5:30", 270 <= dur <= 330, f"{dur:.2f} s ({int(dur // 60)}:{dur % 60:05.2f})")
 check("Format 1080p30 H.264", v["width"] == 1920 and v["height"] == 1080 and v["codec_name"] == "h264" and v["r_frame_rate"] == "30/1", f"{v['width']}×{v['height']} {v['codec_name']} {v['r_frame_rate']}")
 check("Chapters embedded", len(probe.get("chapters", [])) == len(tl["chapters"]), f"{len(probe.get('chapters', []))} chapters")
-check("Geometry checks (√2 reading = largest inscribed square)", chk["ok"], f"ura-me across {geo['log_d']:.0f} mm reads {chk['ura_reading_across_diameter']}; largest square side {chk['largest_square_side']}; corners at r = {chk['corner_radius']}; overhang at that side {chk['poke_out_at_side_mm3']} mm³, at +1 mm {chk['poke_out_at_side_plus_1mm_mm3']} mm³; marume across 300 → {chk['maru_reading_across_diameter']}")
-sc = geo["scales"]
-ok_sc = all(abs(x - v * u) < 1e-3 for key, u in (("omote_long", 1.0), ("ura_long", geo["root2"]), ("maru_short", 1 / geo["pi"])) for v, x in sc[key])
-check("Scales computed from definition", ok_sc, f"omote {len(sc['omote_long'])} ticks ×1 mm; ura-me {len(sc['ura_long'])} ticks ×√2; marume {len(sc['maru_short'])} ticks ×1/π (renderer draws these lists)")
+check("Geometry checks", chk["ok"], f"snap line end to end {chk['snap_line_endpoints']}; gauge line {chk['gauge_line_offset_mm']} mm from the edge, inside the board; sashigane long arm longer than the board width")
 lo = mixer.measure(MP4)
 check("Loudness −16 LUFS ±1, TP ≤ −1 dBTP", abs(lo["integrated_LUFS"] + 16) <= 1 and lo["true_peak_dBTP"] <= -1.0, f"{lo['integrated_LUFS']} LUFS, {lo['true_peak_dBTP']} dBTP, LRA {lo['LRA_LU']} LU (ffmpeg ebur128 on the MP4)")
 # captions vs narration
@@ -41,6 +38,7 @@ tt = lambda a: int(a[0]) * 3600 + int(a[1]) * 60 + int(a[2]) + int(a[3]) / 1000
 inside = all(any(n["start"] - 0.3 <= tt(c[:4]) <= n["end"] + 0.3 for n in tl["narration"]) for c in cues)
 check("Captions match final narration", norm(cap_text) == norm(nar_text) and inside, f"text identical: {norm(cap_text) == norm(nar_text)}; all {len(cues)} cue starts inside a narration line: {inside}; ≤2 lines × ≤42 chars")
 # kanji traceability
+shots_src = (HERE / "shots.js").read_text()
 cjk = sorted(set(re.findall(r"[぀-ヿ一-鿿]+", shots_src)))
 table = (ROOT / "research/research_table.md").read_text()
 verified = {k for k in cjk if any(k in line and "| verified" in line for line in table.splitlines())}
@@ -51,8 +49,8 @@ for s in tl["shots"]:
     for lid, ln in s["lines"].items():
         for w, ws, we in ln["words"]:
             pass
-pairs = [("S03", "term", "N03", "sashigane"), ("S03", "nagate", "N04", "nagate"), ("S03", "tsumate", "N04", "tsumate"), ("S07", "term", "N08", "omote"),
-         ("S08", "term", "N09", "scale"), ("S10", "read", "N13", "read"), ("S12", "term", "N16", "marume"), ("S11", "term", "N15", "own")]
+pairs = [("S03", "term", "N03", "sumitsubo"), ("S03", "ike", "N03", "ike"), ("S03", "pin", "N03", "karuko"), ("S06", "term", "N07", "sumisashi"),
+         ("S04", "go", "N05", "go"), ("S07", "draw", "N10", "draw"), ("S08", "fence", "N12", "fence"), ("S11", "term", "N15", "shiragaki")]
 worst = 0
 for sid, ev, lid, word in pairs:
     s = next(x for x in tl["shots"] if x["id"] == sid)
@@ -63,7 +61,7 @@ for sid, ev, lid, word in pairs:
 check("Narration/visual sync (named thing on screen when named)", worst <= 0.6, "; ".join(sync))
 # study holds
 holds = [(s["id"], b - a) for s in tl["shots"] for a, b in s["holds"]]
-need = {"S09": 3, "S10": 3, "S15": 8}
+need = {"S03": 3, "S07": 3, "S09": 3, "S13": 8}
 check("Study holds", all(any(h[0] == k and h[1] >= v for h in holds) for k, v in need.items()), ", ".join(f"{k} {v:.1f}s" for k, v in holds))
 # stills from the final MP4 at every hold midpoint and the 75% point of each shot
 out = HERE / "build/qa_stills"

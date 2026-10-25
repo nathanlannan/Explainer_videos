@@ -1,0 +1,18 @@
+{
+ "snap_line_endpoints": [
+  [
+   0.0,
+   105.0,
+   0.0
+  ],
+  [
+   3000.0,
+   105.0,
+   0.0
+  ]
+ ],
+ "gauge_line_offset_mm": 30.0,
+ "gauge_line_inside_board": true,
+ "square_arm_longer_than_board_width": true,
+ "ok": true
+}
