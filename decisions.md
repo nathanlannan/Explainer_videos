@@ -229,3 +229,14 @@ $0.3186 of $5.00 over 133 logged calls (actual costs from OpenRouter generation 
   - "written with the characters for large and peg";
   - pegs: "the sources credit the slope";
   - "one architect's guide".
+
+## Episode 12: Gate A
+- The course text and drawings are read in full (W day 6). Fixes:
+  - The slope lines go on the top face and one side face; the splice's center line and the peg lines go on the other side face.
+  - The 襟輪 kanji is not shown (single-source).
+  - Peg holes are started from the side face that stays whole.
+  - The shoulder and slope cuts stop "just short of the line along the beam".
+  - Peg holes are finished on the newly cut faces.
+  - The fit advice follows D5's wording.
+- The cut states are defined exactly in plan.md.
+- On "leave half the line" vs "split the line": the reviewer argued that Ep6's "splitting the line" for W's 墨半分残し was wrong. I disagree. Ep4 defines splitting with the ink line drawn wider than the kerf, so a centred kerf leaves half the line on each side. That is the same result on the kept piece, so Ep6 stands. Ep12 uses the literal "half the ink line stays on the piece" and calls back to Ep10.

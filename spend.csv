@@ -721,3 +721,34 @@ timestamp,model,purpose,units,cost_usd,generation_id
 2026-10-25T09:07:52Z,google/gemini-3.8-flash-tts,ep11 narration N03 take 3,162 chars,0.003540,gen-tts-1792919256-CdF1JwqI6oLCfgW4yf8i
 2026-10-25T09:08:07Z,google/gemini-3.8-flash,ep11 listen N03,1315 tokens,0.003020,gen-1792919286-zB4nYPUjPBsBJZtkWahD
 2026-10-25T09:08:09Z,openai/gpt-audio-mini,ep11 listen N03,702 tokens,0.000927,gen-1792919292-YNrhdxLQJ51qt6HeD9rI
+2026-10-25T09:31:49Z,google/gemini-3.8-flash-tts,ep12 narration N01 take 1,151 chars,0.003657,gen-tts-1792920703-Ba6Z4Peu6WXZmHVKcG9t
+2026-10-25T09:32:22Z,google/gemini-3.8-flash-tts,ep12 narration N02 take 1,117 chars,0.002129,gen-tts-1792920728-LbFJYSUvoHrCJd6BdDJ7
+2026-10-25T09:32:48Z,google/gemini-3.8-flash-tts,ep12 narration N03 take 1,116 chars,0.002042,gen-tts-1792920755-s5bAnLI37StjAsNLKPl3
+2026-10-25T09:33:06Z,google/gemini-3.8-flash-tts,ep12 narration N04 take 1,110 chars,0.002157,gen-tts-1792920781-xYtgXvleccwiAnF2TxYZ
+2026-10-25T09:33:33Z,google/gemini-3.8-flash-tts,ep12 narration N05 take 1,163 chars,0.002828,gen-tts-1792920798-Uz7vMU5YUw6sXOvBdbNC
+2026-10-25T09:34:03Z,google/gemini-3.8-flash-tts,ep12 narration N06 take 1,209 chars,0.004001,gen-tts-1792920827-opfYg9w0niHec872y8fd
+2026-10-25T09:34:17Z,google/gemini-3.8-flash,ep12 listen N06,1163 tokens,0.002354,gen-1792920857-QH4YQVQXqfVTQ41PM1oa
+2026-10-25T09:34:19Z,openai/gpt-audio-mini,ep12 listen N06,529 tokens,0.000515,gen-1792920863-nfCgD4bv4akBy2wDeF2X
+2026-10-25T09:34:29Z,google/gemini-3.8-flash-tts,ep12 narration N07 take 1,77 chars,0.001630,gen-tts-1792920864-wFNldWCnEZgo8R04C4fv
+2026-10-25T09:34:45Z,google/gemini-3.8-flash-tts,ep12 narration N08 take 1,156 chars,0.002794,gen-tts-1792920879-aCxyT6G8QQQ9jWeEXdKj
+2026-10-25T09:35:02Z,google/gemini-3.8-flash-tts,ep12 narration N09 take 1,110 chars,0.002067,gen-tts-1792920898-guRNsCwvTmC97qRJaSKA
+2026-10-25T09:35:28Z,google/gemini-3.8-flash-tts,ep12 narration N10 take 1,153 chars,0.002811,gen-tts-1792920914-avSmxrS310n1k9NBjhtS
+2026-10-25T09:35:58Z,google/gemini-3.8-flash-tts,ep12 narration N11 take 1,206 chars,0.003599,gen-tts-1792920941-VLIhk0ztPCWIpD2y5Zco
+2026-10-25T09:36:30Z,google/gemini-3.8-flash-tts,ep12 narration N12 take 1,263 chars,0.005217,gen-tts-1792920972-q8wUHg3KWDEoissrvIfU
+2026-10-25T09:37:02Z,google/gemini-3.8-flash-tts,ep12 narration N13 take 1,161 chars,0.003578,gen-tts-1792921006-H7E69LWEz434gfKtVdNs
+2026-10-25T09:37:30Z,google/gemini-3.8-flash-tts,ep12 narration N14 take 1,67 chars,0.001412,gen-tts-1792921037-EoJYFXYZ60n6xibRS6RJ
+2026-10-25T09:37:45Z,google/gemini-3.8-flash-tts,ep12 narration N15 take 1,76 chars,0.001287,gen-tts-1792921061-86tLP8ipaqaKGUC5gr0o
+2026-10-25T09:38:01Z,google/gemini-3.8-flash-tts,ep12 narration N16 take 1,91 chars,0.002011,gen-tts-1792921077-ysk3TYjIhlpOev58lsbX
+2026-10-25T09:38:27Z,google/gemini-3.8-flash-tts,ep12 narration N17 take 1,176 chars,0.003325,gen-tts-1792921092-x33svGyYxf9XvRgF1yeo
+2026-10-25T09:38:55Z,google/gemini-3.8-flash-tts,ep12 narration N18 take 1,150 chars,0.002737,gen-tts-1792921120-EZAjePIN8f2Mgl1sJTve
+2026-10-25T09:39:23Z,google/gemini-3.8-flash-tts,ep12 narration N19 take 1,152 chars,0.003321,gen-tts-1792921148-9cJU3A8XcKH1c2r7PB0h
+2026-10-25T09:39:51Z,google/gemini-3.8-flash-tts,ep12 narration N20 take 1,121 chars,0.002338,gen-tts-1792921177-WQyjFE7ZY9EeXL68DFK2
+2026-10-25T09:40:28Z,google/gemini-3.8-flash-tts,ep12 narration N02 take 2,117 chars,0.002145,gen-tts-1792921214-G1sP0FvkZQWZm8ga1Fq7
+2026-10-25T09:40:53Z,google/gemini-3.8-flash-tts,ep12 narration N03 take 2,116 chars,0.002148,gen-tts-1792921248-BD1pBfAHtCfIEnLsmJRQ
+2026-10-25T09:41:20Z,google/gemini-3.8-flash-tts,ep12 narration N05 take 2,163 chars,0.003159,gen-tts-1792921265-30DRnkOQNbaFMY8211Xf
+2026-10-25T09:41:44Z,google/gemini-3.8-flash-tts,ep12 narration N07 take 2,77 chars,0.001981,gen-tts-1792921295-PNJJ7NggLUMK3pvjiL68
+2026-10-25T09:42:10Z,google/gemini-3.8-flash-tts,ep12 narration N08 take 2,156 chars,0.003105,gen-tts-1792921315-qBQd6n3l42j98BHlS0Vs
+2026-10-25T09:42:38Z,google/gemini-3.8-flash-tts,ep12 narration N10 take 2,153 chars,0.003547,gen-tts-1792921343-iualolCDg65mCqHboNFW
+2026-10-25T09:43:06Z,google/gemini-3.8-flash-tts,ep12 narration N11 take 2,206 chars,0.003857,gen-tts-1792921371-8BuE3ysORFojaxTrgiCk
+2026-10-25T09:43:34Z,google/gemini-3.8-flash-tts,ep12 narration N15 take 2,76 chars,0.001321,gen-tts-1792921401-shpdz2szqHjagi00bTtF
+2026-10-25T09:43:58Z,google/gemini-3.8-flash-tts,ep12 narration N17 take 2,176 chars,0.003771,gen-tts-1792921423-jl6e5zYQfPuBxCzoczQ3
