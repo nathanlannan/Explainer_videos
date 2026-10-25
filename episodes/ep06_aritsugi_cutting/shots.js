@@ -253,7 +253,7 @@ const SHOTS = {
   S09: {
     build() {
       this.l1 = L.text('drop the male in from above', { x: 96, y: 966, size: 40, cls: 'plate' });
-      this.l2 = L.text(`if a little too tight: <i>kigoroshi</i> ${kj('木殺し')} (a general carpentry manual) · the gennō's domed face is the <i>kigoroshi</i> face`, { x: 96, y: 900, size: 36, cls: 'plate', w: 1700 }); this.l2.classList.add('wrap');
+      this.l2 = L.text(`if a little too tight: <i>kigoroshi</i> ${kj('木殺し')} (a general carpentry manual) · the gennō's domed face is the <i>kigoroshi</i> face`, { x: 96, y: 850, size: 36, cls: 'plate', w: 1700 }); this.l2.classList.add('wrap');
       this.l3 = L.text('it bears on its faces, never on its tip', { x: 96, y: 966, size: 40, cls: 'plate' });
       // inset: side section through the dovetail's head, showing the deepened pocket (neutral, not an error)
       const svg = L.svgLayer(); this.inset = el2(svg, 'g', {}); const ix = 1300, iy = 220, S = 4;

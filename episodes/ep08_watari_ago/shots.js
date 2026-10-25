@@ -154,7 +154,7 @@ const SHOTS = {
     build() {
       this.la = L.text(`<i>aigaki</i> ${kj('相欠き')} · a half-lap<br><span class="soft">each cut to half its depth · tops flush</span>`, { x: 0, y: 0, size: 40, cls: 'plate' });
       this.lw = L.text('<i>watari-ago</i><br><span class="soft">shallow cuts · different heights<br>the middle locks into the groove</span>', { x: 0, y: 0, size: 40, cls: 'plate' });
-      this.src = L.text('used where two timbers cross at slightly different heights (Nihon Kokugo Daijiten) · same model as before', { x: 96, y: 966, size: 36, cls: 'soft' });
+      this.src = L.text('used where two timbers cross at slightly different heights (Nihon Kokugo Daijiten) · same model as before', { x: 96, y: 925, size: 36, cls: 'soft', w: 1700 }); this.src.classList.add('wrap');
     },
     frame(t, sh) {
       const sc = getScene(), e = sh.ev; only(sc, ['wa', 'ai']);

@@ -103,7 +103,7 @@ const SHOTS = {
     build() {
       this.ls = L.text('short tenon + hardware<br><span class="soft">plate, bracket or staple</span>', { x: 0, y: 0, size: 40, cls: 'plate' });
       this.ll = L.text(`long tenon + <i>komisen</i> ${kj('込み栓')}`, { x: 0, y: 0, size: 40, cls: 'plate' });
-      this.src = L.text('posts outside the bearing walls · Flat 35 house specification · same member size, not dimensioned · hardware schematic', { x: 96, y: 950, size: 36, cls: 'soft', w: 1700 }); this.src.classList.add('wrap');
+      this.src = L.text('posts outside the bearing walls · Flat 35 house specification · same member size, not dimensioned · hardware schematic', { x: 96, y: 915, size: 36, cls: 'soft', w: 1700 }); this.src.classList.add('wrap');
       const svg = L.svgLayer(); this.inset = el2(svg, 'g', {}); const ix = 720, iy = 280;
       el2(this.inset, 'rect', { x: ix - 20, y: iy - 20, width: 480, height: 400, fill: '#F3EEE4', stroke: INK, 'stroke-width': 2, rx: 8 });
       // plan of an outside sill corner, the post and its trapezoid-section tenon (schematic), plus a corner plate
@@ -120,7 +120,7 @@ const SHOTS = {
       // solid sills here: the cutaways come in S05 and S06
       sc.short.plate.visible = t > e.short;
       const cam = L.camera('front', [0, 100, 0], 2300, { orbit: 0.35, lift: 0.3 });
-      anchor(this.ls, cam, [-420, 400, 0], -160, -60); anchor(this.ll, cam, [420, 400, 0], -160, -60);
+      anchor(this.ls, cam, [-420, 400, 0], -160, -60); anchor(this.ll, cam, [420, 400, 0], -330, -60);
       const r = (a) => L.ramp(t, a - 0.3, a + 0.3);
       const off = t > e.corner - 0.3; // the corner inset takes the frame on its own
       sc.short.g.visible = !off && t > e.short - 0.4; sc.long.g.visible = !off && t > e.long - 0.4;
@@ -164,8 +164,8 @@ const SHOTS = {
       el2(this.db, 'rect', { x: dx + 205, y: dy + 224, width: 30, height: 30, fill: 'none', stroke: GHOST, 'stroke-width': 3, 'stroke-dasharray': '6 4' }); // hole in the tenon, higher
       arrow(this.db, dx + 320, dy + 120, dx + 320, dy + 175, { w: 4 });
       this.ld = L.text('hole in the tenon (dashed) bored slightly closer to the shoulder: the pin pulls the post down · exaggerated', { x: dx, y: dy + 410, size: 36, w: 440 }); this.ld.classList.add('wrap');
-      this.lsq = L.text('square holes and pins (public-works spec) · round pins now more common (one lab report)', { x: 96, y: 920, size: 36, cls: 'plate', w: 1700 });
-      this.lcl = L.text('bearing wall: same class as an L-shaped metal corner plate (Flat 35)', { x: 96, y: 860, size: 36, cls: 'plate', w: 1700 });
+      this.lsq = L.text('square holes and pins (public-works spec) · round pins now more common (one lab report)', { x: 96, y: 900, size: 36, cls: 'plate', w: 1700 });
+      this.lcl = L.text('bearing wall: same class as an L-shaped metal corner plate (Flat 35)', { x: 96, y: 840, size: 36, cls: 'plate', w: 1700 });
     },
     frame(t, sh) {
       const sc = getScene(), e = sh.ev, j = sc.long, P = G.LONG; only(sc, ['long']); reset(j); j.sill.visible = false; j.sillGhost.visible = true;
@@ -227,7 +227,7 @@ const SHOTS = {
   },
   S09: {
     build() {
-      this.l1 = L.text('practice piece: the width goes in with light taps over a block of wood; the thickness, by hand', { x: 96, y: 920, size: 36, cls: 'plate', w: 1700 }); this.l1.classList.add('wrap');
+      this.l1 = L.text('practice piece: the width goes in with light taps over a block of wood; the thickness, by hand', { x: 96, y: 860, size: 36, cls: 'plate', w: 1700 }); this.l1.classList.add('wrap');
       this.l2 = L.text('posts: a snug fit, driven in and fully seated (public-works specification)', { x: 96, y: 966, size: 40, cls: 'plate' });
     },
     frame(t, sh) {
@@ -248,7 +248,7 @@ const SHOTS = {
   },
   S11: {
     build() {
-      const h = L.text('A short tenon needs hardware. A pinned long tenon pulls itself tight.', { x: 96, y: 60, size: 52 }); h.style.fontWeight = 700;
+      const h = L.text('A short tenon needs hardware. A pinned long tenon pulls itself tight.', { x: 96, y: 60, size: 48, w: 1728 }); h.style.fontWeight = 700; h.classList.add('wrap');
       L.text('and a snug fit, made in small steps, does the rest', { x: 96, y: 140, size: 36, cls: 'soft', w: 1728 });
       const rows = [
         ['hozo', '枘', 'tenon', 'older reading hoso'],

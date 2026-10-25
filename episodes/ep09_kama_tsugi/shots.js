@@ -72,7 +72,7 @@ const SHOTS = {
       el2(this.sn, 'ellipse', { cx: nx + 265, cy: ny - 318, rx: 40, ry: 24, fill: '#7E7A4E', transform: `rotate(-25 ${nx + 265} ${ny - 318})` });
       el2(this.sn, 'circle', { cx: nx + 258, cy: ny - 326, r: 4, fill: '#F3EEE4' });
       this.lk = L.text(`${kj('鎌首')} <i>kamakubi</i> · a snake's raised head and neck<br><span class="soft">literally, a neck curved like a sickle</span>`, { x: 1000, y: 780, size: 40, w: 820 }); this.lk.classList.add('wrap');
-      this.lg = L.text('"gooseneck": an English name, not a translation · the Japanese name says nothing about geese', { x: 960, y: 980, size: 36, align: 'center', cls: 'plate' });
+      this.lg = L.text('"gooseneck": an English name, not a translation · the Japanese name says nothing about geese', { x: 960, y: 955, size: 36, align: 'center', cls: 'plate' });
       this.n = L.text('schematic', { x: 1824, y: 60, size: 36, cls: 'soft', align: 'right' });
     },
     frame(t, sh) {
@@ -127,7 +127,7 @@ const SHOTS = {
   S05: {
     build() {
       const svg = L.svgLayer(), S = 2.6, cy = 330;
-      this.h = L.text('Plans, drawn to the same scale', { x: 96, y: 54, size: 48 }); this.h.style.fontWeight = 700;
+      this.h = L.text('Plans, drawn to the same scale', { x: 96, y: 62, size: 48 }); this.h.style.fontWeight = 700;
       // gooseneck: a 120 mm member stub with its tenon pointing left
       this.gk = el2(svg, 'g', {}); const gx = 560;
       el2(this.gk, 'rect', { x: gx, y: cy - G.W / 2 * S, width: 240, height: G.W * S, fill: WOODL, stroke: INK, 'stroke-width': 3 });
@@ -193,7 +193,7 @@ const SHOTS = {
   S07: {
     build() {
       const svg = L.svgLayer(), S = 3.2, y0 = 560, xj = 960, Hs = G.H * S, sb = 30 * S;
-      this.h = L.text('Limits', { x: 96, y: 54, size: 56 }); this.h.style.fontWeight = 700;
+      this.h = L.text('Limits', { x: 96, y: 64, size: 56 }); this.h.style.fontWeight = 700;
       this.side = el2(svg, 'g', {});
       el2(this.side, 'path', { d: `M${xj - 560},${y0} H${xj + G.SEAT * S} V${y0 - Hs / 2} H${xj} V${y0 - Hs} H${xj - 560} Z`, fill: WOOD, stroke: INK, 'stroke-width': 3 });
       el2(this.side, 'path', { d: `M${xj + 560},${y0} H${xj + G.SEAT * S} V${y0 - Hs / 2} H${xj} V${y0 - Hs} H${xj + 560} Z`, fill: WOODL, stroke: INK, 'stroke-width': 3 });

@@ -108,7 +108,7 @@ const SHOTS = {
     build() {
       this.l = L.text('the finished joint: the male drops in from above', { x: 96, y: 966, size: 40, cls: 'plate' });
       this.src = L.text(SRC, { x: 1824, y: 60, size: 36, cls: 'soft', align: 'right' });
-      this.st = L.text('the course\'s exercise adds a stub tenon at the seat: left out here', { x: 96, y: 920, size: 36, cls: 'plate' });
+      this.st = L.text('the course\'s exercise adds a stub tenon at the seat: left out here', { x: 96, y: 900, size: 36, cls: 'plate' });
     },
     frame(t, sh) {
       const sc = getScene(), e = sh.ev; resetScene(sc); showState(sc.F, 2); showState(sc.M, 2);
@@ -185,7 +185,7 @@ const SHOTS = {
       this.c0 = P('cut the end at the end line · mark the end grain');
       this.c1 = P('rip in, leaving half the line · angle the saw clear of the seat');
       this.c2 = P('crosscut, leaving half the line: the seat');
-      this.c3 = P('chop the tip straight down, taking the line · then the sides, along the kerfs · clear it from the side');
+      this.c3 = P('chop the tip straight down, taking the line · then the sides · clear it out');
       this.c4 = P('the tip: dug about 3 mm (1 bu) past the line · the floor flat and level with the seat');
       this.c5 = P('the head\'s sides: chopped leaving half the line');
       this.src = L.text(SRC, { x: 1824, y: 60, size: 36, cls: 'soft', align: 'right' });
