@@ -752,3 +752,4 @@ timestamp,model,purpose,units,cost_usd,generation_id
 2026-10-25T09:43:06Z,google/gemini-3.8-flash-tts,ep12 narration N11 take 2,206 chars,0.003857,gen-tts-1792921371-8BuE3ysORFojaxTrgiCk
 2026-10-25T09:43:34Z,google/gemini-3.8-flash-tts,ep12 narration N15 take 2,76 chars,0.001321,gen-tts-1792921401-shpdz2szqHjagi00bTtF
 2026-10-25T09:43:58Z,google/gemini-3.8-flash-tts,ep12 narration N17 take 2,176 chars,0.003771,gen-tts-1792921423-jl6e5zYQfPuBxCzoczQ3
+2026-10-25T09:46:14Z,google/gemini-3.8-flash-tts,ep12 narration N08 take 3,156 chars,0.003204,gen-tts-1792921560-21fsEjq1hdeI802q4PBv

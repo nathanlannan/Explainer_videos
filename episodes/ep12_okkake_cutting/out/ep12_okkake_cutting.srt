@@ -1,0 +1,268 @@
+1
+00:00:00,800 --> 00:00:06,890
+The upper piece is lowered onto
+the lower, and the pegs go in.
+
+2
+00:00:07,720 --> 00:00:12,290
+This time we mark one
+piece out and cut it,
+
+3
+00:00:12,380 --> 00:00:16,430
+step by step, following
+one training course.
+
+4
+00:00:16,900 --> 00:00:20,650
+The course marks and cuts
+the lower piece first.
+
+5
+00:00:21,180 --> 00:00:26,150
+The upper piece is the same shape,
+but its slope runs the other way.
+
+6
+00:00:31,333 --> 00:00:33,903
+Marking starts on the top face:
+
+7
+00:00:34,533 --> 00:00:37,833
+the end line, then the
+line for the housing
+
+8
+00:00:37,873 --> 00:00:40,343
+that will take the other piece's tongue.
+
+9
+00:00:40,700 --> 00:00:46,240
+Next, the shoulder lines and
+the line along the beam, then
+
+10
+00:00:46,280 --> 00:00:49,750
+the other shoulder, with
+marks to locate the slope.
+
+11
+00:00:50,100 --> 00:00:55,400
+Using those marks, the slope
+line goes on the top face and
+
+12
+00:00:55,440 --> 00:00:59,290
+on one side face, with
+that face's shoulder lines.
+
+13
+00:01:00,080 --> 00:01:03,430
+The underside is then marked
+the same way as the top.
+
+14
+00:01:03,767 --> 00:01:08,487
+On the other side face goes the
+splice's center line, and the
+
+15
+00:01:08,527 --> 00:01:12,577
+peg center lines are set out
+evenly either side of it.
+
+16
+00:01:13,407 --> 00:01:17,027
+For some of the peg
+lines, the course uses the
+
+17
+00:01:17,067 --> 00:01:20,757
+sashigane's blade width as a quick gauge.
+
+18
+00:01:25,000 --> 00:01:26,830
+Cutting the lower piece.
+
+19
+00:01:27,900 --> 00:01:33,290
+Cut the end at the end line,
+and mark the end grain.
+
+20
+00:01:33,667 --> 00:01:37,017
+Most of these cuts leave half the line:
+
+21
+00:01:37,727 --> 00:01:40,307
+the edge of the cut falls
+on the middle of the
+
+22
+00:01:40,347 --> 00:01:44,517
+ink line, so half of
+it stays on the piece.
+
+23
+00:01:45,727 --> 00:01:47,377
+Episode ten did the same.
+
+24
+00:01:47,733 --> 00:01:52,173
+Before sawing the joint, the
+course chops the peg holes
+
+25
+00:01:52,213 --> 00:01:56,443
+from the side face, about a
+quarter of the width deep.
+
+26
+00:01:56,867 --> 00:02:02,467
+Then it rips along the beam
+from the end, leaving half the
+
+27
+00:02:02,507 --> 00:02:08,357
+line, to just past the slope,
+and crosscuts at the slope.
+
+28
+00:02:09,087 --> 00:02:12,217
+The first block of waste comes away.
+
+29
+00:02:12,533 --> 00:02:16,443
+It crosscuts the shoulder,
+leaving half the line,
+
+30
+00:02:16,833 --> 00:02:20,343
+down to just short of
+the line along the beam.
+
+31
+00:02:21,113 --> 00:02:25,053
+Then it drives a chisel into
+the end grain at the slope
+
+32
+00:02:25,093 --> 00:02:29,023
+cut, and splits that waste
+off, back to the shoulder.
+
+33
+00:02:29,733 --> 00:02:33,323
+Mark the slope again,
+on the newly split face.
+
+34
+00:02:34,393 --> 00:02:39,683
+Saw it, leaving half the line, to
+just short of the line along the beam.
+
+35
+00:02:40,373 --> 00:02:44,473
+Then add kerfs about a
+chisel's width apart, back
+
+36
+00:02:44,513 --> 00:02:47,763
+to the shoulder, careful
+not to saw too deep.
+
+37
+00:02:48,653 --> 00:02:52,243
+Chop them out, and pare,
+leaving half the line.
+
+38
+00:02:52,567 --> 00:02:55,477
+Next, the housing at the shoulder:
+
+39
+00:02:55,687 --> 00:02:58,237
+kerfs, then the chisel.
+
+40
+00:02:59,287 --> 00:03:02,977
+Then the tongue that goes into
+the other piece's housing:
+
+41
+00:03:03,627 --> 00:03:07,897
+a rip and a crosscut,
+leaving half the line.
+
+42
+00:03:08,233 --> 00:03:14,243
+Last, it marks the peg holes on
+the newly cut faces and chops them.
+
+43
+00:03:14,533 --> 00:03:20,023
+The upper piece is the same shape, cut
+with its slope running the other way.
+
+44
+00:03:24,067 --> 00:03:28,427
+Then the upper piece is
+lowered onto the lower,
+
+45
+00:03:28,467 --> 00:03:32,297
+and the two pegs go in
+from opposite sides.
+
+46
+00:03:32,733 --> 00:03:39,883
+One test database warns against a
+fit so tight it has to be driven in.
+
+47
+00:03:40,453 --> 00:03:44,913
+It suggests a fit where light
+taps bring the two pieces
+
+48
+00:03:44,953 --> 00:03:48,723
+level, with the pegs there
+to stop them slipping.
+
+49
+00:03:51,433 --> 00:03:53,303
+That's the end of this series:
+
+50
+00:03:53,813 --> 00:03:58,033
+from the story stick and the
+marking kit, through the saws and
+
+51
+00:03:58,073 --> 00:04:03,203
+chisels, to three splices, a
+crossing joint and a tenon.
+
+52
+00:04:06,900 --> 00:04:13,640
+Mark the lower piece first, chop the
+peg holes early, take the waste off in
+
+53
+00:04:13,680 --> 00:04:20,830
+stages, cut the slope, and make the
+upper the same, with its slope reversed.
+
+54
+00:04:30,900 --> 00:04:31,885
+One note:
+
+55
+00:04:31,925 --> 00:04:37,120
+sharp-tool technique, and how
+to use these tools safely, is
+
+56
+00:04:37,160 --> 00:04:40,770
+best learned from a teacher,
+at a bench, in person.

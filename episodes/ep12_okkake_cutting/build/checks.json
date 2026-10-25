@@ -1,0 +1,15 @@
+{
+ "final_equals_ep11_lower_mm3_diff": 0.0,
+ "final_equals_ep11_lower": true,
+ "each_stage_removes_wood": true,
+ "stage_volumes_mm3": [
+  23760000,
+  23220000,
+  23206500,
+  21363750,
+  19662750,
+  19176750,
+  18981000
+ ],
+ "ok": true
+}
