@@ -263,8 +263,13 @@ const SHOTS = {
       sc.kerfs.visible = t > e.kerfs - 0.3 && t < e.chop + 1.2;
       const s = stroke(t);
       if (t > e.rip - 0.2 && t < e.cross) { const d = (G.L + G.SEAT) * L.ramp(t, e.rip, e.cross - 0.3); poseSaw(sc.tools.ry, { ...RY, plate: 0.6 }, false, [0, 0, -1], [-1, 0, 0], [-G.L + d, HALF, W / 2 + 40], 40 + 120 * s); }
+      else if (t > e.head - 0.2 && t < e.shoulder - 0.3) { // rip down one head side, along its slanted line, to the neck
+        const dx = -G.L / 2 - -G.L, dz = j - G.TIP / 2, len = Math.hypot(dx, dz), d = [dx / len, 0, dz / len];
+        const dep = HALF * L.ramp(t, e.head, e.narrower);
+        poseSaw(sc.tools.ry, { ...RY, plate: 0.6 }, true, d, [0, 1, 0], [-G.L * 0.75, H - dep, (G.TIP / 2 + j) / 2 + 0.3], 40 + 120 * s);
+      }
       else if (t > e.chop - 0.3 && t < e.chamfer + 2.0) { const c = sc.tools.ch; c.piv.visible = true; c.piv.rotation.set(0, Math.PI / 2, 0.25); c.piv.position.set(-G.L / 4, H - 10, n + 14 + 8 * s); }
-      const cam = L.camera('threeQ', [-G.L / 2, HALF + 10, 0], 860, { orbit: 0.55, lift: 0.55 });
+      const cam = L.camera('threeQ', [-G.L * 0.6, H - 10, 0], 900, { orbit: 0.55, lift: 0.5 });
       this.items.forEach((x) => x.remove()); this.items = [];
       const strokeA = (a, b, op) => { const ar = arrow3(this.svg, cam, a, b, { w: 5 }); ar.setAttribute('opacity', op); this.items.push(ar); };
       const xs = win(t, e.cross, e.head); if (xs > 0.01) strokeA([G.SEAT, 0, W / 2 + 2], [G.SEAT, HALF, W / 2 + 2], xs);
