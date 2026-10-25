@@ -2,14 +2,15 @@
 // series close. Every piece shown is one of the exact cut states from params.py (L0-L6); the finished state equals
 // Episode 11's lower piece. Saw cuts are drawn as schematic strokes; waste comes away as the course describes.
 import { makeEdgeTools } from '/shared/render/edgetools.js';
-let L, THREE, G, TL, ET;
+import { makeSaws } from '/shared/render/saws.js';
+let L, THREE, G, TL, ET, SAWS;
 const R = (p) => `/episodes/ep12_okkake_cutting/${p}`;
 
 export async function init(lib) {
   L = lib; THREE = lib.THREE;
   G = await (await fetch(R('build/geometry.json'))).json();
   TL = await (await fetch(R('build/timeline.json'))).json();
-  ET = makeEdgeTools(L);
+  ET = makeEdgeTools(L); SAWS = makeSaws(L);
   const byId = Object.fromEntries(TL.shots.map((s) => [s.id, s]));
   const shots = Object.entries(SHOTS).map(([id, def]) => ({ id, ...byId[id], ...def }));
   return { shots, fps: TL.fps, total: TL.total };
@@ -70,14 +71,26 @@ function getScene() {
   [wSlice, wA, wB, wS, wT].forEach((m) => lG.add(m));
   const ch = ET.chisel({ blade: 60, width: 15, thick: 7, bevel: 28, neck: 40, handle: 110, handle_d: 26, hoop: true });
   const cp = new THREE.Group(); cp.add(ch.g); s.add(cp); ch.piv = cp; cp.visible = false;
-  S = { s, P, lG, uG, pegs, blk, mEnd, mHousing, mShoulder, mAlong, mOther, mSlope, mFar, mPegs, mSlope2, kerfs, wSlice, wA, wB, wS, wT, ch, xs };
+  const ry = SAWS.ryoba({ len: 240, h_heel: 95, h_toe: 120, plate: 0.6, neck: 60, handle: 260, handle_d: 30, rip_pitch: 9, cross_pitch: 4.5 });
+  const rp = new THREE.Group(); rp.add(ry.g); s.add(rp); ry.piv = rp; rp.visible = false;
+  S = { s, ry, P, lG, uG, pegs, blk, mEnd, mHousing, mShoulder, mAlong, mOther, mSlope, mFar, mPegs, mSlope2, kerfs, wSlice, wA, wB, wS, wT, ch, xs };
   return S;
 }
 function state(sc, k) { sc.P.forEach((m, i) => { m.visible = i === k; }); }
 function reset(sc) {
   ['mEnd', 'mHousing', 'mShoulder', 'mAlong', 'mOther', 'mSlope', 'mFar', 'mPegs', 'mSlope2', 'kerfs', 'wSlice', 'wA', 'wB', 'wS', 'wT'].forEach((k) => { sc[k].visible = false; sc[k].position.set(0, 0, 0); });
-  sc.uG.visible = false; sc.uG.position.set(0, 0, 0); sc.pegs.forEach((p) => { p.visible = false; p.position.set(0, 0, 0); }); sc.ch.piv.visible = false;
+  sc.uG.visible = false; sc.uG.position.set(0, 0, 0); sc.pegs.forEach((p) => { p.visible = false; p.position.set(0, 0, 0); }); sc.ch.piv.visible = false; sc.ry.piv.visible = false;
 }
+function poseSaw(t, P, edgeTop, dir, up, p, sAlong) {
+  const d = new THREE.Vector3(...dir).normalize(), u = new THREE.Vector3(...up).normalize();
+  const yl = edgeTop ? u.clone().negate() : u.clone(), zl = new THREE.Vector3().crossVectors(d, yl).normalize();
+  t.piv.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(d, yl, zl));
+  const hh = edgeTop ? P.h_heel + (P.h_toe - P.h_heel) * sAlong / P.len : 0;
+  const local = new THREE.Vector3(sAlong, hh, 0).applyQuaternion(t.piv.quaternion);
+  t.piv.position.set(p[0] - local.x, p[1] - local.y, p[2] - local.z); t.piv.visible = true;
+}
+const RY = { len: 240, h_heel: 95, h_toe: 120 };
+const sawStroke = (t, period = 1.4) => { const f = (t / period) % 1; return f < 0.6 ? L.ease(f / 0.6) : 1 - L.ease((f - 0.6) / 0.4); };
 const stroke = (t, period = 0.9) => { const f = (t / period) % 1; return f < 0.3 ? f / 0.3 : 1 - (f - 0.3) / 0.7; };
 
 const SHOTS = {
@@ -136,6 +149,10 @@ const SHOTS = {
       const far = t > e.holes - 0.5 && t < e.rips - 0.3;
       if (far) { const c = sc.ch; c.piv.visible = true; c.piv.rotation.set(Math.PI / 2, 0, 0); c.piv.position.set(Lk / 4, H / 2, -W / 2 - 10 - 25 * stroke(t)); }
       if (t > e.chisel - 0.3 && t < e.splits + 0.3) { const c = sc.ch; c.piv.visible = true; c.piv.rotation.set(0, 0, -Math.PI / 2); c.piv.position.set(Lk / 2 + 4, H + 10 + 20 * stroke(t), W / 4 + ee / 2); }
+      const sk = sawStroke(t);
+      if (t > e.rips - 0.2 && t < e.cross - 0.2) { const dep = H * L.ramp(t, e.rips, e.cross - 0.5); poseSaw(sc.ry, RY, true, [-1, 0, 0], [0, 1, 0], [Lk * 0.75 + 20, H - dep, ee + 0.3], 40 + 120 * sk); }
+      else if (t > e.cross - 0.2 && t < e.away - 0.2) { const dep = H * L.ramp(t, e.cross, e.away - 0.5); poseSaw(sc.ry, RY, true, [0, 0, -1], [0, 1, 0], [Lk / 2 + 0.3, H - dep, W / 2 - 20], 40 + 100 * sk); }
+      else if (t > e.shoulder - 0.2 && t < e.chisel - 0.2) { const dep = H * L.ramp(t, e.shoulder, e.chisel - 0.5); poseSaw(sc.ry, RY, true, [0, 0, -1], [0, 1, 0], [0.3, H - dep, W / 2 - 20], 40 + 100 * sk); }
       const cam = far ? L.camera('threeQ', [Lk / 2, H / 2, 0], 1300, { orbit: Math.PI - 0.35, lift: 0.4 }) : L.camera('threeQ', [Lk / 2, H / 2, 0], 1300, { orbit: -0.3, lift: 0.6 });
       const sa = win(t, e.rips, e.away); if (sa > 0.01) { const a1 = arrow3(this.svg, cam, [Lk + F, H + 2, ee], [Lk / 2 - 15, H + 2, ee], { w: 5 }); a1.setAttribute('opacity', sa); this.items.push(a1); const a2 = arrow3(this.svg, cam, [Lk / 2, H + 2, W / 2], [Lk / 2, H + 2, ee + 2], { w: 5 }); a2.setAttribute('opacity', r(t, e.cross) * sa); this.items.push(a2); }
       const sb = win(t, e.shoulder, e.chisel); if (sb > 0.01) { const a3 = arrow3(this.svg, cam, [0, H + 2, W / 2], [0, H + 2, ee + 3], { w: 5 }); a3.setAttribute('opacity', sb); this.items.push(a3); }
