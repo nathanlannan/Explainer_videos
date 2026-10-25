@@ -1,21 +1,17 @@
-# Episode 4 · Part 2: Chisels, Hammer and Plane (Gate A plan)
+# Episode 2 · Part 1 storyboard (as built)
 
-Facts come from `research/ep04_fact_pack.md` (rows R5-15 to R5-26). Narration is in `narration.json`. The target runtime is 4:30–5:30, with study holds added.
-
-| Shot | Lines | Visual | Facts |
-|---|---|---|---|
-| S01 Cold open | N01–N02 | 3D: a kanna pulled along a board toward the camera; a shaving curls up out of the mouth; "pull" arrow. | R5-22 |
-| S02 Title | — | Title card: Episode 4 · Part 2 · The Cutting Kit / Chisels, Hammer and Plane. | |
-| S03 Two families | N03–N04 | 3D: a tataki-nomi (hoop on the handle) beside a longer tsuki-nomi (no hoop). Labels 叩き鑿 struck / 突き鑿 pushed. The hoop is called out as katsura (kana かつら only: the kanji 桂 is unconfirmed). | R5-15, R5-18 |
-| S04 Bench and mortise chisels | N05 | 3D: oire-nomi (追入鑿) and mukōmachi-nomi (向待鑿), side by side. The mortise chisel chops straight down (ghosted motion). Study hold. | R5-16, R5-17 |
-| S05 The blade | N06–N07 | 2D section: single bevel; a hard-steel layer (鋼 hagane) on the flat back, forge-welded to softer iron (地金 jigane); the back hollow (裏スキ urasuki) shown shallow; the bevel flat (a ✕ only on a "hollow-ground bevel" ghost, if shown at all). Study hold. | R5-10, R5-19, R5-20 |
-| S06 The gennō | N08–N09 | 3D gennō: flat face and domed face, labelled. A nail is driven with the flat face; the last blows use the domed face (木殺し面 kigoroshi-men). | R5-21 |
-| S07 The kanna | N10–N12 | 3D kanna: block (台 dai), blade (鉋 kanna), chip breaker (裏金 uragane). A pull arrow; a tap on the blade's head advances it, a tap on the block retracts it. Labels: "two-blade plane: Meiji era". Study hold. | R5-22–R5-25 |
-| S08 Western cousins | N13 | 2D silhouettes: bench chisel, claw hammer / mallet, bench plane (push), beside the Japanese tools (pull for the plane). | R5-22 |
-| S09 Sharp | N14 | 2D card: "a dull tool invites injury · never point an edge at yourself or anyone else" (skills-test manual). | R5-26 |
-| S10 Next | N15 | Teaser: Episode 5 · the first joint, koshikake ari-tsugi (romaji only until verified). | |
-| S11 Recap and glossary | N16 | Glossary held ≥ 8 s. | |
-| S12 A note | N17 | Quiet closing card: learn sharp-tool technique from a teacher. | |
-| S13 End card | — | | |
-
-**Model choices:** tool shapes are illustrative and not to scale. No dimensions are stated on screen.
+| Shot | Time | Dur | Camera | On screen | Narration |
+|---|---|---|---|---|---|
+| S01 Pull the plane | 0:00.0 | 20.1 s | threeQ | A kanna pulled along a board toward the viewer; a shaving curls up out of the mouth. | A Japanese plane is pulled toward you. A thin shaving curls up out of the block. This time, the rest of the cutting kit: chisels, the hammer, and the plane, each one beside its Western cousin. |
+| S02 Title card | 0:20.1 | 3.6 s | card | Series title card: Episode 4 · Part 2 · Chisels, Hammer and Plane. | — |
+| S03 Two families | 0:23.7 | 24.4 s | threeQ | A struck chisel (hoop on the handle) beside a longer pushed chisel (no hoop). Study hold 3.5 s. | Japanese chisels, nomi, come in two families. Tataki-nomi are struck with a hammer. Tsuki-nomi are pushed by hand, with no hammer. A struck chisel has an iron hoop fitted around the end of its handle. This hoop is called the katsura. |
+| S04 Bench and mortise chisels | 0:48.1 | 21.2 s | threeQ | Oire-nomi and mukōmachi-nomi side by side; the mortise chisel chops straight down. Study hold 3.5 s. | The general bench chisel, struck with a hammer, is the oire-nomi. You'll also see it read oiire, or written ōire. For deep mortises there is the mukōmachi-nomi, with a thick blade. |
+| S05 The blade | 1:09.3 | 52.4 s | 2d | Section: single bevel; hard steel layer on the flat back, forge-welded to softer iron; the shallow back hollow; the bevel flat. Study hold 3.5 s. | Now look at the blade itself. A woodworking chisel is bevelled on one side only. And it's made of two layers: a thin layer of hard steel, hagane, forge-welded to a thicker body of softer iron, jigane. The softer iron supports the brittle steel and absorbs shock, so the steel doesn't break. One Japanese blade maker puts it simply: foreign blades are usually one piece of steel; Japanese blades are laminated. The back of the blade has a shallow hollow, the urasuki. It makes the back easier to flatten. The hollow is in the back, not the bevel: the chisel is not hollow-ground. |
+| S06 The gennō | 2:01.7 | 25.7 s | threeQ | Gennō with flat and domed faces; a nail driven with the flat face, finished with the domed face. Study hold 3.0 s. | The hammer is the gennō. One face is flat; the other is slightly domed. Driving a nail, you strike with the flat face, then give the last blows with the domed face, so the surface isn't marked. The domed face is the kigoroshi-men: literally, the wood-killing face. |
+| S07 The kanna | 2:27.4 | 51.3 s | threeQ | Kanna: block, blade, chip breaker; pull arrow; taps on the blade's head advance it, on the block draw it back. Study hold 3.5 s. | The plane is the kanna. Like the saw, it's pulled toward you. Western and Chinese planes are pushed. The blade sits in a wooden block, the dai, usually of oak. In the national skills-test manual, the blade is set by tapping with a hammer: on the blade's head to set it deeper, and on the corners of the block's head end to draw it back. A two-blade plane, nimai-ganna, adds a second iron behind the blade: the chip breaker, uragane. It helps stop tear-out. Like the ryōba, it is a Meiji-era development, not an ancient one. |
+| S08 Western cousins | 3:18.6 | 16.7 s | 2d | Bench chisel, hammer and mallet, bench plane (push) beside the Japanese tools. Study hold 2.0 s. | If you work with Western tools, the jobs are the same: bench chisels, a hammer or mallet, a bench plane. The plane is the clearest difference: a Western plane is pushed. |
+| S09 Keep it sharp | 3:35.3 | 19.8 s | 2d | Card: a dull tool invites injury; never point an edge at yourself or anyone else (skills-test manual). Study hold 1.5 s. | Chisels and planes depend on a sharp edge. The skills-test manual warns that a dull tool invites injury, and never to point a chisel's edge at yourself or anyone else. It also says to sharpen chisels and planes well after use. |
+| S10 Next time | 3:55.1 | 5.9 s | 2d | Teaser: Episode 5 · the first joint, koshikake ari-tsugi. | Next time, our first joint: the koshikake ari-tsugi. |
+| S11 Recap and glossary | 4:00.9 | 20.5 s | 2d | One sentence + glossary; held still for study. Study hold 9.0 s. | Strike the chisel, or push it. Tap the blade into its block. Pull the plane. And keep every edge sharp. |
+| S12 A note on sharp tools | 4:21.5 | 11.6 s | 2d | Quiet closing card: learn sharp-tool technique from a teacher. | One note: sharp-tool technique, and how to use these tools safely, is best learned from a teacher, at a bench, in person. |
+| S13 End card | 4:33.1 | 3.2 s | card | Series end card: next episode. | — |

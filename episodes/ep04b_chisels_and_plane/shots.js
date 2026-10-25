@@ -238,10 +238,10 @@ const SHOTS = {
       const r = (x) => L.ramp(t, x - 0.3, x + 0.3);
       // tap arrows: along the blade's axis onto its head; and down onto the block's head-end top corners (x = 0)
       const ax = [-Math.cos(a), Math.sin(a)];
-      const ta = arrow3(this.svg, cam, W(head[0] + ax[0] * 90, head[1] + ax[1] * 90, 0), W(head[0] + ax[0] * 6, head[1] + ax[1] * 6, 0), { w: 5 }); ta.setAttribute('opacity', r(e.adv)); this.arrs.push(ta);
-      [-1, 1].forEach((sd) => { const tb = arrow3(this.svg, cam, W(4, K.h + 90, sd * (K.w / 2 - 4)), W(4, K.h + 4, sd * (K.w / 2 - 4)), { w: 5 }); tb.setAttribute('opacity', r(e.back)); this.arrs.push(tb); });
-      anchor(this.tapA, cam, W(head[0] + ax[0] * 90, head[1] + ax[1] * 90, 0), 60, -110); L.show(this.tapA, r(e.adv));
-      anchor(this.tapB, cam, W(4, K.h + 4, -K.w / 2), -520, 40); L.show(this.tapB, r(e.back));
+      const ta = arrow3(this.svg, cam, W(head[0] + ax[0] * 90, head[1] + ax[1] * 90, 0), W(head[0] + ax[0] * 6, head[1] + ax[1] * 6, 0), { w: 5 }); ta.setAttribute('opacity', r(e.adv) * (1 - r(e.nimai))); this.arrs.push(ta);
+      [-1, 1].forEach((sd) => { const tb = arrow3(this.svg, cam, W(4, K.h + 90, sd * (K.w / 2 - 4)), W(4, K.h + 4, sd * (K.w / 2 - 4)), { w: 5 }); tb.setAttribute('opacity', r(e.back) * (1 - r(e.nimai))); this.arrs.push(tb); });
+      anchor(this.tapA, cam, W(head[0] + ax[0] * 90, head[1] + ax[1] * 90, 0), 60, -110); L.show(this.tapA, r(e.adv) * (1 - r(e.nimai)));
+      anchor(this.tapB, cam, W(4, K.h + 4, -K.w / 2), -520, 40); L.show(this.tapB, r(e.back) * (1 - r(e.nimai)));
       const pa = arrow3(this.svg, cam, W(K.len + 20, 6, K.w / 2 + 30), W(K.len + 180, 6, K.w / 2 + 30), { w: 6, head: 24 }); pa.setAttribute('opacity', r(e.pull) * (1 - r(e.dai))); this.arrs.push(pa);
       anchor(this.pull, cam, W(K.len + 100, 6, K.w / 2 + 30), -40, 10); L.show(this.pull, r(e.pull) * (1 - r(e.dai)));
       L.show(this.term, r(e.term)); L.show(this.dai, r(e.dai)); L.show(this.bl, r(e.dai) * (1 - r(e.adv - 0.5)) + r(e.cb));
