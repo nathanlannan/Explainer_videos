@@ -1,4 +1,4 @@
-# Gate C: QA report, Episode 2
+# Gate C: QA report, ep05_koshikake_aritsugi
 
 Overall: **PASS**
 
