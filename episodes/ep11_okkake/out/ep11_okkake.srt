@@ -1,0 +1,265 @@
+1
+00:00:00,800 --> 00:00:07,150
+Two beams meet end to end, each
+cut away to about half its width.
+
+2
+00:00:07,940 --> 00:00:12,080
+The upper piece is lowered
+from above, and two
+
+3
+00:00:12,120 --> 00:00:14,950
+hardwood pegs are driven
+in from the sides.
+
+4
+00:00:15,400 --> 00:00:18,343
+This is the okkake daisen-tsugi.
+
+5
+00:00:18,960 --> 00:00:25,310
+One English glossary describes it as an
+oblique, housed and rabbeted scarf joint.
+
+6
+00:00:30,767 --> 00:00:35,697
+Japanese references read
+it okkake daisen-tsugi.
+
+7
+00:00:36,607 --> 00:00:41,197
+Daisen is written with the
+characters for large and peg.
+
+8
+00:00:42,147 --> 00:00:45,600
+Without the pegs, the same
+joint is called okkake-tsugi.
+
+9
+00:00:46,467 --> 00:00:52,547
+In episode nine, the Flat 35
+house specification offered two
+
+10
+00:00:52,587 --> 00:00:57,197
+splices for the beams in the
+outer walls at second-floor level:
+
+11
+00:00:57,667 --> 00:00:59,917
+the gooseneck, or this one.
+
+12
+00:01:03,467 --> 00:01:07,717
+Unlike the gooseneck, the two
+pieces aren't different shapes.
+
+13
+00:01:08,327 --> 00:01:13,247
+Both are the same shape, turned
+end for end, though one training
+
+14
+00:01:13,287 --> 00:01:17,937
+course warns that the slope runs
+the other way on the upper piece.
+
+15
+00:01:18,687 --> 00:01:22,137
+They're called the lower
+piece and the upper piece:
+
+16
+00:01:22,627 --> 00:01:27,417
+the lower piece is set first, and
+the upper piece is lowered onto it.
+
+17
+00:01:27,867 --> 00:01:34,577
+Over the splice, each piece keeps about
+half the width, but its full depth.
+
+18
+00:01:35,507 --> 00:01:41,447
+Seen from above, the joint line runs
+along the beam, with a step at the
+
+19
+00:01:41,487 --> 00:01:47,297
+middle, the ago, and a small
+tongue at each end, the mechigai.
+
+20
+00:01:47,567 --> 00:01:50,797
+The step at the middle has a slight slope.
+
+21
+00:01:51,167 --> 00:01:55,947
+As the upper piece is lowered,
+the slope draws the two pieces
+
+22
+00:01:55,987 --> 00:02:01,217
+together along the beam, until
+the end shoulders close up tight.
+
+23
+00:02:01,600 --> 00:02:06,670
+Then two pegs go in through the
+side faces, from opposite sides.
+
+24
+00:02:07,160 --> 00:02:09,790
+They stop the joint lifting back out.
+
+25
+00:02:10,320 --> 00:02:15,510
+It's the slope, not the pegs, that the
+sources credit with drawing it tight.
+
+26
+00:02:15,900 --> 00:02:19,640
+In our model, without the
+pegs it can't be pulled apart
+
+27
+00:02:19,680 --> 00:02:24,330
+or pushed sideways, but
+it can lift straight out.
+
+28
+00:02:24,840 --> 00:02:27,130
+With the pegs in, it can't.
+
+29
+00:02:31,167 --> 00:02:37,927
+The Flat 35 specification offers
+it for those outer-wall beams, for
+
+30
+00:02:37,967 --> 00:02:43,377
+eaves plates, and for one option
+on second-floor floor beams.
+
+31
+00:02:44,227 --> 00:02:48,187
+For roof beams it's the first
+choice; the gooseneck is
+
+32
+00:02:48,227 --> 00:02:51,907
+allowed only where the beam
+is about a hundred and twenty
+
+33
+00:02:51,947 --> 00:02:56,677
+millimeters deep, and then
+with steel straps and bolts.
+
+34
+00:02:57,200 --> 00:03:00,920
+None of those clauses names
+hardware for this splice.
+
+35
+00:03:00,960 --> 00:03:07,930
+As in each of them, it's placed off the
+post, a short way out along the beam.
+
+36
+00:03:12,067 --> 00:03:13,657
+How long should it be?
+
+37
+00:03:14,307 --> 00:03:18,867
+A carpenters' training course says
+about three times the depth gives the
+
+38
+00:03:18,907 --> 00:03:24,893
+most strength, and a joinery handbook
+gives three to four times for beams
+
+39
+00:03:24,933 --> 00:03:28,837
+a hundred and five or a hundred
+and twenty millimeters deep.
+
+40
+00:03:29,907 --> 00:03:34,457
+One test database suggests
+one and a half to three times.
+
+41
+00:03:34,900 --> 00:03:38,890
+Our model uses one
+laboratory's test proportions:
+
+42
+00:03:39,280 --> 00:03:43,260
+a beam a hundred and twenty
+millimeters wide and a
+
+43
+00:03:43,300 --> 00:03:47,470
+hundred and eighty deep, with
+a splice twice the depth.
+
+44
+00:03:47,833 --> 00:03:54,353
+In that lab's tests, at the same depth,
+these splices held two to three and a half
+
+45
+00:03:54,393 --> 00:04:00,143
+times the pull of its gooseneck specimens,
+though they were also much longer.
+
+46
+00:04:01,013 --> 00:04:06,503
+Again, the depth of the beam mattered
+more than the length of the splice.
+
+47
+00:04:06,867 --> 00:04:12,337
+It resists bending better than
+the gooseneck, but only partly.
+
+48
+00:04:13,047 --> 00:04:17,957
+The test database notes it's
+often treated as a pin in design.
+
+49
+00:04:18,367 --> 00:04:24,857
+And it's slow to cut by hand, because the
+two pieces are fitted against each other.
+
+50
+00:04:25,247 --> 00:04:31,377
+One architect's guide reports one
+to four splices per person per day.
+
+51
+00:04:35,567 --> 00:04:36,657
+Next time:
+
+52
+00:04:36,987 --> 00:04:39,517
+marking it out and cutting it.
+
+53
+00:04:40,433 --> 00:04:42,730
+The okkake daisen-tsugi:
+
+54
+00:04:43,313 --> 00:04:48,573
+two pieces of the same shape,
+the upper lowered onto the lower
+
+55
+00:04:48,613 --> 00:04:52,823
+along a slope, then pegged
+so they can't lift apart.

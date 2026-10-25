@@ -10,14 +10,14 @@
   {
    "id": "N02",
    "section": 1,
-   "text": "This is the okkake daisen-tsugi. One English glossary calls it an oblique, housed scarf joint.",
-   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress. Say 'okkake daisen-tsugi' as o-k-ka-ke (a short pause on the double k), dai-sen, tsu-gi: short, even syllables, hard g."
+   "text": "This is the okkake daisen-tsugi. One English glossary describes it as an oblique, housed and rabbeted scarf joint.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress. Say 'okkake daisen-tsugi' as o-k-ka-ke (a short pause on the double k), dai-sen, tsu-gi: short, even syllables, hard g. The last word is 'tsugi': start it with a clear 'ts' sound, as in 'tsunami', never 'sugi'."
   },
   {
    "id": "N03",
    "section": 2,
-   "text": "Two dictionaries read it okkake daisen-tsugi. Daisen, literally a large peg. Without the pegs, the same joint is called okkake-tsugi.",
-   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress. Say 'okkake daisen-tsugi' as o-k-ka-ke (a short pause on the double k), dai-sen, tsu-gi: short, even syllables, hard g. Say 'dai-sen' as two short syllables."
+   "text": "Japanese references read it okkake daisen-tsugi. Daisen is written with the characters for large and peg. Without the pegs, the same joint is called okkake-tsugi.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress. Say 'okkake daisen-tsugi' as o-k-ka-ke (a short pause on the double k), dai-sen, tsu-gi: short, even syllables, hard g. Say 'dai-sen' as two short syllables. The last word is 'tsugi': start it with a clear 'ts' sound, as in 'tsunami', never 'sugi'."
   },
   {
    "id": "N04",
@@ -28,7 +28,7 @@
   {
    "id": "N05",
    "section": 3,
-   "text": "Unlike the gooseneck, the two pieces aren't different shapes. Both are cut the same way and turned end for end, though one training course warns that the slope runs the other way on the upper piece. They're named by the order they go in: the lower piece is set first, and the upper piece is lowered onto it.",
+   "text": "Unlike the gooseneck, the two pieces aren't different shapes. Both are the same shape, turned end for end, though one training course warns that the slope runs the other way on the upper piece. They're called the lower piece and the upper piece: the lower piece is set first, and the upper piece is lowered onto it.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
@@ -47,7 +47,7 @@
   {
    "id": "N08",
    "section": 3,
-   "text": "Then two pegs go in through the side faces, from opposite sides. They stop the joint lifting back out. They don't draw it tight; the slope does that.",
+   "text": "Then two pegs go in through the side faces, from opposite sides. They stop the joint lifting back out. It's the slope, not the pegs, that the sources credit with drawing it tight.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
@@ -59,20 +59,20 @@
   {
    "id": "N10",
    "section": 4,
-   "text": "The Flat 35 specification offers it for those outer-wall beams, for eaves plates, and for one option on second-floor floor beams. For sawn roof beams it's the first choice; the gooseneck is allowed only on shallower beams, and then with hardware.",
+   "text": "The Flat 35 specification offers it for those outer-wall beams, for eaves plates, and for one option on second-floor floor beams. For roof beams it's the first choice; the gooseneck is allowed only where the beam is about a hundred and twenty millimeters deep, and then with steel straps and bolts.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N11",
    "section": 4,
-   "text": "None of those clauses names hardware for this splice. Like the others, it's placed off the post, a short way out along the beam.",
+   "text": "None of those clauses names hardware for this splice. As in each of them, it's placed off the post, a short way out along the beam.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N12",
    "section": 5,
-   "text": "How long should it be? A training course and a study of carpentry practice give a traditional rule of about three times the depth. Engineering test sheets suggest one and a half to three times.",
-   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+   "text": "How long should it be? A carpenters' training course says about three times the depth gives the most strength, and a joinery handbook gives three to four times for beams a hundred and five or a hundred and twenty millimeters deep. One test database suggests one and a half to three times.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 115 words per minute, unhurried, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N13",
@@ -83,7 +83,7 @@
   {
    "id": "N14",
    "section": 5,
-   "text": "In that lab's tests, these splices held roughly three times the pull of its gooseneck specimens, though they were also much longer. Again, the depth of the beam mattered more than the length of the splice.",
+   "text": "In that lab's tests, at the same depth, these splices held two to three and a half times the pull of its gooseneck specimens, though they were also much longer. Again, the depth of the beam mattered more than the length of the splice.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
@@ -95,7 +95,7 @@
   {
    "id": "N16",
    "section": 5,
-   "text": "And it's slow to cut by hand, because the two pieces are fitted against each other. One builder's guide reckons one to four splices per person per day.",
+   "text": "And it's slow to cut by hand, because the two pieces are fitted against each other. One architect's guide reports one to four splices per person per day.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
@@ -107,7 +107,7 @@
   {
    "id": "N18",
    "section": 7,
-   "text": "The okkake daisen-tsugi: two pieces of the same shape, lowered together along a slope, then pegged so they can't lift apart.",
+   "text": "The okkake daisen-tsugi: two pieces of the same shape, the upper lowered onto the lower along a slope, then pegged so they can't lift apart.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress. Say 'okkake daisen-tsugi' as o-k-ka-ke (a short pause on the double k), dai-sen, tsu-gi: short, even syllables, hard g."
   }
  ]

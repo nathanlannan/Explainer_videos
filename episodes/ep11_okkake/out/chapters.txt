@@ -1,0 +1,26 @@
+Chapter markers (also embedded in the MP4)
+
+0:00.00  Cold open
+0:30.47  The name
+1:00.17  Study: the name
+1:03.17  The parts
+2:27.37  Study: the parts
+2:30.87  Where it goes
+3:08.27  Study: where it goes
+3:11.77  Length and strength
+4:31.77  Study: length and strength
+4:40.03  Recap and glossary
+4:53.27  Glossary
+
+YouTube-style:
+0:00 Cold open
+0:30 The name
+1:00 Study: the name
+1:03 The parts
+2:27 Study: the parts
+2:30 Where it goes
+3:08 Study: where it goes
+3:11 Length and strength
+4:31 Study: length and strength
+4:40 Recap and glossary
+4:53 Glossary

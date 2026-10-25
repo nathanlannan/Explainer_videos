@@ -4,7 +4,7 @@ HERE = pathlib.Path(__file__).resolve().parent
 tl = json.loads((HERE / "build/timeline.json").read_text())
 fmt = lambda x: f"{int(x // 60)}:{x % 60:04.1f}"
 narr = {n["id"]: n for n in tl["narration"]}
-sec = {1: "Cold open", 2: "The name", 3: "The parts", 4: "Proportions and strength", 5: "Where it goes", 6: "Limits", 7: "Next time", 8: "Recap"}
+sec = {1: "Cold open", 2: "The name", 3: "The parts", 4: "Where it goes", 5: "Length and strength", 6: "Next time", 7: "Recap"}
 lines = json.loads((HERE / "narration.json").read_text())["lines"]
 out = ["# Episode 11 — The Other Splice: Okkake Daisen-tsugi · final script", "",
        f"Runtime {fmt(tl['total'])} · {sum(len(l['text'].split()) for l in lines)} words · timestamps are narration start–end in the final cut.", ""]

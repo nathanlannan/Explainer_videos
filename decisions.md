@@ -217,3 +217,15 @@ $0.3186 of $5.00 over 133 logged calls (actual costs from OpenRouter generation 
   - the anchor bolt attributed to the public-works spec;
   - hardware kanji (F only) replaced with English;
   - "engineers often model it as a pin".
+
+## Episode 11: research and Gate A
+- Orientation (key): over the splice each piece keeps half the width at full depth; the stepped line shows on the top face, the pegs on the side faces; the upper piece is lowered from above (WBT drawings; 住吉・松井; D4/D5; 下山). "Slid in from the side" (JAANUS, TK) is not used.
+- Model: T's OD-1836 test proportions (W 120, depth 180, splice 360). Ago 15 mm and mechigai 15 × 15 mm from the drawings. Ago face sloped 1/20 of the depth (住吉・松井; W gives about 1/10). Pegs 15 mm square at L/4, driven from opposite sides.
+- Fit checks: locked against pull-apart and sideways; lifts out without pegs; pegs stop the lift. The pieces are congruent apart from the slope, which is reversed on the upper piece (W's warning).
+- Gate A confirmed the geometry and the slope sign. Wording fixes:
+  - the length rules, each attributed;
+  - the kama comparison labels (head+neck vs splice length; 2–3.5×);
+  - "Japanese references read it";
+  - "written with the characters for large and peg";
+  - pegs: "the sources credit the slope";
+  - "one architect's guide".

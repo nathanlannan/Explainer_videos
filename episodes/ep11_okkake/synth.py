@@ -18,7 +18,7 @@ import listen  # noqa: E402
 MODEL, VOICE, PRICE = "google/gemini-3.8-flash-tts", "Sulafat", 0.00001
 INSTR = ("A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Steady pace of about 135 words per minute. "
          "Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.")
-TERMS = {"okkake daisen-tsugi": "おっかけだいせんつぎ", "okkake-tsugi": "おっかけつぎ", "Daisen": "だいせん", "ah-go": "あご", "meh-chee-guy": "めちがい"}
+TERMS = {"okkake daisen, tsugi": "おっかけだいせんつぎ", "okkake daisen-tsugi": "おっかけだいせんつぎ", "okkake-tsugi": "おっかけつぎ", "Daisen": "だいせん", "ah-go": "あご", "meh-chee-guy": "めちがい"}
 LISTENERS = ["google/gemini-3.8-flash", "openai/gpt-audio-mini"]
 AUD = HERE / "audio"
 QA = HERE / "build" / "narration_qa.json"
