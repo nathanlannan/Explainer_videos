@@ -52,8 +52,29 @@ Key sources: **JIS B 7534:2005** 金属製角度直尺 (https://kikakurui.com/b7
 | R2-18 | 45° uses the front scale (same number on both arms); ura-me is for diagonals/hips | — | kept apart in the script | research note | — | not taught |
 | R2-19 | Early record of 曲尺 (905) | — | — | 精選版 citing 観世音寺資財帳 | single-source (one dictionary citing one record) | no |
 
+## Episode 2 · Part 2 (ink line, pen, gauges, knife; plus how to hold the sashigane)
+
+Key sources: Kotobank 墨壺 (Nipponica; Britannica Japan; Daijisen), 墨差し (Nipponica; 日本国語大辞典), 罫引 (Nipponica / Heibonsha); JAANUS sumitsubo, sumisashi, kebiki, sujikebiki, warikebiki; MHLW ものづくりマイスター 大工工事作業編 (pp. 5, 8, 9, ~28; local copy); Topman teaching material (https://www.topman.co.jp/ky/material/tool/tool_02.html); makit.jp/00051; ja.wikipedia 墨壺; Fine Woodworking (Latta 2007; Nesset #150).
+
+| ID | Item | Kanji / kana / romaji | Claim as used | Sources | Confidence | On screen? |
+|---|---|---|---|---|---|---|
+| R3-01 | Ink line tool and parts | 墨壺 すみつぼ sumitsubo; 池 いけ ike (墨池); 壺車 つぼぐるま tsubo-guruma; 墨糸 すみいと sumiito (壺糸, 墨縄); 軽子 かるこ karuko (main dictionary form 仮子 かりこ); 壺口 | pot with silk floss (真綿) soaked in ink, a reel, the line, a pin at its end | Nipponica; JAANUS; MHLW p.8 photo labels | verified | yes |
+| R3-02 | Snapping a line | 墨掛 すみかけ | pin at one end, pull taut, lift straight up, release; a straight line even over slight unevenness | Nipponica; Daijisen; JAANUS; MHLW | verified | yes |
+| R3-03 | Pot materials and sizes | — | mulberry traditional, zelkova common today; pots about 30 / 24 / 18 cm | Nipponica; Britannica Japan | verified | model size 24 cm only |
+| R3-04 | The line is silk | — | — | retail blog + museum page only | single-source | no |
+| R3-05 | Plumb-bob use; nylon line; line length | — | — | none | unverified | no |
+| R3-06 | Chalk line wipes off easily | チョークライン | chalk works the same way, and its line wipes off easily | ja.wikipedia 墨壺; Covington (retail blog) | verified (wipes off); "ink more indelible" single-source | "chalk wipes off" only |
+| R3-07 | Ink pen | 墨差し (墨指, 墨刺) すみさし sumisashi | flattened bamboo; one end cut on a slant and split into fine slits for lines; the other end rounded and crushed, used like a brush to write marks and characters | Nipponica; JAANUS; 日本国語大辞典; MHLW p.8 | verified (**not "pointed"**) | yes |
+| R3-08 | "Carpenters make their own sumisashi" | — | — | not found | unverified | no |
+| R3-09 | Marking gauge | 罫引 / 毛引 けびき kebiki (also けいびき); 定規板 じょうぎいた jōgi-ita; 棹 さお sao | a fence slides on a planed edge; a small blade (sometimes a pin) at the beam's end scores a parallel line | Nipponica; JAANUS | verified | yes |
+| R3-10 | Gauge types | 筋罫引 すじけびき sujikebiki; 割罫引 わりけびき warikebiki | sujikebiki scores lines; warikebiki cuts thin boards apart along the grain | Nipponica/Heibonsha; JAANUS | verified | named only |
+| R3-11 | Western equivalents | — | pin gauge tears cross-grain fibers; cutting (knife) gauge slices; a kebiki's blade makes it closest to a cutting gauge | Fine Woodworking (Latta 2007; 2017 test); Nipponica (blade) | verified | yes |
+| R3-12 | Blade bevel pulls the fence in; pulled toward you | — | — | FWW (summary only) / retail | single-source / unverified | no |
+| R3-13 | Marking knife | しらがき shiragaki (also しらびき shirabiki); kanji vary (白書, 白引き, 白柿) | flat back, bevel on one side (common, not universal); cuts very fine lines, mostly across the grain | MHLW p.5 (しらがき); Covington (both names) | name verified; kanji unconfirmed; single bevel "common" | romaji only |
+| R3-14 | Holding the sashigane to square a line | — | one arm overhangs the edge, its inner edge pressed against the side face (the reference face) by fingers near the arm's middle; the other arm lies across the face; draw along it. Laid simply on top of the board = wrong. Sources differ on WHICH arm hooks the edge (MHLW text: short arm; Topman + makit: long arm) | Topman (text + figures, ○ and ×); makit.jp; MHLW p.9 | verified (method); arm choice varies | yes: "one arm hooks the edge"; drawn as in Topman's figure |
+
 ## Later episodes (candidates, not yet researched)
-指金/差金 sashigane · 裏目 ura-me · 墨壺 sumitsubo · 墨差し sumisashi · 毛引 kebiki · 白引 shirabiki · 合番 aiban · 両刃 ryōba · 胴付 dozuki · 片刃 kataba · 鑿 nomi · 玄能 gennō · 鉋 kanna · 腰掛蟻継ぎ koshikake ari-tsugi · 枘/枘穴 hozo/hozo-ana · 鎌継ぎ kama-tsugi · 渡り腮 watari-ago · 追掛大栓継ぎ okkake daisen-tsugi
+指金/差金 sashigane · 裏目 ura-me · 合番 aiban · 両刃 ryōba · 胴付 dozuki · 片刃 kataba · 鑿 nomi · 玄能 gennō · 鉋 kanna · 腰掛蟻継ぎ koshikake ari-tsugi · 枘/枘穴 hozo/hozo-ana · 鎌継ぎ kama-tsugi · 渡り腮 watari-ago · 追掛大栓継ぎ okkake daisen-tsugi
 
 Leads already found for later: 返り墨 kaerizumi (offset line; trade blogs only), 陸墨 rokuzumi (level line; 日本国語大辞典), 峠墨 tōgezumi (beam level reference; MHLW manual), 木表/木裏 kiomote/kiura (Daijisen), 上端/下端 uwaba/shitaba (MHLW manual).
 

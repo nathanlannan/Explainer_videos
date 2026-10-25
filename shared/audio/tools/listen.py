@@ -25,4 +25,7 @@ def listen(path, script, terms, purpose="pronunciation listen", model=LISTENER):
     d, cost = o.chat(model, msg, purpose, max_tokens=1500, est=0.01)
     txt = d["choices"][0]["message"]["content"]
     m = re.search(r"\{.*\}", txt, re.S)
-    return json.loads(m.group(0)) if m else {"raw": txt}, cost
+    try:
+        return (json.loads(m.group(0)) if m else {"raw": txt}), cost
+    except json.JSONDecodeError:
+        return {"raw": txt, "terms": []}, cost
