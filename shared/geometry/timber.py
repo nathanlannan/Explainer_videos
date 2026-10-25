@@ -57,13 +57,22 @@ class PlanPrism:
 
 
 @dataclass
+class Hull:
+    """Convex hull of points (mm): e.g. a dovetail whose cheeks taper in elevation."""
+    points: list[tuple[float, float, float]]
+
+    def solid(self) -> m3.Manifold:
+        return m3.Manifold.hull_points([list(p) for p in self.points])
+
+
+@dataclass
 class Member:
     name: str
     kind: str                 # 'post', 'sill', 'beam', 'rail', 'stick', ...
     body: Box
     axis: str                 # long axis 'x' | 'y' | 'z' -> grain direction
-    cuts: list = field(default_factory=list)   # Box or PlanPrism, subtracted
-    adds: list = field(default_factory=list)   # Box or PlanPrism, added (e.g. a dovetail tongue)
+    cuts: list = field(default_factory=list)   # Box, PlanPrism or Hull, subtracted
+    adds: list = field(default_factory=list)   # Box, PlanPrism or Hull, added (e.g. a dovetail tongue)
 
     def solid(self) -> m3.Manifold:
         s = self.body.solid()
