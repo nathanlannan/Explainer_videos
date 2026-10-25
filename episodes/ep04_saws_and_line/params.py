@@ -4,9 +4,10 @@ Saw shapes are drawn to look like the tools and are NOT presented as dimensions 
 Tooth pitch is enlarged so the teeth read on screen. The tenoned member uses the 105 mm section (R-07).
 Line demos: kerf = plate + set (R5-11); the three line choices (R5-12) are derived here from one rule set,
 so the 2D panels and the 3D cold open agree on which side of the line the kerf falls.
-Each choice is defined by where the kerf's WORK-side edge lands: the line's waste edge (leave: the whole line
-stays on the piece), its centre (split: half stays), or its work edge (take: none stays). A kerf centred on the
-line would remove more than "take" whenever the kerf is wider than the line -- caught by piece_size_order.
+leave: the kerf is all in the waste (whole line stays); take: the kerf's work-side edge is the line's work-side edge
+(line removed); split: the kerf is centred on the line (墨をまたぐ, "straddle"). A centred kerf removes more than
+"take" whenever the kerf is wider than the line, so the diagram draws the line wider than the kerf (a convention:
+real lines and kerfs are both fractions of a millimetre) -- enforced by piece_size_order.
 """
 import json
 import pathlib
@@ -26,7 +27,7 @@ MEMBER = 105.0                      # tenoned member section (R-07)
 TENON = {"t": 30.0, "w": 90.0, "len": 60.0}  # illustrative proportions, not stated on screen
 
 # 2D line-choice diagram, in diagram units (enlarged): plate, set per side, line width
-DIAG = {"plate": 10.0, "set": 4.0, "line": 8.0}
+DIAG = {"plate": 4.0, "set": 2.0, "line": 12.0}   # line drawn wider than the kerf, so take < split < leave
 
 
 def kerf(plate, set_each_side):
@@ -38,8 +39,8 @@ def line_choice(choice, line_c, line_w, k, waste_side=+1):
     edge_work, edge_waste = line_c - waste_side * line_w / 2, line_c + waste_side * line_w / 2
     if choice == "leave":      # whole kerf in the waste, line survives on the piece
         a = edge_waste
-    elif choice == "split":    # kerf's work-side edge on the line's centre: half the line stays on the piece
-        a = line_c
+    elif choice == "split":    # kerf centred on the line (straddle, 墨をまたぐ): a sliver of line stays on each side
+        a = line_c - waste_side * k / 2
     elif choice == "take":     # kerf removes the line; kerf's work-side edge = line's work-side edge
         a = edge_work
     else:
@@ -55,8 +56,9 @@ def main():
     checks = {
         "kerf_wider_than_plate": k > DIAG["plate"],
         "leave_keeps_whole_line": panels["leave"][0] >= DIAG["line"] / 2,
-        "take_removes_whole_line": panels["take"][0] <= -DIAG["line"] / 2 and panels["take"][1] >= DIAG["line"] / 2,
-        "split_leaves_half_line": panels["split"][0] == 0.0,
+        "take_leaves_no_line_on_piece": panels["take"][0] <= -DIAG["line"] / 2,
+        "kerf_narrower_than_line": k < DIAG["line"],
+        "split_is_centred_sliver_each_side": abs(sum(panels["split"])) < 1e-9 and panels["split"][0] > -DIAG["line"] / 2,
         "piece_size_order": piece_edge["take"] < piece_edge["split"] < piece_edge["leave"],
         "tenon_fits_member": TENON["t"] < MEMBER and TENON["w"] < MEMBER,
         "cold_open_kerf_in_waste": True,

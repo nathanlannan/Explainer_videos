@@ -15,6 +15,9 @@ def _(s):
     s.line("N02", {"saws": "saws", "line": "line"}, gap=0.3)
     s.pause(1.6)
     s.ev["stroke1"] = q(s.now)
+    k = s.ev["stroke0"]
+    while k < s.now - 0.8:          # one pull sound per cutting stroke (period 1.6 s in shots.js)
+        s.sfx.append((q(k + 0.05), "saw_pull")); k += 1.6
 
 
 @shot("S02", "Title card", "card", "Series title card: Episode 4 · Part 1 · Saws and the Line.")
@@ -26,7 +29,7 @@ def _(s):
 def _(s):
     s.chapters.append((0.0, "Why pull?"))
     s.pause(0.3)
-    s.line("N03", {"push": "push", "pull": "pull", "tension": "tension", "thin": "thin", "stiff": "stiff"}, gap=0.4)
+    s.line("N03", {"push": "push", "pull": "pull", "tension": "tension", "thin": "thinner", "stiff": "stiffer"}, gap=0.4)
     s.line("N04", {"kerf": "kerf", "narrow": "narrower", "less": "less"}, gap=0.4)
     s.hold(3.5, "Study: pull vs. push")
 
@@ -35,13 +38,14 @@ def _(s):
 def _(s):
     s.chapters.append((0.0, "The ryōba"))
     s.pause(0.3)
-    s.line("N05", {"term": "double", "rip": "rips", "tate": "tatebiki", "cross": "crosscuts", "yoko": "yokobiki", "meiji": "era"}, gap=0.4)
+    s.line("N05", {"term": "double", "rip": "rips", "tate": "tatibiki", "cross": "crosscuts", "yoko": "yokobiki", "meiji": "era"}, gap=0.4)
+    s.hold(3.0, "Study: the ryōba's two edges")
 
 
 @shot("S05", "Rip and crosscut teeth", "2d", "Magnified tooth profiles: rip teeth pare along the fibres like chisels; crosscut teeth sever them like knives.")
 def _(s):
     s.pause(0.3)
-    s.line("N06", {"teeth": "teeth", "rip": "rip", "cross": "crosscut"}, gap=0.4)
+    s.line("N06", {"teeth": "teeth", "rip": "rip", "cross": "cross"}, gap=0.4)
     s.hold(3.5, "Study: rip and crosscut teeth")
 
 
@@ -50,9 +54,12 @@ def _(s):
     s.chapters.append((0.0, "The dōzuki and the kataba"))
     s.pause(0.3)
     s.line("N07", {"term": "joinery", "spine": "spine", "cross": "classed"}, gap=0.4)
-    s.line("N08", {"shoulder": "shoulder", "made": "made"}, gap=0.3)
+    s.line("N08", {"shoulder": "shoulder", "cutting": "cutting", "made": "work"}, gap=0.3)
     s.ev["cut"] = q(s.now - 2.0)
-    s.pause(1.2)
+    s.pause(3.0)
+    k = s.ev["cutting"] - 0.2
+    while k < s.now - 0.7:          # one pull sound per stroke (period 1.3 s in shots.js)
+        s.sfx.append((q(k + 0.05), "saw_pull")); k += 1.3
 
 
 @shot("S07", "The kataba", "threeQ", "A single-edged saw, name only.")

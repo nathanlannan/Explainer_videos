@@ -512,9 +512,9 @@
   "wpm": 142.5
  },
  "N05": {
-  "take": 1,
-  "duration": 22.945,
-  "asr": "A common carpenter's saw is the ryouba, which means double -edged. One edge rips, cutting along the grain, that's tatebiki. The other crosscuts, cutting across it, that's yokobiki. The design is fairly modern. It dates from the Meiji era, in the late 1800s.",
+  "take": 2,
+  "duration": 22.253,
+  "asr": "A common carpenter's saw is the ryoba, which means double -edged. One edge rips, cutting along the grain. That's tatibiki. The other, crosscuts, cutting across it. That's yokobiki. The design is fairly modern. It dates from the Meiji era, in the late 1800s.",
   "words": [
    [
     "A",
@@ -524,344 +524,288 @@
    [
     "common",
     0.2,
-    0.7
+    0.66
    ],
    [
     "carpenter's",
-    0.7,
-    1.46
+    0.66,
+    1.44
    ],
    [
     "saw",
-    1.46,
+    1.44,
     1.72
    ],
    [
     "is",
     1.72,
-    2.14
+    2.1
    ],
    [
     "the",
-    2.14,
-    2.34
+    2.1,
+    2.3
    ],
    [
-    "ryouba,",
-    2.34,
-    2.9
+    "ryoba,",
+    2.3,
+    2.7
    ],
    [
     "which",
-    3.5,
-    3.7
+    3.26,
+    3.4
    ],
    [
     "means",
-    3.7,
-    4.1
+    3.4,
+    3.78
    ],
    [
     "double",
-    4.1,
-    4.5
+    3.78,
+    4.24
    ],
    [
     "-edged.",
-    4.5,
-    4.84
+    4.24,
+    4.56
    ],
    [
     "One",
-    5.8,
-    6.12
+    5.4,
+    5.7
    ],
    [
     "edge",
-    6.12,
-    6.44
+    5.7,
+    6.06
    ],
    [
     "rips,",
-    6.44,
-    6.92
+    6.06,
+    6.54
    ],
    [
     "cutting",
-    7.26,
-    7.62
+    6.84,
+    7.22
    ],
    [
     "along",
-    7.62,
-    8.04
+    7.22,
+    7.54
    ],
    [
     "the",
-    8.04,
-    8.26
+    7.54,
+    7.76
    ],
    [
-    "grain,",
-    8.26,
-    8.56
+    "grain.",
+    7.76,
+    8.02
    ],
    [
-    "that's",
-    9.2,
-    9.72
+    "That's",
+    8.82,
+    9.24
    ],
    [
-    "tatebiki.",
-    9.72,
-    10.4
+    "tatibiki.",
+    9.24,
+    10.0
    ],
    [
     "The",
-    11.28,
-    11.54
+    10.84,
+    11.06
    ],
    [
-    "other",
-    11.54,
-    11.88
+    "other,",
+    11.06,
+    11.32
    ],
    [
     "crosscuts,",
-    11.88,
-    12.68
+    11.76,
+    12.12
    ],
    [
     "cutting",
-    13.06,
-    13.42
+    12.64,
+    12.86
    ],
    [
     "across",
-    13.42,
-    13.82
+    12.86,
+    13.2
    ],
    [
-    "it,",
-    13.82,
+    "it.",
+    13.2,
+    13.58
+   ],
+   [
+    "That's",
+    14.12,
     14.42
    ],
    [
-    "that's",
-    14.86,
-    15.24
-   ],
-   [
     "yokobiki.",
-    15.24,
-    15.92
+    14.42,
+    15.22
    ],
    [
     "The",
-    16.86,
-    17.1
+    16.14,
+    16.38
    ],
    [
     "design",
-    17.1,
-    17.48
+    16.38,
+    16.72
    ],
    [
     "is",
-    17.48,
-    17.78
+    16.72,
+    17.06
    ],
    [
     "fairly",
-    17.78,
-    18.18
+    17.06,
+    17.62
    ],
    [
     "modern.",
-    18.18,
-    18.54
+    17.62,
+    18.06
    ],
    [
     "It",
-    19.28,
-    19.42
+    18.68,
+    18.8
    ],
    [
     "dates",
-    19.42,
-    19.68
+    18.8,
+    19.02
    ],
    [
     "from",
-    19.68,
-    20.0
+    19.02,
+    19.32
    ],
    [
     "the",
-    20.0,
-    20.16
+    19.32,
+    19.52
    ],
    [
     "Meiji",
-    20.16,
-    20.54
+    19.52,
+    20.0
    ],
    [
     "era,",
-    20.54,
-    20.84
+    20.0,
+    20.34
    ],
    [
     "in",
-    21.24,
-    21.42
+    20.68,
+    20.82
    ],
    [
     "the",
-    21.42,
-    21.56
+    20.82,
+    20.96
    ],
    [
     "late",
-    21.56,
-    21.78
+    20.96,
+    21.2
    ],
    [
     "1800s.",
-    21.78,
-    22.74
+    21.2,
+    22.14
    ]
   ],
-  "wpm": 112.4,
+  "wpm": 115.9,
   "listen": {
-   "google/gemini-3.8-flash": [
-    {
-     "term": "ryoh-bah",
-     "heard_kana": "りょば",
-     "correct": false,
-     "note": "The first vowel is pronounced short ('ryo') rather than extended ('ryou/ryō')."
-    },
-    {
-     "term": "tah-teh-bee-kee",
-     "heard_kana": "たてびき",
-     "correct": true,
-     "note": "Clean and accurate pronunciation matching the target kana."
-    },
-    {
-     "term": "yoh-koh-bee-kee",
-     "heard_kana": "よこびき",
-     "correct": true,
-     "note": "Accurately pronounced matching target kana よこびき."
-    },
-    {
-     "term": "May-jee",
-     "heard_kana": "めいじ",
-     "correct": true,
-     "note": "Accurately pronounced as めいじ."
-    }
-   ],
+   "google/gemini-3.8-flash": {
+    "raw": "```json\n{\n  \"terms\": [\n    {\n      \"term\": \"ryohh-bah\",\n      \"heard_kana\": \"りょうば\",\n      \"correct\": true,\n      \"note\": \"Natural pronunciation matching the target kana りょうば.\""
+   },
    "openai/gpt-audio-mini": [
     {
-     "term": "ryoh-bah",
+     "term": "ryohh-bah",
      "heard_kana": "りょば",
      "correct": false,
-     "note": "The 'ryoh' sounded more like 'ryo' with a shortening of the vowel, missing the longer 'o' sound from 'ryoh'; 'baa' instead of 'bah' was not extended, resulting in 'ば' instead of 'ば'."
+     "note": "The listener heard 'りょば' (ryoba) missing the long vowel 'っ' as in 'りょうば'."
     },
     {
      "term": "tah-teh-bee-kee",
      "heard_kana": "たてびき",
      "correct": true,
-     "note": "The pronunciation was close enough, with 'tah-teh-bee-kee' well represented by 'たてびき'. The elongation between 'te' and 'bi' was correct."
+     "note": "Accurately heard and pronounced as 'たてびき'."
     },
     {
      "term": "yoh-koh-bee-kee",
      "heard_kana": "よこびき",
      "correct": true,
-     "note": "Pronunciation was accurate for 'yoh-koh-bee-kee'. There was correct interval length for each syllable."
+     "note": "Accurately heard as 'よこびき'."
     },
     {
      "term": "May-jee",
-     "heard_kana": "めいじ",
-     "correct": true,
-     "note": "The 'May-jee' was pronounced correctly as 'めいじ', with the stress and elongation in the vowels matching."
+     "heard_kana": "メイジー",
+     "correct": false,
+     "note": "The listener pronounced it as 'メイジー' (Meijii), including an extra vowel sound and elongation, missing the intended short vowel 'めいじ'."
     }
    ]
   },
   "listen_full": {
    "google/gemini-3.8-flash": {
-    "terms": [
-     {
-      "term": "ryoh-bah",
-      "heard_kana": "りょば",
-      "correct": false,
-      "note": "The first vowel is pronounced short ('ryo') rather than extended ('ryou/ryō')."
-     },
-     {
-      "term": "tah-teh-bee-kee",
-      "heard_kana": "たてびき",
-      "correct": true,
-      "note": "Clean and accurate pronunciation matching the target kana."
-     },
-     {
-      "term": "yoh-koh-bee-kee",
-      "heard_kana": "よこびき",
-      "correct": true,
-      "note": "Accurately pronounced matching target kana よこびき."
-     },
-     {
-      "term": "May-jee",
-      "heard_kana": "めいじ",
-      "correct": true,
-      "note": "Accurately pronounced as めいじ."
-     }
-    ],
-    "clarity": 5,
-    "warmth": 5,
-    "naturalness": 5,
-    "script_deviations": [
-     "Heard 'carpenter saw' instead of 'carpenter's saw'."
-    ],
-    "artifacts": []
+    "raw": "```json\n{\n  \"terms\": [\n    {\n      \"term\": \"ryohh-bah\",\n      \"heard_kana\": \"りょうば\",\n      \"correct\": true,\n      \"note\": \"Natural pronunciation matching the target kana りょうば.\""
    },
    "openai/gpt-audio-mini": {
     "terms": [
      {
-      "term": "ryoh-bah",
+      "term": "ryohh-bah",
       "heard_kana": "りょば",
       "correct": false,
-      "note": "The 'ryoh' sounded more like 'ryo' with a shortening of the vowel, missing the longer 'o' sound from 'ryoh'; 'baa' instead of 'bah' was not extended, resulting in 'ば' instead of 'ば'."
+      "note": "The listener heard 'りょば' (ryoba) missing the long vowel 'っ' as in 'りょうば'."
      },
      {
       "term": "tah-teh-bee-kee",
       "heard_kana": "たてびき",
       "correct": true,
-      "note": "The pronunciation was close enough, with 'tah-teh-bee-kee' well represented by 'たてびき'. The elongation between 'te' and 'bi' was correct."
+      "note": "Accurately heard and pronounced as 'たてびき'."
      },
      {
       "term": "yoh-koh-bee-kee",
       "heard_kana": "よこびき",
       "correct": true,
-      "note": "Pronunciation was accurate for 'yoh-koh-bee-kee'. There was correct interval length for each syllable."
+      "note": "Accurately heard as 'よこびき'."
      },
      {
       "term": "May-jee",
-      "heard_kana": "めいじ",
-      "correct": true,
-      "note": "The 'May-jee' was pronounced correctly as 'めいじ', with the stress and elongation in the vowels matching."
+      "heard_kana": "メイジー",
+      "correct": false,
+      "note": "The listener pronounced it as 'メイジー' (Meijii), including an extra vowel sound and elongation, missing the intended short vowel 'めいじ'."
      }
     ],
     "clarity": 3,
     "warmth": 2,
     "naturalness": 3,
     "script_deviations": [
-     "'ryoh-bah' mispronounced as 'ryo-ba'; vowel shortening noted"
+     "'ryao-ba' mispronounced as 'ryo-ba' missing long vowel",
+     "'Meiji' pronounced as 'Meijii' with extra vowel elongation"
     ],
-    "artifacts": [
-     "Slight audio clipping in the pronunciation of 'Meiji'",
-     "Minor breathing sounds between sentences"
-    ]
+    "artifacts": []
    }
-  }
+  },
+  "note": "take 2: gemini listener hears りょうば; gpt-audio-mini hears りょば; the word lasts 0.40 s (3 morae at this pace ~0.39 s, 2 morae ~0.26 s), so the long vowel is judged present"
  },
  "N06": {
   "take": 1,
@@ -1835,262 +1779,272 @@
   }
  },
  "N11": {
-  "take": 1,
-  "duration": 21.734,
-  "asr": "Where does the kerf go relative to the line? The carpenter chooses, and the skills test manual sets out three options. In English shop talk, you can take the line, cutting it away, leave the line, sawing just on the waist side, or split it, so half the line remains.",
+  "take": 2,
+  "duration": 22.551,
+  "asr": "Where does the kerf go relative to the line? The carpenter chooses. And the skills test manual sets out three options. In English shop talk, you can take the line, cutting it away, leave the line sawing just on the waist side, or split it with the kerf centered on the line.",
   "words": [
    [
     "Where",
     0.0,
-    0.42
+    0.32
    ],
    [
     "does",
-    0.42,
-    0.72
+    0.32,
+    0.54
    ],
    [
     "the",
-    0.72,
-    0.96
+    0.54,
+    0.82
    ],
    [
     "kerf",
-    0.96,
-    1.4
+    0.82,
+    1.04
    ],
    [
     "go",
-    1.4,
-    1.8
+    1.04,
+    1.46
    ],
    [
     "relative",
-    1.8,
-    2.28
+    1.46,
+    2.36
    ],
    [
     "to",
-    2.28,
-    2.76
-   ],
-   [
-    "the",
-    2.76,
+    2.36,
     2.86
    ],
    [
-    "line?",
+    "the",
     2.86,
-    3.16
+    3.0
+   ],
+   [
+    "line?",
+    3.0,
+    3.26
    ],
    [
     "The",
-    3.96,
-    4.16
+    4.12,
+    4.38
    ],
    [
     "carpenter",
-    4.16,
-    4.62
+    4.38,
+    4.78
    ],
    [
-    "chooses,",
-    4.62,
-    5.02
+    "chooses.",
+    4.78,
+    5.18
    ],
    [
-    "and",
-    5.78,
-    5.84
+    "And",
+    6.24,
+    6.34
    ],
    [
     "the",
-    5.84,
-    6.1
+    6.34,
+    6.6
    ],
    [
     "skills",
-    6.1,
-    6.36
+    6.6,
+    6.86
    ],
    [
     "test",
-    6.36,
-    6.8
+    6.86,
+    7.32
    ],
    [
     "manual",
-    6.8,
-    7.3
+    7.32,
+    7.84
    ],
    [
     "sets",
-    7.3,
-    7.7
+    7.84,
+    8.34
    ],
    [
     "out",
-    7.7,
-    8.0
+    8.34,
+    8.56
    ],
    [
     "three",
-    8.0,
-    8.42
+    8.56,
+    8.86
    ],
    [
     "options.",
-    8.42,
-    8.94
+    8.86,
+    9.38
    ],
    [
     "In",
-    9.8,
-    9.96
+    10.36,
+    10.52
    ],
    [
     "English",
-    9.96,
-    10.4
-   ],
-   [
-    "shop",
-    10.4,
-    10.64
-   ],
-   [
-    "talk,",
-    10.64,
+    10.52,
     10.92
    ],
    [
+    "shop",
+    10.92,
+    11.28
+   ],
+   [
+    "talk,",
+    11.28,
+    11.58
+   ],
+   [
     "you",
-    11.38,
-    11.48
+    12.14,
+    12.34
    ],
    [
     "can",
-    11.48,
-    11.8
+    12.34,
+    12.6
    ],
    [
     "take",
-    11.8,
-    12.28
+    12.6,
+    12.92
    ],
    [
     "the",
-    12.28,
-    12.52
+    12.92,
+    13.14
    ],
    [
     "line,",
-    12.52,
-    12.8
+    13.14,
+    13.44
    ],
    [
     "cutting",
-    13.22,
-    13.34
+    13.84,
+    14.08
    ],
    [
     "it",
-    13.34,
-    13.5
+    14.08,
+    14.26
    ],
    [
     "away,",
-    13.5,
-    13.8
+    14.26,
+    14.52
    ],
    [
     "leave",
-    14.56,
-    14.92
+    15.2,
+    15.5
    ],
    [
     "the",
-    14.92,
-    15.18
-   ],
-   [
-    "line,",
-    15.18,
-    15.54
-   ],
-   [
-    "sawing",
-    15.88,
-    16.38
-   ],
-   [
-    "just",
-    16.38,
-    16.66
-   ],
-   [
-    "on",
-    16.66,
-    17.02
-   ],
-   [
-    "the",
-    17.02,
-    17.18
-   ],
-   [
-    "waist",
-    17.18,
-    17.5
-   ],
-   [
-    "side,",
-    17.5,
-    17.98
-   ],
-   [
-    "or",
-    18.8,
-    18.9
-   ],
-   [
-    "split",
-    18.9,
-    19.42
-   ],
-   [
-    "it,",
-    19.42,
-    19.68
-   ],
-   [
-    "so",
-    19.98,
-    20.2
-   ],
-   [
-    "half",
-    20.2,
-    20.58
-   ],
-   [
-    "the",
-    20.58,
-    20.82
+    15.5,
+    15.72
    ],
    [
     "line",
-    20.82,
-    21.08
+    15.72,
+    16.08
    ],
    [
-    "remains.",
-    21.08,
+    "sawing",
+    16.08,
+    17.02
+   ],
+   [
+    "just",
+    17.02,
+    17.34
+   ],
+   [
+    "on",
+    17.34,
+    17.68
+   ],
+   [
+    "the",
+    17.68,
+    17.82
+   ],
+   [
+    "waist",
+    17.82,
+    18.06
+   ],
+   [
+    "side,",
+    18.06,
+    18.48
+   ],
+   [
+    "or",
+    18.94,
+    19.32
+   ],
+   [
+    "split",
+    19.32,
+    19.66
+   ],
+   [
+    "it",
+    19.66,
+    20.04
+   ],
+   [
+    "with",
+    20.04,
+    20.52
+   ],
+   [
+    "the",
+    20.52,
+    20.7
+   ],
+   [
+    "kerf",
+    20.7,
+    21.06
+   ],
+   [
+    "centered",
+    21.06,
     21.44
+   ],
+   [
+    "on",
+    21.44,
+    21.84
+   ],
+   [
+    "the",
+    21.84,
+    21.96
+   ],
+   [
+    "line.",
+    21.96,
+    22.2
    ]
   ],
-  "wpm": 138.0
+  "wpm": 138.4
  },
  "N12": {
   "take": 1,

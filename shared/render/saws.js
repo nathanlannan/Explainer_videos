@@ -4,7 +4,7 @@
 // the handle runs along -x. Pull-stroke teeth: the steep cutting face of each tooth faces the handle (-x).
 export function makeSaws(L) {
   const THREE = L.THREE;
-  const steel = () => new THREE.MeshStandardMaterial({ color: '#C9CDD1', metalness: 0.35, roughness: 0.38, side: THREE.DoubleSide });
+  const steel = () => new THREE.MeshStandardMaterial({ color: '#D9DDE1', metalness: 0.12, roughness: 0.45, side: THREE.DoubleSide });
   const dark = () => new THREE.MeshStandardMaterial({ color: '#8E9398', metalness: 0.4, roughness: 0.45 });
 
   // tooth profile along an edge from x0 to x1 at baseline y, pointing in dir (-1 down, +1 up)

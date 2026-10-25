@@ -1,24 +1,19 @@
-# Episode 4 · Part 1 — Saws and the Line: plan (Gate A)
+# Episode 2 · Part 1 storyboard (as built)
 
-Facts are taken from `research/ep04_fact_pack.md` (rows R5-xx). Narration is in `narration.json`. The target runtime is 4:30–5:30.
-
-| Shot | Lines | Visual | Facts |
-|---|---|---|---|
-| S01 Cold open | N01–N02 | 3D: a ryōba pulled through the end of a board beside a marked line; sawdust; a "pull" arrow. | R5-08 |
-| S02 Title | — | Series title card. | |
-| S03 Push vs pull | N03 | 2D: two blades. Pulled: tension arrows, thin. Pushed: compression arrows, thicker plate; a ghosted bow shows what stiffness prevents. No ✕, because a push saw is not an error. | R5-08, R5-09, R5-10 (softened) |
-| S04 Thinner kerf | N04 | 2D cross-sections: thin plate gives a narrow kerf; thick plate gives a wider kerf. Marked "not to scale · typically". | R5-11 |
-| S05 Ryōba | N05 | 3D ryōba model turning. Labels: 両刃 ryōba, rip edge 縦挽き, crosscut edge 横挽き; grain arrows on a board. "Meiji era, 1890s". | R5-01, R5-03 |
-| S06 Teeth | N06 | 2D magnified tooth profiles. Rip: flat chisel-like tips paring along the fibres. Crosscut: knife points with bevelled tips severing the fibres. Study hold. | R5-02 |
-| S07 Dōzuki | N07–N08 | 3D dōzuki with the spine highlighted (背金). Then a tenoned beam end with the shoulder (胴付) highlighted, and the dōzuki cutting it. Label: "crosscut teeth". | R5-04, R5-05, R5-06 |
-| S08 Kataba | N09 | 3D single-edged saw, name only. | R5-07 |
-| S09 Kerf and set | N10 | 2D end view of the blade with teeth set alternately; kerf = plate + set. Study hold. | R5-11 |
-| S10 The line | N11–N12 | 2D, three panels across a marked line: take the line (墨を払う), leave the line (墨を残す), split the line (墨をまたぐ). Waste side hatched. Study hold. | R5-12, R5-14 |
-| S11 Worked example | N13–N14 | 2D tenon end view: thickness cuts on the line (split), labelled "a little loose"; width cuts just outside the line, labelled "tight". Source tag: "skills-test manual (MHLW)". | R5-13 |
-| S12 Western cousins | N15 | 2D silhouettes of a panel saw and a backsaw with push arrows, beside the ryōba and dōzuki with pull arrows. | R5-08 |
-| S13 A note | N16 | Quiet card: "how to use sharp tools safely is best learned from a teacher, at a bench, in person". | series advice (R5-26 note) |
-| S14 Next | N17 | Teaser for Part 2: chisels, gennō, kanna. | |
-| S15 Recap and glossary | N18 | Glossary held ≥ 8 s: ryōba, tatebiki, yokobiki, dōzuki, kataba, kerf/asari (set), sumi o harau / nokosu / matagu. | |
-| S16 End card | — | | |
-
-**Model choices:** saw shapes are illustrative and not to scale, and no saw dimensions are stated on screen. The tenon uses Episode 1's 105 mm member section.
+| Shot | Time | Dur | Camera | On screen | Narration |
+|---|---|---|---|---|---|
+| S01 Pull to cut | 0:00.0 | 17.4 s | threeQ | A ryōba drawn back through a board beside a marked line; the kerf grows on the waste side; a 'pull' arrow. | A Japanese saw cuts as you pull it toward you. That one fact shapes much of the tool. This time: the saws, and exactly where the cut goes in relation to the line. |
+| S02 Title card | 0:17.4 | 3.6 s | card | Series title card: Episode 4 · Part 1 · Saws and the Line. | — |
+| S03 Push and pull | 0:21.0 | 30.5 s | 2d | Two blades: pulled (tension arrows, thin plate) and pushed (compression arrows, thicker plate; ghosted bow). Study hold 3.5 s. | Most Western saws cut on the push stroke. Japanese saws cut on the pull. Pulling puts the blade in tension, so it can be made thinner. A pushed blade generally needs to be stiffer, so that it doesn't buckle. Every saw cut has a width, called the kerf. A thinner blade usually makes a narrower kerf, so there is less wood to remove. |
+| S04 The ryōba | 0:51.5 | 26.0 s | threeQ | Ryōba model turning; rip edge and crosscut edge labelled; grain arrows on a board. Study hold 3.0 s. | A common carpenter's saw is the ryōba, which means double-edged. One edge rips, cutting along the grain; that's tatebiki. The other crosscuts, cutting across it; that's yokobiki. The design is fairly modern: it dates from the Meiji era, in the late eighteen hundreds. |
+| S05 Rip and crosscut teeth | 1:17.4 | 19.3 s | 2d | Magnified tooth profiles: rip teeth pare along the fibres like chisels; crosscut teeth sever them like knives. Study hold 3.5 s. | Look closely at the teeth. Rip teeth work like a row of tiny chisels, paring along the fibers. Crosscut teeth are pointed like small knives, and sever the fibers one by one. |
+| S06 The dōzuki | 1:36.8 | 27.9 s | threeQ | Dōzuki with its spine highlighted; then a tenoned member with the shoulder highlighted and the dōzuki cutting it. | For fine joinery there is the dōzuki. Its blade is very thin, so a metal spine along the back keeps it stiff. It is classed as a crosscut saw. Dōzuki is also the word for a tenon's shoulder, the face around its base. Cutting it is a clean crosscut: exactly the kind of work this saw does. |
+| S07 The kataba | 2:04.7 | 8.4 s | threeQ | A single-edged saw, name only. Study hold 2.0 s. | There is also the kataba, a saw with a single edge and no spine. |
+| S08 Kerf and set | 2:13.0 | 20.5 s | 2d | End view: teeth bent alternately; kerf = plate + set. Study hold 3.5 s. | Look at the kerf end-on. The teeth are bent out alternately, left and right. This is called the set, or asari. So the kerf is a little wider than the blade, and that width is why the next question matters. |
+| S09 Where the cut goes | 2:33.6 | 35.5 s | 2d | Three panels: take the line, leave the line, split the line; waste hatched. Study hold 4.0 s. | Where does the kerf go, relative to the line? The carpenter chooses, and the skills test manual sets out three options. In English shop talk: you can take the line, cutting it away; leave the line, sawing just on the waste side; or split it, with the kerf centered on the line. The choice depends on how tight each joint should be. Some fits should be snug, and some a little looser. |
+| S10 A worked example | 3:09.1 | 29.8 s | 2d | Tenon end view: thickness cut on the line (a little loose); width cut just outside (tight). Source tag. Study hold 3.5 s. | The national skills test manual for carpenters gives an example. On one tenon, the thickness cuts split the line, so it fits a little looser. The width cuts leave the line, with the saw just on the waste side, so it fits tight. Either way, the line is the reference. That's why the marking out had to be exact. |
+| S11 Western cousins | 3:38.9 | 14.5 s | 2d | Panel saw and backsaw (push) beside ryōba and dōzuki (pull). Study hold 2.0 s. | If you own Western saws, the same ideas carry over: rip and crosscut teeth, a backed saw for joinery. The big difference is the stroke. |
+| S12 Next time | 3:53.4 | 6.5 s | 2d | Teaser: Part 2 · chisels, gennō, kanna. | Next time, the rest of the kit: the chisels, the hammer, and the plane. |
+| S13 Recap and glossary | 3:59.9 | 22.6 s | 2d | One sentence + glossary; held still for study. Study hold 9.0 s. | Pull to cut. Rip along the grain, crosscut across it. And before every cut, decide: take the line, leave it, or split it. |
+| S14 A note on sharp tools | 4:22.6 | 11.2 s | 2d | Quiet closing card: learn sharp-tool technique from a teacher. | One note: sharp-tool technique, and how to use these tools safely, is best learned from a teacher, at a bench, in person. |
+| S15 End card | 4:33.8 | 3.2 s | card | Series end card: next episode. | — |

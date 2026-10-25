@@ -1,8 +1,9 @@
 {
  "kerf_wider_than_plate": true,
  "leave_keeps_whole_line": true,
- "take_removes_whole_line": true,
- "split_leaves_half_line": true,
+ "take_leaves_no_line_on_piece": true,
+ "kerf_narrower_than_line": true,
+ "split_is_centred_sliver_each_side": true,
  "piece_size_order": true,
  "tenon_fits_member": true,
  "cold_open_kerf_in_waste": true,

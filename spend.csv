@@ -381,3 +381,7 @@ timestamp,model,purpose,units,cost_usd,generation_id
 2026-10-25T02:29:20Z,google/gemini-3.8-flash-tts,ep04 narration N16 take 1,71 chars,0.001417,gen-tts-1792895354-sDroZkT0WeWqgn0pQWgh
 2026-10-25T02:29:34Z,google/gemini-3.8-flash-tts,ep04 narration N17 take 1,121 chars,0.002978,gen-tts-1792895367-j67FgO3Q63sZs6phC0yj
 2026-10-25T02:29:48Z,google/gemini-3.8-flash-tts,ep04 narration N18 take 1,121 chars,0.002267,gen-tts-1792895382-8vXMRjJtBWYc2xsPte9Q
+2026-10-25T02:39:21Z,google/gemini-3.8-flash-tts,ep04 narration N05 take 2,287 chars,0.005192,gen-tts-1792895941-4LbJIdTGxDCIvQS2o6q9
+2026-10-25T02:39:50Z,google/gemini-3.8-flash,ep04 listen N05,2367 tokens,0.006263,gen-1792895980-kRjBJPwc3Jhm8tKNVMIW
+2026-10-25T02:39:53Z,openai/gpt-audio-mini,ep04 listen N05,864 tokens,0.001105,gen-1792895993-lofN5NuagGbveoADpw8N
+2026-10-25T02:41:11Z,google/gemini-3.8-flash-tts,ep04 narration N11 take 2,277 chars,0.005192,gen-tts-1792896061-iVPfK5QjuW15Og3oy72G
