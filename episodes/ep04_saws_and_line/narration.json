@@ -1,0 +1,118 @@
+{
+ "voice": "see shared/audio/voice/voice_settings.md",
+ "lines": [
+  {
+   "id": "N01",
+   "section": 1,
+   "text": "A Japanese saw cuts as you pull it toward you. That one fact shapes much of the tool.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N02",
+   "section": 1,
+   "text": "This time: the saws, and exactly where the cut goes in relation to the line.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N03",
+   "section": 2,
+   "text": "Most Western saws cut on the push stroke. Japanese saws cut on the pull. Pulling puts the blade in tension, so it can be made thinner. A pushed blade generally needs to be stiffer, so that it doesn't buckle.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N04",
+   "section": 2,
+   "text": "Every saw cut has a width, called the kerf. A thinner blade usually makes a narrower kerf, so there is less wood to remove.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N05",
+   "section": 3,
+   "text": "A common carpenter's saw is the ryōba, which means double-edged. One edge rips, cutting along the grain; that's tatebiki. The other crosscuts, cutting across it; that's yokobiki. The design is fairly modern: it dates from the Meiji era, in the late eighteen hundreds.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "A common carpenter's saw is the ryoh-bah, which means double-edged. One edge rips, cutting along the grain; that's tah-teh-bee-kee. The other crosscuts, cutting across it; that's yoh-koh-bee-kee. The design is fairly modern: it dates from the May-jee era, in the late eighteen hundreds."
+  },
+  {
+   "id": "N06",
+   "section": 3,
+   "text": "Look closely at the teeth. Rip teeth work like a row of tiny chisels, paring along the fibers. Crosscut teeth are pointed like small knives, and sever the fibers one by one.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N07",
+   "section": 4,
+   "text": "For fine joinery there is the dōzuki. Its blade is very thin, so a metal spine along the back keeps it stiff. It is classed as a crosscut saw.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "For fine joinery there is the doh-zoo-kee. Its blade is very thin, so a metal spine along the back keeps it stiff. It is classed as a crosscut saw."
+  },
+  {
+   "id": "N08",
+   "section": 4,
+   "text": "Dōzuki is also the word for a tenon's shoulder, the face around its base. Cutting it is a clean crosscut: exactly the kind of work this saw does.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "Doh-zoo-kee is also the word for a tenon's shoulder, the face around its base. Cutting it is a clean crosscut: exactly the kind of work this saw does."
+  },
+  {
+   "id": "N09",
+   "section": 4,
+   "text": "There is also the kataba, a saw with a single edge and no spine.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "There is also the kah-tah-bah, a saw with a single edge and no spine."
+  },
+  {
+   "id": "N10",
+   "section": 5,
+   "text": "Look at the kerf end-on. The teeth are bent out alternately, left and right. This is called the set, or asari. So the kerf is a little wider than the blade, and that width is why the next question matters.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "Look at the kerf end-on. The teeth are bent out alternately, left and right. This is called the set, or ah-sah-ree. So the kerf is a little wider than the blade, and that width is why the next question matters."
+  },
+  {
+   "id": "N11",
+   "section": 6,
+   "text": "Where does the kerf go, relative to the line? The carpenter chooses, and the skills test manual sets out three options. In English shop talk: you can take the line, cutting it away; leave the line, sawing just on the waste side; or split it, so half the line remains.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N12",
+   "section": 6,
+   "text": "The choice depends on how tight each joint should be. Some fits should be snug, and some a little looser.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N13",
+   "section": 6,
+   "text": "The national skills test manual for carpenters gives an example. On one tenon, the thickness cuts split the line, so it fits a little looser. The width cuts leave the line, with the saw just on the waste side, so it fits tight.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N14",
+   "section": 6,
+   "text": "Either way, the line is the reference. That's why the marking out had to be exact.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N15",
+   "section": 7,
+   "text": "If you own Western saws, the same ideas carry over: rip and crosscut teeth, a backed saw for joinery. The big difference is the stroke.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N16",
+   "section": 8,
+   "text": "Next time, the rest of the kit: the chisels, the hammer, and the plane.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N17",
+   "section": 9,
+   "text": "Pull to cut. Rip along the grain, crosscut across it. And before every cut, decide: take the line, leave it, or split it.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N18",
+   "section": 9,
+   "text": "One note: sharp-tool technique, and how to use these tools safely, is best learned from a teacher, at a bench, in person.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  }
+ ]
+}

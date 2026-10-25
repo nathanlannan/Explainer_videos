@@ -1,0 +1,2981 @@
+{
+ "N01": {
+  "take": 1,
+  "duration": 7.72,
+  "asr": "A Japanese saw cuts as you pull it toward you. That one fact shapes much of the tool.",
+  "words": [
+   [
+    "A",
+    0.0,
+    0.3
+   ],
+   [
+    "Japanese",
+    0.3,
+    0.84
+   ],
+   [
+    "saw",
+    0.84,
+    1.34
+   ],
+   [
+    "cuts",
+    1.34,
+    1.94
+   ],
+   [
+    "as",
+    1.94,
+    2.36
+   ],
+   [
+    "you",
+    2.36,
+    2.56
+   ],
+   [
+    "pull",
+    2.56,
+    2.88
+   ],
+   [
+    "it",
+    2.88,
+    3.12
+   ],
+   [
+    "toward",
+    3.12,
+    3.38
+   ],
+   [
+    "you.",
+    3.38,
+    3.96
+   ],
+   [
+    "That",
+    4.48,
+    4.72
+   ],
+   [
+    "one",
+    4.72,
+    5.14
+   ],
+   [
+    "fact",
+    5.14,
+    5.72
+   ],
+   [
+    "shapes",
+    5.72,
+    6.26
+   ],
+   [
+    "much",
+    6.26,
+    6.64
+   ],
+   [
+    "of",
+    6.64,
+    6.84
+   ],
+   [
+    "the",
+    6.84,
+    6.96
+   ],
+   [
+    "tool.",
+    6.96,
+    7.22
+   ]
+  ],
+  "wpm": 139.9
+ },
+ "N02": {
+  "take": 1,
+  "duration": 6.728,
+  "asr": "This time, the saws and exactly where the cut goes in relation to the line.",
+  "words": [
+   [
+    "This",
+    0.0,
+    0.32
+   ],
+   [
+    "time,",
+    0.32,
+    0.74
+   ],
+   [
+    "the",
+    1.18,
+    1.28
+   ],
+   [
+    "saws",
+    1.28,
+    2.14
+   ],
+   [
+    "and",
+    2.14,
+    2.66
+   ],
+   [
+    "exactly",
+    2.66,
+    3.18
+   ],
+   [
+    "where",
+    3.18,
+    3.72
+   ],
+   [
+    "the",
+    3.72,
+    3.98
+   ],
+   [
+    "cut",
+    3.98,
+    4.34
+   ],
+   [
+    "goes",
+    4.34,
+    4.9
+   ],
+   [
+    "in",
+    4.9,
+    5.26
+   ],
+   [
+    "relation",
+    5.26,
+    5.62
+   ],
+   [
+    "to",
+    5.62,
+    6.1
+   ],
+   [
+    "the",
+    6.1,
+    6.22
+   ],
+   [
+    "line.",
+    6.22,
+    6.5
+   ]
+  ],
+  "wpm": 133.8
+ },
+ "N03": {
+  "take": 1,
+  "duration": 15.81,
+  "asr": "Most Western saws cut on the push stroke. Japanese saws cut on the pull. Pulling puts the blade in tension so it can be made thinner. A pushed blade generally needs to be stiffer so that it doesn't buckle.",
+  "words": [
+   [
+    "Most",
+    0.0,
+    0.44
+   ],
+   [
+    "Western",
+    0.44,
+    0.96
+   ],
+   [
+    "saws",
+    0.96,
+    1.6
+   ],
+   [
+    "cut",
+    1.6,
+    1.88
+   ],
+   [
+    "on",
+    1.88,
+    2.14
+   ],
+   [
+    "the",
+    2.14,
+    2.32
+   ],
+   [
+    "push",
+    2.32,
+    2.58
+   ],
+   [
+    "stroke.",
+    2.58,
+    3.04
+   ],
+   [
+    "Japanese",
+    3.88,
+    4.2
+   ],
+   [
+    "saws",
+    4.2,
+    4.86
+   ],
+   [
+    "cut",
+    4.86,
+    5.04
+   ],
+   [
+    "on",
+    5.04,
+    5.3
+   ],
+   [
+    "the",
+    5.3,
+    5.46
+   ],
+   [
+    "pull.",
+    5.46,
+    5.74
+   ],
+   [
+    "Pulling",
+    6.62,
+    7.02
+   ],
+   [
+    "puts",
+    7.02,
+    7.36
+   ],
+   [
+    "the",
+    7.36,
+    7.6
+   ],
+   [
+    "blade",
+    7.6,
+    7.9
+   ],
+   [
+    "in",
+    7.9,
+    8.22
+   ],
+   [
+    "tension",
+    8.22,
+    8.64
+   ],
+   [
+    "so",
+    8.64,
+    9.44
+   ],
+   [
+    "it",
+    9.44,
+    9.66
+   ],
+   [
+    "can",
+    9.66,
+    9.8
+   ],
+   [
+    "be",
+    9.8,
+    9.94
+   ],
+   [
+    "made",
+    9.94,
+    10.16
+   ],
+   [
+    "thinner.",
+    10.16,
+    10.52
+   ],
+   [
+    "A",
+    11.4,
+    11.6
+   ],
+   [
+    "pushed",
+    11.6,
+    11.86
+   ],
+   [
+    "blade",
+    11.86,
+    12.3
+   ],
+   [
+    "generally",
+    12.3,
+    12.78
+   ],
+   [
+    "needs",
+    12.78,
+    13.24
+   ],
+   [
+    "to",
+    13.24,
+    13.46
+   ],
+   [
+    "be",
+    13.46,
+    13.66
+   ],
+   [
+    "stiffer",
+    13.66,
+    14.42
+   ],
+   [
+    "so",
+    14.42,
+    14.74
+   ],
+   [
+    "that",
+    14.74,
+    14.9
+   ],
+   [
+    "it",
+    14.9,
+    15.02
+   ],
+   [
+    "doesn't",
+    15.02,
+    15.38
+   ],
+   [
+    "buckle.",
+    15.38,
+    15.52
+   ]
+  ],
+  "wpm": 148.0
+ },
+ "N04": {
+  "take": 1,
+  "duration": 10.107,
+  "asr": "Every saw cut has a width, called the kerf. A thinner blade usually makes a narrower kerf, so there is less wood to remove.",
+  "words": [
+   [
+    "Every",
+    0.0,
+    0.44
+   ],
+   [
+    "saw",
+    0.44,
+    0.8
+   ],
+   [
+    "cut",
+    0.8,
+    1.06
+   ],
+   [
+    "has",
+    1.06,
+    1.48
+   ],
+   [
+    "a",
+    1.48,
+    1.66
+   ],
+   [
+    "width,",
+    1.66,
+    2.0
+   ],
+   [
+    "called",
+    2.34,
+    2.72
+   ],
+   [
+    "the",
+    2.72,
+    3.14
+   ],
+   [
+    "kerf.",
+    3.14,
+    3.6
+   ],
+   [
+    "A",
+    4.32,
+    4.6
+   ],
+   [
+    "thinner",
+    4.6,
+    4.9
+   ],
+   [
+    "blade",
+    4.9,
+    5.36
+   ],
+   [
+    "usually",
+    5.36,
+    5.84
+   ],
+   [
+    "makes",
+    5.84,
+    6.3
+   ],
+   [
+    "a",
+    6.3,
+    6.56
+   ],
+   [
+    "narrower",
+    6.56,
+    6.98
+   ],
+   [
+    "kerf,",
+    6.98,
+    7.7
+   ],
+   [
+    "so",
+    8.06,
+    8.16
+   ],
+   [
+    "there",
+    8.16,
+    8.68
+   ],
+   [
+    "is",
+    8.68,
+    8.8
+   ],
+   [
+    "less",
+    8.8,
+    9.04
+   ],
+   [
+    "wood",
+    9.04,
+    9.36
+   ],
+   [
+    "to",
+    9.36,
+    9.58
+   ],
+   [
+    "remove.",
+    9.58,
+    9.88
+   ]
+  ],
+  "wpm": 142.5
+ },
+ "N05": {
+  "take": 1,
+  "duration": 22.945,
+  "asr": "A common carpenter's saw is the ryouba, which means double -edged. One edge rips, cutting along the grain, that's tatebiki. The other crosscuts, cutting across it, that's yokobiki. The design is fairly modern. It dates from the Meiji era, in the late 1800s.",
+  "words": [
+   [
+    "A",
+    0.0,
+    0.2
+   ],
+   [
+    "common",
+    0.2,
+    0.7
+   ],
+   [
+    "carpenter's",
+    0.7,
+    1.46
+   ],
+   [
+    "saw",
+    1.46,
+    1.72
+   ],
+   [
+    "is",
+    1.72,
+    2.14
+   ],
+   [
+    "the",
+    2.14,
+    2.34
+   ],
+   [
+    "ryouba,",
+    2.34,
+    2.9
+   ],
+   [
+    "which",
+    3.5,
+    3.7
+   ],
+   [
+    "means",
+    3.7,
+    4.1
+   ],
+   [
+    "double",
+    4.1,
+    4.5
+   ],
+   [
+    "-edged.",
+    4.5,
+    4.84
+   ],
+   [
+    "One",
+    5.8,
+    6.12
+   ],
+   [
+    "edge",
+    6.12,
+    6.44
+   ],
+   [
+    "rips,",
+    6.44,
+    6.92
+   ],
+   [
+    "cutting",
+    7.26,
+    7.62
+   ],
+   [
+    "along",
+    7.62,
+    8.04
+   ],
+   [
+    "the",
+    8.04,
+    8.26
+   ],
+   [
+    "grain,",
+    8.26,
+    8.56
+   ],
+   [
+    "that's",
+    9.2,
+    9.72
+   ],
+   [
+    "tatebiki.",
+    9.72,
+    10.4
+   ],
+   [
+    "The",
+    11.28,
+    11.54
+   ],
+   [
+    "other",
+    11.54,
+    11.88
+   ],
+   [
+    "crosscuts,",
+    11.88,
+    12.68
+   ],
+   [
+    "cutting",
+    13.06,
+    13.42
+   ],
+   [
+    "across",
+    13.42,
+    13.82
+   ],
+   [
+    "it,",
+    13.82,
+    14.42
+   ],
+   [
+    "that's",
+    14.86,
+    15.24
+   ],
+   [
+    "yokobiki.",
+    15.24,
+    15.92
+   ],
+   [
+    "The",
+    16.86,
+    17.1
+   ],
+   [
+    "design",
+    17.1,
+    17.48
+   ],
+   [
+    "is",
+    17.48,
+    17.78
+   ],
+   [
+    "fairly",
+    17.78,
+    18.18
+   ],
+   [
+    "modern.",
+    18.18,
+    18.54
+   ],
+   [
+    "It",
+    19.28,
+    19.42
+   ],
+   [
+    "dates",
+    19.42,
+    19.68
+   ],
+   [
+    "from",
+    19.68,
+    20.0
+   ],
+   [
+    "the",
+    20.0,
+    20.16
+   ],
+   [
+    "Meiji",
+    20.16,
+    20.54
+   ],
+   [
+    "era,",
+    20.54,
+    20.84
+   ],
+   [
+    "in",
+    21.24,
+    21.42
+   ],
+   [
+    "the",
+    21.42,
+    21.56
+   ],
+   [
+    "late",
+    21.56,
+    21.78
+   ],
+   [
+    "1800s.",
+    21.78,
+    22.74
+   ]
+  ],
+  "wpm": 112.4,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "ryoh-bah",
+     "heard_kana": "りょば",
+     "correct": false,
+     "note": "The first vowel is pronounced short ('ryo') rather than extended ('ryou/ryō')."
+    },
+    {
+     "term": "tah-teh-bee-kee",
+     "heard_kana": "たてびき",
+     "correct": true,
+     "note": "Clean and accurate pronunciation matching the target kana."
+    },
+    {
+     "term": "yoh-koh-bee-kee",
+     "heard_kana": "よこびき",
+     "correct": true,
+     "note": "Accurately pronounced matching target kana よこびき."
+    },
+    {
+     "term": "May-jee",
+     "heard_kana": "めいじ",
+     "correct": true,
+     "note": "Accurately pronounced as めいじ."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "ryoh-bah",
+     "heard_kana": "りょば",
+     "correct": false,
+     "note": "The 'ryoh' sounded more like 'ryo' with a shortening of the vowel, missing the longer 'o' sound from 'ryoh'; 'baa' instead of 'bah' was not extended, resulting in 'ば' instead of 'ば'."
+    },
+    {
+     "term": "tah-teh-bee-kee",
+     "heard_kana": "たてびき",
+     "correct": true,
+     "note": "The pronunciation was close enough, with 'tah-teh-bee-kee' well represented by 'たてびき'. The elongation between 'te' and 'bi' was correct."
+    },
+    {
+     "term": "yoh-koh-bee-kee",
+     "heard_kana": "よこびき",
+     "correct": true,
+     "note": "Pronunciation was accurate for 'yoh-koh-bee-kee'. There was correct interval length for each syllable."
+    },
+    {
+     "term": "May-jee",
+     "heard_kana": "めいじ",
+     "correct": true,
+     "note": "The 'May-jee' was pronounced correctly as 'めいじ', with the stress and elongation in the vowels matching."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "ryoh-bah",
+      "heard_kana": "りょば",
+      "correct": false,
+      "note": "The first vowel is pronounced short ('ryo') rather than extended ('ryou/ryō')."
+     },
+     {
+      "term": "tah-teh-bee-kee",
+      "heard_kana": "たてびき",
+      "correct": true,
+      "note": "Clean and accurate pronunciation matching the target kana."
+     },
+     {
+      "term": "yoh-koh-bee-kee",
+      "heard_kana": "よこびき",
+      "correct": true,
+      "note": "Accurately pronounced matching target kana よこびき."
+     },
+     {
+      "term": "May-jee",
+      "heard_kana": "めいじ",
+      "correct": true,
+      "note": "Accurately pronounced as めいじ."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 5,
+    "naturalness": 5,
+    "script_deviations": [
+     "Heard 'carpenter saw' instead of 'carpenter's saw'."
+    ],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "ryoh-bah",
+      "heard_kana": "りょば",
+      "correct": false,
+      "note": "The 'ryoh' sounded more like 'ryo' with a shortening of the vowel, missing the longer 'o' sound from 'ryoh'; 'baa' instead of 'bah' was not extended, resulting in 'ば' instead of 'ば'."
+     },
+     {
+      "term": "tah-teh-bee-kee",
+      "heard_kana": "たてびき",
+      "correct": true,
+      "note": "The pronunciation was close enough, with 'tah-teh-bee-kee' well represented by 'たてびき'. The elongation between 'te' and 'bi' was correct."
+     },
+     {
+      "term": "yoh-koh-bee-kee",
+      "heard_kana": "よこびき",
+      "correct": true,
+      "note": "Pronunciation was accurate for 'yoh-koh-bee-kee'. There was correct interval length for each syllable."
+     },
+     {
+      "term": "May-jee",
+      "heard_kana": "めいじ",
+      "correct": true,
+      "note": "The 'May-jee' was pronounced correctly as 'めいじ', with the stress and elongation in the vowels matching."
+     }
+    ],
+    "clarity": 3,
+    "warmth": 2,
+    "naturalness": 3,
+    "script_deviations": [
+     "'ryoh-bah' mispronounced as 'ryo-ba'; vowel shortening noted"
+    ],
+    "artifacts": [
+     "Slight audio clipping in the pronunciation of 'Meiji'",
+     "Minor breathing sounds between sentences"
+    ]
+   }
+  }
+ },
+ "N06": {
+  "take": 1,
+  "duration": 15.14,
+  "asr": "Look closely at the teeth. Rip teeth work like a row of tiny chisels, pairing along the fibers. Cross -cut teeth are pointed like small knives and sever the fibers one by one.",
+  "words": [
+   [
+    "Look",
+    0.0,
+    0.32
+   ],
+   [
+    "closely",
+    0.32,
+    0.94
+   ],
+   [
+    "at",
+    0.94,
+    1.24
+   ],
+   [
+    "the",
+    1.24,
+    1.38
+   ],
+   [
+    "teeth.",
+    1.38,
+    1.76
+   ],
+   [
+    "Rip",
+    2.68,
+    2.72
+   ],
+   [
+    "teeth",
+    2.72,
+    3.08
+   ],
+   [
+    "work",
+    3.08,
+    3.48
+   ],
+   [
+    "like",
+    3.48,
+    3.76
+   ],
+   [
+    "a",
+    3.76,
+    3.94
+   ],
+   [
+    "row",
+    3.94,
+    4.28
+   ],
+   [
+    "of",
+    4.28,
+    4.58
+   ],
+   [
+    "tiny",
+    4.58,
+    5.06
+   ],
+   [
+    "chisels,",
+    5.06,
+    5.84
+   ],
+   [
+    "pairing",
+    6.3,
+    6.68
+   ],
+   [
+    "along",
+    6.68,
+    7.16
+   ],
+   [
+    "the",
+    7.16,
+    7.4
+   ],
+   [
+    "fibers.",
+    7.4,
+    7.8
+   ],
+   [
+    "Cross",
+    8.88,
+    9.16
+   ],
+   [
+    "-cut",
+    9.16,
+    9.42
+   ],
+   [
+    "teeth",
+    9.42,
+    9.78
+   ],
+   [
+    "are",
+    9.78,
+    10.08
+   ],
+   [
+    "pointed",
+    10.08,
+    10.6
+   ],
+   [
+    "like",
+    10.6,
+    11.28
+   ],
+   [
+    "small",
+    11.28,
+    11.7
+   ],
+   [
+    "knives",
+    11.7,
+    12.22
+   ],
+   [
+    "and",
+    12.22,
+    12.9
+   ],
+   [
+    "sever",
+    12.9,
+    13.34
+   ],
+   [
+    "the",
+    13.34,
+    13.66
+   ],
+   [
+    "fibers",
+    13.66,
+    14.06
+   ],
+   [
+    "one",
+    14.06,
+    14.46
+   ],
+   [
+    "by",
+    14.46,
+    14.74
+   ],
+   [
+    "one.",
+    14.74,
+    15.04
+   ]
+  ],
+  "wpm": 126.8
+ },
+ "N07": {
+  "take": 1,
+  "duration": 11.172,
+  "asr": "For fine joinery, there is the dozuki. Its blade is very thin, so a metal spine along the back keeps it stiff. It is classed as a crosscut saw.",
+  "words": [
+   [
+    "For",
+    0.0,
+    0.3
+   ],
+   [
+    "fine",
+    0.3,
+    0.76
+   ],
+   [
+    "joinery,",
+    0.76,
+    1.36
+   ],
+   [
+    "there",
+    1.84,
+    1.92
+   ],
+   [
+    "is",
+    1.92,
+    2.02
+   ],
+   [
+    "the",
+    2.02,
+    2.18
+   ],
+   [
+    "dozuki.",
+    2.18,
+    2.68
+   ],
+   [
+    "Its",
+    3.46,
+    3.62
+   ],
+   [
+    "blade",
+    3.62,
+    3.86
+   ],
+   [
+    "is",
+    3.86,
+    4.02
+   ],
+   [
+    "very",
+    4.02,
+    4.4
+   ],
+   [
+    "thin,",
+    4.4,
+    4.84
+   ],
+   [
+    "so",
+    5.22,
+    5.54
+   ],
+   [
+    "a",
+    5.54,
+    5.92
+   ],
+   [
+    "metal",
+    5.92,
+    6.16
+   ],
+   [
+    "spine",
+    6.16,
+    6.66
+   ],
+   [
+    "along",
+    6.66,
+    6.96
+   ],
+   [
+    "the",
+    6.96,
+    7.16
+   ],
+   [
+    "back",
+    7.16,
+    7.48
+   ],
+   [
+    "keeps",
+    7.48,
+    7.8
+   ],
+   [
+    "it",
+    7.8,
+    8.0
+   ],
+   [
+    "stiff.",
+    8.0,
+    8.24
+   ],
+   [
+    "It",
+    9.02,
+    9.18
+   ],
+   [
+    "is",
+    9.18,
+    9.34
+   ],
+   [
+    "classed",
+    9.34,
+    9.9
+   ],
+   [
+    "as",
+    9.9,
+    10.04
+   ],
+   [
+    "a",
+    10.04,
+    10.24
+   ],
+   [
+    "crosscut",
+    10.24,
+    10.72
+   ],
+   [
+    "saw.",
+    10.72,
+    11.0
+   ]
+  ],
+  "wpm": 155.7,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "doh-zoo-kee",
+     "heard_kana": "どうずき",
+     "correct": true,
+     "note": "Accurately pronounced with appropriate vowel lengths matching どうづき."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "doh-zoo-kee",
+     "heard_kana": "ドゥズーキ",
+     "correct": false,
+     "note": "Heard as ドゥズーキ instead of どうづき; extra syllable 'ズー' and slight elongation 'ズーキ' misalignment with the target どうづき."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "doh-zoo-kee",
+      "heard_kana": "どうずき",
+      "correct": true,
+      "note": "Accurately pronounced with appropriate vowel lengths matching どうづき."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [
+     "Contracted 'there is' to 'there's'."
+    ],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "doh-zoo-kee",
+      "heard_kana": "ドゥズーキ",
+      "correct": false,
+      "note": "Heard as ドゥズーキ instead of どうづき; extra syllable 'ズー' and slight elongation 'ズーキ' misalignment with the target どうづき."
+     }
+    ],
+    "clarity": 3,
+    "warmth": 3,
+    "naturalness": 3,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ },
+ "N08": {
+  "take": 1,
+  "duration": 12.728,
+  "asr": "Dozuki is also the word for a tenon's shoulder. The face around its base, cutting it is a clean crosscut. Exactly the kind of work this saw does.",
+  "words": [
+   [
+    "Dozuki",
+    0.0,
+    0.72
+   ],
+   [
+    "is",
+    0.72,
+    1.44
+   ],
+   [
+    "also",
+    1.44,
+    2.0
+   ],
+   [
+    "the",
+    2.0,
+    2.26
+   ],
+   [
+    "word",
+    2.26,
+    2.46
+   ],
+   [
+    "for",
+    2.46,
+    3.0
+   ],
+   [
+    "a",
+    3.0,
+    3.34
+   ],
+   [
+    "tenon's",
+    3.34,
+    3.9
+   ],
+   [
+    "shoulder.",
+    3.9,
+    4.3
+   ],
+   [
+    "The",
+    4.82,
+    5.0
+   ],
+   [
+    "face",
+    5.0,
+    5.26
+   ],
+   [
+    "around",
+    5.26,
+    5.7
+   ],
+   [
+    "its",
+    5.7,
+    5.96
+   ],
+   [
+    "base,",
+    5.96,
+    6.3
+   ],
+   [
+    "cutting",
+    7.18,
+    7.48
+   ],
+   [
+    "it",
+    7.48,
+    7.76
+   ],
+   [
+    "is",
+    7.76,
+    8.1
+   ],
+   [
+    "a",
+    8.1,
+    8.32
+   ],
+   [
+    "clean",
+    8.32,
+    8.82
+   ],
+   [
+    "crosscut.",
+    8.82,
+    9.56
+   ],
+   [
+    "Exactly",
+    10.24,
+    10.58
+   ],
+   [
+    "the",
+    10.58,
+    11.0
+   ],
+   [
+    "kind",
+    11.0,
+    11.18
+   ],
+   [
+    "of",
+    11.18,
+    11.34
+   ],
+   [
+    "work",
+    11.34,
+    11.64
+   ],
+   [
+    "this",
+    11.64,
+    11.96
+   ],
+   [
+    "saw",
+    11.96,
+    12.22
+   ],
+   [
+    "does.",
+    12.22,
+    12.56
+   ]
+  ],
+  "wpm": 132.0,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "Doh-zoo-kee",
+     "heard_kana": "どーずき",
+     "correct": true,
+     "note": "Clear and natural pronunciation matching どうづき."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "Doh-zoo-kee",
+     "heard_kana": "ドー・ズー・キィ",
+     "correct": false,
+     "note": "The pronunciation heard includes extra vowels and an incorrect ending sound. The doubling of consonants is not as heard; 'ズー' is correct but 'キィ' adds a slightly incorrect vowel sound (the target is short 'き')."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "Doh-zoo-kee",
+      "heard_kana": "どーずき",
+      "correct": true,
+      "note": "Clear and natural pronunciation matching どうづき."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 5,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "Doh-zoo-kee",
+      "heard_kana": "ドー・ズー・キィ",
+      "correct": false,
+      "note": "The pronunciation heard includes extra vowels and an incorrect ending sound. The doubling of consonants is not as heard; 'ズー' is correct but 'キィ' adds a slightly incorrect vowel sound (the target is short 'き')."
+     }
+    ],
+    "clarity": 3,
+    "warmth": 4,
+    "naturalness": 3,
+    "script_deviations": [
+     "'Doh-zoo-kee' was not pronounced as the script intended (short vowel on 'き')."
+    ],
+    "artifacts": []
+   }
+  }
+ },
+ "N09": {
+  "take": 1,
+  "duration": 5.669,
+  "asr": "There is also the kataba, a saw with a single edge and no spine.",
+  "words": [
+   [
+    "There",
+    0.0,
+    0.18
+   ],
+   [
+    "is",
+    0.18,
+    0.32
+   ],
+   [
+    "also",
+    0.32,
+    0.86
+   ],
+   [
+    "the",
+    0.86,
+    1.28
+   ],
+   [
+    "kataba,",
+    1.28,
+    1.84
+   ],
+   [
+    "a",
+    2.58,
+    2.82
+   ],
+   [
+    "saw",
+    2.82,
+    3.02
+   ],
+   [
+    "with",
+    3.02,
+    3.28
+   ],
+   [
+    "a",
+    3.28,
+    3.5
+   ],
+   [
+    "single",
+    3.5,
+    3.88
+   ],
+   [
+    "edge",
+    3.88,
+    4.3
+   ],
+   [
+    "and",
+    4.3,
+    4.76
+   ],
+   [
+    "no",
+    4.76,
+    5.06
+   ],
+   [
+    "spine.",
+    5.06,
+    5.4
+   ]
+  ],
+  "wpm": 148.2,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "kah-tah-bah",
+     "heard_kana": "かたば",
+     "correct": true,
+     "note": "Accurate pronunciation matching かたば, with a very slight natural English lexical stress on the second syllable."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "kah-tah-bah",
+     "heard_kana": "かたば",
+     "correct": true,
+     "note": "Heard 'ka-ta-ba' exactly as intended, no extra or missing syllables."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "kah-tah-bah",
+      "heard_kana": "かたば",
+      "correct": true,
+      "note": "Accurate pronunciation matching かたば, with a very slight natural English lexical stress on the second syllable."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "kah-tah-bah",
+      "heard_kana": "かたば",
+      "correct": true,
+      "note": "Heard 'ka-ta-ba' exactly as intended, no extra or missing syllables."
+     }
+    ],
+    "clarity": 3,
+    "warmth": 2,
+    "naturalness": 3,
+    "script_deviations": [],
+    "artifacts": [
+     "Slight digital distortion in background, minor noise at 3-5 seconds."
+    ]
+   }
+  }
+ },
+ "N10": {
+  "take": 1,
+  "duration": 16.33,
+  "asr": "Look at the kerf end on. The teeth are bent out alternately, left and right. This is called the set, or asari. So the kerf is a little wider than the blade, and that width is why the next question matters.",
+  "words": [
+   [
+    "Look",
+    0.0,
+    0.28
+   ],
+   [
+    "at",
+    0.28,
+    0.44
+   ],
+   [
+    "the",
+    0.44,
+    0.6
+   ],
+   [
+    "kerf",
+    0.6,
+    1.06
+   ],
+   [
+    "end",
+    1.06,
+    1.36
+   ],
+   [
+    "on.",
+    1.36,
+    1.68
+   ],
+   [
+    "The",
+    2.48,
+    2.58
+   ],
+   [
+    "teeth",
+    2.58,
+    2.84
+   ],
+   [
+    "are",
+    2.84,
+    3.16
+   ],
+   [
+    "bent",
+    3.16,
+    3.42
+   ],
+   [
+    "out",
+    3.42,
+    3.78
+   ],
+   [
+    "alternately,",
+    3.78,
+    4.5
+   ],
+   [
+    "left",
+    4.94,
+    5.16
+   ],
+   [
+    "and",
+    5.16,
+    5.62
+   ],
+   [
+    "right.",
+    5.62,
+    5.82
+   ],
+   [
+    "This",
+    6.72,
+    6.94
+   ],
+   [
+    "is",
+    6.94,
+    7.12
+   ],
+   [
+    "called",
+    7.12,
+    7.44
+   ],
+   [
+    "the",
+    7.44,
+    7.74
+   ],
+   [
+    "set,",
+    7.74,
+    8.06
+   ],
+   [
+    "or",
+    8.64,
+    8.76
+   ],
+   [
+    "asari.",
+    8.76,
+    9.46
+   ],
+   [
+    "So",
+    10.38,
+    10.68
+   ],
+   [
+    "the",
+    10.68,
+    10.96
+   ],
+   [
+    "kerf",
+    10.96,
+    11.36
+   ],
+   [
+    "is",
+    11.36,
+    11.54
+   ],
+   [
+    "a",
+    11.54,
+    11.72
+   ],
+   [
+    "little",
+    11.72,
+    11.98
+   ],
+   [
+    "wider",
+    11.98,
+    12.4
+   ],
+   [
+    "than",
+    12.4,
+    12.64
+   ],
+   [
+    "the",
+    12.64,
+    12.74
+   ],
+   [
+    "blade,",
+    12.74,
+    13.0
+   ],
+   [
+    "and",
+    13.44,
+    13.7
+   ],
+   [
+    "that",
+    13.7,
+    13.86
+   ],
+   [
+    "width",
+    13.86,
+    14.16
+   ],
+   [
+    "is",
+    14.16,
+    14.66
+   ],
+   [
+    "why",
+    14.66,
+    14.96
+   ],
+   [
+    "the",
+    14.96,
+    15.12
+   ],
+   [
+    "next",
+    15.12,
+    15.4
+   ],
+   [
+    "question",
+    15.4,
+    15.74
+   ],
+   [
+    "matters.",
+    15.74,
+    16.08
+   ]
+  ],
+  "wpm": 147.0,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "ah-sah-ree",
+     "heard_kana": "あさり",
+     "correct": true,
+     "note": "Accurately pronounced as あさり with appropriate short vowels and Japanese flap 'r'."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "ah-sah-ree",
+     "heard_kana": "アサリ",
+     "correct": true,
+     "note": "This is a close match to the target kana, with correct pronunciation of vowel sounds and no doubled consonants."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "ah-sah-ree",
+      "heard_kana": "あさり",
+      "correct": true,
+      "note": "Accurately pronounced as あさり with appropriate short vowels and Japanese flap 'r'."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 5,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "ah-sah-ree",
+      "heard_kana": "アサリ",
+      "correct": true,
+      "note": "This is a close match to the target kana, with correct pronunciation of vowel sounds and no doubled consonants."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ },
+ "N11": {
+  "take": 1,
+  "duration": 21.734,
+  "asr": "Where does the kerf go relative to the line? The carpenter chooses, and the skills test manual sets out three options. In English shop talk, you can take the line, cutting it away, leave the line, sawing just on the waist side, or split it, so half the line remains.",
+  "words": [
+   [
+    "Where",
+    0.0,
+    0.42
+   ],
+   [
+    "does",
+    0.42,
+    0.72
+   ],
+   [
+    "the",
+    0.72,
+    0.96
+   ],
+   [
+    "kerf",
+    0.96,
+    1.4
+   ],
+   [
+    "go",
+    1.4,
+    1.8
+   ],
+   [
+    "relative",
+    1.8,
+    2.28
+   ],
+   [
+    "to",
+    2.28,
+    2.76
+   ],
+   [
+    "the",
+    2.76,
+    2.86
+   ],
+   [
+    "line?",
+    2.86,
+    3.16
+   ],
+   [
+    "The",
+    3.96,
+    4.16
+   ],
+   [
+    "carpenter",
+    4.16,
+    4.62
+   ],
+   [
+    "chooses,",
+    4.62,
+    5.02
+   ],
+   [
+    "and",
+    5.78,
+    5.84
+   ],
+   [
+    "the",
+    5.84,
+    6.1
+   ],
+   [
+    "skills",
+    6.1,
+    6.36
+   ],
+   [
+    "test",
+    6.36,
+    6.8
+   ],
+   [
+    "manual",
+    6.8,
+    7.3
+   ],
+   [
+    "sets",
+    7.3,
+    7.7
+   ],
+   [
+    "out",
+    7.7,
+    8.0
+   ],
+   [
+    "three",
+    8.0,
+    8.42
+   ],
+   [
+    "options.",
+    8.42,
+    8.94
+   ],
+   [
+    "In",
+    9.8,
+    9.96
+   ],
+   [
+    "English",
+    9.96,
+    10.4
+   ],
+   [
+    "shop",
+    10.4,
+    10.64
+   ],
+   [
+    "talk,",
+    10.64,
+    10.92
+   ],
+   [
+    "you",
+    11.38,
+    11.48
+   ],
+   [
+    "can",
+    11.48,
+    11.8
+   ],
+   [
+    "take",
+    11.8,
+    12.28
+   ],
+   [
+    "the",
+    12.28,
+    12.52
+   ],
+   [
+    "line,",
+    12.52,
+    12.8
+   ],
+   [
+    "cutting",
+    13.22,
+    13.34
+   ],
+   [
+    "it",
+    13.34,
+    13.5
+   ],
+   [
+    "away,",
+    13.5,
+    13.8
+   ],
+   [
+    "leave",
+    14.56,
+    14.92
+   ],
+   [
+    "the",
+    14.92,
+    15.18
+   ],
+   [
+    "line,",
+    15.18,
+    15.54
+   ],
+   [
+    "sawing",
+    15.88,
+    16.38
+   ],
+   [
+    "just",
+    16.38,
+    16.66
+   ],
+   [
+    "on",
+    16.66,
+    17.02
+   ],
+   [
+    "the",
+    17.02,
+    17.18
+   ],
+   [
+    "waist",
+    17.18,
+    17.5
+   ],
+   [
+    "side,",
+    17.5,
+    17.98
+   ],
+   [
+    "or",
+    18.8,
+    18.9
+   ],
+   [
+    "split",
+    18.9,
+    19.42
+   ],
+   [
+    "it,",
+    19.42,
+    19.68
+   ],
+   [
+    "so",
+    19.98,
+    20.2
+   ],
+   [
+    "half",
+    20.2,
+    20.58
+   ],
+   [
+    "the",
+    20.58,
+    20.82
+   ],
+   [
+    "line",
+    20.82,
+    21.08
+   ],
+   [
+    "remains.",
+    21.08,
+    21.44
+   ]
+  ],
+  "wpm": 138.0
+ },
+ "N12": {
+  "take": 1,
+  "duration": 7.874,
+  "asr": "The choice depends on how tight each joint should be. Some fits should be snug, and some a little looser.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.2
+   ],
+   [
+    "choice",
+    0.2,
+    0.56
+   ],
+   [
+    "depends",
+    0.56,
+    1.04
+   ],
+   [
+    "on",
+    1.04,
+    1.42
+   ],
+   [
+    "how",
+    1.42,
+    1.74
+   ],
+   [
+    "tight",
+    1.74,
+    2.16
+   ],
+   [
+    "each",
+    2.16,
+    2.5
+   ],
+   [
+    "joint",
+    2.5,
+    2.9
+   ],
+   [
+    "should",
+    2.9,
+    3.16
+   ],
+   [
+    "be.",
+    3.16,
+    3.62
+   ],
+   [
+    "Some",
+    4.22,
+    4.42
+   ],
+   [
+    "fits",
+    4.42,
+    4.72
+   ],
+   [
+    "should",
+    4.72,
+    5.08
+   ],
+   [
+    "be",
+    5.08,
+    5.28
+   ],
+   [
+    "snug,",
+    5.28,
+    5.7
+   ],
+   [
+    "and",
+    6.42,
+    6.56
+   ],
+   [
+    "some",
+    6.56,
+    6.88
+   ],
+   [
+    "a",
+    6.88,
+    7.1
+   ],
+   [
+    "little",
+    7.1,
+    7.26
+   ],
+   [
+    "looser.",
+    7.26,
+    7.68
+   ]
+  ],
+  "wpm": 152.4
+ },
+ "N13": {
+  "take": 1,
+  "duration": 19.079,
+  "asr": "The National Skills Test Manual for Carpenters gives an example. On one tenon, the thickness cuts split the line, so it fits a little looser. The width cuts leave the line, with the saw just on the waist side, so it fits tight.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.24
+   ],
+   [
+    "National",
+    0.24,
+    0.8
+   ],
+   [
+    "Skills",
+    0.8,
+    1.2
+   ],
+   [
+    "Test",
+    1.2,
+    1.7
+   ],
+   [
+    "Manual",
+    1.7,
+    2.08
+   ],
+   [
+    "for",
+    2.08,
+    2.48
+   ],
+   [
+    "Carpenters",
+    2.48,
+    3.28
+   ],
+   [
+    "gives",
+    3.28,
+    3.62
+   ],
+   [
+    "an",
+    3.62,
+    3.96
+   ],
+   [
+    "example.",
+    3.96,
+    4.42
+   ],
+   [
+    "On",
+    5.34,
+    5.46
+   ],
+   [
+    "one",
+    5.46,
+    5.84
+   ],
+   [
+    "tenon,",
+    5.84,
+    6.32
+   ],
+   [
+    "the",
+    6.84,
+    7.04
+   ],
+   [
+    "thickness",
+    7.04,
+    7.48
+   ],
+   [
+    "cuts",
+    7.48,
+    7.96
+   ],
+   [
+    "split",
+    7.96,
+    8.58
+   ],
+   [
+    "the",
+    8.58,
+    8.86
+   ],
+   [
+    "line,",
+    8.86,
+    9.14
+   ],
+   [
+    "so",
+    9.5,
+    9.86
+   ],
+   [
+    "it",
+    9.86,
+    10.06
+   ],
+   [
+    "fits",
+    10.06,
+    10.38
+   ],
+   [
+    "a",
+    10.38,
+    10.6
+   ],
+   [
+    "little",
+    10.6,
+    10.76
+   ],
+   [
+    "looser.",
+    10.76,
+    11.28
+   ],
+   [
+    "The",
+    12.12,
+    12.28
+   ],
+   [
+    "width",
+    12.28,
+    12.62
+   ],
+   [
+    "cuts",
+    12.62,
+    13.12
+   ],
+   [
+    "leave",
+    13.12,
+    13.74
+   ],
+   [
+    "the",
+    13.74,
+    13.96
+   ],
+   [
+    "line,",
+    13.96,
+    14.22
+   ],
+   [
+    "with",
+    14.64,
+    14.86
+   ],
+   [
+    "the",
+    14.86,
+    15.06
+   ],
+   [
+    "saw",
+    15.06,
+    15.26
+   ],
+   [
+    "just",
+    15.26,
+    15.7
+   ],
+   [
+    "on",
+    15.7,
+    16.14
+   ],
+   [
+    "the",
+    16.14,
+    16.28
+   ],
+   [
+    "waist",
+    16.28,
+    16.6
+   ],
+   [
+    "side,",
+    16.6,
+    17.04
+   ],
+   [
+    "so",
+    17.54,
+    17.92
+   ],
+   [
+    "it",
+    17.92,
+    18.16
+   ],
+   [
+    "fits",
+    18.16,
+    18.44
+   ],
+   [
+    "tight.",
+    18.44,
+    18.8
+   ]
+  ],
+  "wpm": 135.2
+ },
+ "N14": {
+  "take": 1,
+  "duration": 6.163,
+  "asr": "Either way, the line is the reference. That's why the marking out had to be exact.",
+  "words": [
+   [
+    "Either",
+    0.0,
+    0.58
+   ],
+   [
+    "way,",
+    0.58,
+    0.92
+   ],
+   [
+    "the",
+    1.28,
+    1.34
+   ],
+   [
+    "line",
+    1.34,
+    1.72
+   ],
+   [
+    "is",
+    1.72,
+    2.2
+   ],
+   [
+    "the",
+    2.2,
+    2.42
+   ],
+   [
+    "reference.",
+    2.42,
+    2.78
+   ],
+   [
+    "That's",
+    3.56,
+    3.9
+   ],
+   [
+    "why",
+    3.9,
+    4.02
+   ],
+   [
+    "the",
+    4.02,
+    4.16
+   ],
+   [
+    "marking",
+    4.16,
+    4.42
+   ],
+   [
+    "out",
+    4.42,
+    4.72
+   ],
+   [
+    "had",
+    4.72,
+    5.04
+   ],
+   [
+    "to",
+    5.04,
+    5.22
+   ],
+   [
+    "be",
+    5.22,
+    5.4
+   ],
+   [
+    "exact.",
+    5.4,
+    5.82
+   ]
+  ],
+  "wpm": 155.8
+ },
+ "N15": {
+  "take": 1,
+  "duration": 11.7,
+  "asr": "If you own Western saws, the same ideas carry over. Rip and cross -cut teeth, a backed saw for joinery. The big difference is the stroke.",
+  "words": [
+   [
+    "If",
+    0.0,
+    0.44
+   ],
+   [
+    "you",
+    0.44,
+    0.62
+   ],
+   [
+    "own",
+    0.62,
+    0.94
+   ],
+   [
+    "Western",
+    0.94,
+    1.48
+   ],
+   [
+    "saws,",
+    1.48,
+    2.28
+   ],
+   [
+    "the",
+    2.44,
+    2.52
+   ],
+   [
+    "same",
+    2.52,
+    2.76
+   ],
+   [
+    "ideas",
+    2.76,
+    3.24
+   ],
+   [
+    "carry",
+    3.24,
+    3.62
+   ],
+   [
+    "over.",
+    3.62,
+    4.06
+   ],
+   [
+    "Rip",
+    4.7,
+    5.06
+   ],
+   [
+    "and",
+    5.06,
+    5.36
+   ],
+   [
+    "cross",
+    5.36,
+    5.68
+   ],
+   [
+    "-cut",
+    5.68,
+    5.9
+   ],
+   [
+    "teeth,",
+    5.9,
+    6.26
+   ],
+   [
+    "a",
+    7.04,
+    7.18
+   ],
+   [
+    "backed",
+    7.18,
+    7.44
+   ],
+   [
+    "saw",
+    7.44,
+    7.82
+   ],
+   [
+    "for",
+    7.82,
+    8.12
+   ],
+   [
+    "joinery.",
+    8.12,
+    8.64
+   ],
+   [
+    "The",
+    9.46,
+    9.68
+   ],
+   [
+    "big",
+    9.68,
+    9.88
+   ],
+   [
+    "difference",
+    9.88,
+    10.24
+   ],
+   [
+    "is",
+    10.24,
+    10.78
+   ],
+   [
+    "the",
+    10.78,
+    11.02
+   ],
+   [
+    "stroke.",
+    11.02,
+    11.36
+   ]
+  ],
+  "wpm": 128.2
+ },
+ "N16": {
+  "take": 1,
+  "duration": 5.616,
+  "asr": "Next time, the rest of the kit, the chisels, the hammer, and the plane.",
+  "words": [
+   [
+    "Next",
+    0.0,
+    0.3
+   ],
+   [
+    "time,",
+    0.3,
+    0.6
+   ],
+   [
+    "the",
+    0.94,
+    1.04
+   ],
+   [
+    "rest",
+    1.04,
+    1.24
+   ],
+   [
+    "of",
+    1.24,
+    1.46
+   ],
+   [
+    "the",
+    1.46,
+    1.58
+   ],
+   [
+    "kit,",
+    1.58,
+    1.8
+   ],
+   [
+    "the",
+    2.6,
+    2.7
+   ],
+   [
+    "chisels,",
+    2.7,
+    3.3
+   ],
+   [
+    "the",
+    3.8,
+    3.82
+   ],
+   [
+    "hammer,",
+    3.82,
+    4.18
+   ],
+   [
+    "and",
+    4.8,
+    4.98
+   ],
+   [
+    "the",
+    4.98,
+    5.08
+   ],
+   [
+    "plane.",
+    5.08,
+    5.34
+   ]
+  ],
+  "wpm": 149.6
+ },
+ "N17": {
+  "take": 1,
+  "duration": 12.733,
+  "asr": "Pull to cut, rip along the grain, cross -cut across it, and before every cut, decide. Take the line, leave it, or split it.",
+  "words": [
+   [
+    "Pull",
+    0.0,
+    0.32
+   ],
+   [
+    "to",
+    0.32,
+    0.64
+   ],
+   [
+    "cut,",
+    0.64,
+    0.98
+   ],
+   [
+    "rip",
+    1.76,
+    2.14
+   ],
+   [
+    "along",
+    2.14,
+    2.62
+   ],
+   [
+    "the",
+    2.62,
+    2.84
+   ],
+   [
+    "grain,",
+    2.84,
+    3.26
+   ],
+   [
+    "cross",
+    4.04,
+    4.16
+   ],
+   [
+    "-cut",
+    4.16,
+    4.46
+   ],
+   [
+    "across",
+    4.46,
+    4.92
+   ],
+   [
+    "it,",
+    4.92,
+    5.32
+   ],
+   [
+    "and",
+    5.72,
+    6.2
+   ],
+   [
+    "before",
+    6.2,
+    6.62
+   ],
+   [
+    "every",
+    6.62,
+    7.16
+   ],
+   [
+    "cut,",
+    7.16,
+    7.64
+   ],
+   [
+    "decide.",
+    7.98,
+    8.48
+   ],
+   [
+    "Take",
+    9.28,
+    9.46
+   ],
+   [
+    "the",
+    9.46,
+    9.66
+   ],
+   [
+    "line,",
+    9.66,
+    10.0
+   ],
+   [
+    "leave",
+    10.58,
+    10.9
+   ],
+   [
+    "it,",
+    10.9,
+    11.3
+   ],
+   [
+    "or",
+    11.74,
+    11.96
+   ],
+   [
+    "split",
+    11.96,
+    12.36
+   ],
+   [
+    "it.",
+    12.36,
+    12.62
+   ]
+  ],
+  "wpm": 108.4
+ },
+ "N18": {
+  "take": 1,
+  "duration": 9.62,
+  "asr": "One note, sharp tool technique and how to use these tools safely is best learned from a teacher at a bench in person.",
+  "words": [
+   [
+    "One",
+    0.0,
+    0.5
+   ],
+   [
+    "note,",
+    0.5,
+    0.82
+   ],
+   [
+    "sharp",
+    1.66,
+    1.68
+   ],
+   [
+    "tool",
+    1.68,
+    2.1
+   ],
+   [
+    "technique",
+    2.1,
+    2.62
+   ],
+   [
+    "and",
+    2.62,
+    3.3
+   ],
+   [
+    "how",
+    3.3,
+    3.58
+   ],
+   [
+    "to",
+    3.58,
+    3.76
+   ],
+   [
+    "use",
+    3.76,
+    4.0
+   ],
+   [
+    "these",
+    4.0,
+    4.3
+   ],
+   [
+    "tools",
+    4.3,
+    4.56
+   ],
+   [
+    "safely",
+    4.56,
+    5.14
+   ],
+   [
+    "is",
+    5.14,
+    5.92
+   ],
+   [
+    "best",
+    5.92,
+    6.22
+   ],
+   [
+    "learned",
+    6.22,
+    6.64
+   ],
+   [
+    "from",
+    6.64,
+    6.94
+   ],
+   [
+    "a",
+    6.94,
+    7.1
+   ],
+   [
+    "teacher",
+    7.1,
+    7.5
+   ],
+   [
+    "at",
+    7.5,
+    8.08
+   ],
+   [
+    "a",
+    8.08,
+    8.2
+   ],
+   [
+    "bench",
+    8.2,
+    8.48
+   ],
+   [
+    "in",
+    8.48,
+    9.06
+   ],
+   [
+    "person.",
+    9.06,
+    9.32
+   ]
+  ],
+  "wpm": 137.2
+ }
+}

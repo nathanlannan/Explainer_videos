@@ -1,0 +1,51 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=25733
+title=Cold open
+[CHAPTER]
+TIMEBASE=1/1000
+START=25733
+END=51100
+title=The ink line: sumitsubo
+[CHAPTER]
+TIMEBASE=1/1000
+START=51100
+END=93133
+title=Study: the ink pot's parts
+[CHAPTER]
+TIMEBASE=1/1000
+START=93133
+END=123566
+title=The ink pen: sumisashi
+[CHAPTER]
+TIMEBASE=1/1000
+START=123566
+END=165700
+title=Squaring a line with the sashigane
+[CHAPTER]
+TIMEBASE=1/1000
+START=165700
+END=169700
+title=Study: squaring with the sashigane
+[CHAPTER]
+TIMEBASE=1/1000
+START=169700
+END=208633
+title=Gauges and the knife
+[CHAPTER]
+TIMEBASE=1/1000
+START=208633
+END=256833
+title=Study: pin vs. blade
+[CHAPTER]
+TIMEBASE=1/1000
+START=256833
+END=272333
+title=Recap and glossary
+[CHAPTER]
+TIMEBASE=1/1000
+START=272333
+END=284033
+title=Glossary

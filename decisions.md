@@ -126,3 +126,22 @@ $0.3186 of $5.00 over 133 logged calls (actual costs from OpenRouter generation 
 
 ## Episode map correction (from Ep 3 research)
 - The map said "aiban labeling". **合番 aiban is not a carpentry labelling term.** The system is **番付 banzuke** (classic form: いろは × 一二三 grid addresses), and matching marks are 合印 aijirushi. Episode 3 teaches banzuke.
+
+## Episode 2 · Part 2: delivery notes
+- Squaring follows the Topman figure: the long arm hooks the edge, and the line is drawn along the short arm. The narration says "which arm hooks the edge varies" because MHLW's text names the other arm.
+- The pen was re-posed (yaw π − 0.5) because in the first pose its body hid the line it was drawing.
+- The bench exercise drops a claim about diagnosing gap size, because I couldn't verify it.
+
+## Episode 3: Gate A fixes
+- Added rows R4-20 (reuse when dismantling: JAANUS + 世界大百科) and R4-21 (grid lines through post centres).
+- Post addresses are now written vertically beside the centre line, not across it, with an on-screen tag "い一 i-no-ichi".
+- The beam mark is now on the housing face that the post's top covers, shown with the beam lifted (exploded view). That matches "hidden once built".
+- The "story stick: its heights" label is dropped; the narration still names the stick, which Episode 1 showed.
+- N10: the TTS ignored the pace instruction twice, so the take was slowed with atempo 0.88 (156 → 138 wpm).
+
+## Episode 4 · Part 1: Gate A
+- The "split" line choice is drawn as the kerf centred on the line (墨をまたぐ, "straddle"). The diagram line is drawn wider than the kerf so that take < split < leave holds; a fit check enforces this. My first rule, defined by the kerf's work-side edge, did not match the term.
+- 墨を払う/残す/またぐ come from a single source (MHLW). They are shown in romaji only, with a source tag, and no kanji.
+- Dating: "the Meiji era, in the late eighteen hundreds". The sources disagree on 1877 vs about 1895–97.
+- The dōzuki is described as "classed as a crosscut saw", because rip variants are sold.
+- The sharp-tools teacher line is moved to the end of the episode, per the series rule.
