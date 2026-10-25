@@ -22,12 +22,15 @@ function getFrame() {
   F.members.filter((m) => m.kind !== 'stick').forEach((m, i) => { const me = L.memberMesh(m, { seed: i + 3 }); parts[m.name] = me; s.add(me); });
   // address written on each post near its bottom, on the front face (z = +post/2)
   const tags = [];
-  for (let i = 0; i < 4; i++) { const t = L.inkText(ADDR[i], 75, { font: JP, weight: 600 }); t.rotation.z = -Math.PI / 2; t.position.set(F.x_posts[i], F.y_post0 + 170, F.params.POST / 2 + 0.6); parts['post' + (i + 1)].add(t); t.position.sub(new THREE.Vector3()); tags.push(t); }
+  // written vertically, beside the centre line (not across it)
+  for (let i = 0; i < 4; i++) { const t = L.inkText(ADDR[i][0], 40, { font: JP, weight: 700 }), t2 = L.inkText(ADDR[i][1], 40, { font: JP, weight: 700 }); t2.onBeforeRender = () => { t2.material.opacity = t.material.opacity; }; t2.position.set(0, -46, 0.01); t.add(t2); t.position.set(F.x_posts[i] + 28, F.y_post0 + 200, F.params.POST / 2 + 0.6); parts['post' + (i + 1)].add(t); tags.push(t); }
   frame = { s, parts, tags };
   return frame;
 }
 // pose: k in 0..1 from "lying apart on the ground" to "assembled"
 function poseFrame(Fr, k) {
+  if (Fr.bt) Fr.bt.visible = false;
+  if (Fr.cls) Fr.cls.forEach((c) => { c.visible = false; });
   for (const [n, me] of Object.entries(Fr.parts)) {
     const kind = n.replace(/\d+$/, ''), i = +(n.match(/\d+$/) || [0])[0];
     const kk = L.clamp(k * 1.6 - (kind === 'post' ? 0.1 * i : kind === 'rail' ? 0.4 + 0.05 * i : kind === 'beam' ? 0.55 : 0));
@@ -43,16 +46,16 @@ function drawPlan(svg, x0, y0, sp, { labels = true, posts = true, members = true
   const g = el2(svg, 'g', {}); const nx = G.iroha.length, ny = G.nums.length;
   const W = (nx - 1) * sp, H = (ny - 1) * sp;
   const grid = el2(g, 'g', {});
-  for (let i = 0; i < nx; i++) el2(grid, 'line', { x1: x0 + i * sp, y1: y0 - sp * 0.45, x2: x0 + i * sp, y2: y0 + H + sp * 0.45, stroke: INK, 'stroke-width': 2.5, 'stroke-dasharray': '24 7 5 7' });
-  for (let j = 0; j < ny; j++) el2(grid, 'line', { x1: x0 - sp * 0.45, y1: y0 + j * sp, x2: x0 + W + sp * 0.45, y2: y0 + j * sp, stroke: INK, 'stroke-width': 2.5, 'stroke-dasharray': '24 7 5 7' });
+  for (let i = 0; i < nx; i++) el2(grid, 'line', { x1: x0 + i * sp, y1: y0 - sp * 0.15, x2: x0 + i * sp, y2: y0 + H + sp * 0.15, stroke: INK, 'stroke-width': 2.5, 'stroke-dasharray': '24 7 5 7' });
+  for (let j = 0; j < ny; j++) el2(grid, 'line', { x1: x0 - sp * 0.15, y1: y0 + j * sp, x2: x0 + W + sp * 0.15, y2: y0 + j * sp, stroke: INK, 'stroke-width': 2.5, 'stroke-dasharray': '24 7 5 7' });
   const mem = el2(g, 'g', {});
   if (members) { el2(mem, 'rect', { x: x0, y: y0, width: W, height: H, fill: 'none', stroke: INK, 'stroke-width': 7 }); }
   const ps = el2(g, 'g', {});
   if (posts) Object.values(G.posts).forEach(([px, py]) => el2(ps, 'rect', { x: x0 + px / G.spacing * sp - 13, y: y0 + py / G.spacing * sp - 13, width: 26, height: 26, fill: '#E6C9A0', stroke: INK, 'stroke-width': 4 }));
   const lab = el2(g, 'g', {});
   if (labels) {
-    G.iroha.forEach((c, i) => { const t = el2(lab, 'text', { x: x0 + i * sp, y: y0 - sp * 0.55, 'font-size': 52, 'text-anchor': 'middle', 'font-family': JP, 'font-weight': 600 }); t.textContent = c; });
-    G.nums.forEach((c, j) => { const t = el2(lab, 'text', { x: x0 - sp * 0.62, y: y0 + j * sp + 18, 'font-size': 52, 'text-anchor': 'middle', 'font-family': JP, 'font-weight': 600 }); t.textContent = c; });
+    G.iroha.forEach((c, i) => { const t = el2(lab, 'text', { x: x0 + i * sp, y: y0 - sp * 0.3, 'font-size': 52, 'text-anchor': 'middle', 'font-family': JP, 'font-weight': 600 }); t.textContent = c; });
+    G.nums.forEach((c, j) => { const t = el2(lab, 'text', { x: x0 - sp * 0.42, y: y0 + j * sp + 18, 'font-size': 52, 'text-anchor': 'end', 'font-family': JP, 'font-weight': 600 }); t.textContent = c; const r = el2(lab, 'text', { x: x0 - sp * 0.42 - 70, y: y0 + j * sp + 14, 'font-size': 36, 'text-anchor': 'end', 'font-family': FONT, 'font-style': 'italic' }); r.textContent = G.romaji[c]; });
   }
   return { g, grid, mem, ps, lab, W, H };
 }
@@ -78,9 +81,9 @@ const SHOTS = {
       const svg = L.svgLayer();
       this.b = board(svg, 230, 150, 1200, 760);
       this.plan = drawPlan(svg, 460, 330, 270, { labels: false });
-      this.term = L.label({ romaji: 'itazu', kanji: '板図', gloss: "the carpenter's board plan · also zuita 図板, teita 手板", x: 96, y: 940 });
+      this.term = L.label({ romaji: 'itazu', kanji: '板図', gloss: "the carpenter's board plan · also zuita 図板, teita 手板", x: 96, y: 920 });
       this.lp = L.text('posts at the crossings', { x: 1460, y: 320, size: 36, w: 360 }); this.lp.classList.add('wrap');
-      this.lm = L.text('sills and beams between them', { x: 1460, y: 440, size: 36, w: 360 }); this.lm.classList.add('wrap');
+      this.lm = L.text('← sills and beams between them (heavy line)', { x: 1460, y: 440, size: 36, w: 360 }); this.lm.classList.add('wrap');
       this.dim = el2(svg, 'g', {}); el2(this.dim, 'path', { d: 'M460,240 h270 M460,228 v24 M730,228 v24', stroke: INK, 'stroke-width': 3, fill: 'none' });
       this.dimT = L.text('3 shaku ≈ 910 mm <span class="soft">(usual)</span>', { x: 595, y: 170, size: 36, align: 'center' });
       this.cl = L.text('grid lines run through post centers', { x: 1460, y: 580, size: 36, w: 360 }); this.cl.classList.add('wrap');
@@ -100,23 +103,23 @@ const SHOTS = {
   S04: {
     build() {
       const svg = L.svgLayer();
-      this.b = board(svg, 500, 200, 1000, 720);
-      this.plan = drawPlan(svg, 720, 400, 240);
+      this.b = board(svg, 470, 200, 1000, 720);
+      this.plan = drawPlan(svg, 740, 420, 210);
       this.term = L.label({ romaji: 'banzuke', kanji: '番付', gloss: 'the grid-address system', x: 96, y: 70 });
       this.ir = L.text('iroha: い ろ は に <span class="soft">(i, ro, ha, ni)</span>', { x: 500, y: 960, size: 40 });
       this.nu = L.text('numbers: 一 二 三 <span class="soft">(one, two, three)</span>', { x: 500, y: 1010, size: 40 });
       this.hl = el2(svg, 'g', {});
-      const c1 = el2(this.hl, 'circle', { cx: 720, cy: 400, r: 34, fill: 'none', stroke: INK, 'stroke-width': 5 });
-      this.hl2 = el2(svg, 'circle', { cx: 960, cy: 400, r: 34, fill: 'none', stroke: INK, 'stroke-width': 5 });
+      const c1 = el2(this.hl, 'circle', { cx: 740, cy: 420, r: 34, fill: 'none', stroke: INK, 'stroke-width': 5 });
+      this.hl2 = el2(svg, 'circle', { cx: 950, cy: 420, r: 34, fill: 'none', stroke: INK, 'stroke-width': 5 });
       this.a1 = L.text('<span style="font-family:\'Noto Serif CJK JP\';font-weight:700">い一</span> <i>i-no-ichi</i>', { x: 96, y: 380, size: 44 });
       this.a2 = L.text('<span style="font-family:\'Noto Serif CJK JP\';font-weight:700">ろ一</span> <i>ro-no-ichi</i>', { x: 96, y: 460, size: 44 });
       // inset: another carpenter's layout (axes swapped)
-      this.inset = el2(svg, 'g', {}); const ix = 1640, iy = 330;
-      el2(this.inset, 'rect', { x: ix - 70, y: iy - 70, width: 300, height: 300, fill: L.C.paper, stroke: INK, 'stroke-width': 2, rx: 8 });
+      this.inset = el2(svg, 'g', {}); const ix = 1600, iy = 300;
+      el2(this.inset, 'rect', { x: ix - 80, y: iy - 70, width: 300, height: 300, fill: L.C.paper, stroke: INK, 'stroke-width': 2, rx: 8 });
       ['一', '二', '三'].forEach((c, i) => { const tt = el2(this.inset, 'text', { x: ix + i * 70, y: iy - 20, 'font-size': 36, 'font-family': JP, 'text-anchor': 'middle' }); tt.textContent = c; });
       ['い', 'ろ', 'は'].forEach((c, j) => { const tt = el2(this.inset, 'text', { x: ix - 40, y: iy + 20 + j * 70, 'font-size': 36, 'font-family': JP, 'text-anchor': 'middle' }); tt.textContent = c; });
       for (let i = 0; i < 3; i++) for (let j = 0; j < 3; j++) el2(this.inset, 'rect', { x: ix + i * 70 - 8, y: iy + 8 + j * 70, width: 16, height: 16, fill: 'none', stroke: INK, 'stroke-width': 2 });
-      this.insetT = L.text('another carpenter may swap the axes or start at another corner', { x: 1540, y: 640, size: 36, w: 300, cls: 'soft' }); this.insetT.classList.add('wrap');
+      this.insetT = L.text('another carpenter may swap the axes or start at another corner', { x: 1520, y: 560, size: 36, w: 300, cls: 'soft' }); this.insetT.classList.add('wrap');
       this.oth = L.text('other numbering systems exist too', { x: 96, y: 860, size: 36, cls: 'soft', w: 380 }); this.oth.classList.add('wrap');
     },
     frame(t, sh) {
@@ -135,11 +138,11 @@ const SHOTS = {
   S05: {
     build() {
       getFrame();
-      this.lab = L.text('the address, written by hand while marking out', { x: 96, y: 70, size: 40 });
-      this.l1 = L.text('address: where it goes', { x: 1824, y: 300, size: 40, align: 'right' });
-      this.l2 = L.text('story stick: its heights', { x: 1824, y: 370, size: 40, align: 'right' });
-      this.l3 = L.text('center line: the reference', { x: 1824, y: 440, size: 40, align: 'right' });
-      this.hid = L.text('hidden once built: e.g. on a tenon, or below the floor', { x: 96, y: 980, size: 40 });
+      this.lab = L.text('the address, written by hand while marking out', { x: 96, y: 70, size: 40, cls: 'plate' });
+      this.tagL = L.text('<span style="font-family:\'Noto Serif CJK JP\';font-weight:700">い一</span> <i>i-no-ichi</i>', { x: 0, y: 0, size: 44, cls: 'plate' });
+      this.l1 = L.text('address: where it goes', { x: 1824, y: 300, size: 40, align: 'right', cls: 'plate' });
+      this.l3 = L.text('center line: the reference', { x: 1824, y: 370, size: 40, align: 'right', cls: 'plate' });
+      this.hid = L.text('hidden once built: e.g. on a tenon, or below the floor', { x: 96, y: 980, size: 40, cls: 'plate' });
       const s = getFrame().s;
       // ghost floor band (illustrative) and the post's centre line
       this.floor = new THREE.Mesh(new THREE.BoxGeometry(900, 420, 400), new THREE.MeshBasicMaterial({ color: L.C.ghost, transparent: true, opacity: 0.25, depthWrite: false }));
@@ -154,7 +157,8 @@ const SHOTS = {
       this.floor.visible = t > e.floor - 0.4; this.floor.material.opacity = 0.25 * L.ramp(t, e.floor - 0.4, e.floor + 0.2);
       const cam = L.camera('threeQ', [0, 420, 0], 1500, { orbit: -0.3, lift: 0.05 });
       anchor(this.fl, cam, [450, 420, 200], -260, -20); L.show(this.fl, this.floor.visible ? 1 : 0);
-      L.show(this.lab, L.ramp(t, e.writes - 0.2, e.writes + 0.3)); L.show(this.l1, L.ramp(t, e.where - 0.2, e.where + 0.3)); L.show(this.l2, L.ramp(t, e.stick - 0.2, e.stick + 0.3)); L.show(this.l3, L.ramp(t, e.center - 0.2, e.center + 0.3));
+      anchor(this.tagL, cam, [60, F.y_post0 + 180, F.params.POST / 2], 70, -30); L.show(this.tagL, L.ramp(t, e.writes + 0.3, e.writes + 0.8));
+      L.show(this.lab, L.ramp(t, e.writes - 0.2, e.writes + 0.3)); L.show(this.l1, L.ramp(t, e.where - 0.2, e.where + 0.3)); L.show(this.l3, L.ramp(t, e.center - 0.2, e.center + 0.3));
       L.show(this.hid, L.ramp(t, e.hidden - 0.2, e.hidden + 0.3));
       return { scene: Fr.s, camera: cam };
     },
@@ -163,16 +167,24 @@ const SHOTS = {
     build() {
       const Fr = getFrame();
       this.bt = L.inkText('い一', 60, { font: JP, weight: 600 }); this.bt.rotation.x = Math.PI / 2; // on the beam's underside, readable from below
-      this.bt.position.set(F.x_posts[0] + 160, F.y_post0 + F.params.POST_LEN - F.params.HOUSING - 0.6, 0); Fr.s.add(this.bt); this.bt.visible = false;
-      this.lab = L.text('one common practice: the beam carries the same address at that joint', { x: 96, y: 70, size: 40, w: 1700 }); this.lab.classList.add('wrap');
-      this.cl = L.text('and every member gets its center line', { x: 96, y: 980, size: 40 });
-      this.cls = [];
+      // on the housing face that the post's top covers
+      this.bt.position.set(F.x_posts[0], F.y_post0 + F.params.POST_LEN - 0.6, 27); this.bt.scale.set(0.8, 0.8, 1); Fr.s.add(this.bt); this.bt.visible = false; Fr.bt = this.bt;
+      this.lab = L.text('one common practice: the beam carries the same address at that joint, where the post covers it', { x: 96, y: 70, size: 40, w: 1700, cls: 'plate' }); this.lab.classList.add('wrap');
+      this.cl = L.text('and every member gets its center line', { x: 96, y: 980, size: 40, cls: 'plate' });
+      this.btL = L.text('<span style="font-family:\'Noto Serif CJK JP\';font-weight:700">い一</span> <i>i-no-ichi</i>', { x: 0, y: 0, size: 44, cls: 'plate' });
+      this.bl = L.text('beam lifted to show the joint face', { x: 1824, y: 980, size: 36, cls: 'soft plate', align: 'right' });
+      // centre lines: along the beam's underside, and up the post's front face
+      this.clB = L.centreLine(3000, 4, [80, 22, 14, 22]); this.clB.rotation.x = Math.PI / 2; this.clB.position.set(-150, F.y_post0 + F.params.POST_LEN - F.params.HOUSING - 0.8, 0); Fr.s.add(this.clB);
+      this.clP = L.centreLine(F.params.POST_LEN - 40, 4, [80, 22, 14, 22]); this.clP.rotation.z = Math.PI / 2; this.clP.position.set(0, F.y_post0 + 20, F.params.POST / 2 + 0.8); Fr.s.add(this.clP);
+      this.cls = [this.clB, this.clP]; this.cls.forEach((c) => { c.visible = false; }); Fr.cls = this.cls;
     },
     frame(t, sh) {
-      const Fr = getFrame(), e = sh.ev; poseFrame(Fr, 1);
-      Fr.tags.forEach((tg, i) => { tg.visible = i === 0; tg.material.opacity = 1; });
+      const Fr = getFrame(), e = sh.ev; poseFrame(Fr, 1); Fr.parts.beam.position.y = 240 * L.ramp(t, 0.2, 1.4); this.bt.position.y = F.y_post0 + F.params.POST_LEN - 0.6 + Fr.parts.beam.position.y;
+      Fr.tags.forEach((tg, i) => { tg.visible = i === 0; tg.material.opacity = 1; }); L.show(this.bl, L.ramp(t, 0.8, 1.4));
+      this.cls.forEach((c) => { c.visible = t > e.center - 0.3; L.setGroupProgress(c, L.ramp(t, e.center - 0.3, e.center + 1.2)); c.position.y = c === this.clB ? F.y_post0 + F.params.POST_LEN - F.params.HOUSING - 0.8 + Fr.parts.beam.position.y : c.position.y; });
       this.bt.visible = t > e.marked - 0.2; this.bt.material.opacity = L.ramp(t, e.marked - 0.2, e.marked + 0.6);
-      const cam = L.camera('threeQ', [150, F.y_post0 + F.params.POST_LEN - 200, 0], 1500, { orbit: -0.3, lift: -0.55 });
+      const cam = L.camera('threeQ', [150, F.y_post0 + F.params.POST_LEN + 160, 0], 1150, { orbit: -0.3, lift: -1.4 });
+      anchor(this.btL, cam, [F.x_posts[0] + 80, this.bt.position.y, 120], 0, 30); L.show(this.btL, L.ramp(t, e.marked + 0.3, e.marked + 0.8));
       L.show(this.lab, L.ramp(t, e.common - 0.2, e.common + 0.3)); L.show(this.cl, L.ramp(t, e.center - 0.2, e.center + 0.3));
       return { scene: Fr.s, camera: cam };
     },
@@ -180,9 +192,9 @@ const SHOTS = {
   S07: {
     build() {
       const svg = L.svgLayer(); this.parts = [];
-      const pieces = [['い一', 400, 520, 30, 300], ['ろ一', 700, 520, 30, 300], ['は一', 1000, 520, 30, 300], ['に一', 1300, 520, 30, 300], ['一 beam', 380, 470, 980, 30], ['一 sill', 380, 830, 980, 30]];
-      pieces.forEach(([lab, x, y, w, h], i) => { const g = el2(svg, 'g', {}); L.woodRect(g, x, y, w, h, { vertical: h > w }); const tt = el2(g, 'text', { x: x + w / 2 + (h > w ? 40 : 0), y: y + (h > w ? h / 2 : -12), 'font-size': 36, 'font-family': JP, 'font-weight': 600, 'text-anchor': h > w ? 'start' : 'middle' }); tt.textContent = lab; this.parts.push({ g, i }); });
-      this.t = L.text('taken apart for repair or moving · every piece goes back where it came from', { x: 960, y: 960, size: 36, align: 'center', w: 1500 }); this.t.classList.add('wrap');
+      const pieces = [['い一', 400, 520, 30, 300], ['ろ一', 700, 520, 30, 300], ['は一', 1000, 520, 30, 300], ['に一', 1300, 520, 30, 300], ['beam', 380, 470, 980, 30], ['sill', 380, 830, 980, 30]];
+      pieces.forEach(([lab, x, y, w, h], i) => { const g = el2(svg, 'g', {}); L.woodRect(g, x, y, w, h, { vertical: h > w }); const tt = el2(g, 'text', { x: x + w / 2 + (h > w ? 40 : 0), y: y + (h > w ? h / 2 : -12), 'font-size': 36, 'font-family': FONT, 'font-weight': 700, 'text-anchor': h > w ? 'start' : 'middle' }); tt.textContent = lab; this.parts.push({ g, i }); });
+      this.t = L.text('taken apart for repair or moving · every piece goes back where it came from · simplified', { x: 960, y: 960, size: 36, align: 'center', w: 1500 }); this.t.classList.add('wrap');
     },
     frame(t, sh) {
       const e = sh.ev, k = L.ramp(t, e.apart - 0.4, e.apart + 0.8) * (1 - L.ramp(t, e.back - 0.2, e.back + 1.2));
@@ -194,7 +206,7 @@ const SHOTS = {
   S08: {
     build() {
       const steps = [['board plan', '板図 itazu'], ['story sticks', 'the heights'], ['marking out', '墨付け sumitsuke'], ['cutting', '刻み kizami'], ['raising', 'labels matched']];
-      this.items = steps.map(([a, b], i) => { const d = L.text(`<b>${a}</b><br><span class="soft">${b}</span>`, { x: 140 + i * 350, y: 420, size: 40, w: 320 }); d.classList.add('wrap'); return d; });
+      this.items = steps.map(([a, b], i) => { const d = L.text(`<b>${a}</b><br><span class="soft" style="white-space:nowrap">${b}</span>`, { x: 120 + i * 350, y: 420, size: 40, w: 330 }); d.classList.add('wrap'); return d; });
       const svg = L.svgLayer(); this.arrows = [0, 1, 2, 3].map((i) => el2(svg, 'path', { d: `M${410 + i * 350},450 h50 m-14,-12 l14,12 l-14,12`, stroke: INK, 'stroke-width': 4, fill: 'none' }));
       this.raise = L.text('at raising, the crew reads the addresses: matching labels go together', { x: 960, y: 760, size: 40, align: 'center', w: 1500 }); this.raise.classList.add('wrap');
     },
@@ -210,7 +222,7 @@ const SHOTS = {
       const svg = L.svgLayer();
       this.bar = el2(svg, 'g', {}); el2(this.bar, 'rect', { x: 260, y: 440, width: 1400, height: 80, fill: '#E9E1D2', stroke: INK, 'stroke-width': 2 });
       this.fill = el2(this.bar, 'rect', { x: 260, y: 440, width: 0, height: 80, fill: '#7D8EA0' });
-      this.t1 = L.text('2015: about <b>91%</b> of post-and-beam framing in Japan was pre-cut by machine', { x: 260, y: 330, size: 40, w: 1400 }); this.t1.classList.add('wrap');
+      this.t1 = L.text('2015: about <b>91%</b> of Japan\'s post-and-beam framing was machine pre-cut', { x: 260, y: 330, size: 40, w: 1500 }); this.t1.classList.add('wrap');
       this.src = L.text('source: Forestry Agency, Annual Report on Forest and Forestry (FY2016)', { x: 260, y: 560, size: 36, cls: 'soft' });
       this.t2 = L.text('the logic is the same, and it is what hand-cut joinery needs', { x: 260, y: 700, size: 44 });
     },
@@ -237,7 +249,8 @@ const SHOTS = {
         ['banzuke', '番付', 'grid addresses', 'iroha across × numbers down (one common layout); varies by carpenter'],
         ['i-no-ichi', 'い一', 'an address', 'the post at grid lines い and 一'],
         ['kizami', '刻み', 'cutting', 'cutting the members after marking out'],
-        ['sumitsuke', '墨付け', 'marking out', 'from Episode 1: drawing every line in ink'],
+        ['sumitsuke', '墨付け', 'marking out', 'from Episode 1: marking lines and marks in ink'],
+        ['shaku', '尺', 'old unit', 'about 303 mm; 3 shaku ≈ 910 mm'],
       ];
       const g = L.text('', { x: 96, y: 270, size: 36, w: 1728 }); g.innerHTML = '<div class="soft" style="font-size:36px;margin-bottom:14px;letter-spacing:.08em">GLOSSARY · EPISODE 3</div>' + rows.map((r) => `<div style="display:flex;gap:30px;margin-bottom:22px;align-items:baseline"><div style="width:440px;font-weight:700;font-size:40px"><i>${r[0]}</i> <span style="font-family:'Noto Serif CJK JP',serif;font-style:normal">${r[1]}</span></div><div style="width:1260px;white-space:normal;font-size:36px"><b>${r[2]}</b> — <span class="soft">${r[3]}</span></div></div>`).join('');
     },

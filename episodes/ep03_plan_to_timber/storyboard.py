@@ -72,7 +72,7 @@ def _(s):
     s.pause(0.3)
     s.line("N13", {"plan": "plan", "sticks": "sticks", "mark": "marking", "cut": "kizami"}, gap=0.4)
     s.line("N14", {"raise": "raised", "match": "matching"}, gap=0.4)
-    s.hold(2.0)
+    s.hold(3.5, "Study: plan to frame")
 
 
 @shot("S09", "Rare today", "2d", "2015: about 91% of post-and-beam framing in Japan pre-cut by machine (Forestry Agency white paper); the logic is the same.")

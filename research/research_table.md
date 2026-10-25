@@ -97,6 +97,8 @@ Key sources: JAANUS itazu, banzuke; Kotobank 図板 (デジタル大辞泉, 日�
 | R4-16 | Mark at every joint | — | a beam meeting post い一 is marked い一 at that joint | 川上 (one source; a second page copies it) | single-source | softened ("one common practice") |
 | R4-17 | Orientation decisions | 元口/末口 | butt/top ends, grain and curve decided when planning | 川上; 丸清 | single-source | no |
 | R4-18 | Workflow | 墨付け → 刻み きざみ kizami → 建前 (上棟) | plan + story sticks → marking out → cutting → (trial fit) → raising the frame | 中央工学校; 堂薗建築; 水野設計室; 天然住宅; SUHARU建匠; 川上 | verified | yes (kizami named) |
+| R4-20 | Reuse when dismantling | — | the same addresses serve when a building is taken apart for repair or moving | JAANUS banzuke (before construction, during repair or when moving a building); 世界大百科 (on dismantling, wooden tags are nailed on) | verified | yes |
+| R4-21 | Grid lines through post centres | 通り芯 / 通り心 | grid lines run through the centres of the posts on them | DAIKEN glossary (通り芯 = centreline of post/wall; see R-02); 丸清 (通り心 as the reference line in 墨付け) | verified | yes |
 | R4-19 | "いの一番 comes from banzuke" | — | — | one carpenter's blog; dictionaries give only iroha order | folk etymology | no |
 
 ## Later episodes (candidates, not yet researched)
