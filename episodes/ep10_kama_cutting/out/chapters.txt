@@ -1,0 +1,26 @@
+Chapter markers (also embedded in the MP4)
+
+0:00.00  Cold open
+0:32.03  Before marking
+0:53.53  Marking out
+1:30.17  Study: the female's lines
+1:51.83  Cutting the female
+2:55.43  Study: the female, cut
+2:58.93  Cutting the male
+4:03.63  Study: the male, cut
+4:07.13  Assembly
+4:23.13  Recap and glossary
+4:35.53  Glossary
+
+YouTube-style:
+0:00 Cold open
+0:32 Before marking
+0:53 Marking out
+1:30 Study: the female's lines
+1:51 Cutting the female
+2:55 Study: the female, cut
+2:58 Cutting the male
+4:03 Study: the male, cut
+4:07 Assembly
+4:23 Recap and glossary
+4:35 Glossary
