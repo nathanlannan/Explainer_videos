@@ -116,7 +116,7 @@ const SHOTS = {
       if (!this.bolt) { this.bolt = new THREE.Mesh(new THREE.CylinderGeometry(6, 6, 160, 16), new THREE.MeshStandardMaterial({ color: '#5E6266', metalness: 0.3, roughness: 0.5 })); sc.mG.add(this.bolt); }
       this.bolt.position.set(G.SEAT + 80, 40, 0); this.bolt.visible = t > e.bolt - 0.2;
       const cam = L.camera('threeQ', [0, 60, 0], 1500, { orbit: -0.3, lift: 0.5 });
-      anchor(this.m, cam, [140 + 250, G.H, 0], -200, -110); anchor(this.f, cam, [-140 - 300, G.H, 0], -60, -90);
+      this.m.style.left = '780px'; this.m.style.top = '150px'; anchor(this.f, cam, [-140 - 300, G.H, 0], -60, -90);
       L.show(this.m, L.ramp(t, e.male - 0.3, e.male + 0.3)); L.show(this.f, L.ramp(t, e.male + 0.5, e.male + 1.0)); L.show(this.mk, L.ramp(t, e.mark - 0.3, e.mark + 0.3));
       return { scene: sc.s, camera: cam };
     },
@@ -150,8 +150,8 @@ const SHOTS = {
       const ang = Math.atan2((G.HEAD - G.NECK) / 2, G.LD);
       this.sq.visible = t > e.blade - 0.3 && t < e.sides; this.sq.position.set(10, G.H + 1, -G.NECK / 2 - 4); this.sq.rotation.set(-Math.PI / 2, 0, Math.PI - ang);
       const cam = L.camera('threeQ', [-20, G.H, 0], 760, { orbit: -0.15, lift: 1.2 });
-      anchor(this.le, cam, [G.SEAT, G.H, -G.W / 2], -40, -70); anchor(this.ls, cam, [0, G.H, G.W / 2], -60, 20);
-      anchor(this.ld, cam, [-G.LD, G.H, -G.HEAD / 2], -560, -80); anchor(this.lf, cam, [G.SEAT / 2, G.HALF || G.H / 2, G.W / 2], 30, 40);
+      anchor(this.le, cam, [G.SEAT, G.H, -G.W / 2], 20, -100); anchor(this.ls, cam, [0, G.H, G.W / 2], -60, 20);
+      anchor(this.ld, cam, [-G.LD, G.H, G.HEAD / 2], -620, 60); anchor(this.lf, cam, [G.SEAT / 2, G.HALF || G.H / 2, G.W / 2], 30, 40);
       L.show(this.le, r(e.end)); L.show(this.ls, r(e.seat)); L.show(this.ld, r(e.dove)); L.show(this.lb, r(e.blade) * (1 - r(e.sides))); L.show(this.lf, r(e.sides)); L.show(this.src, r(e.end));
       return { scene: sc.s, camera: cam };
     },
@@ -202,8 +202,8 @@ const SHOTS = {
         void d;
       } else if (t > e.chop - 0.3 && t < e.dig + 1.0) { // chisel chopping in the socket, flat back toward the outside (toward -x end wall)
         const c = sc.tools.ch; c.piv.visible = true;
-        c.piv.rotation.set(0, 0, Math.PI / 2); // edge pointing down, back facing -x
-        c.piv.position.set(-G.LD + 2, H + 30 - 25 * s, 0);
+        c.piv.rotation.set(0, 0, -Math.PI / 2); // edge down, handle up; the flat back faces -x (toward the outside: the socket's head wall)
+        c.piv.position.set(-G.LD + 2, HALF + 4 + 30 * s, 0);
       }
       const cam = L.camera('threeQ', [-10, HALF + 10, 0], 820, { orbit: -0.45, lift: 0.7 });
       this.items.forEach((x) => x.remove()); this.items = [];
@@ -223,11 +223,11 @@ const SHOTS = {
       this.c2 = L.text('cheeks: leave the line at the top, take it at the bottom', { x: 96, y: 990, size: 40, cls: 'plate' });
       this.c3 = L.text('shoulders crosscut (splitting the line) · corners chiselled · chamfer with the chisel', { x: 96, y: 990, size: 40, cls: 'plate' });
       // 2D inset: end view of the dovetail, the taper exaggerated
-      const svg = L.svgLayer(); this.inset = el2(svg, 'g', {}); const ix = 1480, iy = 300;
+      const svg = L.svgLayer(); this.inset = el2(svg, 'g', {}); const ix = 1340, iy = 300;
       el2(this.inset, 'rect', { x: ix - 40, y: iy - 120, width: 420, height: 380, fill: '#F3EEE4', stroke: INK, 'stroke-width': 2, rx: 8 });
       el2(this.inset, 'path', { d: `M${ix + 60},${iy} L${ix + 280},${iy} L${ix + 255},${iy + 200} L${ix + 85},${iy + 200} Z`, fill: WOOD, stroke: INK, 'stroke-width': 3 });
       el2(this.inset, 'path', { d: `M${ix + 60},${iy} V${iy + 200} M${ix + 280},${iy} V${iy + 200}`, stroke: GHOST, 'stroke-width': 3, 'stroke-dasharray': '10 7' });
-      this.it = L.text('end view · taper greatly exaggerated', { x: ix + 170, y: iy - 100, size: 36, align: 'center', cls: 'soft' });
+      this.it = L.text('end view · taper greatly exaggerated', { x: ix + 170, y: iy - 100, size: 36, align: 'center', cls: 'soft', w: 460 });
       this.it2 = L.text('top: line left · bottom: line taken', { x: ix + 170, y: iy + 210, size: 36, align: 'center' });
     },
     frame(t, sh) {
@@ -255,11 +255,11 @@ const SHOTS = {
       this.l3 = L.text('it bears on its faces, never on its tip', { x: 96, y: 990, size: 40, cls: 'plate' });
       // inset: side section through the dovetail's head, showing the deepened pocket (neutral, not an error)
       const svg = L.svgLayer(); this.inset = el2(svg, 'g', {}); const ix = 1300, iy = 220, S = 4;
-      el2(this.inset, 'rect', { x: ix - 30, y: iy - 60, width: 560, height: 380, fill: '#F3EEE4', stroke: INK, 'stroke-width': 2, rx: 8 });
+      el2(this.inset, 'rect', { x: ix - 30, y: iy - 30, width: 560, height: 420, fill: '#F3EEE4', stroke: INK, 'stroke-width': 2, rx: 8 });
       el2(this.inset, 'path', { d: `M${ix},${iy + 52.5 * S} H${ix + 500} V${iy + 280} H${ix} Z`, fill: WOOD, stroke: INK, 'stroke-width': 2 });
       el2(this.inset, 'rect', { x: ix + 200, y: iy + 52.5 * S, width: 15 * S, height: 3 * S, fill: '#F3EEE4', stroke: INK, 'stroke-width': 2 });
       el2(this.inset, 'rect', { x: ix + 200, y: iy, width: 300, height: 52.5 * S, fill: '#EAD3AE', stroke: INK, 'stroke-width': 2 });
-      this.it = L.text('section at the tip: a pocket ~3 mm below the seat level (model reading)', { x: ix + 250, y: iy - 50, size: 32, align: 'center', w: 520 }); this.it.classList.add('wrap');
+      this.it = L.text('section at the tip: a pocket ~3 mm below the seat level (model reading)', { x: ix + 250, y: iy + 290, size: 32, align: 'center', w: 520 }); this.it.classList.add('wrap');
     },
     frame(t, sh) {
       const sc = getScene(), e = sh.ev; resetScene(sc); showState(sc.F, 2); showState(sc.M, 2);

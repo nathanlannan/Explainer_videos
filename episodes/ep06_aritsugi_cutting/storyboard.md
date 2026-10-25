@@ -1,23 +1,17 @@
-# Episode 6: Marking Out and Cutting the Koshikake Ari-tsugi (Gate A plan)
+# Episode 2 · Part 1 storyboard (as built)
 
-Facts come from `research/ep05_fact_pack.md` (R6-xx). The step sequence is single-source (the ものつくり大学 WBT training course, R6-26 to R6-29), so it is framed as "one training course's sequence". Geometry builds on Episode 5's fit-checked joint, with two refinements from the sources:
-- the male's dovetail cheeks taper in elevation: the line is left at the top and taken at the bottom (R6-24), modelled as 0.5 mm per side, shown exaggerated;
-- the socket tip is dug about 3 mm past the line (R6-28).
-
-The fit check then proves that the male enters freely, the faces seat at the top, and the tip doesn't bottom out.
-
-| Shot | Lines | Visual | Facts |
-|---|---|---|---|
-| S01 Cold open | N01–N02 | 3D: the finished joint drops in and seats; title cue. | R6-14, R6-24 |
-| S02 Title | — | | |
-| S03 Which piece | N03 | 3D: two blank sills with labels: male = upper (anchor bolt beside the joint), female. | R6-14, R6-15 |
-| S04 Center lines | N04 | 3D: centre lines struck on all faces of both blanks (Ep1 callback). | R6-31 (attributed) |
-| S05 Marking the female | N05–N06 | 3D top view of the female end: the sunakiri (end line), seat lines, dovetail lines from the centre line; sashigane blade along a side (schematic); seat lines down the side faces. Study hold. | R6-16, R6-26, R6-20 |
-| S06 Marking the male | N07 | 3D: the male's end line, dovetail tip and cut lines; centre and dovetail lines on the end grain. | R6-27 |
-| S07 Cutting the female | N08–N11 | 3D sequence: the seat ripped (split line) and crosscut; dovetail sides ripped (stopping above the seat); socket chopped to seat level, chisel back to the outside; tip dug about 3 mm past the line (callout). | R6-28 |
-| S08 Cutting the male | N12–N14 | 3D sequence: rip to the shoulder, crosscut the lower half away; cheeks ripped with the taper (end-on inset: top leaves the line, bottom takes it; exaggerated); shoulders crosscut; light chamfer. | R6-24, R6-29 |
-| S09 Test fit | N15–N16 | 3D: the male drops in and tightens; inset: kigoroshi with the gennō's domed face if tight; the gap at the dug tip highlighted. Study hold. | R6-30, R5-21 |
-| S10 Next | N17 | Teaser: Episode 7 · hozo (mortise and tenon). | |
-| S11 Recap and glossary | N18 | Glossary ≥ 8 s: sunakiri 砂切り, koshikake 腰掛, ari 蟻, kigoroshi 木殺し, etc. | |
-| S12 Note | N19 | Teacher line (cutting tools are shown). | |
-| S13 End | — | | |
+| Shot | Time | Dur | Camera | On screen | Narration |
+|---|---|---|---|---|---|
+| S01 It drops in | 0:00.0 | 21.0 s | threeQ | The finished male drops into the finished female and seats. | Last time, the shape. This time, how a carpenter marks it out and cuts it, so the upper piece drops in and tightens as it seats. We'll follow one training course's sequence, step by step. Others may order things differently. |
+| S02 Title card | 0:21.0 | 3.8 s | card | Series title card: Episode 6 · Marking Out and Cutting. | — |
+| S03 Which piece | 0:24.8 | 15.5 s | threeQ | Two blanks: the male (upper piece, anchor bolt beside the joint) and the female. | First, decide which piece is which. The male is the upper piece, and it's the one that takes the anchor bolt, beside the joint. Mark each piece clearly before you lay anything out. |
+| S04 Center lines | 0:40.3 | 14.3 s | threeQ | Center lines on the top faces of both blanks (Episode 1 callback). Study hold 1.5 s. | Then the center lines, as in Episode 1. The dovetail is laid out from them, evenly on either side, so they need to be right before anything else. |
+| S05 Marking the female | 0:54.6 | 33.3 s | threeQ | Top face of the female's end: end line, seat lines, dovetail lines from the center line, sides angled with the blade's width; seat lines down the sides. Study hold 3.5 s. | On the female piece, start on the top face with the end line. Then the seat lines. Then the dovetail lines, laid out evenly on either side of the center line. The sides of the dovetail are angled using the width of the sashigane's blade, running from the seat line toward the dovetail line. Finally, the seat lines are carried down both side faces. |
+| S06 Marking the male | 1:28.0 | 9.9 s | threeQ | The male's end line, dovetail tip and cut lines. Study hold 2.5 s. | On the male piece: the end line, the tip of the dovetail, and the cut lines. |
+| S07 Cutting the female | 1:37.9 | 57.1 s | threeQ | Seat ripped and crosscut (splitting the line); dovetail sides ripped (stopping at the line); socket chopped to the seat; the tip dug deeper. Study hold 3.0 s. | Now cut the female. Rip in from the end along the seat line, splitting it. Then crosscut down to it, also splitting the line, and the waste above the seat comes away. Rip the sides of the dovetail socket, splitting the line, without sawing past the end of the dovetail or into the seat below. Chop out the socket, keeping the chisel's flat back toward the outside of the socket. Then work down to the level of the seat. One detail matters: at the tip, dig the socket about three millimeters deeper than the line. Then the tip can't touch first and leave a gap somewhere else in the joint. |
+| S08 Cutting the male | 2:35.0 | 53.2 s | threeQ | End cut, lines on the end grain; rip to the shoulder, lower half away; cheeks tapered (exaggerated inset); shoulders crosscut; corners chiselled; chamfer. Study hold 3.0 s. | Now the male. First cut the end square at the end line, then carry the center line and the dovetail lines onto the fresh end grain. Rip in to the shoulder, then crosscut away the lower half, leaving the cut-back underside that will sit on the seat. Rip the cheeks of the dovetail with a slight taper: leave the line at the top, and take it at the bottom. The dovetail is a hair narrower below, so it enters easily and tightens as it goes down. Crosscut the shoulders, splitting the line. Then chisel away what the saw couldn't reach in the corners, and chamfer the edges with the chisel. |
+| S09 Test fit | 3:28.1 | 30.2 s | threeQ | The male drops in and tightens; kigoroshi inset; the deepened tip pocket called out (neutral). Study hold 3.0 s. | Test the fit by dropping the male in from above. If it's a little too tight, a general carpentry manual suggests kigoroshi. The gennō's slightly domed face carries the same name: the kigoroshi face. And remember why the tip was dug deep: the joint should bear everywhere else, never on its tip. |
+| S10 Next time | 3:58.3 | 7.0 s | 2d | Teaser: Episode 7 · hozo and hozo-ana (mortise and tenon). | Next time, a new joint: the mortise and tenon, hozo and hozo-ana. |
+| S11 Recap and glossary | 4:05.3 | 21.6 s | 2d | One sentence + glossary; held still for study. Study hold 9.0 s. | Center lines first. Mark the female, then the male. Cut to the lines you chose, taper the cheeks, and let it drop in and tighten. |
+| S12 A note on sharp tools | 4:26.9 | 12.2 s | 2d | Quiet closing card: learn sharp-tool technique from a teacher. | One note: sharp-tool technique, and how to use these tools safely, is best learned from a teacher, at a bench, in person. |
+| S13 End card | 4:39.1 | 3.2 s | card | Series end card: next episode. | — |

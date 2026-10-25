@@ -55,7 +55,7 @@ def _(s):
 def _(s):
     s.chapters.append((0.0, "Cutting the female"))
     s.pause(0.3)
-    s.line("N08", {"rip": "rip", "cross": "crosscut", "away": "away"}, gap=0.4)
+    s.line("N08", {"rip": "rip", "cross": "cross", "away": "away"}, gap=0.4)
     s.line("N09", {"sides": "sides", "past": "past"}, gap=0.4)
     s.line("N10", {"chop": "chop", "back": "back", "down": "down"}, gap=0.4)
     s.line("N11", {"dig": "dig", "gap": "gap"}, gap=0.4)

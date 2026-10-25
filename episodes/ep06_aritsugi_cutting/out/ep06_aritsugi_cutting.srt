@@ -1,0 +1,271 @@
+1
+00:00:00,800 --> 00:00:02,570
+Last time, the shape.
+
+2
+00:00:03,240 --> 00:00:07,720
+This time, how a carpenter
+marks it out and cuts it, so
+
+3
+00:00:07,760 --> 00:00:11,850
+the upper piece drops in
+and tightens as it seats.
+
+4
+00:00:12,333 --> 00:00:16,883
+We'll follow one training
+course's sequence, step by step.
+
+5
+00:00:17,433 --> 00:00:19,503
+Others may order things differently.
+
+6
+00:00:25,067 --> 00:00:28,297
+First, decide which piece is which.
+
+7
+00:00:28,907 --> 00:00:32,487
+The male is the upper
+piece, and it's the one
+
+8
+00:00:32,527 --> 00:00:35,297
+that takes the anchor
+bolt, beside the joint.
+
+9
+00:00:36,227 --> 00:00:39,957
+Mark each piece clearly
+before you lay anything out.
+
+10
+00:00:40,600 --> 00:00:44,270
+Then the center lines, as in Episode 1.
+
+11
+00:00:44,580 --> 00:00:48,380
+The dovetail is laid out
+from them, evenly on either
+
+12
+00:00:48,420 --> 00:00:52,750
+side, so they need to be
+right before anything else.
+
+13
+00:00:54,933 --> 00:00:59,883
+On the female piece, start on
+the top face with the end line.
+
+14
+00:01:00,373 --> 00:01:01,943
+Then the seat lines.
+
+15
+00:01:02,773 --> 00:01:08,823
+Then the dovetail lines, laid out evenly
+on either side of the center line.
+
+16
+00:01:09,333 --> 00:01:13,853
+The sides of the dovetail are
+angled using the width of the
+
+17
+00:01:13,893 --> 00:01:19,043
+sashigane's blade, running from the
+seat line toward the dovetail line.
+
+18
+00:01:20,133 --> 00:01:23,823
+Finally, the seat lines are
+carried down both side faces.
+
+19
+00:01:28,267 --> 00:01:29,757
+On the male piece:
+
+20
+00:01:30,167 --> 00:01:34,897
+the end line, the tip of the
+dovetail, and the cut lines.
+
+21
+00:01:38,167 --> 00:01:39,857
+Now cut the female.
+
+22
+00:01:40,587 --> 00:01:45,277
+Rip in from the end along
+the seat line, splitting it.
+
+23
+00:01:46,447 --> 00:01:50,067
+Then crosscut down to
+it, also splitting the
+
+24
+00:01:50,107 --> 00:01:54,057
+line, and the waste above
+the seat comes away.
+
+25
+00:01:54,333 --> 00:01:59,413
+Rip the sides of the dovetail
+socket, splitting the line, without
+
+26
+00:01:59,453 --> 00:02:04,043
+sawing past the end of the
+dovetail or into the seat below.
+
+27
+00:02:04,500 --> 00:02:08,260
+Chop out the socket, keeping the chisel's
+
+28
+00:02:08,300 --> 00:02:12,430
+flat back toward the
+outside of the socket.
+
+29
+00:02:13,500 --> 00:02:17,690
+Then work down to the level of the seat.
+
+30
+00:02:18,100 --> 00:02:20,110
+One detail matters:
+
+31
+00:02:20,540 --> 00:02:25,910
+at the tip, dig the socket about three
+millimeters deeper than the line.
+
+32
+00:02:26,500 --> 00:02:31,570
+Then the tip can't touch first and
+leave a gap somewhere else in the joint.
+
+33
+00:02:35,267 --> 00:02:36,617
+Now the male.
+
+34
+00:02:37,407 --> 00:02:42,807
+First cut the end square at the
+end line, then carry the center
+
+35
+00:02:42,847 --> 00:02:46,517
+line and the dovetail lines
+onto the fresh end grain.
+
+36
+00:02:47,487 --> 00:02:52,297
+Rip in to the shoulder, then
+crosscut away the lower half,
+
+37
+00:02:52,507 --> 00:02:56,137
+leaving the cut-back underside
+that will sit on the seat.
+
+38
+00:02:56,500 --> 00:03:00,610
+Rip the cheeks of the
+dovetail with a slight taper:
+
+39
+00:03:01,220 --> 00:03:05,310
+leave the line at the top,
+and take it at the bottom.
+
+40
+00:03:06,200 --> 00:03:10,120
+The dovetail is a hair
+narrower below, so it
+
+41
+00:03:10,160 --> 00:03:13,710
+enters easily and
+tightens as it goes down.
+
+42
+00:03:14,198 --> 00:03:17,143
+Crosscut the shoulders,
+splitting the line.
+
+43
+00:03:17,913 --> 00:03:21,173
+Then chisel away what the
+saw couldn't reach in the
+
+44
+00:03:21,213 --> 00:03:24,823
+corners, and chamfer the
+edges with the chisel.
+
+45
+00:03:28,433 --> 00:03:32,563
+Test the fit by dropping
+the male in from above.
+
+46
+00:03:33,433 --> 00:03:39,403
+If it's a little too tight, a general
+carpentry manual suggests kigoroshi.
+
+47
+00:03:40,093 --> 00:03:44,603
+The gennō's slightly domed
+face carries the same name:
+
+48
+00:03:44,913 --> 00:03:46,483
+the kigoroshi face.
+
+49
+00:03:46,967 --> 00:03:49,997
+And remember why the tip was dug deep:
+
+50
+00:03:50,607 --> 00:03:55,017
+the joint should bear everywhere
+else, never on its tip.
+
+51
+00:03:58,633 --> 00:04:00,583
+Next time, a new joint:
+
+52
+00:04:01,013 --> 00:04:04,554
+the mortise and tenon, hozo and hozo-ana.
+
+53
+00:04:05,700 --> 00:04:07,310
+Center lines first.
+
+54
+00:04:07,780 --> 00:04:10,230
+Mark the female, then the male.
+
+55
+00:04:10,960 --> 00:04:17,310
+Cut to the lines you chose, taper the
+cheeks, and let it drop in and tighten.
+
+56
+00:04:27,300 --> 00:04:28,330
+One note:
+
+57
+00:04:28,460 --> 00:04:33,620
+sharp-tool technique, and how
+to use these tools safely, is
+
+58
+00:04:33,660 --> 00:04:37,790
+best learned from a teacher,
+at a bench, in person.
