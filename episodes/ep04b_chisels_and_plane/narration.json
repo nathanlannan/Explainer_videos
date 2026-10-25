@@ -1,0 +1,118 @@
+{
+ "voice": "see shared/audio/voice/voice_settings.md",
+ "lines": [
+  {
+   "id": "N01",
+   "section": 1,
+   "text": "A Japanese plane is pulled toward you, just like the saw. A thin shaving curls up out of the block.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N02",
+   "section": 1,
+   "text": "This time, the rest of the cutting kit: chisels, the hammer, and the plane.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N03",
+   "section": 2,
+   "text": "Japanese chisels, nomi, come in two families. Tataki-nomi are struck with a hammer. Tsuki-nomi are pushed by hand, and are used for finishing.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "Japanese chisels, noh-mee, come in two families. Tah-tah-kee noh-mee are struck with a hammer. Tsoo-kee noh-mee are pushed by hand, and are used for finishing."
+  },
+  {
+   "id": "N04",
+   "section": 2,
+   "text": "A struck chisel has an iron hoop fitted around the end of its handle. Carpenters call it the katsura.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "A struck chisel has an iron hoop fitted around the end of its handle. Carpenters call it the kah-tsoo-rah."
+  },
+  {
+   "id": "N05",
+   "section": 2,
+   "text": "The general bench chisel is the oire-nomi. For deep mortises there is the mukōmachi-nomi, with a thick, heavy blade, made for chopping straight down into the wood.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "The general bench chisel is the oh-ee-reh noh-mee. For deep mortises there is the moo-koh-mah-chee noh-mee, with a thick, heavy blade, made for chopping straight down into the wood."
+  },
+  {
+   "id": "N06",
+   "section": 3,
+   "text": "Now look at the blade itself. Like most Japanese edge tools, a chisel is bevelled on one side only. A thin layer of very hard steel, hagane, is forge-welded to a softer iron body, jigane. The hard steel holds the edge; the softer iron supports it.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "Now look at the blade itself. Like most Japanese edge tools, a chisel is bevelled on one side only. A thin layer of very hard steel, hah-gah-neh, is forge-welded to a softer iron body, jee-gah-neh. The hard steel holds the edge; the softer iron supports it."
+  },
+  {
+   "id": "N07",
+   "section": 3,
+   "text": "The back of the blade has a shallow hollow, the urasuki. It makes the back easier to keep perfectly flat. The bevel itself stays flat, not hollow-ground.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "The back of the blade has a shallow hollow, the oo-rah-soo-kee. It makes the back easier to keep perfectly flat. The bevel itself stays flat, not hollow-ground."
+  },
+  {
+   "id": "N08",
+   "section": 4,
+   "text": "The hammer is the gennō. One face is flat. The other is slightly domed. It's commonly used to strike chisels, as well as for nails.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "The hammer is the gen-noh. One face is flat. The other is slightly domed. It's commonly used to strike chisels, as well as for nails."
+  },
+  {
+   "id": "N09",
+   "section": 4,
+   "text": "Driving a nail, you strike with the flat face, then give the last blows with the domed face, so the surface isn't marked. That face is the kigoroshi face: literally, the wood-crushing face.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "Driving a nail, you strike with the flat face, then give the last blows with the domed face, so the surface isn't marked. That face is the kee-goh-roh-shee face: literally, the wood-crushing face."
+  },
+  {
+   "id": "N10",
+   "section": 5,
+   "text": "The plane is the kanna. Like the saw, it's pulled toward you, with both hands. Western and Chinese planes are pushed.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "The plane is the kahn-nah. Like the saw, it's pulled toward you, with both hands. Western and Chinese planes are pushed."
+  },
+  {
+   "id": "N11",
+   "section": 5,
+   "text": "The blade sits in a wooden block, the dai, usually of hard oak. There is no screw. In the skills test manual, the blade is set with light taps of a hammer: on the blade's head to advance it, on the block to draw it back.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "The blade sits in a wooden block, the dye, usually of hard oak. There is no screw. In the skills test manual, the blade is set with light taps of a hammer: on the blade's head to advance it, on the block to draw it back."
+  },
+  {
+   "id": "N12",
+   "section": 5,
+   "text": "Most have a second iron behind the blade: the chip breaker, uragane. It helps stop tearing in difficult grain. This two-blade plane dates from the Meiji era.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "Most have a second iron behind the blade: the chip breaker, oo-rah-gah-neh. It helps stop tearing in difficult grain. This two-blade plane dates from the May-jee era."
+  },
+  {
+   "id": "N13",
+   "section": 6,
+   "text": "If you work with Western tools, the jobs are the same: bench chisels, a hammer or mallet, a bench plane. The plane is the clearest difference. It's pushed, and the blade is held by a wedge or a screw.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N14",
+   "section": 7,
+   "text": "Every one of these tools depends on a sharp edge. The skills test manual is blunt about it: a dull tool invites injury. Keep chisels and planes sharp, and never point an edge at yourself or anyone else.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N15",
+   "section": 8,
+   "text": "Next time, our first joint: a splice called the koshikake ari-tsugi.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "Next time, our first joint: a splice called the koh-shee-kah-keh ah-ree-tsoo-gee."
+  },
+  {
+   "id": "N16",
+   "section": 9,
+   "text": "Strike the chisel, or push it. Pull the plane. And keep every edge sharp.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N17",
+   "section": 9,
+   "text": "One note: sharp-tool technique, and how to use these tools safely, is best learned from a teacher, at a bench, in person.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  }
+ ]
+}

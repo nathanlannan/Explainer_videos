@@ -1,0 +1,9 @@
+{
+ "struck_chisels_have_hoops": true,
+ "mortise_chisel_thicker_than_wide": true,
+ "genno_dome_shallow": true,
+ "kanna_blade_projects_above_block": true,
+ "kanna_mouth_inside_block": true,
+ "chip_breaker_behind_edge": true,
+ "ok": true
+}
