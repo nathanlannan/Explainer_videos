@@ -1,0 +1,26 @@
+Chapter markers (also embedded in the MP4)
+
+0:00.00  Cold open
+0:25.00  The board plan: itazu
+1:13.63  Study: the board plan
+1:17.13  Grid addresses: banzuke
+1:50.13  Study: every crossing has an address
+2:11.87  From the board onto the timber
+2:46.30  Study: where the address goes
+3:25.50  The workflow
+3:46.23  Study: plan to frame
+4:19.03  Recap and glossary
+4:31.37  Glossary
+
+YouTube-style:
+0:00 Cold open
+0:25 The board plan: itazu
+1:13 Study: the board plan
+1:17 Grid addresses: banzuke
+1:50 Study: every crossing has an address
+2:11 From the board onto the timber
+2:46 Study: where the address goes
+3:25 The workflow
+3:46 Study: plan to frame
+4:19 Recap and glossary
+4:31 Glossary

@@ -1,0 +1,56 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=25000
+title=Cold open
+[CHAPTER]
+TIMEBASE=1/1000
+START=25000
+END=73633
+title=The board plan: itazu
+[CHAPTER]
+TIMEBASE=1/1000
+START=73633
+END=77133
+title=Study: the board plan
+[CHAPTER]
+TIMEBASE=1/1000
+START=77133
+END=110133
+title=Grid addresses: banzuke
+[CHAPTER]
+TIMEBASE=1/1000
+START=110133
+END=131866
+title=Study: every crossing has an address
+[CHAPTER]
+TIMEBASE=1/1000
+START=131866
+END=166300
+title=From the board onto the timber
+[CHAPTER]
+TIMEBASE=1/1000
+START=166300
+END=205500
+title=Study: where the address goes
+[CHAPTER]
+TIMEBASE=1/1000
+START=205500
+END=226233
+title=The workflow
+[CHAPTER]
+TIMEBASE=1/1000
+START=226233
+END=259033
+title=Study: plan to frame
+[CHAPTER]
+TIMEBASE=1/1000
+START=259033
+END=271366
+title=Recap and glossary
+[CHAPTER]
+TIMEBASE=1/1000
+START=271366
+END=283066
+title=Glossary

@@ -1,0 +1,274 @@
+1
+00:00:00,600 --> 00:00:07,130
+Every timber in a frame is marked and
+cut on its own, before the frame goes up.
+
+2
+00:00:07,620 --> 00:00:10,970
+So how does each piece
+know where it belongs?
+
+3
+00:00:11,500 --> 00:00:18,090
+The answer starts on a board, and ends in
+a short written address on every member.
+
+4
+00:00:25,300 --> 00:00:28,330
+This is an itazu, a board plan.
+
+5
+00:00:28,800 --> 00:00:32,920
+It's the carpenter's own drawing
+of the building, made on a thin
+
+6
+00:00:32,960 --> 00:00:38,150
+board, today often plywood, and
+drawn from the architect's plans.
+
+7
+00:00:38,820 --> 00:00:40,510
+It goes by other names too:
+
+8
+00:00:41,160 --> 00:00:43,250
+zuita, or teita.
+
+9
+00:00:43,633 --> 00:00:45,863
+It is not a detailed drawing.
+
+10
+00:00:46,333 --> 00:00:50,563
+It works like a floor plan and
+the framing plans combined:
+
+11
+00:00:51,113 --> 00:00:55,863
+where every post stands, and which
+beams and sills run between them.
+
+12
+00:00:56,133 --> 00:00:58,483
+The board is ruled into a grid.
+
+13
+00:00:59,073 --> 00:01:03,888
+The lines are usually three
+shaku apart, about nine hundred
+
+14
+00:01:03,928 --> 00:01:08,423
+ten millimeters, and the
+posts stand at the crossings.
+
+15
+00:01:09,373 --> 00:01:13,303
+Each grid line runs through
+the centers of the posts on it.
+
+16
+00:01:17,433 --> 00:01:20,303
+Then every grid line gets a name.
+
+17
+00:01:20,673 --> 00:01:23,083
+This system is called banzuke.
+
+18
+00:01:23,653 --> 00:01:27,193
+In its classic form, one
+direction is labeled with
+
+19
+00:01:27,233 --> 00:01:33,123
+the old Japanese syllable
+order, i, ro, ha, ni.
+
+20
+00:01:33,753 --> 00:01:37,363
+The other is numbered, one, two, three.
+
+21
+00:01:37,667 --> 00:01:40,657
+Now every crossing has an address.
+
+22
+00:01:41,207 --> 00:01:46,257
+The corner post here is i-no-ichi,
+written with two characters.
+
+23
+00:01:46,887 --> 00:01:49,346
+The next one along is ro-no-ichi.
+
+24
+00:01:53,633 --> 00:01:57,173
+One common layout runs
+the syllables across the
+
+25
+00:01:57,213 --> 00:02:01,083
+board and counts the
+numbers down from the top.
+
+26
+00:02:01,453 --> 00:02:04,953
+But which way the axes
+go, and which corner
+
+27
+00:02:04,993 --> 00:02:08,543
+starts, varies by region and by carpenter.
+
+28
+00:02:09,253 --> 00:02:11,463
+Other numbering systems exist too.
+
+29
+00:02:12,167 --> 00:02:15,157
+Now the plan comes off the board.
+
+30
+00:02:15,727 --> 00:02:19,587
+Marking out each member, the
+carpenter checks the board
+
+31
+00:02:19,627 --> 00:02:23,237
+and writes that member's
+address on it, by hand.
+
+32
+00:02:24,027 --> 00:02:27,907
+The address says where the
+piece goes; the story stick
+
+33
+00:02:27,947 --> 00:02:32,337
+gives its heights; the center
+line gives the reference.
+
+34
+00:02:32,800 --> 00:02:37,850
+The address goes where it will be
+hidden once the frame is built.
+
+35
+00:02:38,500 --> 00:02:45,870
+On a tenon, say, or on the part of
+a post that ends up below the floor.
+
+36
+00:02:49,600 --> 00:02:53,140
+In one common practice,
+every piece that joins a
+
+37
+00:02:53,180 --> 00:02:56,390
+post carries the same
+address at that joint.
+
+38
+00:02:56,960 --> 00:03:01,370
+The beam that meets post i-no-ichi
+is marked i-no-ichi right there.
+
+39
+00:03:01,667 --> 00:03:07,167
+And every member gets its center
+line, struck in ink, so the layout
+
+40
+00:03:07,207 --> 00:03:11,197
+is measured from the center,
+just as in the first episode.
+
+41
+00:03:11,900 --> 00:03:15,240
+The same addresses serve again when an old
+
+42
+00:03:15,280 --> 00:03:19,350
+building is taken apart
+to be repaired or moved:
+
+43
+00:03:19,820 --> 00:03:23,510
+every piece can go back
+exactly where it came from.
+
+44
+00:03:25,800 --> 00:03:28,790
+So the work runs in one direction.
+
+45
+00:03:29,300 --> 00:03:30,510
+Plan on the board.
+
+46
+00:03:31,100 --> 00:03:32,850
+Story sticks for the heights.
+
+47
+00:03:33,600 --> 00:03:35,270
+Marking out each member.
+
+48
+00:03:36,000 --> 00:03:38,750
+Then the cutting, called kizami.
+
+49
+00:03:39,100 --> 00:03:42,440
+When the frame is raised,
+the crew reads the
+
+50
+00:03:42,480 --> 00:03:45,830
+addresses, and matching
+labels go together.
+
+51
+00:03:50,218 --> 00:03:53,283
+Hand-drawn board plans are rare today.
+
+52
+00:03:53,853 --> 00:03:57,153
+By twenty fifteen, about nine in ten
+
+53
+00:03:57,193 --> 00:04:00,823
+post-and-beam frames in
+Japan were cut by machine.
+
+54
+00:04:01,473 --> 00:04:06,723
+But the logic is the same, and it's what
+you need for cutting joints by hand.
+
+55
+00:04:09,033 --> 00:04:11,183
+Next time, the cutting kit:
+
+56
+00:04:11,653 --> 00:04:18,423
+the saws, the chisels and the hammer, the
+plane, and what it means to cut to a line.
+
+57
+00:04:19,433 --> 00:04:21,563
+Draw it once on the board.
+
+58
+00:04:22,133 --> 00:04:24,303
+Give every crossing an address.
+
+59
+00:04:24,913 --> 00:04:27,183
+Write the address on every piece.
+
+60
+00:04:27,893 --> 00:04:30,903
+Then the frame tells you
+how it goes together.
