@@ -473,7 +473,7 @@ const SHOTS = {
         ['take / leave / split', '', 'the line', 'sumi o harau / nokosu / matagu (skills-test manual)'],
       ];
       const g = L.text('', { x: 96, y: 250, size: 36, w: 1728 });
-      g.innerHTML = '<div class="soft" style="font-size:36px;margin-bottom:12px;letter-spacing:.08em">GLOSSARY · EPISODE 4 · PART 1</div>' + rows.map((r) => `<div style="display:flex;gap:30px;margin-bottom:12px;align-items:baseline"><div style="width:560px;font-weight:700;font-size:38px"><i>${r[0]}</i> <span style="font-family:'Noto Serif CJK JP',serif;font-style:normal">${r[1]}</span></div><div style="width:1140px;white-space:normal;font-size:36px"><b>${r[2]}</b> — <span class="soft">${r[3]}</span></div></div>`).join('');
+      g.innerHTML = '<div class="soft" style="font-size:36px;margin-bottom:12px;letter-spacing:.08em">GLOSSARY · EPISODE 4 · PART 1</div>' + rows.map((r) => `<div style="display:flex;gap:30px;margin-bottom:12px;align-items:baseline"><div style="width:700px;font-weight:700;font-size:38px"><i>${r[0]}</i> <span style="font-family:'Noto Serif CJK JP',serif;font-style:normal">${r[1]}</span></div><div style="width:1000px;white-space:normal;font-size:36px"><b>${r[2]}</b> — <span class="soft">${r[3]}</span></div></div>`).join('');
     },
     frame() { return {}; },
   },
