@@ -40,15 +40,35 @@ class Box:
 
 
 @dataclass
+class PlanPrism:
+    """A vertical prism: a polygon in plan (x, z) extruded along Y from y0 to y1 (mm). Used for dovetails."""
+    poly: list[tuple[float, float]]
+    y0: float
+    y1: float
+
+    def solid(self) -> m3.Manifold:
+        # CrossSection lives in (X, Y); extrude goes along +Z. Map (X, Y, Z) -> (x = X, y = y0 + Z, z = -Y)
+        # (a proper rotation, det = +1), so the polygon is given as (x, -z).
+        pts = [(x, -z) for x, z in self.poly]
+        signed = sum(a[0] * b[1] - b[0] * a[1] for a, b in zip(pts, pts[1:] + pts[:1])) / 2
+        cs = m3.CrossSection([pts if signed > 0 else pts[::-1]])   # counter-clockwise for the Positive fill rule
+        e = cs.extrude(self.y1 - self.y0)
+        return e.transform([[1, 0, 0, 0], [0, 0, 1, self.y0], [0, -1, 0, 0]])
+
+
+@dataclass
 class Member:
     name: str
     kind: str                 # 'post', 'sill', 'beam', 'rail', 'stick', ...
     body: Box
     axis: str                 # long axis 'x' | 'y' | 'z' -> grain direction
-    cuts: list[Box] = field(default_factory=list)
+    cuts: list = field(default_factory=list)   # Box or PlanPrism, subtracted
+    adds: list = field(default_factory=list)   # Box or PlanPrism, added (e.g. a dovetail tongue)
 
     def solid(self) -> m3.Manifold:
         s = self.body.solid()
+        for a in self.adds:
+            s = s + a.solid()
         for c in self.cuts:
             s = s - c.solid()
         return s

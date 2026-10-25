@@ -1,0 +1,19 @@
+{
+ "cannot_slide_in_along_sill": true,
+ "cannot_slide_in_across": true,
+ "fitcheck": "fit check PASS: interference 1/1 pairs ok (worst -0.0 mm^3); gaps 1/1 mates in contact; insertion 2/2 paths clear (worst 0.0 mm^3)",
+ "flare_per_side": "1:5",
+ "flare_in_sourced_range_1to4_1to5": true,
+ "dovetail_in_upper_half": true,
+ "locked_against_pull_apart": true,
+ "locked_against_sideways": true,
+ "rests_on_seat": true,
+ "free_to_lift": true,
+ "collision_volumes_mm3": {
+  "pull_apart_+x": 4725.0,
+  "slide_sideways_+z": 13125.0,
+  "push_down_-y": 10300.0,
+  "lift_+y": -0.0
+ },
+ "ok": true
+}

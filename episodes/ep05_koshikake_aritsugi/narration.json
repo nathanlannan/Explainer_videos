@@ -1,0 +1,118 @@
+{
+ "voice": "see shared/audio/voice/voice_settings.md",
+ "lines": [
+  {
+   "id": "N01",
+   "section": 1,
+   "text": "Two sills meet end to end. One piece drops in from above, and now they can't slide apart.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N02",
+   "section": 1,
+   "text": "This is our first joint: the koshikake ari-tsugi.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress.",
+   "tts": "This is our first joint: the koh-shee-kah-keh ah-ree-tsoo-gee."
+  },
+  {
+   "id": "N03",
+   "section": 2,
+   "text": "It's a splice, a tsugite: a joint that joins two members end to end, in line. A joint between members meeting at an angle is called a shiguchi.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress.",
+   "tts": "It's a splice, a tsoo-gee-teh: a joint that joins two members end to end, in line. A joint between members meeting at an angle is called a shee-goo-chee."
+  },
+  {
+   "id": "N04",
+   "section": 2,
+   "text": "Ari is the dovetail: a shape that flares out like a dove's tail. Koshikake means a seat. So this is a dovetail splice, with a seat.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress.",
+   "tts": "Ah-ree is the dovetail: a shape that flares out like a dove's tail. Koh-shee-kah-keh means a seat. So this is a dovetail splice, with a seat."
+  },
+  {
+   "id": "N05",
+   "section": 3,
+   "text": "It's used mainly to splice sills, the timbers that sit on the foundation, and also the beams that carry the floor.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N06",
+   "section": 3,
+   "text": "Japan's standard specification for wooden houses names it as one of two splices for sills. It says to keep the splice away from posts and underfloor vents, and to put the anchor bolt in the upper piece, next to the joint.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N07",
+   "section": 4,
+   "text": "There are two pieces. The male piece, ogi, carries the dovetail. The female piece, megi, carries the socket and the seat.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress.",
+   "tts": "There are two pieces. The male piece, oh-gee, carries the dovetail. The female piece, meh-gee, carries the socket and the seat."
+  },
+  {
+   "id": "N08",
+   "section": 4,
+   "text": "The dovetail and its socket take the upper half of the sill. The seat takes the lower half. The male piece's lower half is cut back, so it sits on that seat.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N09",
+   "section": 4,
+   "text": "The parts of the dovetail have names: the wide head, the narrow neck, and the shoulder, where the neck meets the body.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N10",
+   "section": 5,
+   "text": "The male piece goes in from above. It can't slide in from the end or from the side. It drops straight down: the dovetail settles into its socket, and the cut-back underside lands on the seat.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N11",
+   "section": 5,
+   "text": "Once it's down, the flare of the dovetail stops the two pieces pulling apart along their length, and the male piece rests on the seat.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N12",
+   "section": 6,
+   "text": "How big? Here is one carpenter's example, on a sill a hundred and five millimeters square: a dovetail fifty long, fifty across the head, and thirty across the neck.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N13",
+   "section": 6,
+   "text": "That's a flare of about one in five on each side: steeper than the one in six to one in eight often quoted for furniture dovetails.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N14",
+   "section": 6,
+   "text": "In one training course, the slope of the sides is marked out with the sashigane itself, using the width of its blade.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress.",
+   "tts": "In one training course, the slope of the sides is marked out with the sah-shee-gah-neh itself, using the width of its blade."
+  },
+  {
+   "id": "N15",
+   "section": 7,
+   "text": "Be clear about what it isn't. It's relatively weak in tension, and tests suggest it does very little against bending. In a house, an anchor bolt holds the upper piece down beside the joint.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N16",
+   "section": 7,
+   "text": "And it fails suddenly: the female piece can split at the notch, or the dovetail can shear off. Keep knots out of the joint, and don't expect a longer dovetail to make it stronger.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N17",
+   "section": 8,
+   "text": "Next time, we'll mark it out and cut it, step by step.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N18",
+   "section": 9,
+   "text": "A dovetail above, a seat below. The upper piece drops in from above. And the splice goes away from posts and vents.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  }
+ ]
+}
