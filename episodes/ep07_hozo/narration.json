@@ -1,0 +1,126 @@
+{
+ "voice": "see shared/audio/voice/voice_settings.md",
+ "lines": [
+  {
+   "id": "N01",
+   "section": 1,
+   "text": "A post comes down onto a sill. A tongue on its end slides into a hole, and a square pin is driven across, pulling the two tight together.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N02",
+   "section": 1,
+   "text": "This is the mortise and tenon: in Japanese, hozo and hozo-ana.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress.",
+   "tts": "This is the mortise and tenon: in Japanese, hozo and hozo-ana."
+  },
+  {
+   "id": "N03",
+   "section": 2,
+   "text": "Hozo is the tenon, the tongue. Hozo-ana, literally tenon hole, is the mortise. Dictionaries note an older reading, hoso.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress.",
+   "tts": "Hozo is the tenon, the tongue. Hozo-ana, literally tenon hole, is the mortise. Dictionaries note an older reading, hoso."
+  },
+  {
+   "id": "N04",
+   "section": 2,
+   "text": "There are many named kinds. A doubled tenon, the jūhozo, for example, goes at the top of a post where a wall plate and a beam stack up. This episode looks at the joint where a post meets a sill.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress.",
+   "tts": "There are many named kinds. A doubled tenon, the joo-hozo, for example, goes at the top of a post where a wall plate and a beam stack up. This episode looks at the joint where a post meets a sill."
+  },
+  {
+   "id": "N05",
+   "section": 3,
+   "text": "The Flat 35 house specification gives two everyday options there. A short tenon, with a metal plate or bracket to hold it down. Or a long tenon, pinned with a komisen.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress.",
+   "tts": "The Flat 35 house specification gives two everyday options there. A short tenon, with a metal plate or bracket to hold it down. Or a long tenon, pinned with a koh-mee-sen."
+  },
+  {
+   "id": "N06",
+   "section": 3,
+   "text": "At an outside corner of the sill, a corner post can take a fan-shaped tenon, the ōgi-hozo.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress.",
+   "tts": "At an outside corner of the sill, a corner post can take a fan-shaped tenon, the oh-gee-hozo."
+  },
+  {
+   "id": "N07",
+   "section": 4,
+   "text": "How big is a short tenon? Japan's standard test for joint hardware uses one on a hundred-and-five millimeter post: thirty thick, eighty-five wide, fifty deep.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N08",
+   "section": 4,
+   "text": "Notice what the specification's rating table says: a short tenon on its own is rated at zero. The hardware does the holding.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N09",
+   "section": 5,
+   "text": "The long tenon goes most of the way through the sill. A hardwood pin, the komisen, is driven sideways through sill and tenon together. Where the tenon passes right through and sticks out, it can be pinned through that projecting part instead: a hanasen.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress.",
+   "tts": "The long tenon goes most of the way through the sill. A hardwood pin, the koh-mee-sen, is driven sideways through sill and tenon together. Where the tenon passes right through and sticks out, it can be pinned through that projecting part instead: a hah-nah-sen."
+  },
+  {
+   "id": "N10",
+   "section": 5,
+   "text": "The holes are made so the pin draws the two members together: the hole in the tenon sits slightly toward the shoulder. Driving the pin pulls the post down tight onto the sill.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N11",
+   "section": 5,
+   "text": "The public-works specification asks for square holes and square pins; round pins are now used more and more. In a bearing wall, the loan specification rates a pinned long tenon the same as a metal corner bracket.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N12",
+   "section": 6,
+   "text": "Cutting the tenon: rip down the cheeks, then crosscut the shoulder, sawing on the waste side of the line. The public-works specification warns: don't saw the shoulder cut too deep.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N13",
+   "section": 6,
+   "text": "In the skills-test manual's practice piece, the tenon's thickness is cut a little loose and its width a little tight, as we saw in Episode 4.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N14",
+   "section": 7,
+   "text": "Chopping the mortise: use a mortise chisel a little narrower than the hole. Start a few millimeters inside the lines, rough it out, then pare back to the lines and check the depth.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N15",
+   "section": 7,
+   "text": "The manual adds: strike lightly when the edge runs along the grain, and harder when it cuts across it.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N16",
+   "section": 8,
+   "text": "Fit it in small steps. The width should go in with light taps over a block of wood; the thickness, by hand. The finished joint should be snug: driven in, and fully seated.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N17",
+   "section": 9,
+   "text": "Next time: where beams cross beams, the watari-ago.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress.",
+   "tts": "Next time: where beams cross beams, the wah-tah-ree ah-goh."
+  },
+  {
+   "id": "N18",
+   "section": 10,
+   "text": "A short tenon needs hardware to hold. A long tenon can be pinned so it pulls itself tight. And a snug fit, made in small steps, does the rest.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  },
+  {
+   "id": "N19",
+   "section": 10,
+   "text": "One note: sharp-tool technique, and how to use these tools safely, is best learned from a teacher, at a bench, in person.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+  }
+ ]
+}

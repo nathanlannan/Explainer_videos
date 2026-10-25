@@ -1,0 +1,12 @@
+{
+ "short_fit": "fit check PASS: interference 1/1 pairs ok (worst 0.0 mm^3); gaps 1/1 mates in contact; insertion 2/2 paths clear (worst 0.0 mm^3)",
+ "long_fit": "fit check PASS: interference 3/3 pairs ok (worst 0.0 mm^3); gaps 2/2 mates in contact; insertion 3/3 paths clear (worst 0.0 mm^3)",
+ "short_tenon_is_short": true,
+ "long_tenon_most_of_sill": true,
+ "long_tenon_stays_inside_sill": true,
+ "pin_locks_post_against_lift": true,
+ "short_post_free_to_lift": true,
+ "tenon_ratio_short": 0.286,
+ "tenon_ratio_long": 0.25,
+ "ok": true
+}
