@@ -180,3 +180,10 @@ $0.3186 of $5.00 over 133 logged calls (actual costs from OpenRouter generation 
   - Kigoroshi is attributed to a general manual (MHLW p.1). The MHLW 3級 manual doesn't cover this joint, so it isn't presented as doing so.
 - Over-dig direction: WBT 「墨よりさらに１分ほど多めに掘る」 follows "dig down to the seat level", so the model reads it as 3 mm *deeper* at the tip (a 15 mm pocket under the head end). The text is ambiguous, so the episode says "deeper than the line" and captions it as one training course's practice.
 - The reading of 砂切り is unverified (すなきり vs すなぎり), so the narration says "end line" and the kanji is shown without a reading.
+
+## Episode 7: Gate A
+- The Flat 35 post options (§5.2.3) are for posts outside bearing walls, and list four short-tenon + hardware options (including a staple) plus long tenon + komisen. The narration now says so.
+- The "rated 0.0" figure is from howtec's standard detail drawings (a bearing-wall joint rating), not from Flat 35. It is attributed to them, and it does not claim "the hardware does the holding", because a staple also rates 0.0.
+- Long-tenon sizes come from Toda 2015 lab specimens on 120 mm members, tagged on every dimensioned frame. Where short and long tenons are compared, they are drawn at the same member size with no dimensions.
+- The hanasen is drawn on a generic through-tenon (schematic), not on the sill, because no source puts it on a post-to-sill joint.
+- The Ep8 teaser doesn't name the joint until it's researched: "where one beam crosses over another".
