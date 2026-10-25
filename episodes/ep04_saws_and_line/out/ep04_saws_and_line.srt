@@ -1,0 +1,251 @@
+1
+00:00:00,600 --> 00:00:04,810
+A Japanese saw cuts as
+you pull it toward you.
+
+2
+00:00:05,080 --> 00:00:08,070
+That one fact shapes much of the tool.
+
+3
+00:00:08,733 --> 00:00:09,733
+This time:
+
+4
+00:00:09,913 --> 00:00:15,483
+the saws, and exactly where the
+cut goes in relation to the line.
+
+5
+00:00:21,267 --> 00:00:24,557
+Most Western saws cut on the push stroke.
+
+6
+00:00:25,147 --> 00:00:27,257
+Japanese saws cut on the pull.
+
+7
+00:00:27,887 --> 00:00:32,037
+Pulling puts the blade in tension,
+so it can be made thinner.
+
+8
+00:00:32,667 --> 00:00:37,037
+A pushed blade generally needs to be
+stiffer, so that it doesn't buckle.
+
+9
+00:00:37,467 --> 00:00:41,317
+Every saw cut has a
+width, called the kerf.
+
+10
+00:00:41,787 --> 00:00:47,597
+A thinner blade usually makes a narrower
+kerf, so there is less wood to remove.
+
+11
+00:00:51,767 --> 00:00:56,607
+A common carpenter's saw is the
+ryōba, which means double-edged.
+
+12
+00:00:57,167 --> 00:01:02,057
+One edge rips, cutting along
+the grain; that's tatebiki.
+
+13
+00:01:02,607 --> 00:01:07,237
+The other crosscuts, cutting
+across it; that's yokobiki.
+
+14
+00:01:07,907 --> 00:01:10,077
+The design is fairly modern:
+
+15
+00:01:10,447 --> 00:01:13,919
+it dates from the Meiji era,
+in the late eighteen hundreds.
+
+16
+00:01:17,733 --> 00:01:19,743
+Look closely at the teeth.
+
+17
+00:01:20,413 --> 00:01:25,783
+Rip teeth work like a row of tiny
+chisels, paring along the fibers.
+
+18
+00:01:25,938 --> 00:01:33,023
+Crosscut teeth are pointed like small
+knives, and sever the fibers one by one.
+
+19
+00:01:37,067 --> 00:01:40,137
+For fine joinery there is the dōzuki.
+
+20
+00:01:40,527 --> 00:01:45,557
+Its blade is very thin, so a metal
+spine along the back keeps it stiff.
+
+21
+00:01:46,087 --> 00:01:48,317
+It is classed as a crosscut saw.
+
+22
+00:01:48,813 --> 00:01:55,183
+Dōzuki is also the word for a tenon's
+shoulder, the face around its base.
+
+23
+00:01:55,813 --> 00:01:58,443
+Cutting it is a clean crosscut:
+
+24
+00:01:58,873 --> 00:02:01,443
+exactly the kind of work this saw does.
+
+25
+00:02:04,967 --> 00:02:10,617
+There is also the kataba, a saw
+with a single edge and no spine.
+
+26
+00:02:13,333 --> 00:02:15,353
+Look at the kerf end-on.
+
+27
+00:02:15,813 --> 00:02:19,403
+The teeth are bent out
+alternately, left and right.
+
+28
+00:02:20,053 --> 00:02:23,043
+This is called the set, or asari.
+
+29
+00:02:23,713 --> 00:02:26,993
+So the kerf is a little
+wider than the blade, and
+
+30
+00:02:27,033 --> 00:02:29,663
+that width is why the
+next question matters.
+
+31
+00:02:33,867 --> 00:02:37,377
+Where does the kerf go,
+relative to the line?
+
+32
+00:02:37,987 --> 00:02:43,497
+The carpenter chooses, and the skills
+test manual sets out three options.
+
+33
+00:02:44,227 --> 00:02:45,697
+In English shop talk:
+
+34
+00:02:46,007 --> 00:02:51,507
+you can take the line, cutting it
+away; leave the line, sawing just on
+
+35
+00:02:51,547 --> 00:02:56,317
+the waste side; or split it, with
+the kerf centered on the line.
+
+36
+00:02:56,833 --> 00:03:00,703
+The choice depends on how
+tight each joint should be.
+
+37
+00:03:01,053 --> 00:03:04,763
+Some fits should be snug,
+and some a little looser.
+
+38
+00:03:09,400 --> 00:03:14,070
+The national skills test manual
+for carpenters gives an example.
+
+39
+00:03:14,740 --> 00:03:20,930
+On one tenon, the thickness cuts split
+the line, so it fits a little looser.
+
+40
+00:03:21,520 --> 00:03:24,620
+The width cuts leave
+the line, with the saw
+
+41
+00:03:24,660 --> 00:03:28,450
+just on the waste side, so it fits tight.
+
+42
+00:03:28,867 --> 00:03:31,897
+Either way, the line is the reference.
+
+43
+00:03:32,427 --> 00:03:34,937
+That's why the marking
+out had to be exact.
+
+44
+00:03:39,233 --> 00:03:43,543
+If you own Western saws,
+the same ideas carry over:
+
+45
+00:03:43,933 --> 00:03:48,123
+rip and crosscut teeth,
+a backed saw for joinery.
+
+46
+00:03:48,693 --> 00:03:50,843
+The big difference is the stroke.
+
+47
+00:03:53,733 --> 00:03:55,783
+Next time, the rest of the kit:
+
+48
+00:03:56,333 --> 00:03:59,323
+the chisels, the hammer, and the plane.
+
+49
+00:04:00,333 --> 00:04:01,563
+Pull to cut.
+
+50
+00:04:02,093 --> 00:04:05,903
+Rip along the grain, crosscut across it.
+
+51
+00:04:06,053 --> 00:04:09,063
+And before every cut, decide:
+
+52
+00:04:09,613 --> 00:04:13,203
+take the line, leave it, or split it.
+
+53
+00:04:22,967 --> 00:04:24,037
+One note:
+
+54
+00:04:24,107 --> 00:04:28,847
+sharp-tool technique, and how
+to use these tools safely, is
+
+55
+00:04:28,887 --> 00:04:32,537
+best learned from a teacher,
+at a bench, in person.
