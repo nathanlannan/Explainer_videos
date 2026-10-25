@@ -10,7 +10,8 @@ import csv, datetime, json, os, pathlib, time, urllib.request, urllib.error
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 LEDGER = ROOT / "spend.csv"
 API = "https://openrouter.ai/api/v1"
-CAP_USD = 5.00
+CAP_USD = 5.00          # TOTAL series cap (owner instruction, 2026-10-25); guard() sums the whole ledger
+CAUTION_USD = 3.50      # past this, paid calls only for narration
 
 
 def _key():
@@ -79,6 +80,8 @@ def tts(text, out_path, model, voice, purpose, price_per_char, instructions=None
 
 
 def chat(model, messages, purpose, max_tokens=16, est=0.001):
+    if spent() > CAUTION_USD:
+        raise SystemExit(f"caution line passed (${spent():.2f} > ${CAUTION_USD}): non-narration calls disabled")
     guard(est)
     with _req("/chat/completions", {"model": model, "messages": messages, "max_tokens": max_tokens, "usage": {"include": True}}) as r:
         d = json.load(r)

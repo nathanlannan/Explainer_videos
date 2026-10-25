@@ -120,3 +120,6 @@ $0.3186 of $5.00 over 133 logged calls (actual costs from OpenRouter generation 
 
 ## Bench exercise
 - A printable 1:1 back scale and marume strip with a 100 mm calibration bar. The first PDF printed 2% small: the strip was wider than A4's printable area, so Chromium shrank the page. Fixed, then verified by rasterizing at 254 dpi: the bar measures exactly 1,000 px = 100.0 mm.
+
+## Budget change (owner instruction, 2026-10-25)
+- **$5.00 is now the cap for the whole series**, not per episode. Spent so far: $0.52 (Ep 1 $0.32; Ep 2 Part 1 about $0.20). `openrouter.guard()` already compares the whole ledger with $5.00. Added: once spend passes $3.50, listening and review calls (chat) are refused and only narration TTS may spend.
