@@ -145,3 +145,23 @@ $0.3186 of $5.00 over 133 logged calls (actual costs from OpenRouter generation 
 - Dating: "the Meiji era, in the late eighteen hundreds". The sources disagree on 1877 vs about 1895–97.
 - The dōzuki is described as "classed as a crosscut saw", because rip variants are sold.
 - The sharp-tools teacher line is moved to the end of the episode, per the series rule.
+
+## Episode 4 · Part 2: Gate A and production
+- Gate A returned 6 blockers, all lines that went beyond the fact pack: gennō striking chisels, the single bevel, what each layer does, why the back hollow exists, the mortise chisel "chopping straight down", and wedge-or-screw for Western planes. Each was either cut, or sourced and added as a row before use:
+  - R5-27: single bevel (K-鑿 + Odate81).
+  - R5-28: the soft iron supports the steel and absorbs shock (Odate81 + Fox, FWW #233).
+  - R5-20 extended: the back hollow makes flattening easier (Kakuri, a maker).
+  - R5-29: the steel is on the back; used only for the section drawing.
+  - R5-30: the maker quote, attributed.
+  - R5-31: sharpen after use (MHLW).
+- 殺し is glossed literally as "wood-killing", not "crushing".
+- Blade setting follows MHLW: tap the blade's head to set it deeper; tap the corners of the block's head end to draw it back.
+- The kanna model was corrected: on a pull plane the edge leads toward the user, so the blade's head leans toward the far (head) end, and the chip breaker and shaving are on the user-facing face.
+- TTS repeatedly rendered "kanna" as "kana" and "nomi" with a long vowel. Each term is voiced correctly at least once, verified by two listeners and ASR. The final recap line uses English (chisel / block / plane) instead of a fourth try.
+- One TTS call returned no /generation cost. It is logged as an estimate (1.5× the observed rate) and flagged in spend.csv. openrouter.py now does this automatically rather than crashing.
+
+## Episode 5: geometry
+- `timber.PlanPrism` was added for dovetail solids: a vertical prism from a plan polygon, built as a proper rotation (det +1). Its volume is verified against the analytic trapezoid.
+- Joint: dovetail and socket in the upper half, seat in the lower half (R6-18); the male is the upper piece and drops in (R6-14). Example dimensions 50/50/30 on 105 mm (R6-21, single-source, shown as "one carpenter's example"), giving a 1:5 flare (R6-22).
+- The seat length has no source, so the model uses 30 mm and the length is never stated on screen.
+- The fit check proves: no interference; faces in contact; a clear drop-in path; locked against pulling apart (+X) and sliding sideways (+Z); free to lift; cannot be slid in along or across the sill.
