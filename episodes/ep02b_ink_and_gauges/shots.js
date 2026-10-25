@@ -51,9 +51,9 @@ function makePen() { // sumisashi: flattened bamboo; +x end slanted and split (l
   const m = new THREE.Mesh(geo, std(BAMBOO, 0.6)); m.castShadow = true;
   const g = new THREE.Group(); g.add(m);
   // slits on the line end, ink on both tips
-  for (let i = 1; i <= P.slits; i++) { const k = i / (P.slits + 1); const sl = new THREE.Mesh(new THREE.BoxGeometry(P.slant * 0.9 + 6, 0.3, 0.35), std('#2a2522', 0.9)); sl.position.set(-P.slant * k - 3, P.t + 0.05, -P.w * k); sl.rotation.y = 0; g.add(sl); }
+  for (let i = 1; i <= P.slits; i++) { const k = i / (P.slits + 1); const sl = new THREE.Mesh(new THREE.BoxGeometry(P.slant + 22, 0.6, 0.6), std('#2a2522', 0.9)); sl.position.set(-P.slant * k - 12, P.t + 0.1, -P.w * k); sl.rotation.y = 0; g.add(sl); }
   const inkTip = new THREE.Mesh(new THREE.BoxGeometry(10, 0.4, P.w), std('#1B1B1B', 0.9)); inkTip.position.set(-P.slant / 2, P.t + 0.1, -P.w / 2); inkTip.rotation.y = Math.atan2(P.w, P.slant) - Math.PI / 2 + Math.PI / 2; inkTip.scale.set(0.6, 1, 1); g.add(inkTip);
-  const brush = new THREE.Mesh(new THREE.SphereGeometry(P.w / 2, 12, 8), std('#2a2522', 0.95)); brush.scale.set(0.9, 0.35, 1); brush.position.set(-P.len + P.w / 2 - 2, P.t / 2, -P.w / 2); g.add(brush);
+  const brush = new THREE.Mesh(new THREE.SphereGeometry(P.w / 2, 12, 8), std('#6b5a44', 0.95)); brush.scale.set(0.9, 0.35, 1); brush.position.set(-P.len + P.w / 2 - 2, P.t / 2, -P.w / 2); g.add(brush);
   return g; // lies flat in the XZ plane, width toward -z
 }
 function makeGauge() { // kebiki: fence block + beam + blade. local: fence face at z=0 (presses the edge from +z), beam toward -z on the board top (y=0 = board top)
@@ -62,7 +62,7 @@ function makeGauge() { // kebiki: fence block + beam + blade. local: fence face 
   const fence = new THREE.Mesh(new THREE.BoxGeometry(fy, fy, fx * 0.36), wood); fence.scale.set(fx / fy, 1, 1); fence.position.set(0, fy / 2 - 32, fx * 0.18); g.add(fence);
   const [bl, bh, bw] = Gp.beam;
   const beam = new THREE.Mesh(new THREE.BoxGeometry(bw, bh, bl), wood); beam.position.set(0, bh / 2 + 0.5, -Gp.setting + bl / 2 - 4); g.add(beam);
-  const blade = new THREE.Mesh(new THREE.BoxGeometry(1.2, 14, 7), std('#8d9399', 0.3, 0.7)); blade.position.set(0, 3, -Gp.setting); g.add(blade);
+  const blade = new THREE.Mesh(new THREE.BoxGeometry(2.0, 20, 9), std('#C9CED3', 0.25, 0.8)); blade.position.set(0, 5, -Gp.setting); g.add(blade);
   const wedge = new THREE.Mesh(new THREE.BoxGeometry(8, 6, 30), std('#8a5a33', 0.55)); wedge.position.set(fy * 0.35, fy - 30, fx * 0.18); g.add(wedge);
   g.traverse((o) => { if (o.isMesh) { o.castShadow = true; o.receiveShadow = true; } });
   return { g, fence, beam, blade };
@@ -74,7 +74,7 @@ function makeKnife() { // single bevel, flat back on -z side; tip at origin, bla
   const pos = geo.attributes.position; // thin the cutting end toward a single bevel: back face (z=0) stays flat
   for (let i = 0; i < pos.count; i++) { const x = pos.getX(i), z = pos.getZ(i); if (z > 0 && x > -K.bevel_len * 2.2) pos.setZ(i, z * Math.min(1, -x / (K.bevel_len * 2.2))); }
   geo.computeVertexNormals(); geo.rotateX(Math.PI / 2);
-  const m = new THREE.Mesh(geo, std('#A9AEB3', 0.3, 0.7)); m.castShadow = true;
+  const m = new THREE.Mesh(geo, std('#C9CED3', 0.3, 0.5)); m.castShadow = true;
   const grip = new THREE.Mesh(new THREE.BoxGeometry(80, K.t + 3, K.w + 3), std('#3a2f2a', 0.8)); grip.position.set(-K.len + 40, -(K.t) / 2, K.w / 2); grip.rotation.x = Math.PI / 2; grip.rotation.set(0, 0, 0); grip.position.set(-K.len + 40, K.w / 2 * 0, 0);
   const g = new THREE.Group(); g.add(m); return g;
 }
@@ -169,13 +169,13 @@ const SHOTS = {
     frame(t, sh) {
       const e = sh.ev, P = this.pot; P.g.updateMatrixWorld();
       const W = (p) => { const v = new THREE.Vector3(...p); P.g.localToWorld(v); return [v.x, v.y, v.z]; };
-      const mouth = W(P.mouth), end = [mouth[0] + 230, 2, 0];
+      const mouth = W(P.mouth), end = [mouth[0] + 150, 2, 0];
       setSeg(this.str, W(P.reelTop), W(P.pondPt)); setSeg(this.str2, W(P.pondPt), mouth); setSeg(this.str3, mouth, end); this.pin.position.set(end[0], 0, 0);
-      const cam = L.camera('threeQ', [40, 30, 0], 820, { orbit: -0.5 + 0.35 * L.lin(t, 0, sh.end - sh.start), lift: 0.25 });
+      const cam = L.camera('threeQ', [60, 30, 0], 900, { orbit: -0.35 + 0.2 * L.lin(t, 0, sh.end - sh.start), lift: 0.3 });
       L.show(this.term, L.ramp(t, e.term - 0.2, e.term + 0.3)); L.show(this.l5, L.ramp(t, e.term, e.term + 0.4));
       anchor(this.l1, cam, W(P.pondPt), 20, -150); L.show(this.l1, L.ramp(t, e.ike - 0.2, e.ike + 0.3));
-      anchor(this.l2, cam, W(P.reelTop), -60, -110); L.show(this.l2, L.ramp(t, e.reel - 0.2, e.reel + 0.3));
-      anchor(this.l3, cam, [end[0], 30, 0], -40, -150); L.show(this.l3, L.ramp(t, e.pin - 0.2, e.pin + 0.3));
+      anchor(this.l2, cam, W(P.reelTop), -40, -70); L.show(this.l2, L.ramp(t, e.reel - 0.2, e.reel + 0.3));
+      anchor(this.l3, cam, [end[0], 30, 0], -330, -130); L.show(this.l3, L.ramp(t, e.pin - 0.2, e.pin + 0.3));
       L.show(this.l4, L.ramp(t, e.wood - 0.2, e.wood + 0.3));
       return { scene: this.sc, camera: cam };
     },
@@ -209,14 +209,15 @@ const SHOTS = {
       this.l2 = L.text('ink line', { x: 1300, y: 412, size: 40 });
       // pot outlines to scale: about 180, 240, 300 mm long (R3-03)
       this.pots = el2(svg, 'g', {}); const k = 1.6;
-      [180, 240, 300].forEach((len, i) => { const x = 160 + i * 560, y = 700; el2(this.pots, 'rect', { x, y, width: len * k, height: 60 * k * len / 240, rx: 18, fill: ZELKOVA, opacity: 0.85 }); L.text(`about ${len / 10} cm`, { x, y: y + 60 * k * len / 240 + 10, size: 36 }); });
-      this.l3 = L.text('the biggest: temple and shrine work', { x: 1280, y: 980, size: 36, cls: 'soft' });
+      L.text('ink pot lengths, to scale', { x: 160, y: 620, size: 40 });
+      [180, 240, 300].forEach((len, i) => { const y = 700 + i * 90; el2(this.pots, 'rect', { x: 160, y, width: len * k * 2, height: 46, rx: 12, fill: ZELKOVA, opacity: 0.9 }); L.text(`about ${len / 10} cm`, { x: 180 + len * k * 2, y: y + 2, size: 36 }); });
+      this.l3 = null;
     },
     frame(t, sh) {
       const e = sh.ev;
       L.show(this.chalk, L.ramp(t, e.chalk - 0.2, e.chalk + 0.3)); L.show(this.l1, L.ramp(t, e.wipes - 0.2, e.wipes + 0.3));
       L.show(this.ink, L.ramp(t, 0, 0.4)); L.show(this.l2, L.ramp(t, 0.2, 0.6));
-      L.show(this.pots, L.ramp(t, e.sizes - 0.3, e.sizes + 0.3)); L.show(this.l3, L.ramp(t, e.temple - 0.2, e.temple + 0.3));
+      L.show(this.pots, L.ramp(t, e.sizes - 0.3, e.sizes + 0.3));
       [...document.querySelectorAll('.shotov')].forEach(() => {});
       return {};
     },
@@ -234,7 +235,7 @@ const SHOTS = {
       B.pen.visible = true;
       const kl = L.ramp(t, e.line - 0.1, e.line + 1.4), kw = L.ramp(t, e.write, e.write + 1.6);
       L.setProgress(B.penLine, kl); B.plg.position.x = 160;
-      if (t < e.other) { B.pen.rotation.set(0, Math.PI / 2 + 0.5, -0.35); B.pen.position.set(160, B.by + 0.5, B.bz / 2 - B.bz * kl); }
+      if (t < e.other) { B.pen.rotation.set(0, Math.PI - 0.5, -0.4); B.pen.position.set(160, B.by + 0.5, B.bz / 2 - B.bz * kl); }
       else { // flipped: writing with the rounded end (pivot at that end)
         B.pen.visible = false; B.penW.visible = true; B.penW.rotation.set(0, 0.6, 0.45); B.penW.position.set(335 + 60 * kw, B.by + 1, 20 + 8 * Math.sin(kw * 18));
       }
@@ -252,14 +253,14 @@ const SHOTS = {
       this.l2 = L.text('fingers near the middle of that arm', { x: 96, y: 930, size: 36 });
       this.l3 = L.text('draw along the arm across the face', { x: 96, y: 980, size: 36 });
       // inset: section through the hooked arm at the board's edge (magnified)
-      const svg = L.svgLayer(); this.inset = el2(svg, 'g', {}); const ix = 1380, iy = 170, M = 9;
-      el2(this.inset, 'rect', { x: ix - 20, y: iy - 30, width: 460, height: 330, fill: L.C.paper, stroke: L.C.ink, 'stroke-width': 2, rx: 10 });
+      const svg = L.svgLayer(); this.inset = el2(svg, 'g', {}); const ix = 1240, iy = 170, M = 9;
+      el2(this.inset, 'rect', { x: ix - 20, y: iy - 30, width: 580, height: 360, fill: L.C.paper, stroke: L.C.ink, 'stroke-width': 2, rx: 10 });
       el2(this.inset, 'path', { d: `M${ix},${iy + 40} h${18 * M} v${22 * M} h${-18 * M} Z`, fill: '#E6C9A0', stroke: L.C.ink, 'stroke-width': 2 });
       el2(this.inset, 'g', { transform: `translate(${ix + 18 * M},${iy + 40 + 0.8 * M})` }).innerHTML = `<rect x="0" y="0" width="${15 * M}" height="${1.4 * M}" fill="#D3D7DB" stroke="${INK}" stroke-width="2"/>`;
       el2(this.inset, 'path', { d: `M${ix + 18 * M + 15 * M + 40},${iy + 40 + 1.5 * M} h-30 m12,-8 l-12,8 l12,8`, stroke: INK, 'stroke-width': 3, fill: 'none' });
-      const tx = el2(this.inset, 'text', { x: ix, y: iy + 290, 'font-size': 36, 'font-family': FONT }); tx.textContent = 'section at the edge, magnified';
-      const tx2 = el2(this.inset, 'text', { x: ix + 18 * M + 20, y: iy + 120, 'font-size': 36, 'font-family': FONT }); tx2.textContent = 'inner edge against';
-      const tx3 = el2(this.inset, 'text', { x: ix + 18 * M + 20, y: iy + 160, 'font-size': 36, 'font-family': FONT }); tx3.textContent = 'the side face';
+      const tx = el2(this.inset, 'text', { x: ix, y: iy + 300, 'font-size': 36, 'font-family': FONT }); tx.textContent = 'section at the edge · not to scale';
+      const tx2 = el2(this.inset, 'text', { x: ix + 18 * M + 20, y: iy + 130, 'font-size': 36, 'font-family': FONT }); tx2.textContent = 'inner edge against';
+      const tx3 = el2(this.inset, 'text', { x: ix + 18 * M + 20, y: iy + 172, 'font-size': 36, 'font-family': FONT }); tx3.textContent = 'the side face';
       // the three top-view panels (wrong + two right ways)
       this.panels = el2(svg, 'g', {});
       const panel = (x, mode, cap) => {
@@ -273,8 +274,9 @@ const SHOTS = {
         return g;
       };
       this.pTop = panel(130, 'top', 'laid on top: nothing holds it square'); this.pLong = panel(750, 'long', 'long arm hooks the edge'); this.pShort = panel(1370, 'short', 'or the short arm hooks it');
-      this.ref = L.text('the hooked edge must be straight and true: the reference face', { x: 960, y: 220, size: 40, align: 'center' });
+      this.ref = L.text('the hooked edge is the reference: it must be straight and true', { x: 960, y: 130, size: 40, align: 'center' });
       this.views = L.text('top views · arms drawn shortened', { x: 1824, y: 1000, size: 36, cls: 'soft', align: 'right' });
+      this.press = L.text('↓ press here', { x: 0, y: 0, size: 40 }); this.press.style.fontWeight = 700;
     },
     frame(t, sh) {
       const B = getBoard(), e = sh.ev; boardReset(B);
@@ -282,15 +284,16 @@ const SHOTS = {
       const k = L.ramp(t, e.hook - 0.5, e.hook + 0.5); poseHooked(B, k);
       B.pen.visible = !phase2 && t > e.draw - 0.6; const kd = L.ramp(t, e.draw, e.draw + 1.5);
       B.plg.position.x = HEELX; L.setProgress(B.penLine, phase2 ? 0 : kd);
-      B.pen.rotation.set(0, Math.PI / 2 + 0.5, -0.35); B.pen.position.set(HEELX + 1, B.by + 0.5, B.bz / 2 - B.bz * kd);
+      B.pen.rotation.set(0, Math.PI - 0.5, -0.4); B.pen.position.set(HEELX + 1, B.by + 0.5, B.bz / 2 - B.bz * kd);
       L.show(this.q, L.ramp(t, 0.1, 0.5) * (phase2 ? 0 : 1));
       L.show(this.l1, phase2 ? 0 : L.ramp(t, e.press - 0.2, e.press + 0.3)); L.show(this.l2, phase2 ? 0 : L.ramp(t, e.fingers - 0.2, e.fingers + 0.3)); L.show(this.l3, phase2 ? 0 : L.ramp(t, e.draw - 0.2, e.draw + 0.3));
       L.show(this.inset, phase2 ? 0 : L.ramp(t, e.press, e.press + 0.4));
       L.show(this.panels, L.ramp(t, e.wrong - 0.3, e.wrong + 0.2)); L.show(this.pLong, L.ramp(t, e.wrong, e.wrong + 0.3)); L.show(this.pShort, L.ramp(t, e.both - 0.3, e.both + 0.2));
       L.show(this.pTop.cap, L.ramp(t, e.wrong - 0.3, e.wrong + 0.2)); L.show(this.pLong.cap, L.ramp(t, e.wrong, e.wrong + 0.3)); L.show(this.pShort.cap, L.ramp(t, e.both - 0.3, e.both + 0.2));
       L.show(this.ref, L.ramp(t, e.ref - 0.2, e.ref + 0.3)); L.show(this.views, phase2 ? 1 : 0);
-      if (phase2) return {};
-      const cam = L.camera('threeQ', [330, B.by, 20], 900, { orbit: -0.15, lift: 0.4 });
+      if (phase2) { L.show(this.press, 0); return {}; }
+      const cam = L.camera('threeQ', [300, B.by, 40], 1050, { orbit: -0.15, lift: 0.4 });
+      anchor(this.press, cam, [HEELX - 260, B.by + 2, B.bz / 2 + 8], -20, -70); L.show(this.press, phase2 ? 0 : L.ramp(t, e.fingers - 0.2, e.fingers + 0.3));
       return { scene: B.s, camera: cam };
     },
   },
@@ -300,7 +303,7 @@ const SHOTS = {
       this.term = L.label({ romaji: 'kebiki', kanji: '罫引', gloss: 'marking gauge (also written 毛引)', x: 96, y: 70 });
       this.lf = L.label({ romaji: 'jōgi-ita', kanji: '定規板', gloss: 'fence', x: 0, y: 0, size: 36 });
       this.lb = L.label({ romaji: 'sao', kanji: '棹', gloss: 'beam', x: 0, y: 0, size: 36 });
-      this.lk = L.label({ gloss: 'blade', x: 0, y: 0, size: 36 });
+      this.lk = L.label({ gloss: 'blade ↓', x: 0, y: 0, size: 36 });
       this.set = L.text('set once · repeated on every piece', { x: 96, y: 980, size: 40 });
       this.ill = L.text('proportions illustrative', { x: 1824, y: 54, size: 36, cls: 'soft', align: 'right' });
     },
@@ -312,9 +315,9 @@ const SHOTS = {
       L.setProgress(B.gaugeLine, (G2.g.position.x) / B.bx * (t > e.blade - 0.3 ? 1 : 0));
       const cam = L.camera('threeQ', [300, B.by, 60], 1100, { orbit: 0.25, lift: 0.35 });
       L.show(this.term, L.ramp(t, e.term - 0.2, e.term + 0.3)); L.show(this.ill, L.ramp(t, e.term, e.term + 0.4));
-      anchor(this.lf, cam, [G2.g.position.x, B.by - 10, B.bz / 2 + 20], 40, -60); L.show(this.lf, L.ramp(t, e.fence - 0.2, e.fence + 0.3));
+      anchor(this.lf, cam, [G2.g.position.x, B.by - 10, B.bz / 2 + 20], 90, 10); L.show(this.lf, L.ramp(t, e.fence - 0.2, e.fence + 0.3));
       anchor(this.lb, cam, [G2.g.position.x, B.by + 14, B.bz / 2 + 120], -200, -100); L.show(this.lb, L.ramp(t, e.fence + 0.6, e.fence + 1.0));
-      anchor(this.lk, cam, [G2.g.position.x, B.by, B.bz / 2 - G.gauge.setting], -30, -120); L.show(this.lk, L.ramp(t, e.blade - 0.2, e.blade + 0.3));
+      anchor(this.lk, cam, [G2.g.position.x, B.by + 20, B.bz / 2 - G.gauge.setting], -30, -130); L.show(this.lk, L.ramp(t, e.blade - 0.2, e.blade + 0.3));
       L.show(this.set, L.ramp(t, e.set - 0.2, e.set + 0.3));
       return { scene: B.s, camera: cam };
     },
@@ -358,7 +361,7 @@ const SHOTS = {
       this.n = L.text('how and when to use it: with the cutting tools', { x: 1824, y: 1000, size: 36, cls: 'soft', align: 'right' });
       const svg = L.svgLayer(); this.prof = el2(svg, 'g', {}); const x = 1380, y = 300;
       el2(this.prof, 'path', { d: `M${x},${y} h300 l60,40 h-360 Z`, fill: '#A9AEB3', stroke: INK, 'stroke-width': 2 });
-      const a = el2(this.prof, 'text', { x, y: y - 20, 'font-size': 36, 'font-family': FONT }); a.textContent = 'bevel';
+      const a = el2(this.prof, 'text', { x: x + 310, y: y - 14, 'font-size': 36, 'font-family': FONT }); a.textContent = 'bevel ↘';
       const b = el2(this.prof, 'text', { x, y: y + 90, 'font-size': 36, 'font-family': FONT }); b.textContent = 'flat back';
       const c = el2(this.prof, 'text', { x, y: y + 140, 'font-size': 36, 'font-family': FONT, fill: '#4A4642' }); c.textContent = 'section, magnified';
     },
@@ -366,7 +369,7 @@ const SHOTS = {
       const B = getBoard(), e = sh.ev; boardReset(B); poseHooked(B, 1);
       B.knife.visible = true; const kd = L.ramp(t, e.flat - 0.2, e.flat + 1.4);
       B.klg.position.x = HEELX + 0.5; L.setProgress(B.knifeLine, kd);
-      B.knife.rotation.set(0, Math.PI / 2, -0.6); B.knife.position.set(HEELX + 0.5, B.by + 0.3, B.bz / 2 - B.bz * kd);
+      B.knife.rotation.set(0, -Math.PI / 2, 0.5); B.knife.position.set(HEELX + 0.6, B.by + 0.2, B.bz / 2 - B.bz * kd);
       L.show(this.term, L.ramp(t, e.term - 0.2, e.term + 0.3)); L.show(this.f, L.ramp(t, e.flat - 0.2, e.flat + 0.3)); L.show(this.prof, L.ramp(t, e.flat, e.flat + 0.4));
       L.show(this.c, L.ramp(t, e.cut - 0.2, e.cut + 0.3)); L.show(this.n, L.ramp(t, e.later - 0.2, e.later + 0.3));
       const cam = L.camera('threeQ', [380, B.by, 10], 700, { orbit: 0.1, lift: 0.45 });
@@ -392,7 +395,7 @@ const SHOTS = {
         ['sujikebiki', '筋罫引', 'scoring gauge', 'just scores lines'],
         ['warikebiki', '割罫引', 'slitting gauge', 'cuts deeper, to split thin boards to width'],
         ['shiragaki / shirabiki', '', 'marking knife', 'most: flat back, one bevel; a fine cut'],
-        ['sashigane, hooked', '', 'squaring a line', 'one arm against the true edge, draw along the other'],
+        ['sashigane', '差金', 'squaring a line', 'one arm against the true edge, draw along the other'],
       ];
       const g = L.text('', { x: 96, y: 250, size: 36, w: 1728 }); g.innerHTML = '<div class="soft" style="font-size:36px;margin-bottom:14px;letter-spacing:.08em">GLOSSARY · EPISODE 2 · PART 2</div>' + rows.map((r) => `<div style="display:flex;gap:30px;margin-bottom:18px;align-items:baseline"><div style="width:600px;font-weight:700;font-size:38px"><i>${r[0]}</i> <span style="font-family:'Noto Serif CJK JP',serif;font-style:normal">${r[1]}</span></div><div style="width:1100px;white-space:normal;font-size:36px"><b>${r[2]}</b> — <span class="soft">${r[3]}</span></div></div>`).join('');
     },

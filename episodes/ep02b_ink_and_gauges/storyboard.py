@@ -43,7 +43,8 @@ def _(s):
 @shot("S05", "Chalk vs ink; pot sizes", "2d", "A chalk line beside an ink line; 'chalk wipes off easily'. Three pot outlines to scale: about 180, 240, 300 mm.")
 def _(s):
     s.pause(0.3)
-    s.line("N06", {"chalk": "chalk", "wipes": "wipes", "sizes": "pots", "temple": "temple"}, gap=0.5)
+    s.line("N06", {"chalk": "chalk", "wipes": "wipes", "sizes": "pots"}, gap=0.5)
+    s.hold(2.0)
 
 
 @shot("S06", "The ink pen", "threeQ", "The sumisashi: flattened bamboo; slanted split end draws a line; rounded crushed end writes a note.")
@@ -59,7 +60,7 @@ def _(s):
     s.chapters.append((0.0, "Squaring a line with the sashigane"))
     s.pause(0.3)
     s.line("N09", gap=0.3)
-    s.line("N10", {"hook": "hooks", "press": "presses", "fingers": "fingers", "draw": "draw"}, gap=0.4, sfx={"draw": "mark_long"})
+    s.line("N10", {"hook": "sticks", "press": "pressed", "fingers": "fingers", "draw": "draw"}, gap=0.4, sfx={"draw": "mark_long"})
     s.sfx.append((q(s.ev["hook"] + 0.4), "steel_set"))
     s.line("N11", {"wrong": "simply", "ref": "reference", "both": "both"}, gap=0.4)
     s.hold(4.0, "Study: squaring with the sashigane")
@@ -76,13 +77,14 @@ def _(s):
 def _(s):
     s.pause(0.3)
     s.line("N13", {"cutting": "cutting", "pin": "pin", "slice": "slices"}, gap=0.4)
-    s.hold(3.0, "Study: pin vs. blade")
+    s.hold(3.5, "Study: pin vs. blade")
 
 
 @shot("S10", "Kinds of kebiki", "2d", "Names only: sujikebiki 筋罫引 (scores lines), warikebiki 割罫引 (cuts thin boards to width).")
 def _(s):
     s.pause(0.3)
     s.line("N14", {"suji": "tsuji", "wari": "wadi"}, gap=0.5)
+    s.hold(2.5)
 
 
 @shot("S11", "The marking knife", "threeQ", "A marking knife (flat back, one bevel) cuts a fine line across a board along the square.")

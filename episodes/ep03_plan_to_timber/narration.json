@@ -1,0 +1,118 @@
+{
+ "voice": "see shared/audio/voice/voice_settings.md",
+ "lines": [
+  {
+   "id": "N01",
+   "section": 1,
+   "text": "Every timber in a frame is marked and cut on its own, before the frame goes up. So how does each piece know where it belongs?",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N02",
+   "section": 1,
+   "text": "The answer starts on a board, and ends in a short written address on every member.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N03",
+   "section": 2,
+   "text": "This is an itazu, a board plan. It's the carpenter's own drawing of the building, made on a thin board, today often plywood, and drawn from the architect's plans. It goes by other names too: zuita, or teita.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "This is an ee-tah-zoo, a board plan. It's the carpenter's own drawing of the building, made on a thin board, today often plywood, and drawn from the architect's plans. It goes by other names too: zoo-ee-tah, or teh-ee-tah."
+  },
+  {
+   "id": "N04",
+   "section": 2,
+   "text": "It is not a detailed drawing. It works like a floor plan and the framing plans combined: where every post stands, and which beams and sills run between them.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N05",
+   "section": 2,
+   "text": "The board is ruled into a grid. The lines are usually three shaku apart, about nine hundred ten millimeters, and the posts stand at the crossings. Each grid line runs through the centers of the posts on it.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N06",
+   "section": 3,
+   "text": "Then every grid line gets a name. This system is called banzuke. In its classic form, one direction is labeled with the old Japanese syllable order, i, ro, ha, ni. The other is numbered, one, two, three.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "Then every grid line gets a name. This system is called ban-zu-keh. In its classic form, one direction is labeled with the old Japanese syllable order, ee, roh, hah, nee. The other is numbered, one, two, three."
+  },
+  {
+   "id": "N07",
+   "section": 3,
+   "text": "Now every crossing has an address. The corner post here is i-no-ichi, written with two characters. The next one along is ro-no-ichi.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "Now every crossing has an address. The corner post here is inoichi, written with two characters. The next one along is ronoichi."
+  },
+  {
+   "id": "N08",
+   "section": 3,
+   "text": "One common layout runs the syllables across the board and counts the numbers down from the top. But which way the axes go, and which corner starts, varies by region and by carpenter. Other numbering systems exist too.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N09",
+   "section": 4,
+   "text": "Now the plan comes off the board. Marking out each member, the carpenter checks the board and writes that member's address on it, by hand. The address says where the piece goes; the story stick gives its heights; the center line gives the reference.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N10",
+   "section": 4,
+   "text": "The address goes where it will be hidden once the frame is built, for example on a tenon, or on the part of a post that ends up below the floor.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N11",
+   "section": 4,
+   "text": "In one common practice, every piece that joins a post carries the same address at that joint. The beam that meets post i-no-ichi is marked i-no-ichi right there.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "In one common practice, every piece that joins a post carries the same address at that joint. The beam that meets post inoichi is marked inoichi right there."
+  },
+  {
+   "id": "N12",
+   "section": 4,
+   "text": "And every member gets its center line, struck in ink, so the layout is measured from the center, just as in the first episode.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N12b",
+   "section": 4,
+   "text": "The same addresses serve again when an old building is taken apart to be repaired or moved: every piece can go back exactly where it came from.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N13",
+   "section": 5,
+   "text": "So the work runs in one direction. Plan on the board. Story sticks for the heights. Marking out each member. Then the cutting, called kizami.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.",
+   "tts": "So the work runs in one direction. Plan on the board. Story sticks for the heights. Marking out each member. Then the cutting, called kee-zah-mee."
+  },
+  {
+   "id": "N14",
+   "section": 5,
+   "text": "When the frame is raised, the crew reads the addresses, and matching labels go together.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N15",
+   "section": 5,
+   "text": "Hand-drawn board plans are rare today. By twenty fifteen, about nine in ten post-and-beam frames in Japan were cut by machine. But the logic is the same, and it's exactly what you need for cutting joints by hand.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N16",
+   "section": 6,
+   "text": "Next time, the cutting kit: the saws, the chisels and the hammer, the plane, and what it means to cut to a line.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  },
+  {
+   "id": "N17",
+   "section": 7,
+   "text": "Draw it once on the board. Give every crossing an address. Write the address on every piece. Then the frame tells you how it goes together.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+  }
+ ]
+}

@@ -60,21 +60,47 @@ Key sources: Kotobank 墨壺 (Nipponica; Britannica Japan; Daijisen), 墨差し 
 |---|---|---|---|---|---|---|
 | R3-01 | Ink line tool and parts | 墨壺 すみつぼ sumitsubo; 池 いけ ike (墨池); 壺車 つぼぐるま tsubo-guruma; 墨糸 すみいと sumiito (壺糸, 墨縄); 軽子 かるこ karuko (main dictionary form 仮子 かりこ); 壺口 | pot with silk floss (真綿) soaked in ink, a reel, the line, a pin at its end | Nipponica; JAANUS; MHLW p.8 photo labels | verified | yes |
 | R3-02 | Snapping a line | 墨掛 すみかけ | pin at one end, pull taut, lift straight up, release; a straight line even over slight unevenness | Nipponica; Daijisen; JAANUS; MHLW | verified | yes |
-| R3-03 | Pot materials and sizes | — | mulberry traditional, zelkova common today; pots about 30 / 24 / 18 cm | Nipponica; Britannica Japan | verified | model size 24 cm only |
+| R3-03 | Pot materials and sizes | — | mulberry traditional, zelkova common today; pots about 30 / 24 / 18 cm | Nipponica; Britannica Japan | verified (sizes); "largest for temple and shrine work" single dictionary → not used | lengths 18/24/30 cm shown to scale |
 | R3-04 | The line is silk | — | — | retail blog + museum page only | single-source | no |
 | R3-05 | Plumb-bob use; nylon line; line length | — | — | none | unverified | no |
 | R3-06 | Chalk line wipes off easily | チョークライン | chalk works the same way, and its line wipes off easily | ja.wikipedia 墨壺; Covington (retail blog) | verified (wipes off); "ink more indelible" single-source | "chalk wipes off" only |
 | R3-07 | Ink pen | 墨差し (墨指, 墨刺) すみさし sumisashi | flattened bamboo; one end cut on a slant and split into fine slits for lines; the other end rounded and crushed, used like a brush to write marks and characters | Nipponica; JAANUS; 日本国語大辞典; MHLW p.8 | verified (**not "pointed"**) | yes |
 | R3-08 | "Carpenters make their own sumisashi" | — | — | not found | unverified | no |
 | R3-09 | Marking gauge | 罫引 / 毛引 けびき kebiki (also けいびき); 定規板 じょうぎいた jōgi-ita; 棹 さお sao | a fence slides on a planed edge; a small blade (sometimes a pin) at the beam's end scores a parallel line | Nipponica; JAANUS | verified | yes |
-| R3-10 | Gauge types | 筋罫引 すじけびき sujikebiki; 割罫引 わりけびき warikebiki | sujikebiki scores lines; warikebiki cuts thin boards apart along the grain | Nipponica/Heibonsha; JAANUS | verified | named only |
+| R3-10 | Gauge types | 筋罫引 すじけびき sujikebiki; 割罫引 わりけびき warikebiki | sujikebiki scores lines; warikebiki cuts thin boards apart along the grain (JAANUS: scores deeper so the wood splits); glossary glosses "scoring gauge" / "slitting gauge" are our English labels | Nipponica/Heibonsha; JAANUS | verified | named only |
 | R3-11 | Western equivalents | — | pin gauge tears cross-grain fibers; cutting (knife) gauge slices; a kebiki's blade makes it closest to a cutting gauge | Fine Woodworking (Latta 2007; 2017 test); Nipponica (blade) | verified | yes |
 | R3-12 | Blade bevel pulls the fence in; pulled toward you | — | — | FWW (summary only) / retail | single-source / unverified | no |
 | R3-13 | Marking knife | しらがき shiragaki (also しらびき shirabiki); kanji vary (白書, 白引き, 白柿) | flat back, bevel on one side (common, not universal); cuts very fine lines, mostly across the grain | MHLW p.5 (しらがき); Covington (both names) | name verified; kanji unconfirmed; single bevel "common" | romaji only |
 | R3-14 | Holding the sashigane to square a line | — | one arm overhangs the edge, its inner edge pressed against the side face (the reference face) by fingers near the arm's middle; the other arm lies across the face; draw along it. Laid simply on top of the board = wrong. Sources differ on WHICH arm hooks the edge (MHLW text: short arm; Topman + makit: long arm) | Topman (text + figures, ○ and ×); makit.jp; MHLW p.9 | verified (method); arm choice varies | yes: "one arm hooks the edge"; drawn as in Topman's figure |
 
+## Episode 3 (from plan to timber)
+
+Key sources: JAANUS itazu, banzuke; Kotobank 図板 (デジタル大辞泉, 日本国語大辞典), 番付 (改訂新版 世界大百科事典, 西和夫), 合番, 合印 (デジタル大辞泉); 中央工学校 OSAKA; carpenter and architect pages (堂薗建築, 川上幸生, 水野設計室, 丸清, 天然住宅, SUHARU建匠, 三ツ井工務店); 鳥取県産業人材育成センター; 林野庁 森林・林業白書 H28 (pre-cut share); MHLW manual (芯墨).
+
+| ID | Item | Kanji / kana / romaji | Claim as used | Sources | Confidence | On screen? |
+|---|---|---|---|---|---|---|
+| R4-01 | Board plan | 板図 いたず itazu (also 図板 ずいた zuita, 手板 ていた teita) | the carpenter's own plan of the building, drawn on a thin board (today often plywood); it guides the marking out | JAANUS; デジタル大辞泉 図板; 日本国語大辞典; 中央工学校 | verified | yes |
+| R4-02 | What it shows | — | like a floor plan and the framing plans combined, drawn from the architect's drawings | 中央工学校; 堂薗建築; 川上幸生 | verified | yes |
+| R4-03 | Drawn with the ink pen | — | drawn with a sumisashi | 中央工学校 | single-source | softened ("often with the ink pen") |
+| R4-04 | Grid spacing | 通り | grid lines usually every 3 shaku (about 910 mm) | 水野設計室; 能登デザイン室; training-school student page | verified (usual) | yes ("usually") |
+| R4-05 | Board scale; post symbols | — | — | none found | unverified | no (posts shown as plain squares at crossings) |
+| R4-06 | Rare today | — | hand-drawn board plans are now rare; 91% of post-and-beam framing was pre-cut by machine in 2015 | 三ツ井工務店; JAANUS; 林野庁 白書 H28 | verified | yes |
+| R4-07 | Grid labels | 番付 ばんづけ banzuke | marks on posts, beams etc. and the system behind them, so the frame assembles correctly | 世界大百科 (西和夫); JAANUS | verified | yes |
+| R4-08 | Classic system | 組合せ番付 くみあわせばんづけ kumiawase banzuke; いろは iroha | いろは along one direction × 一二三 along the other: every grid crossing has an address | 世界大百科; JAANUS; 堂薗建築 | verified | yes |
+| R4-09 | Common orientation | — | iroha across, numbers counted down from the top | 川上幸生; 堂薗建築 | verified as "common" only | yes ("one common layout") |
+| R4-10 | Variation | — | axis and starting corner vary by region and carpenter | 川上; 水野設計室 | verified | yes |
+| R4-11 | Address form | い一 (いの一); likewise ろ一, は一, に一 | read "i-no-ichi", written い一 | 鳥取県 center; 水野設計室 | verified | yes |
+| R4-12 | Other systems | 回り番付, 時香番付, 合紋 あいもん aimon | other numbering systems exist | 世界大百科; JAANUS | verified | named as "other systems exist" only |
+| R4-13 | "aiban" | 合番 | NOT a carpentry labelling term (means a shared duty rotation / two trades in one area); matching marks are 合印 aijirushi | Kotobank 合番, 合印; Panasonic glossary | verified (negative) | no; episode map corrected |
+| R4-14 | Label written on each member during marking out | — | the carpenter checks the board plan and writes the address on each member as he marks it out | 丸清; 天然住宅 | verified | yes |
+| R4-15 | Where marks go | — | where they will be hidden once built, e.g. on tenons or the below-floor part of posts | 世界大百科; JAANUS | verified | yes |
+| R4-16 | Mark at every joint | — | a beam meeting post い一 is marked い一 at that joint | 川上 (one source; a second page copies it) | single-source | softened ("one common practice") |
+| R4-17 | Orientation decisions | 元口/末口 | butt/top ends, grain and curve decided when planning | 川上; 丸清 | single-source | no |
+| R4-18 | Workflow | 墨付け → 刻み きざみ kizami → 建前 (上棟) | plan + story sticks → marking out → cutting → (trial fit) → raising the frame | 中央工学校; 堂薗建築; 水野設計室; 天然住宅; SUHARU建匠; 川上 | verified | yes (kizami named) |
+| R4-19 | "いの一番 comes from banzuke" | — | — | one carpenter's blog; dictionaries give only iroha order | folk etymology | no |
+
 ## Later episodes (candidates, not yet researched)
-指金/差金 sashigane · 裏目 ura-me · 合番 aiban · 両刃 ryōba · 胴付 dozuki · 片刃 kataba · 鑿 nomi · 玄能 gennō · 鉋 kanna · 腰掛蟻継ぎ koshikake ari-tsugi · 枘/枘穴 hozo/hozo-ana · 鎌継ぎ kama-tsugi · 渡り腮 watari-ago · 追掛大栓継ぎ okkake daisen-tsugi
+指金/差金 sashigane · 裏目 ura-me · 両刃 ryōba · 胴付 dozuki · 片刃 kataba · 鑿 nomi · 玄能 gennō · 鉋 kanna · 腰掛蟻継ぎ koshikake ari-tsugi · 枘/枘穴 hozo/hozo-ana · 鎌継ぎ kama-tsugi · 渡り腮 watari-ago · 追掛大栓継ぎ okkake daisen-tsugi
 
 Leads already found for later: 返り墨 kaerizumi (offset line; trade blogs only), 陸墨 rokuzumi (level line; 日本国語大辞典), 峠墨 tōgezumi (beam level reference; MHLW manual), 木表/木裏 kiomote/kiura (Daijisen), 上端/下端 uwaba/shitaba (MHLW manual).
 

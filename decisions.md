@@ -123,3 +123,6 @@ $0.3186 of $5.00 over 133 logged calls (actual costs from OpenRouter generation 
 
 ## Budget change (owner instruction, 2026-10-25)
 - **$5.00 is now the cap for the whole series**, not per episode. Spent so far: $0.52 (Ep 1 $0.32; Ep 2 Part 1 about $0.20). `openrouter.guard()` already compares the whole ledger with $5.00. Added: once spend passes $3.50, listening and review calls (chat) are refused and only narration TTS may spend.
+
+## Episode map correction (from Ep 3 research)
+- The map said "aiban labeling". **合番 aiban is not a carpentry labelling term.** The system is **番付 banzuke** (classic form: いろは × 一二三 grid addresses), and matching marks are 合印 aijirushi. Episode 3 teaches banzuke.

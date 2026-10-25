@@ -843,202 +843,162 @@
   "wpm": 111.8
  },
  "N06": {
-  "take": 2,
-  "duration": 16.66,
-  "asr": "A Western chalk line works the same way. The difference is what's left behind. Chalk wipes off easily. Ink pots come in sizes from about 18 to 30 centimeters long. The biggest were for temple and shrine work.",
+  "take": 3,
+  "duration": 12.677,
+  "asr": "A Western chalk line works the same way. The difference is what's left behind. Chalk wipes off easily. Ink pots come in sizes from about 18 to 30 centimeters long.",
   "words": [
    [
     "A",
     0.0,
-    0.42
+    0.18
    ],
    [
     "Western",
-    0.42,
-    0.86
+    0.18,
+    0.7
    ],
    [
     "chalk",
-    0.86,
-    1.16
+    0.7,
+    0.98
    ],
    [
     "line",
-    1.16,
-    1.52
+    0.98,
+    1.3
    ],
    [
     "works",
-    1.52,
-    1.84
+    1.3,
+    1.64
    ],
    [
     "the",
-    1.84,
-    2.1
+    1.64,
+    1.88
    ],
    [
     "same",
-    2.1,
-    2.34
+    1.88,
+    2.08
    ],
    [
     "way.",
-    2.34,
-    2.66
+    2.08,
+    2.34
    ],
    [
     "The",
-    3.2,
-    3.28
+    2.92,
+    2.98
    ],
    [
     "difference",
-    3.28,
-    3.6
+    2.98,
+    3.28
    ],
    [
     "is",
-    3.6,
-    4.06
+    3.28,
+    3.66
    ],
    [
     "what's",
-    4.06,
-    4.44
+    3.66,
+    4.0
    ],
    [
     "left",
-    4.44,
-    4.62
+    4.0,
+    4.16
    ],
    [
     "behind.",
-    4.62,
-    5.18
+    4.16,
+    4.62
    ],
    [
     "Chalk",
-    6.08,
-    6.22
+    5.46,
+    5.64
    ],
    [
     "wipes",
-    6.22,
-    6.44
+    5.64,
+    6.0
    ],
    [
     "off",
-    6.44,
-    6.7
+    6.0,
+    6.28
    ],
    [
     "easily.",
-    6.7,
-    7.18
+    6.28,
+    6.76
    ],
    [
     "Ink",
-    8.26,
-    8.32
+    8.06,
+    8.18
    ],
    [
     "pots",
-    8.32,
-    8.6
+    8.18,
+    8.5
    ],
    [
     "come",
-    8.6,
-    9.0
+    8.5,
+    8.92
    ],
    [
     "in",
-    9.0,
-    9.34
+    8.92,
+    9.1
    ],
    [
     "sizes",
-    9.34,
-    9.78
+    9.1,
+    9.48
    ],
    [
     "from",
-    9.78,
-    10.18
+    9.48,
+    9.88
    ],
    [
     "about",
-    10.18,
-    10.72
+    9.88,
+    10.16
    ],
    [
     "18",
-    10.72,
-    11.7
+    10.16,
+    10.76
    ],
    [
     "to",
-    11.7,
-    12.12
+    10.76,
+    11.18
    ],
    [
     "30",
-    12.12,
-    12.72
+    11.18,
+    11.72
    ],
    [
     "centimeters",
-    12.72,
-    13.1
+    11.72,
+    12.08
    ],
    [
     "long.",
-    13.1,
-    13.58
-   ],
-   [
-    "The",
-    14.2,
-    14.3
-   ],
-   [
-    "biggest",
-    14.3,
-    14.6
-   ],
-   [
-    "were",
-    14.6,
-    15.0
-   ],
-   [
-    "for",
-    15.0,
-    15.24
-   ],
-   [
-    "temple",
-    15.24,
-    15.58
-   ],
-   [
-    "and",
-    15.58,
-    15.86
-   ],
-   [
-    "shrine",
-    15.86,
-    16.14
-   ],
-   [
-    "work.",
-    16.14,
-    16.44
+    12.08,
+    12.5
    ]
   ],
-  "wpm": 136.9
+  "wpm": 142.0
  },
  "N07": {
   "take": 1,
@@ -1550,693 +1510,703 @@
   "wpm": 137.8
  },
  "N10": {
-  "take": 1,
-  "duration": 15.194,
-  "asr": "One arm hooks over the edge of the board, its inner edge presses against the side, held by your fingers near the middle of that arm. The other arm lies across the face, and you draw along it.",
+  "take": 2,
+  "duration": 15.967,
+  "asr": "One arm sticks out past the edge of the board, its inner edge pressed against the side, held by your fingers near the middle of that arm. The other arm lies across the face, and you draw along it.",
   "words": [
    [
     "One",
     0.0,
-    0.62
+    0.36
    ],
    [
     "arm",
-    0.62,
-    0.98
+    0.36,
+    0.78
    ],
    [
-    "hooks",
-    0.98,
-    1.32
+    "sticks",
+    0.78,
+    1.24
    ],
    [
-    "over",
-    1.32,
-    1.7
+    "out",
+    1.24,
+    1.62
+   ],
+   [
+    "past",
+    1.62,
+    1.98
    ],
    [
     "the",
-    1.7,
-    1.88
+    1.98,
+    2.3
    ],
    [
     "edge",
-    1.88,
-    2.22
+    2.3,
+    2.58
    ],
    [
     "of",
-    2.22,
-    2.4
+    2.58,
+    2.76
    ],
    [
     "the",
-    2.4,
-    2.52
+    2.76,
+    2.88
    ],
    [
     "board,",
-    2.52,
-    2.86
+    2.88,
+    3.18
    ],
    [
     "its",
-    3.72,
-    3.96
+    3.94,
+    4.2
    ],
    [
     "inner",
-    3.96,
-    4.26
+    4.2,
+    4.62
    ],
    [
     "edge",
-    4.26,
-    4.66
+    4.62,
+    5.08
    ],
    [
-    "presses",
-    4.66,
-    5.24
+    "pressed",
+    5.08,
+    5.64
    ],
    [
     "against",
-    5.24,
-    5.56
+    5.64,
+    6.06
    ],
    [
     "the",
-    5.56,
-    5.84
+    6.06,
+    6.32
    ],
    [
     "side,",
-    5.84,
-    6.22
+    6.32,
+    6.7
    ],
    [
     "held",
-    6.78,
-    7.06
+    7.42,
+    7.68
    ],
    [
     "by",
-    7.06,
-    7.28
+    7.68,
+    7.94
    ],
    [
     "your",
-    7.28,
-    7.46
+    7.94,
+    8.14
    ],
    [
     "fingers",
-    7.46,
-    7.86
+    8.14,
+    8.52
    ],
    [
     "near",
-    7.86,
-    8.2
+    8.52,
+    9.08
    ],
    [
     "the",
-    8.2,
-    8.42
+    9.08,
+    9.38
    ],
    [
     "middle",
-    8.42,
-    8.6
+    9.38,
+    9.64
    ],
    [
     "of",
-    8.6,
-    8.86
+    9.64,
+    9.9
    ],
    [
     "that",
-    8.86,
-    9.04
+    9.9,
+    10.06
    ],
    [
     "arm.",
-    9.04,
-    9.3
+    10.06,
+    10.36
    ],
    [
     "The",
-    10.42,
-    10.58
+    11.6,
+    11.78
    ],
    [
     "other",
-    10.58,
-    10.9
+    11.78,
+    12.02
    ],
    [
     "arm",
-    10.9,
-    11.3
+    12.02,
+    12.42
    ],
    [
     "lies",
-    11.3,
-    11.82
+    12.42,
+    12.88
    ],
    [
     "across",
-    11.82,
-    12.36
+    12.88,
+    13.34
    ],
    [
     "the",
-    12.36,
-    12.68
+    13.34,
+    13.6
    ],
    [
     "face,",
-    12.68,
-    13.0
-   ],
-   [
-    "and",
     13.6,
     13.88
    ],
    [
+    "and",
+    14.56,
+    14.76
+   ],
+   [
     "you",
-    13.88,
-    14.08
+    14.76,
+    14.92
    ],
    [
     "draw",
-    14.08,
-    14.44
+    14.92,
+    15.28
    ],
    [
     "along",
-    14.44,
-    14.84
+    15.28,
+    15.68
    ],
    [
     "it.",
-    14.84,
-    15.08
+    15.68,
+    15.9
    ]
   ],
-  "wpm": 150.1
+  "wpm": 146.5
  },
  "N11": {
-  "take": 2,
-  "duration": 15.772,
-  "asr": "Simply laying the square on top of the board doesn't work. Nothing holds its square to the edge. That's why the edge you hook must be straight and true. It's the reference face. And which arm hooks the edge? Varies. You'll see both.",
+  "take": 4,
+  "duration": 15.629,
+  "asr": "Simply laying the square on top of the board doesn't work. Nothing holds its square to the edge. The hooked edge is your reference, so it must be straight and true. And which arm hooks the edge varies? You'll see both.",
   "words": [
    [
     "Simply",
     0.0,
-    0.58
+    0.5
    ],
    [
     "laying",
-    0.58,
-    1.12
+    0.5,
+    1.14
    ],
    [
     "the",
-    1.12,
-    1.38
+    1.14,
+    1.4
    ],
    [
     "square",
-    1.38,
+    1.4,
     1.7
    ],
    [
     "on",
     1.7,
-    1.94
+    1.98
    ],
    [
     "top",
-    1.94,
-    2.22
+    1.98,
+    2.3
    ],
    [
     "of",
-    2.22,
-    2.36
+    2.3,
+    2.48
    ],
    [
     "the",
-    2.36,
-    2.5
+    2.48,
+    2.62
    ],
    [
     "board",
-    2.5,
-    2.76
+    2.62,
+    2.98
    ],
    [
     "doesn't",
-    2.76,
-    3.22
+    2.98,
+    3.52
    ],
    [
     "work.",
-    3.22,
-    3.46
+    3.52,
+    3.78
    ],
    [
     "Nothing",
-    3.92,
-    4.1
-   ],
-   [
-    "holds",
-    4.1,
-    4.42
-   ],
-   [
-    "its",
-    4.42,
+    4.46,
     4.62
    ],
    [
-    "square",
+    "holds",
     4.62,
     4.94
    ],
    [
-    "to",
+    "its",
     4.94,
-    5.16
+    5.14
+   ],
+   [
+    "square",
+    5.14,
+    5.5
+   ],
+   [
+    "to",
+    5.5,
+    5.74
    ],
    [
     "the",
-    5.16,
-    5.3
+    5.74,
+    5.88
    ],
    [
     "edge.",
-    5.3,
-    5.54
+    5.88,
+    6.16
    ],
    [
-    "That's",
-    6.14,
-    6.56
+    "The",
+    6.9,
+    7.2
    ],
    [
-    "why",
-    6.56,
-    6.76
-   ],
-   [
-    "the",
-    6.76,
-    6.96
+    "hooked",
+    7.2,
+    7.6
    ],
    [
     "edge",
-    6.96,
-    7.24
+    7.6,
+    7.94
    ],
    [
-    "you",
-    7.24,
-    7.42
+    "is",
+    7.94,
+    8.3
    ],
    [
-    "hook",
-    7.42,
-    7.78
+    "your",
+    8.3,
+    8.46
+   ],
+   [
+    "reference,",
+    8.46,
+    8.92
+   ],
+   [
+    "so",
+    9.4,
+    9.66
+   ],
+   [
+    "it",
+    9.66,
+    9.8
    ],
    [
     "must",
-    7.78,
-    8.2
+    9.8,
+    10.1
    ],
    [
     "be",
-    8.2,
-    8.54
+    10.1,
+    10.44
    ],
    [
     "straight",
-    8.54,
-    9.0
+    10.44,
+    10.9
    ],
    [
     "and",
-    9.0,
-    9.4
+    10.9,
+    11.24
    ],
    [
     "true.",
-    9.4,
-    9.82
-   ],
-   [
-    "It's",
-    10.3,
-    10.5
-   ],
-   [
-    "the",
-    10.5,
-    10.66
-   ],
-   [
-    "reference",
-    10.66,
-    11.04
-   ],
-   [
-    "face.",
-    11.04,
-    11.42
+    11.24,
+    11.54
    ],
    [
     "And",
-    12.18,
-    12.36
+    12.4,
+    12.56
    ],
    [
     "which",
-    12.36,
-    12.72
+    12.56,
+    12.9
    ],
    [
     "arm",
-    12.72,
-    13.18
+    12.9,
+    13.14
    ],
    [
     "hooks",
-    13.18,
-    13.46
+    13.14,
+    13.44
    ],
    [
     "the",
-    13.46,
-    13.66
+    13.44,
+    13.64
    ],
    [
-    "edge?",
-    13.66,
-    13.96
+    "edge",
+    13.64,
+    13.92
    ],
    [
-    "Varies.",
-    14.26,
-    14.42
+    "varies?",
+    13.92,
+    14.24
    ],
    [
     "You'll",
-    14.98,
-    15.16
+    14.94,
+    15.1
    ],
    [
     "see",
-    15.16,
-    15.3
+    15.1,
+    15.22
    ],
    [
     "both.",
-    15.3,
-    15.52
+    15.22,
+    15.4
    ]
   ],
-  "wpm": 163.6
+  "wpm": 157.4
  },
  "N12": {
-  "take": 2,
-  "duration": 20.596,
-  "asr": "For lines parallel to an edge, there's the kebby key, the marking gauge. A fence slides along a planed edge and a small blade at the end of the beam scores a line. Set the distance once and the gauge repeats it on every piece, just as the story stick repeats lengths.",
+  "take": 4,
+  "duration": 23.87,
+  "asr": "For lines parallel to an edge, there's the kebby key, the marking gauge. A fence slides along a planed edge, and a small blade at the end of the beam, sometimes a pin, scores a line. Set the distance once, and the gauge repeats it on every piece, just as the story stick repeats lengths.",
   "words": [
    [
     "For",
     0.0,
-    0.22
+    0.28
    ],
    [
     "lines",
-    0.22,
-    0.62
+    0.28,
+    0.72
    ],
    [
     "parallel",
-    0.62,
-    1.3
+    0.72,
+    1.36
    ],
    [
     "to",
-    1.3,
-    1.7
+    1.36,
+    1.82
    ],
    [
     "an",
-    1.7,
-    1.84
+    1.82,
+    2.0
    ],
    [
     "edge,",
-    1.84,
-    2.16
+    2.0,
+    2.44
    ],
    [
     "there's",
-    2.64,
-    2.86
+    2.94,
+    3.16
    ],
    [
     "the",
-    2.86,
-    3.04
+    3.16,
+    3.34
    ],
    [
     "kebby",
-    3.04,
-    3.4
+    3.34,
+    3.76
    ],
    [
     "key,",
-    3.4,
-    3.62
+    3.76,
+    4.04
    ],
    [
     "the",
-    4.1,
-    4.2
+    4.46,
+    4.64
    ],
    [
     "marking",
-    4.2,
-    4.48
+    4.64,
+    4.98
    ],
    [
     "gauge.",
-    4.48,
-    4.88
+    4.98,
+    5.36
    ],
    [
     "A",
-    5.74,
-    5.76
+    6.32,
+    6.58
    ],
    [
     "fence",
-    5.76,
-    6.06
+    6.58,
+    6.98
    ],
    [
     "slides",
-    6.06,
-    6.66
+    6.98,
+    7.84
    ],
    [
     "along",
-    6.66,
-    7.08
+    7.84,
+    8.28
    ],
    [
     "a",
-    7.08,
-    7.28
+    8.28,
+    8.54
    ],
    [
     "planed",
-    7.28,
-    7.74
+    8.54,
+    9.04
    ],
    [
-    "edge",
-    7.74,
-    8.02
+    "edge,",
+    9.04,
+    9.4
    ],
    [
     "and",
-    8.44,
-    8.76
+    9.88,
+    10.12
    ],
    [
     "a",
-    8.76,
-    8.9
+    10.12,
+    10.24
    ],
    [
     "small",
-    8.9,
-    9.32
+    10.24,
+    10.72
    ],
    [
     "blade",
-    9.32,
-    9.72
+    10.72,
+    11.12
    ],
    [
     "at",
-    9.72,
-    10.0
+    11.12,
+    11.44
    ],
    [
     "the",
-    10.0,
-    10.14
+    11.44,
+    11.6
    ],
    [
     "end",
-    10.14,
-    10.48
+    11.6,
+    11.8
    ],
    [
     "of",
-    10.48,
-    10.64
+    11.8,
+    11.94
    ],
    [
     "the",
-    10.64,
-    10.76
+    11.94,
+    12.06
    ],
    [
-    "beam",
-    10.76,
-    11.1
+    "beam,",
+    12.06,
+    12.36
    ],
    [
-    "scores",
-    11.1,
-    11.66
+    "sometimes",
+    12.82,
+    13.26
    ],
    [
     "a",
-    11.66,
-    11.96
+    13.26,
+    13.52
+   ],
+   [
+    "pin,",
+    13.52,
+    13.86
+   ],
+   [
+    "scores",
+    14.22,
+    14.72
+   ],
+   [
+    "a",
+    14.72,
+    15.04
    ],
    [
     "line.",
-    11.96,
-    12.24
+    15.04,
+    15.32
    ],
    [
     "Set",
-    13.1,
-    13.42
+    16.42,
+    16.68
    ],
    [
     "the",
-    13.42,
-    13.6
+    16.68,
+    16.88
    ],
    [
     "distance",
-    13.6,
-    14.0
+    16.88,
+    17.26
    ],
    [
-    "once",
-    14.0,
-    14.4
+    "once,",
+    17.26,
+    17.64
    ],
    [
     "and",
-    14.4,
-    15.18
+    17.94,
+    18.32
    ],
    [
     "the",
-    15.18,
-    15.3
+    18.32,
+    18.44
    ],
    [
     "gauge",
-    15.3,
-    15.6
+    18.44,
+    18.74
    ],
    [
     "repeats",
-    15.6,
-    16.08
+    18.74,
+    19.14
    ],
    [
     "it",
-    16.08,
-    16.34
+    19.14,
+    19.4
    ],
    [
     "on",
-    16.34,
-    16.64
+    19.4,
+    19.68
    ],
    [
     "every",
-    16.64,
-    17.14
+    19.68,
+    20.08
    ],
    [
     "piece,",
-    17.14,
-    17.52
+    20.08,
+    20.48
    ],
    [
     "just",
-    18.02,
-    18.28
+    21.1,
+    21.34
    ],
    [
     "as",
-    18.28,
-    18.54
+    21.34,
+    21.6
    ],
    [
     "the",
-    18.54,
-    18.68
+    21.6,
+    21.8
    ],
    [
     "story",
-    18.68,
-    18.96
+    21.8,
+    22.18
    ],
    [
     "stick",
-    18.96,
-    19.36
+    22.18,
+    22.66
    ],
    [
     "repeats",
-    19.36,
-    19.88
+    22.66,
+    23.14
    ],
    [
     "lengths.",
-    19.88,
-    20.28
+    23.14,
+    23.54
    ]
   ],
-  "wpm": 148.6,
+  "wpm": 135.7,
   "listen": {
    "google/gemini-3.8-flash": [
     {
@@ -2248,10 +2218,10 @@
    ],
    "openai/gpt-audio-mini": [
     {
-     "term": "keh-bee-kee",
-     "heard_kana": "けびき",
-     "correct": true,
-     "note": "The pronunciation matches the target kana well."
+     "term": "kehibiki",
+     "heard_kana": "けび゛き",
+     "correct": false,
+     "note": "There was a voiced sound on the 'b', instead of 'けびき'. It was heard as 'ケビィィキ' with a doubled vowel sound."
     }
    ]
   },
@@ -2266,7 +2236,7 @@
      }
     ],
     "clarity": 5,
-    "warmth": 5,
+    "warmth": 4,
     "naturalness": 5,
     "script_deviations": [],
     "artifacts": []
@@ -2274,182 +2244,191 @@
    "openai/gpt-audio-mini": {
     "terms": [
      {
-      "term": "keh-bee-kee",
-      "heard_kana": "けびき",
-      "correct": true,
-      "note": "The pronunciation matches the target kana well."
+      "term": "kehibiki",
+      "heard_kana": "けび゛き",
+      "correct": false,
+      "note": "There was a voiced sound on the 'b', instead of 'けびき'. It was heard as 'ケビィィキ' with a doubled vowel sound."
      }
     ],
-    "clarity": 4,
+    "clarity": 3,
     "warmth": 3,
-    "naturalness": 4,
-    "script_deviations": [],
-    "artifacts": []
+    "naturalness": 3,
+    "script_deviations": [
+     "kehibiki pronounced with a voiced consonant and elongated vowel"
+    ],
+    "artifacts": [
+     "some slight audio distortion on the consonants"
+    ]
    }
   }
  },
  "N13": {
-  "take": 1,
-  "duration": 11.811,
-  "asr": "Because it cuts with a blade, it's closest to a western cutting gauge, not a pin gauge. A pin tends to tear the fibers across the grain. A blade slices them.",
+  "take": 2,
+  "duration": 13.679,
+  "asr": "Because it usually cuts with a blade, it's closest to a western cutting gauge. Not a pin gauge. A pin tends to tear the fibers across the grain. A blade slices them.",
   "words": [
    [
     "Because",
     0.0,
-    0.34
+    0.72
    ],
    [
     "it",
-    0.34,
-    0.54
+    0.72,
+    0.96
+   ],
+   [
+    "usually",
+    0.96,
+    1.42
    ],
    [
     "cuts",
-    0.54,
-    0.76
+    1.42,
+    1.8
    ],
    [
     "with",
-    0.76,
-    1.0
+    1.8,
+    2.06
    ],
    [
     "a",
-    1.0,
-    1.14
-   ],
-   [
-    "blade,",
-    1.14,
-    1.48
-   ],
-   [
-    "it's",
-    2.0,
+    2.06,
     2.22
    ],
    [
-    "closest",
+    "blade,",
     2.22,
-    2.64
+    2.56
+   ],
+   [
+    "it's",
+    3.2,
+    3.48
+   ],
+   [
+    "closest",
+    3.48,
+    3.88
    ],
    [
     "to",
-    2.64,
-    3.2
+    3.88,
+    4.3
    ],
    [
     "a",
-    3.2,
-    3.38
+    4.3,
+    4.5
    ],
    [
     "western",
-    3.38,
-    3.76
+    4.5,
+    4.94
    ],
    [
     "cutting",
-    3.76,
-    4.06
-   ],
-   [
-    "gauge,",
-    4.06,
-    4.42
-   ],
-   [
-    "not",
-    4.82,
-    5.08
-   ],
-   [
-    "a",
-    5.08,
-    5.28
-   ],
-   [
-    "pin",
-    5.28,
-    5.46
+    4.94,
+    5.36
    ],
    [
     "gauge.",
-    5.46,
-    5.82
+    5.36,
+    5.8
    ],
    [
-    "A",
-    6.54,
-    6.7
+    "Not",
+    6.32,
+    6.44
+   ],
+   [
+    "a",
+    6.44,
+    6.58
    ],
    [
     "pin",
-    6.7,
-    7.0
+    6.58,
+    6.72
    ],
    [
-    "tends",
-    7.0,
-    7.32
-   ],
-   [
-    "to",
-    7.32,
-    7.68
-   ],
-   [
-    "tear",
-    7.68,
-    8.06
-   ],
-   [
-    "the",
-    8.06,
-    8.34
-   ],
-   [
-    "fibers",
-    8.34,
-    8.74
-   ],
-   [
-    "across",
-    8.74,
-    9.14
-   ],
-   [
-    "the",
-    9.14,
-    9.36
-   ],
-   [
-    "grain.",
-    9.36,
-    9.6
+    "gauge.",
+    6.72,
+    7.08
    ],
    [
     "A",
-    10.32,
-    10.42
+    8.02,
+    8.2
+   ],
+   [
+    "pin",
+    8.2,
+    8.54
+   ],
+   [
+    "tends",
+    8.54,
+    8.9
+   ],
+   [
+    "to",
+    8.9,
+    9.2
+   ],
+   [
+    "tear",
+    9.2,
+    9.48
+   ],
+   [
+    "the",
+    9.48,
+    9.68
+   ],
+   [
+    "fibers",
+    9.68,
+    10.04
+   ],
+   [
+    "across",
+    10.04,
+    10.5
+   ],
+   [
+    "the",
+    10.5,
+    10.78
+   ],
+   [
+    "grain.",
+    10.78,
+    11.04
+   ],
+   [
+    "A",
+    11.84,
+    11.94
    ],
    [
     "blade",
-    10.42,
-    10.84
+    11.94,
+    12.42
    ],
    [
     "slices",
-    10.84,
-    11.38
+    12.42,
+    13.16
    ],
    [
     "them.",
-    11.38,
-    11.7
+    13.16,
+    13.56
    ]
   ],
-  "wpm": 157.5
+  "wpm": 140.4
  },
  "N14": {
   "take": 1,
