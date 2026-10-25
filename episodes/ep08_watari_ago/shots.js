@@ -94,8 +94,8 @@ const SHOTS = {
   },
   S04: {
     build() {
-      this.src = L.text('described from a Japanese dictionary (Nihon Kokugo Daijiten) · our model', { x: 96, y: 990, size: 36, cls: 'soft' });
-      this.tag = L.text('depths drawn for illustration: no modern specification gives one', { x: 96, y: 990, size: 36, cls: 'plate' });
+      this.src = L.text('described from a Japanese dictionary (Nihon Kokugo Daijiten) · our model', { x: 96, y: 966, size: 36, cls: 'soft' });
+      this.tag = L.text('depths drawn for illustration: no modern specification gives one', { x: 96, y: 966, size: 36, cls: 'plate' });
       this.lg = L.text('groove across the underside', { x: 0, y: 0, size: 40, cls: 'plate' });
       this.lm = L.text('middle left standing', { x: 0, y: 0, size: 40, cls: 'plate' });
       this.lc = L.text('cut away left and right', { x: 0, y: 0, size: 40, cls: 'plate' });
@@ -154,7 +154,7 @@ const SHOTS = {
     build() {
       this.la = L.text(`<i>aigaki</i> ${kj('相欠き')} · a half-lap<br><span class="soft">each cut to half its depth · tops flush</span>`, { x: 0, y: 0, size: 40, cls: 'plate' });
       this.lw = L.text('<i>watari-ago</i><br><span class="soft">shallow cuts · different heights<br>the middle locks into the groove</span>', { x: 0, y: 0, size: 40, cls: 'plate' });
-      this.src = L.text('used where two timbers cross at slightly different heights (Nihon Kokugo Daijiten) · same model as before', { x: 96, y: 990, size: 36, cls: 'soft' });
+      this.src = L.text('used where two timbers cross at slightly different heights (Nihon Kokugo Daijiten) · same model as before', { x: 96, y: 966, size: 36, cls: 'soft' });
     },
     frame(t, sh) {
       const sc = getScene(), e = sh.ev; only(sc, ['wa', 'ai']);
@@ -177,7 +177,7 @@ const SHOTS = {
       this.r3 = row(520, 'second-floor beams resting on another horizontal member');
       this.r4 = row(590, 'log roof beams, where they cross a support <span class="soft">· held with staples</span>');
       this.r5 = row(690, `one traditional framing style, ${kj('京呂組')}: the roof beam set on top of the eaves plate, with this joint or the dovetail <span class="soft">· JAANUS architecture glossary</span>`);
-      this.n = L.text('which timber sits on top varies with the use: not drawn here', { x: 96, y: 990, size: 36, cls: 'soft' });
+      this.n = L.text('which timber sits on top varies with the use: not drawn here', { x: 96, y: 966, size: 36, cls: 'soft' });
     },
     frame(t, sh) {
       const e = sh.ev;
@@ -210,7 +210,7 @@ const SHOTS = {
       this.l44 = L.text('<span class="acc">✕ a weakening notch on the underside near mid-span</span> <span class="soft">· Art. 44, beams and other horizontal members</span>', { x: 96, y: 860, size: 36 });
       this.rest = el2(svg, 'g', {}); [bx + 85, bx + 1315].forEach((x) => el2(this.rest, 'circle', { cx: x, cy: by + 110, r: 34, fill: 'none', stroke: INK, 'stroke-width': 4, 'stroke-dasharray': '8 6' }));
       this.lrest = L.text('in the uses above: cut where one timber rests on the other (dashed), not in the open span', { x: 96, y: 940, size: 36 });
-      this.sch = L.text('schematic', { x: 1824, y: 54, size: 36, cls: 'soft', align: 'right' });
+      this.sch = L.text('schematic', { x: 1824, y: 60, size: 36, cls: 'soft', align: 'right' });
     },
     frame(t, sh) {
       const e = sh.ev;

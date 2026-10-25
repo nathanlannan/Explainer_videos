@@ -73,7 +73,7 @@ const SHOTS = {
       el2(this.sn, 'circle', { cx: nx + 258, cy: ny - 326, r: 4, fill: '#F3EEE4' });
       this.lk = L.text(`${kj('鎌首')} <i>kamakubi</i> · a snake's raised head and neck<br><span class="soft">literally, a neck curved like a sickle</span>`, { x: 1000, y: 780, size: 40, w: 820 }); this.lk.classList.add('wrap');
       this.lg = L.text('"gooseneck": an English name, not a translation · the Japanese name says nothing about geese', { x: 960, y: 980, size: 36, align: 'center', cls: 'plate' });
-      this.n = L.text('schematic', { x: 1824, y: 54, size: 36, cls: 'soft', align: 'right' });
+      this.n = L.text('schematic', { x: 1824, y: 60, size: 36, cls: 'soft', align: 'right' });
     },
     frame(t, sh) {
       const e = sh.ev;
@@ -89,12 +89,12 @@ const SHOTS = {
       this.svg = L.svgLayer(); this.items = [];
       this.ogi = L.text(`<b>male</b> · ${kj('男木')} · the upper piece`, { x: 0, y: 0, size: 40, cls: 'plate' });
       this.megi = L.text(`<b>female</b> · ${kj('女木')} · the lower piece`, { x: 0, y: 0, size: 40, cls: 'plate' });
-      this.half = L.text('head and socket: about the upper half · seat: the lower half', { x: 96, y: 990, size: 40, cls: 'plate' });
+      this.half = L.text('head and socket: about the upper half · seat: the lower half', { x: 96, y: 966, size: 40, cls: 'plate' });
       this.head = L.text(`head · ${kj('鎌')} <i>kama</i>`, { x: 0, y: 0, size: 40, cls: 'plate' });
       this.neck = L.text(`neck · ${kj('首')} <i>kubi</i>`, { x: 0, y: 0, size: 40, cls: 'plate' });
       this.seat = L.text(`seat · ${kj('腰掛')} <i>koshikake</i>`, { x: 0, y: 0, size: 40, cls: 'plate' });
-      this.src = L.text('part names: JAANUS glossary · sizes: one test series, 120 mm timbers', { x: 1824, y: 54, size: 36, cls: 'soft', align: 'right' });
-      this.lp = L.text('pulled: the flared back of the head bears against the socket', { x: 96, y: 990, size: 40, cls: 'plate' });
+      this.src = L.text('part names: JAANUS glossary · sizes: one test series, 120 mm timbers', { x: 1824, y: 60, size: 36, cls: 'soft', align: 'right' });
+      this.lp = L.text('pulled: the flared back of the head bears against the socket', { x: 96, y: 966, size: 40, cls: 'plate' });
       this.lx = L.text('<span class="acc">✕ can\'t slide sideways (our model)</span>', { x: 0, y: 0, size: 40, cls: 'plate' });
       this.lu = L.text('nothing stops it lifting', { x: 0, y: 0, size: 40, cls: 'plate' });
     },
@@ -200,7 +200,7 @@ const SHOTS = {
       el2(this.side, 'path', { d: `M${xj},${y0 - Hs} H${xj - G.L * S} V${y0 - Hs / 2} H${xj}`, fill: 'none', stroke: INK, 'stroke-width': 2, 'stroke-dasharray': '8 6' });
       this.stub = el2(svg, 'rect', { x: xj + G.SEAT * S - sb, y: y0 - Hs / 2 - 1, width: sb, height: 36, fill: '#D9B98C', stroke: INK, 'stroke-width': 3, 'stroke-dasharray': '8 5' });
       this.ls = L.text(`a stub tenon ${kj('目違い')} at the seat · schematic`, { x: xj + 120, y: y0 - Hs / 2 + 40, size: 36, cls: 'plate' });
-      L.text('side view', { x: 1824, y: 54, size: 36, cls: 'soft', align: 'right' });
+      L.text('side view', { x: 1824, y: 60, size: 36, cls: 'soft', align: 'right' });
       this.l1 = L.text('its job: resisting twisting (a training course; JAANUS; the test database)', { x: 96, y: 680, size: 40 });
       this.l2 = L.text('pulling strength: no gain in one test series (Toda 2012)', { x: 96, y: 750, size: 40 });
       this.l3 = L.text('knots or grain run-out at the splice weaken it', { x: 96, y: 850, size: 40 });

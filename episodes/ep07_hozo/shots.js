@@ -90,7 +90,7 @@ const SHOTS = {
       L.woodRect(this.c, 1400, 360, 200, 340, { vertical: true }); el2(this.c, 'path', { d: 'M1440,360 V300 H1500 V250 H1540 V300 H1560 V360', fill: WOOD, stroke: INK, 'stroke-width': 3 });
       this.lc = L.label({ romaji: 'jūhozo', kanji: '重ほぞ', gloss: 'a stepped ("stacked") tenon, at a post top under a plate and a beam', x: 1300, y: 740 });
       this.lc.style.width = '520px'; this.lc.style.whiteSpace = 'normal';
-      this.n = L.text('schematic', { x: 1824, y: 54, size: 36, cls: 'soft', align: 'right' });
+      this.n = L.text('schematic', { x: 1824, y: 60, size: 36, cls: 'soft', align: 'right' });
     },
     frame(t, sh) {
       const e = sh.ev, r = (a) => L.ramp(t, a - 0.3, a + 0.3);
@@ -103,7 +103,7 @@ const SHOTS = {
     build() {
       this.ls = L.text('short tenon + hardware<br><span class="soft">plate, bracket or staple</span>', { x: 0, y: 0, size: 40, cls: 'plate' });
       this.ll = L.text(`long tenon + <i>komisen</i> ${kj('込み栓')}`, { x: 0, y: 0, size: 40, cls: 'plate' });
-      this.src = L.text('posts outside the bearing walls · Flat 35 house specification · same member size, not dimensioned · hardware schematic', { x: 96, y: 990, size: 36, cls: 'soft' });
+      this.src = L.text('posts outside the bearing walls · Flat 35 house specification · same member size, not dimensioned · hardware schematic', { x: 96, y: 950, size: 36, cls: 'soft', w: 1700 }); this.src.classList.add('wrap');
       const svg = L.svgLayer(); this.inset = el2(svg, 'g', {}); const ix = 720, iy = 280;
       el2(this.inset, 'rect', { x: ix - 20, y: iy - 20, width: 480, height: 400, fill: '#F3EEE4', stroke: INK, 'stroke-width': 2, rx: 8 });
       // plan of an outside sill corner, the post and its trapezoid-section tenon (schematic), plus a corner plate
@@ -111,7 +111,7 @@ const SHOTS = {
       el2(this.inset, 'rect', { x: ix + 40, y: iy + 160, width: 90, height: 90, fill: WOODD, stroke: INK, 'stroke-width': 2 });
       el2(this.inset, 'path', { d: `M${ix + 62},${iy + 180} L${ix + 110},${iy + 180} L${ix + 100},${iy + 230} L${ix + 72},${iy + 230} Z`, fill: '#EAD3AE', stroke: INK, 'stroke-width': 2 });
       el2(this.inset, 'path', { d: `M${ix + 140},${iy + 150} h60 M${ix + 30},${iy + 260} v60`, stroke: '#5E6266', 'stroke-width': 8 });
-      this.li = L.text(`<i>ōgi-hozo</i> ${kj('扇ほぞ')} · a "fan" tenon, trapezoid section · with hardware · plan, schematic`, { x: ix, y: iy + 10, size: 32, w: 440 }); this.li.classList.add('wrap');
+      this.li = L.text(`<i>ōgi-hozo</i> ${kj('扇ほぞ')} · a "fan" tenon, trapezoid section · with hardware · plan, schematic`, { x: ix - 20, y: iy + 400, size: 36, w: 520, cls: 'plate' }); this.li.classList.add('wrap');
     },
     frame(t, sh) {
       const sc = getScene(), e = sh.ev; only(sc, ['short', 'long']); reset(sc.short); reset(sc.long);
@@ -132,7 +132,7 @@ const SHOTS = {
   S05: {
     build() {
       this.d1 = L.text('30 thick', { x: 0, y: 0, size: 40, cls: 'plate' }); this.d2 = L.text('85 wide', { x: 0, y: 0, size: 40, cls: 'plate' }); this.d3 = L.text('50 deep', { x: 0, y: 0, size: 40, cls: 'plate' });
-      this.src = L.text('105 mm post and sill · test standard for certified joint hardware (howtec) · mm', { x: 96, y: 990, size: 36, cls: 'soft' });
+      this.src = L.text('105 mm post and sill · test standard for certified joint hardware (howtec) · mm', { x: 96, y: 966, size: 36, cls: 'soft' });
       this.card = L.text('bearing-wall joint rating (howtec standard details): short tenon alone 0.0 · pinned long tenon 0.7 · L-plate CP-L 0.7', { x: 96, y: 70, size: 36, cls: 'plate', w: 1700 }); this.card.classList.add('wrap');
     },
     frame(t, sh) {
@@ -146,7 +146,7 @@ const SHOTS = {
   },
   S06: {
     build() {
-      this.tag = L.text('lab specimen, 120 mm members (Toda 2015): tenon 117 deep in a 120 mm sill · 18 mm square pin, hardwood', { x: 96, y: 990, size: 36, cls: 'soft', w: 1700 });
+      this.tag = L.text('lab specimen on 120 mm members (Toda 2015): tenon 117 deep · 18 mm square hardwood pin', { x: 96, y: 966, size: 36, cls: 'plate' });
       this.lp = L.text(`<i>komisen</i> ${kj('込み栓')}`, { x: 0, y: 0, size: 40, cls: 'plate' });
       const svg = L.svgLayer();
       // hanasen: schematic through-tenon (generic, not on a sill)
@@ -154,7 +154,7 @@ const SHOTS = {
       L.woodRect(this.hs, hx, hy + 90, 300, 70, { vertical: false }); L.woodRect(this.hs, hx + 120, hy, 60, 90, { vertical: true });
       el2(this.hs, 'rect', { x: hx + 130, y: hy + 160, width: 40, height: 60, fill: '#EAD3AE', stroke: INK, 'stroke-width': 2 });
       el2(this.hs, 'rect', { x: hx + 110, y: hy + 180, width: 80, height: 14, fill: '#B99068', stroke: INK, 'stroke-width': 2 });
-      this.lh = L.text(`<i>hanasen</i> ${kj('鼻栓')} · a pin through the projecting part of a through-tenon · schematic`, { x: hx, y: hy + 240, size: 32, w: 380 }); this.lh.classList.add('wrap');
+      this.lh = L.text(`<i>hanasen</i> ${kj('鼻栓')} · a pin through the projecting part of a through-tenon · schematic`, { x: hx, y: hy + 240, size: 36, w: 420, cls: 'plate' }); this.lh.classList.add('wrap');
       // drawbore inset: the tenon's hole bored slightly closer to the shoulder; the pin pulls the post down (exaggerated)
       this.db = el2(svg, 'g', {}); const dx = 1340, dy = 160;
       el2(this.db, 'rect', { x: dx - 20, y: dy - 20, width: 480, height: 420, fill: '#F3EEE4', stroke: INK, 'stroke-width': 2, rx: 8 });
@@ -163,7 +163,7 @@ const SHOTS = {
       el2(this.db, 'rect', { x: dx + 205, y: dy + 236, width: 30, height: 30, fill: 'none', stroke: INK, 'stroke-width': 3 });           // hole in the sill
       el2(this.db, 'rect', { x: dx + 205, y: dy + 224, width: 30, height: 30, fill: 'none', stroke: GHOST, 'stroke-width': 3, 'stroke-dasharray': '6 4' }); // hole in the tenon, higher
       arrow(this.db, dx + 320, dy + 120, dx + 320, dy + 175, { w: 4 });
-      this.ld = L.text('hole in the tenon (dashed) bored slightly closer to the shoulder: the pin pulls the post down · exaggerated', { x: dx, y: dy + 410, size: 32, w: 440 }); this.ld.classList.add('wrap');
+      this.ld = L.text('hole in the tenon (dashed) bored slightly closer to the shoulder: the pin pulls the post down · exaggerated', { x: dx, y: dy + 410, size: 36, w: 440 }); this.ld.classList.add('wrap');
       this.lsq = L.text('square holes and pins (public-works spec) · round pins now more common (one lab report)', { x: 96, y: 920, size: 36, cls: 'plate', w: 1700 });
       this.lcl = L.text('bearing wall: same class as an L-shaped metal corner plate (Flat 35)', { x: 96, y: 860, size: 36, cls: 'plate', w: 1700 });
     },
@@ -182,9 +182,9 @@ const SHOTS = {
   S07: {
     build() {
       this.svg = L.svgLayer(); this.items = [];
-      this.c1 = L.text('rip down the cheeks', { x: 96, y: 990, size: 40, cls: 'plate' });
-      this.c2 = L.text('crosscut the shoulder: kerf on the waste side of its line', { x: 96, y: 990, size: 40, cls: 'plate' });
-      this.c3 = L.text('practice piece (a beam\'s tenon): a little loose in thickness, a little tight in width', { x: 96, y: 990, size: 40, cls: 'plate' });
+      this.c1 = L.text('rip down the cheeks', { x: 96, y: 966, size: 40, cls: 'plate' });
+      this.c2 = L.text('crosscut the shoulder: kerf on the waste side of its line', { x: 96, y: 966, size: 40, cls: 'plate' });
+      this.c3 = L.text('practice piece (a beam\'s tenon): a little loose in thickness, a little tight in width', { x: 96, y: 966, size: 40, cls: 'plate' });
       // ✕ inset: a crosscut sawn too deep, into the tenon
       const svg = this.svg; this.bad = el2(svg, 'g', {}); const bx = 1380, by = 220;
       el2(this.bad, 'rect', { x: bx - 20, y: by - 20, width: 440, height: 360, fill: '#F3EEE4', stroke: INK, 'stroke-width': 2, rx: 8 });
@@ -192,7 +192,7 @@ const SHOTS = {
       el2(this.bad, 'rect', { x: bx + 160, y: by + 220, width: 80, height: 80, fill: '#EAD3AE', stroke: INK, 'stroke-width': 2 });
       el2(this.bad, 'line', { x1: bx + 40, y1: by + 220, x2: bx + 200, y2: by + 220, stroke: ACC, 'stroke-width': 4 });
       xMark(this.bad, bx + 300, by + 60);
-      this.lb = L.text('<span class="acc">✕ crosscut too deep: it cuts into the tenon</span>', { x: bx, y: by + 350, size: 32, w: 420 }); this.lb.classList.add('wrap');
+      this.lb = L.text('<span class="acc">✕ crosscut too deep: it cuts into the tenon</span>', { x: bx, y: by + 350, size: 36, w: 420 }); this.lb.classList.add('wrap');
     },
     frame(t, sh) {
       const sc = getScene(), e = sh.ev, j = sc.short, P = G.SHORT; only(sc, ['short']); reset(j); j.sill.visible = false; j.sillGhost.visible = false;
@@ -211,7 +211,7 @@ const SHOTS = {
   S08: {
     build() {
       this.steps = ['a mortise chisel a little narrower than the hole', 'start a few mm inside the lines', 'rough it out', 'pare back to the lines · check the depth', 'strike lightly along the grain · a little harder across it'].map((s, i) => L.text(`${i + 1} · ${s}`, { x: 96, y: 620 + i * 66, size: 40 }));
-      this.src = L.text('skills-test manual (MHLW): its steps for a mortise', { x: 96, y: 990, size: 36, cls: 'soft' });
+      this.src = L.text('skills-test manual (MHLW): its steps for a mortise', { x: 96, y: 966, size: 36, cls: 'soft' });
       this.ch = null;
     },
     frame(t, sh) {
@@ -228,7 +228,7 @@ const SHOTS = {
   S09: {
     build() {
       this.l1 = L.text('practice piece: the width goes in with light taps over a block of wood; the thickness, by hand', { x: 96, y: 920, size: 36, cls: 'plate', w: 1700 }); this.l1.classList.add('wrap');
-      this.l2 = L.text('posts: a snug fit, driven in and fully seated (public-works specification)', { x: 96, y: 990, size: 40, cls: 'plate' });
+      this.l2 = L.text('posts: a snug fit, driven in and fully seated (public-works specification)', { x: 96, y: 966, size: 40, cls: 'plate' });
     },
     frame(t, sh) {
       const sc = getScene(), e = sh.ev, j = sc.short; only(sc, ['short']); reset(j);
