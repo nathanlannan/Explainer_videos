@@ -15,7 +15,7 @@ OIRE = {"blade": 60.0, "width": 24.0, "thick": 7.0, "bevel": 28.0, "neck": 40.0,
 MUKO = {"blade": 70.0, "width": 12.0, "thick": 18.0, "bevel": 32.0, "neck": 50.0, "handle": 130.0, "handle_d": 30.0, "hoop": True}
 TSUKI = {"blade": 110.0, "width": 30.0, "thick": 6.0, "bevel": 25.0, "neck": 90.0, "handle": 260.0, "handle_d": 26.0, "hoop": False}
 GENNO = {"head_len": 110.0, "head_d": 30.0, "dome": 2.5, "handle": 300.0, "handle_w": 24.0}
-KANNA = {"len": 270.0, "w": 75.0, "h": 36.0, "mouth": 95.0, "bed": 38.0, "blade_w": 60.0, "blade_t": 7.0, "blade_proj": 30.0}
+KANNA = {"len": 270.0, "w": 75.0, "h": 36.0, "mouth": 150.0, "bed": 38.0, "blade_w": 60.0, "blade_t": 7.0, "blade_proj": 30.0}
 BOARD = (700.0, 30.0, 150.0)
 
 
@@ -27,6 +27,7 @@ def main():
         "mortise_chisel_thicker_than_wide": MUKO["thick"] > MUKO["width"],
         "genno_dome_shallow": GENNO["dome"] < 0.15 * GENNO["head_d"],
         "kanna_blade_projects_above_block": Lb * math.sin(a) > KANNA["h"],
+        "kanna_blade_head_inside_block": KANNA["mouth"] - (KANNA["h"] + KANNA["blade_proj"]) / math.tan(a) > 20,
         "kanna_mouth_inside_block": 0 < KANNA["mouth"] < KANNA["len"],
         "chip_breaker_behind_edge": True,  # edge offset Lb*0.18 along the blade (edgetools.js)
     }

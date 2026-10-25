@@ -3,6 +3,7 @@
  "mortise_chisel_thicker_than_wide": true,
  "genno_dome_shallow": true,
  "kanna_blade_projects_above_block": true,
+ "kanna_blade_head_inside_block": true,
  "kanna_mouth_inside_block": true,
  "chip_breaker_behind_edge": true,
  "ok": true

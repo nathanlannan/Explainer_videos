@@ -1,0 +1,30 @@
+Chapter markers (also embedded in the MP4)
+
+0:00.00  Cold open
+0:23.67  Chisels: nomi
+0:44.57  Study: struck and pushed
+1:05.77  Study: bench and mortise chisels
+1:09.27  The blade: hagane and jigane
+1:58.20  Study: a laminated blade
+2:01.70  The hammer: gennō
+2:24.37  Study: flat face and domed face
+2:27.37  The plane: kanna
+3:15.13  Study: the kanna's parts
+3:35.30  Sharp edges
+4:00.93  Recap and glossary
+4:12.47  Glossary
+
+YouTube-style:
+0:00 Cold open
+0:23 Chisels: nomi
+0:44 Study: struck and pushed
+1:05 Study: bench and mortise chisels
+1:09 The blade: hagane and jigane
+1:58 Study: a laminated blade
+2:01 The hammer: gennō
+2:24 Study: flat face and domed face
+2:27 The plane: kanna
+3:15 Study: the kanna's parts
+3:35 Sharp edges
+4:00 Recap and glossary
+4:12 Glossary

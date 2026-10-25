@@ -13,7 +13,7 @@ def _(s):
     s.ev["stroke0"] = q(s.now)
     s.line("N01", {"pull": "pulled", "curl": "shaving"}, gap=0.4)
     s.line("N02", {"kit": "chisels"}, gap=0.3)
-    s.pause(1.4)
+    s.pause(2.6)
     k = s.ev["stroke0"]
     while k < s.now - 1.0:
         s.sfx.append((q(k + 0.1), "kanna_shaving")); k += 2.4
@@ -30,22 +30,22 @@ def _(s):
     s.pause(0.3)
     s.line("N03", {"term": "nomi", "struck": "struck", "pushed": "pushed"}, gap=0.4)
     s.line("N04", {"hoop": "hoop", "katsura": "katsura"}, gap=0.4)
-    s.hold(3.0, "Study: struck and pushed")
+    s.hold(3.5, "Study: struck and pushed")
 
 
 @shot("S04", "Bench and mortise chisels", "threeQ", "Oire-nomi and mukōmachi-nomi side by side; the mortise chisel chops straight down.")
 def _(s):
     s.pause(0.3)
-    s.line("N05", {"oire": "general", "muko": "mortises", "chop": "chopping"}, gap=0.4)
-    s.hold(2.5)
+    s.line("N05", {"oire": "general", "variants": "also", "muko": "mortises", "thick": "thick"}, gap=0.4)
+    s.hold(3.5, "Study: bench and mortise chisels")
 
 
 @shot("S05", "The blade", "2d", "Section: single bevel; hard steel layer on the flat back, forge-welded to softer iron; the shallow back hollow; the bevel flat.")
 def _(s):
     s.chapters.append((0.0, "The blade: hagane and jigane"))
     s.pause(0.3)
-    s.line("N06", {"bevel": "bevelled", "hagane": "steel", "jigane": "iron", "holds": "holds"}, gap=0.4)
-    s.line("N07", {"ura": "hollow", "flat": "flat", "bevel2": "bevel"}, gap=0.4)
+    s.line("N06", {"bevel": "beveled", "hagane": "hagane", "jigane": "jigane", "supports": "supports", "maker": "maker"}, gap=0.4)
+    s.line("N07", {"ura": "urasuki", "flat": "flatten", "bevel2": "bevel"}, gap=0.4)
     s.hold(3.5, "Study: a laminated blade")
 
 
@@ -53,9 +53,9 @@ def _(s):
 def _(s):
     s.chapters.append((0.0, "The hammer: gennō"))
     s.pause(0.3)
-    s.line("N08", {"term": "hammer", "flat": "flat", "dome": "domed", "chisels": "chisels"}, gap=0.4)
-    s.line("N09", {"strike": "strike", "last": "last", "kigoroshi": "face"}, gap=0.4)
-    s.hold(2.5)
+    s.line("N08", {"term": "hammer", "flat": "flat", "dome": "domed"}, gap=0.4)
+    s.line("N09", {"strike": "strike", "last": "last", "kigoroshi": "kigoroshi"}, gap=0.4)
+    s.hold(3.0, "Study: flat face and domed face")
 
 
 @shot("S07", "The kanna", "threeQ", "Kanna: block, blade, chip breaker; pull arrow; taps on the blade's head advance it, on the block draw it back.")
@@ -63,8 +63,9 @@ def _(s):
     s.chapters.append((0.0, "The plane: kanna"))
     s.pause(0.3)
     s.line("N10", {"term": "plane", "pull": "pulled", "push": "pushed"}, gap=0.4)
-    s.line("N11", {"dai": "block", "screw": "screw", "adv": "advance", "back": "back"}, gap=0.4)
-    s.line("N12", {"cb": "second", "tear": "tearing", "meiji": "era"}, gap=0.4)
+    s.line("N11", {"dai": "block", "manual": "manual", "adv": "deeper", "back": "back"}, gap=0.4)
+    s.pause(2.0)
+    s.line("N12", {"nimai": "two", "cb": "second", "tear": "tear", "meiji": "meiji"}, gap=0.4)
     s.hold(3.5, "Study: the kanna's parts")
 
 
@@ -79,7 +80,8 @@ def _(s):
 def _(s):
     s.chapters.append((0.0, "Sharp edges"))
     s.pause(0.3)
-    s.line("N14", {"dull": "dull", "never": "never"}, gap=0.6)
+    s.line("N14", {"dull": "dull", "never": "never", "after": "after"}, gap=0.6)
+    s.hold(1.5)
 
 
 @shot("S10", "Next time", "2d", "Teaser: Episode 5 · the first joint, koshikake ari-tsugi.")

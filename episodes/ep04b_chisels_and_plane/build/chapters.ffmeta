@@ -1,0 +1,66 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=23666
+title=Cold open
+[CHAPTER]
+TIMEBASE=1/1000
+START=23666
+END=44566
+title=Chisels: nomi
+[CHAPTER]
+TIMEBASE=1/1000
+START=44566
+END=65766
+title=Study: struck and pushed
+[CHAPTER]
+TIMEBASE=1/1000
+START=65766
+END=69266
+title=Study: bench and mortise chisels
+[CHAPTER]
+TIMEBASE=1/1000
+START=69266
+END=118200
+title=The blade: hagane and jigane
+[CHAPTER]
+TIMEBASE=1/1000
+START=118200
+END=121700
+title=Study: a laminated blade
+[CHAPTER]
+TIMEBASE=1/1000
+START=121700
+END=144366
+title=The hammer: gennō
+[CHAPTER]
+TIMEBASE=1/1000
+START=144366
+END=147366
+title=Study: flat face and domed face
+[CHAPTER]
+TIMEBASE=1/1000
+START=147366
+END=195133
+title=The plane: kanna
+[CHAPTER]
+TIMEBASE=1/1000
+START=195133
+END=215300
+title=Study: the kanna's parts
+[CHAPTER]
+TIMEBASE=1/1000
+START=215300
+END=240933
+title=Sharp edges
+[CHAPTER]
+TIMEBASE=1/1000
+START=240933
+END=252466
+title=Recap and glossary
+[CHAPTER]
+TIMEBASE=1/1000
+START=252466
+END=276266
+title=Glossary

@@ -42,32 +42,34 @@ export function makeEdgeTools(L) {
     return { g: shadow(g), flatX: P.head_len / 2, domeX: -P.head_len / 2 - P.dome, cap, flat };
   }
 
-  // Kanna. Local: block along x (length), sole on y = 0, width along z; the user pulls toward +x (the block's rear,
-  // where the hands are). Blade bedded at `bed` degrees, its edge at the mouth on the sole.
-  // P: { len, w, h, mouth (x from the front), bed (deg), blade_w, blade_t, blade_proj (above block) }
+  // Kanna (pull plane). Local: block along x from the far end (x = 0, the head end 台頭) to the near end (x = len, toward
+  // the user, who pulls toward +x); sole on y = 0; width along z. The cutting edge sits in the mouth and leads toward +x,
+  // so the blade leans back toward the far end: its head rises toward -x. The shaving rides up the blade's +x face,
+  // which is where the chip breaker sits.
+  // P: { len, w, h, mouth (x of the edge), bed (deg), blade_w, blade_t, blade_proj (above block) }
   function kanna(P) {
     const g = new THREE.Group();
     const dai = new THREE.Group(); g.add(dai);
     const oak = std('#C9A26B', 0.7);
-    // block with a mouth slot: two boxes either side of a gap (simple, reads clearly)
-    const mx = P.mouth, gap = 8;
-    const front = new THREE.Mesh(new THREE.BoxGeometry(mx - gap / 2, P.h, P.w), oak); front.position.set((mx - gap / 2) / 2, P.h / 2, 0); dai.add(front);
-    const restL = P.len - mx - gap / 2;
-    const rear = new THREE.Mesh(new THREE.BoxGeometry(restL, P.h, P.w), oak); rear.position.set(mx + gap / 2 + restL / 2, P.h / 2, 0); dai.add(rear);
-    const cheeks = [-1, 1].map((sd) => { const c = new THREE.Mesh(new THREE.BoxGeometry(gap + 2, P.h, (P.w - P.blade_w) / 2), oak); c.position.set(mx, P.h / 2, sd * (P.w / 2 - (P.w - P.blade_w) / 4)); dai.add(c); return c; });
-    void cheeks;
-    // blade: a tapered slab leaning back at `bed` degrees; edge at (mx, 0)
-    const a = P.bed * Math.PI / 180, Lb = (P.h + P.blade_proj) / Math.sin(a);
-    const blade = new THREE.Mesh(new THREE.BoxGeometry(Lb, P.blade_t, P.blade_w), std('#C4C9CE', 0.4, 0.2));
-    const bladeG = new THREE.Group(); bladeG.add(blade); blade.position.set(Lb / 2, P.blade_t / 2, 0);
-    bladeG.position.set(mx, 0.2, 0); bladeG.rotation.z = a; // rises toward the rear (+x), where the user's hands are
-    g.add(bladeG);
-    // chip breaker: thinner, shorter, on top of the blade, its edge just behind the blade's edge
-    const cbL = Lb * 0.78;
+    const a = P.bed * Math.PI / 180, run = (P.h + P.blade_proj) / Math.tan(a), mx = P.mouth;
+    // block as three slabs around a throat: far part, near part, and two cheeks beside the blade
+    const far = new THREE.Mesh(new THREE.BoxGeometry(mx - run * 0.98 - 6, P.h, P.w), oak); far.position.set((mx - run * 0.98 - 6) / 2, P.h / 2, 0); dai.add(far);
+    const nearL = P.len - mx - 6;
+    const near = new THREE.Mesh(new THREE.BoxGeometry(nearL, P.h, P.w), oak); near.position.set(mx + 6 + nearL / 2, P.h / 2, 0); dai.add(near);
+    const throatL = run * 0.98 + 12, cw = (P.w - P.blade_w) / 2;
+    [-1, 1].forEach((sd) => { const c = new THREE.Mesh(new THREE.BoxGeometry(throatL, P.h, cw), oak); c.position.set(mx + 6 - throatL / 2, P.h / 2, sd * (P.w / 2 - cw / 2)); dai.add(c); });
+    // a thin bed wedge under the blade's back so the throat reads as solid behind the blade
+    const bed = new THREE.Mesh(new THREE.BoxGeometry(run, 4, P.blade_w), oak); bed.position.set(mx - run / 2, P.h / 2, 0); bed.rotation.z = a; dai.add(bed); bed.visible = false;
+    // blade: edge at (mx, 0), rising toward -x at angle a; thickness on the -y side of its local frame (its back/bed side)
+    const Lb = (P.h + P.blade_proj) / Math.sin(a);
+    const bladeG = new THREE.Group(); bladeG.position.set(mx, 0.3, 0); bladeG.rotation.z = Math.PI - a; g.add(bladeG);
+    const blade = new THREE.Mesh(new THREE.BoxGeometry(Lb, P.blade_t, P.blade_w), std('#C4C9CE', 0.4, 0.2)); blade.position.set(Lb / 2, P.blade_t / 2, 0); bladeG.add(blade);
+    // local +y of bladeG points down/toward +x after the rotation; the chip breaker sits on the blade's other face (local -y side?)
+    // In bladeG's frame the blade occupies y in [0, t]; its face at y = 0 faces local -y = up/toward +x: the shaving side.
+    const cbL = Lb * 0.8;
     const cb = new THREE.Mesh(new THREE.BoxGeometry(cbL, P.blade_t * 0.5, P.blade_w * 0.94), std('#9EA4AA', 0.45, 0.2));
-    const cbG = new THREE.Group(); cbG.add(cb); cb.position.set(cbL / 2 + Lb * 0.18, P.blade_t + P.blade_t * 0.25, 0);
-    bladeG.add(cbG);
-    return { g: shadow(g), dai, bladeG, blade, cbG, Lb, mouthX: mx };
+    cb.position.set(Lb * 0.06 + cbL / 2, -P.blade_t * 0.25, 0); bladeG.add(cb);
+    return { g: shadow(g), dai, bladeG, blade, cb, Lb, mouthX: mx, headX: mx - run, bedA: a };
   }
 
   // a curling shaving: a thin ribbon along a growing spiral; call setShaving(m, k) to grow it (k 0..1)
