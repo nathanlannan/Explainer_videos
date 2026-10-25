@@ -1,0 +1,30 @@
+Chapter markers (also embedded in the MP4)
+
+0:00.00  Cold open
+0:25.80  Hozo and hozo-ana
+0:59.53  Post to sill: the options
+1:29.00  Study: two families
+1:32.00  The short tenon
+2:06.87  Study: the short tenon
+2:10.37  The long tenon and the komisen
+3:10.10  Study: the pin that pulls
+3:13.60  Cutting the tenon
+3:41.63  Chopping the mortise
+4:09.17  Fit
+4:36.17  Recap and glossary
+4:49.93  Glossary
+
+YouTube-style:
+0:00 Cold open
+0:25 Hozo and hozo-ana
+0:59 Post to sill: the options
+1:29 Study: two families
+1:32 The short tenon
+2:06 Study: the short tenon
+2:10 The long tenon and the komisen
+3:10 Study: the pin that pulls
+3:13 Cutting the tenon
+3:41 Chopping the mortise
+4:09 Fit
+4:36 Recap and glossary
+4:49 Glossary

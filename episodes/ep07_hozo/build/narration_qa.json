@@ -1,0 +1,3366 @@
+{
+ "N01": {
+  "take": 1,
+  "duration": 13.048,
+  "asr": "A post comes down onto a sill, a tongue on its end slides into a hole, and a square pin is driven across, pulling the two tight together.",
+  "words": [
+   [
+    "A",
+    0.0,
+    0.18
+   ],
+   [
+    "post",
+    0.18,
+    0.66
+   ],
+   [
+    "comes",
+    0.66,
+    1.16
+   ],
+   [
+    "down",
+    1.16,
+    1.64
+   ],
+   [
+    "onto",
+    1.64,
+    2.3
+   ],
+   [
+    "a",
+    2.3,
+    2.48
+   ],
+   [
+    "sill,",
+    2.48,
+    2.8
+   ],
+   [
+    "a",
+    3.7,
+    3.84
+   ],
+   [
+    "tongue",
+    3.84,
+    4.22
+   ],
+   [
+    "on",
+    4.22,
+    4.54
+   ],
+   [
+    "its",
+    4.54,
+    4.72
+   ],
+   [
+    "end",
+    4.72,
+    5.24
+   ],
+   [
+    "slides",
+    5.24,
+    5.86
+   ],
+   [
+    "into",
+    5.86,
+    6.4
+   ],
+   [
+    "a",
+    6.4,
+    6.62
+   ],
+   [
+    "hole,",
+    6.62,
+    6.98
+   ],
+   [
+    "and",
+    7.72,
+    7.98
+   ],
+   [
+    "a",
+    7.98,
+    8.1
+   ],
+   [
+    "square",
+    8.1,
+    8.52
+   ],
+   [
+    "pin",
+    8.52,
+    8.98
+   ],
+   [
+    "is",
+    8.98,
+    9.52
+   ],
+   [
+    "driven",
+    9.52,
+    9.84
+   ],
+   [
+    "across,",
+    9.84,
+    10.3
+   ],
+   [
+    "pulling",
+    11.1,
+    11.36
+   ],
+   [
+    "the",
+    11.36,
+    11.6
+   ],
+   [
+    "two",
+    11.6,
+    11.92
+   ],
+   [
+    "tight",
+    11.92,
+    12.38
+   ],
+   [
+    "together.",
+    12.38,
+    12.84
+   ]
+  ],
+  "wpm": 128.8
+ },
+ "N02": {
+  "take": 1,
+  "duration": 6.366,
+  "asr": "This is the mortis and tenon. In Japanese, hōzō and hōzōana.",
+  "words": [
+   [
+    "This",
+    0.0,
+    0.4
+   ],
+   [
+    "is",
+    0.4,
+    0.76
+   ],
+   [
+    "the",
+    0.76,
+    0.94
+   ],
+   [
+    "mortis",
+    0.94,
+    1.58
+   ],
+   [
+    "and",
+    1.58,
+    1.82
+   ],
+   [
+    "tenon.",
+    1.82,
+    2.3
+   ],
+   [
+    "In",
+    2.94,
+    3.14
+   ],
+   [
+    "Japanese,",
+    3.14,
+    3.66
+   ],
+   [
+    "hōzō",
+    4.52,
+    4.8
+   ],
+   [
+    "and",
+    4.8,
+    5.4
+   ],
+   [
+    "hōzōana.",
+    5.4,
+    6.18
+   ]
+  ],
+  "wpm": 103.7,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "hozo",
+     "heard_kana": "ほーぞー",
+     "correct": false,
+     "note": "Pronounced with elongated English diphthongs (/oʊ/) as 'ほーぞー' instead of the crisp short vowels in 'ほぞ'."
+    },
+    {
+     "term": "hozo-ana",
+     "heard_kana": "ほーぞーあな",
+     "correct": false,
+     "note": "The vowels in 'hozo' are lengthened/diphthongized (/oʊ/), and 'ana' is pronounced with an English vowel coloring (/ænə/) rather than Japanese 'ほぞあな'."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "hozo",
+     "heard_kana": "ほぞ",
+     "correct": true,
+     "note": "Correct pronunciation and kana. No issues detected in consonant doubling or vowel length."
+    },
+    {
+     "term": "hozo-ana",
+     "heard_kana": "ほぞあな",
+     "correct": true,
+     "note": "Pronunciation matches the target kana. Short vowel and syllable structure sound accurate."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "hozo",
+      "heard_kana": "ほーぞー",
+      "correct": false,
+      "note": "Pronounced with elongated English diphthongs (/oʊ/) as 'ほーぞー' instead of the crisp short vowels in 'ほぞ'."
+     },
+     {
+      "term": "hozo-ana",
+      "heard_kana": "ほーぞーあな",
+      "correct": false,
+      "note": "The vowels in 'hozo' are lengthened/diphthongized (/oʊ/), and 'ana' is pronounced with an English vowel coloring (/ænə/) rather than Japanese 'ほぞあな'."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "hozo",
+      "heard_kana": "ほぞ",
+      "correct": true,
+      "note": "Correct pronunciation and kana. No issues detected in consonant doubling or vowel length."
+     },
+     {
+      "term": "hozo-ana",
+      "heard_kana": "ほぞあな",
+      "correct": true,
+      "note": "Pronunciation matches the target kana. Short vowel and syllable structure sound accurate."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ },
+ "N03": {
+  "take": 1,
+  "duration": 11.835,
+  "asr": "Hoso is the tenon, the tongue. Hosoana, literally tenon whole, is the mortise. Dictionaries note an older reading, hoso.",
+  "words": [
+   [
+    "Hoso",
+    0.0,
+    0.76
+   ],
+   [
+    "is",
+    0.76,
+    1.08
+   ],
+   [
+    "the",
+    1.08,
+    1.32
+   ],
+   [
+    "tenon,",
+    1.32,
+    1.76
+   ],
+   [
+    "the",
+    2.1,
+    2.26
+   ],
+   [
+    "tongue.",
+    2.26,
+    2.54
+   ],
+   [
+    "Hosoana,",
+    3.78,
+    4.28
+   ],
+   [
+    "literally",
+    4.84,
+    5.28
+   ],
+   [
+    "tenon",
+    5.28,
+    6.14
+   ],
+   [
+    "whole,",
+    6.14,
+    6.46
+   ],
+   [
+    "is",
+    6.92,
+    7.2
+   ],
+   [
+    "the",
+    7.2,
+    7.38
+   ],
+   [
+    "mortise.",
+    7.38,
+    7.92
+   ],
+   [
+    "Dictionaries",
+    8.84,
+    9.36
+   ],
+   [
+    "note",
+    9.36,
+    9.72
+   ],
+   [
+    "an",
+    9.72,
+    10.02
+   ],
+   [
+    "older",
+    10.02,
+    10.42
+   ],
+   [
+    "reading,",
+    10.42,
+    10.9
+   ],
+   [
+    "hoso.",
+    11.44,
+    11.56
+   ]
+  ],
+  "wpm": 96.3,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "hoso",
+     "heard_kana": "ほーそー",
+     "correct": false,
+     "note": "Pronounced with English diphthongs /oʊ/ (long vowels) instead of short Japanese vowels ほそ."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "hoso",
+     "heard_kana": "ほそ",
+     "correct": true,
+     "note": "Accurately heard 'hoso' with consistent pronunciation and no doubled consonants or extra syllables."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "hoso",
+      "heard_kana": "ほーそー",
+      "correct": false,
+      "note": "Pronounced with English diphthongs /oʊ/ (long vowels) instead of short Japanese vowels ほそ."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "hoso",
+      "heard_kana": "ほそ",
+      "correct": true,
+      "note": "Accurately heard 'hoso' with consistent pronunciation and no doubled consonants or extra syllables."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ },
+ "N04": {
+  "take": 2,
+  "duration": 18.315,
+  "asr": "There are many named kinds. A stepped tenon, the jujozo, or stacked tenon, for example, goes at the top of a post where a wall plate and a beam stack up. This episode looks at the joint where a post meets a sill.",
+  "words": [
+   [
+    "There",
+    0.0,
+    0.46
+   ],
+   [
+    "are",
+    0.46,
+    0.6
+   ],
+   [
+    "many",
+    0.6,
+    0.98
+   ],
+   [
+    "named",
+    0.98,
+    1.52
+   ],
+   [
+    "kinds.",
+    1.52,
+    1.94
+   ],
+   [
+    "A",
+    2.68,
+    2.9
+   ],
+   [
+    "stepped",
+    2.9,
+    3.24
+   ],
+   [
+    "tenon,",
+    3.24,
+    3.82
+   ],
+   [
+    "the",
+    4.16,
+    4.42
+   ],
+   [
+    "jujozo,",
+    4.42,
+    5.28
+   ],
+   [
+    "or",
+    5.9,
+    5.94
+   ],
+   [
+    "stacked",
+    5.94,
+    6.52
+   ],
+   [
+    "tenon,",
+    6.52,
+    7.22
+   ],
+   [
+    "for",
+    7.32,
+    7.4
+   ],
+   [
+    "example,",
+    7.4,
+    7.88
+   ],
+   [
+    "goes",
+    8.26,
+    8.62
+   ],
+   [
+    "at",
+    8.62,
+    8.8
+   ],
+   [
+    "the",
+    8.8,
+    8.96
+   ],
+   [
+    "top",
+    8.96,
+    9.28
+   ],
+   [
+    "of",
+    9.28,
+    9.52
+   ],
+   [
+    "a",
+    9.52,
+    9.7
+   ],
+   [
+    "post",
+    9.7,
+    10.06
+   ],
+   [
+    "where",
+    10.06,
+    10.52
+   ],
+   [
+    "a",
+    10.52,
+    10.74
+   ],
+   [
+    "wall",
+    10.74,
+    10.98
+   ],
+   [
+    "plate",
+    10.98,
+    11.3
+   ],
+   [
+    "and",
+    11.3,
+    11.74
+   ],
+   [
+    "a",
+    11.74,
+    11.86
+   ],
+   [
+    "beam",
+    11.86,
+    12.16
+   ],
+   [
+    "stack",
+    12.16,
+    12.52
+   ],
+   [
+    "up.",
+    12.52,
+    12.84
+   ],
+   [
+    "This",
+    14.22,
+    14.5
+   ],
+   [
+    "episode",
+    14.5,
+    14.98
+   ],
+   [
+    "looks",
+    14.98,
+    15.48
+   ],
+   [
+    "at",
+    15.48,
+    15.72
+   ],
+   [
+    "the",
+    15.72,
+    15.88
+   ],
+   [
+    "joint",
+    15.88,
+    16.14
+   ],
+   [
+    "where",
+    16.14,
+    16.44
+   ],
+   [
+    "a",
+    16.44,
+    16.6
+   ],
+   [
+    "post",
+    16.6,
+    17.1
+   ],
+   [
+    "meets",
+    17.1,
+    17.58
+   ],
+   [
+    "a",
+    17.58,
+    17.82
+   ],
+   [
+    "sill.",
+    17.82,
+    18.14
+   ]
+  ],
+  "wpm": 140.9,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "joo hozo",
+     "heard_kana": "じゅうほぞ",
+     "correct": true,
+     "note": "Accurately pronounced with appropriate vowel length and clean consonant articulation."
+    },
+    {
+     "term": "hozo",
+     "heard_kana": "ほぞ",
+     "correct": true,
+     "note": "Pronounced clearly within 'joo hozo'."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "じゅうほぞ",
+     "heard_kana": "じゅ ほ ぞ",
+     "correct": true,
+     "note": "The pronunciation of 'じゅうほぞ' (joo hozo) was heard closely matching the target, with clear distinction between the vowels. Slight elongation on 'う' was noted but matched the natural English rhythm."
+    },
+    {
+     "term": "ほぞ",
+     "heard_kana": "ほぞ",
+     "correct": true,
+     "note": "Exactly as intended in the previous term and standalone, clearly 'ほぞ' as heard matches the target without deviation."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "joo hozo",
+      "heard_kana": "じゅうほぞ",
+      "correct": true,
+      "note": "Accurately pronounced with appropriate vowel length and clean consonant articulation."
+     },
+     {
+      "term": "hozo",
+      "heard_kana": "ほぞ",
+      "correct": true,
+      "note": "Pronounced clearly within 'joo hozo'."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "じゅうほぞ",
+      "heard_kana": "じゅ ほ ぞ",
+      "correct": true,
+      "note": "The pronunciation of 'じゅうほぞ' (joo hozo) was heard closely matching the target, with clear distinction between the vowels. Slight elongation on 'う' was noted but matched the natural English rhythm."
+     },
+     {
+      "term": "ほぞ",
+      "heard_kana": "ほぞ",
+      "correct": true,
+      "note": "Exactly as intended in the previous term and standalone, clearly 'ほぞ' as heard matches the target without deviation."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 4,
+    "script_deviations": [
+     "The narrator pronounced 'joo hozo' as 'joo-hoh-zo', which was slightly staccato and less natural.",
+     "The diphthong in 'stacked' was somewhat clipped, slightly affecting overall fluency."
+    ],
+    "artifacts": [
+     "Slight background noise and minor hiss present.",
+     "A brief plosive was audible at the start of 'stack'.",
+     "Some lingering breath noise between 'plate' and 'and'."
+    ]
+   }
+  }
+ },
+ "N05": {
+  "take": 1,
+  "duration": 18.528,
+  "asr": "For posts outside the bearing walls, the flat 35 house specification lists two families of options. A short tenon, held with a metal plate, bracket or staple, or a long tenon, pinned with a kolmisen.",
+  "words": [
+   [
+    "For",
+    0.0,
+    0.28
+   ],
+   [
+    "posts",
+    0.28,
+    0.74
+   ],
+   [
+    "outside",
+    0.74,
+    1.46
+   ],
+   [
+    "the",
+    1.46,
+    1.74
+   ],
+   [
+    "bearing",
+    1.74,
+    1.96
+   ],
+   [
+    "walls,",
+    1.96,
+    2.48
+   ],
+   [
+    "the",
+    3.2,
+    3.28
+   ],
+   [
+    "flat",
+    3.28,
+    3.62
+   ],
+   [
+    "35",
+    3.62,
+    4.28
+   ],
+   [
+    "house",
+    4.28,
+    4.76
+   ],
+   [
+    "specification",
+    4.76,
+    5.58
+   ],
+   [
+    "lists",
+    5.58,
+    6.36
+   ],
+   [
+    "two",
+    6.36,
+    6.9
+   ],
+   [
+    "families",
+    6.9,
+    7.46
+   ],
+   [
+    "of",
+    7.46,
+    7.86
+   ],
+   [
+    "options.",
+    7.86,
+    8.34
+   ],
+   [
+    "A",
+    9.12,
+    9.46
+   ],
+   [
+    "short",
+    9.46,
+    9.92
+   ],
+   [
+    "tenon,",
+    9.92,
+    10.48
+   ],
+   [
+    "held",
+    10.7,
+    11.06
+   ],
+   [
+    "with",
+    11.06,
+    11.34
+   ],
+   [
+    "a",
+    11.34,
+    11.56
+   ],
+   [
+    "metal",
+    11.56,
+    11.8
+   ],
+   [
+    "plate,",
+    11.8,
+    12.24
+   ],
+   [
+    "bracket",
+    12.9,
+    13.0
+   ],
+   [
+    "or",
+    13.0,
+    13.5
+   ],
+   [
+    "staple,",
+    13.5,
+    13.88
+   ],
+   [
+    "or",
+    14.82,
+    15.08
+   ],
+   [
+    "a",
+    15.08,
+    15.38
+   ],
+   [
+    "long",
+    15.38,
+    15.78
+   ],
+   [
+    "tenon,",
+    15.78,
+    16.44
+   ],
+   [
+    "pinned",
+    16.52,
+    16.94
+   ],
+   [
+    "with",
+    16.94,
+    17.44
+   ],
+   [
+    "a",
+    17.44,
+    17.66
+   ],
+   [
+    "kolmisen.",
+    17.66,
+    18.2
+   ]
+  ],
+  "wpm": 113.3,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "koh-mee-sen",
+     "heard_kana": "こーみーせん",
+     "correct": false,
+     "note": "Pronounced with elongated vowels ('kō-mī-sen') reflecting English phonetic spelling, rather than the short Japanese vowels in 'こみせん'."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "koh-mee-sen",
+     "heard_kana": "こみせん",
+     "correct": false,
+     "note": "Heard as 'こーみせん', with an elongated 'o' sound, not matching target."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "koh-mee-sen",
+      "heard_kana": "こーみーせん",
+      "correct": false,
+      "note": "Pronounced with elongated vowels ('kō-mī-sen') reflecting English phonetic spelling, rather than the short Japanese vowels in 'こみせん'."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "koh-mee-sen",
+      "heard_kana": "こみせん",
+      "correct": false,
+      "note": "Heard as 'こーみせん', with an elongated 'o' sound, not matching target."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 3,
+    "script_deviations": [
+     "koh-mee-sen pronounced with long 'o' sound as 'こーみせん'"
+    ],
+    "artifacts": []
+   }
+  }
+ },
+ "N06": {
+  "take": 2,
+  "duration": 9.821,
+  "asr": "At an outside corner, the corner post can take the Ogi Hozo, a fan tenon, with a trapezoid section, again with hardware.",
+  "words": [
+   [
+    "At",
+    0.0,
+    0.26
+   ],
+   [
+    "an",
+    0.26,
+    0.44
+   ],
+   [
+    "outside",
+    0.44,
+    0.98
+   ],
+   [
+    "corner,",
+    0.98,
+    1.46
+   ],
+   [
+    "the",
+    2.08,
+    2.12
+   ],
+   [
+    "corner",
+    2.12,
+    2.38
+   ],
+   [
+    "post",
+    2.38,
+    2.76
+   ],
+   [
+    "can",
+    2.76,
+    3.12
+   ],
+   [
+    "take",
+    3.12,
+    3.38
+   ],
+   [
+    "the",
+    3.38,
+    3.66
+   ],
+   [
+    "Ogi",
+    3.66,
+    4.36
+   ],
+   [
+    "Hozo,",
+    4.36,
+    5.06
+   ],
+   [
+    "a",
+    5.48,
+    5.56
+   ],
+   [
+    "fan",
+    5.56,
+    5.88
+   ],
+   [
+    "tenon,",
+    5.88,
+    6.36
+   ],
+   [
+    "with",
+    6.64,
+    6.84
+   ],
+   [
+    "a",
+    6.84,
+    7.0
+   ],
+   [
+    "trapezoid",
+    7.0,
+    7.52
+   ],
+   [
+    "section,",
+    7.52,
+    7.9
+   ],
+   [
+    "again",
+    8.6,
+    8.88
+   ],
+   [
+    "with",
+    8.88,
+    9.26
+   ],
+   [
+    "hardware.",
+    9.26,
+    9.64
+   ]
+  ],
+  "wpm": 128.3,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "oh-ghee hozo",
+     "heard_kana": "おーぎーほーぞー",
+     "correct": false,
+     "note": "Both 'ghee' and 'hozo' have unnaturally lengthened vowels (pronounced like 'ōgī hōzō' instead of 'ōgi hozo')."
+    },
+    {
+     "term": "hozo",
+     "heard_kana": "ほーぞー",
+     "correct": false,
+     "note": "Pronounced with elongated vowels on both syllables ('hōzō' instead of short 'hozo')."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "oh-ghee hozo",
+     "heard_kana": "おーぎーほーぞ",
+     "correct": false,
+     "note": "The listener heard a long 'o' and long 'i' sounds: おーぎー instead of おうぎ. The 'ほーぞ' part was heard with an extra long vowel on 'ほ'."
+    },
+    {
+     "term": "hozo",
+     "heard_kana": "ほーざ",
+     "correct": false,
+     "note": "The 'z' sound is shifted slightly by the listener into 'ざ' instead of 'ぞ'. There’s an incorrect voiced consonant ending."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "oh-ghee hozo",
+      "heard_kana": "おーぎーほーぞー",
+      "correct": false,
+      "note": "Both 'ghee' and 'hozo' have unnaturally lengthened vowels (pronounced like 'ōgī hōzō' instead of 'ōgi hozo')."
+     },
+     {
+      "term": "hozo",
+      "heard_kana": "ほーぞー",
+      "correct": false,
+      "note": "Pronounced with elongated vowels on both syllables ('hōzō' instead of short 'hozo')."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "oh-ghee hozo",
+      "heard_kana": "おーぎーほーぞ",
+      "correct": false,
+      "note": "The listener heard a long 'o' and long 'i' sounds: おーぎー instead of おうぎ. The 'ほーぞ' part was heard with an extra long vowel on 'ほ'."
+     },
+     {
+      "term": "hozo",
+      "heard_kana": "ほーざ",
+      "correct": false,
+      "note": "The 'z' sound is shifted slightly by the listener into 'ざ' instead of 'ぞ'. There’s an incorrect voiced consonant ending."
+     }
+    ],
+    "clarity": 3,
+    "warmth": 2,
+    "naturalness": 3,
+    "script_deviations": [
+     "The pronunciation of 'oh-ghee hozo' contained doubled consonants, extra vowel lengths, and incorrect vowel quality leading to 'おーぎーほーざ'."
+    ],
+    "artifacts": []
+   }
+  }
+ },
+ "N07": {
+  "take": 1,
+  "duration": 16.084,
+  "asr": "How big is a short tenon? The test standard for Japan's certified joint hardware uses one on a 105mm post and sill. 30 thick, 85 wide, 50 deep.",
+  "words": [
+   [
+    "How",
+    0.0,
+    0.32
+   ],
+   [
+    "big",
+    0.32,
+    0.64
+   ],
+   [
+    "is",
+    0.64,
+    1.16
+   ],
+   [
+    "a",
+    1.16,
+    1.4
+   ],
+   [
+    "short",
+    1.4,
+    1.68
+   ],
+   [
+    "tenon?",
+    1.68,
+    2.1
+   ],
+   [
+    "The",
+    2.96,
+    3.18
+   ],
+   [
+    "test",
+    3.18,
+    3.52
+   ],
+   [
+    "standard",
+    3.52,
+    4.08
+   ],
+   [
+    "for",
+    4.08,
+    4.5
+   ],
+   [
+    "Japan's",
+    4.5,
+    5.24
+   ],
+   [
+    "certified",
+    5.24,
+    5.96
+   ],
+   [
+    "joint",
+    5.96,
+    6.34
+   ],
+   [
+    "hardware",
+    6.34,
+    6.92
+   ],
+   [
+    "uses",
+    6.92,
+    7.68
+   ],
+   [
+    "one",
+    7.68,
+    8.1
+   ],
+   [
+    "on",
+    8.1,
+    8.52
+   ],
+   [
+    "a",
+    8.52,
+    8.76
+   ],
+   [
+    "105mm",
+    8.76,
+    10.1
+   ],
+   [
+    "post",
+    10.1,
+    10.62
+   ],
+   [
+    "and",
+    10.62,
+    10.92
+   ],
+   [
+    "sill.",
+    10.92,
+    11.22
+   ],
+   [
+    "30",
+    12.1,
+    12.48
+   ],
+   [
+    "thick,",
+    12.48,
+    12.84
+   ],
+   [
+    "85",
+    13.54,
+    13.94
+   ],
+   [
+    "wide,",
+    13.94,
+    14.62
+   ],
+   [
+    "50",
+    15.18,
+    15.6
+   ],
+   [
+    "deep.",
+    15.6,
+    15.86
+   ]
+  ],
+  "wpm": 108.2
+ },
+ "N08": {
+  "take": 1,
+  "duration": 17.682,
+  "asr": "In a bearing wall, Japan's standard detail drawings give a plain short tenon a joint rating of zero. It isn't counted on to stop the post pulling out. That job needs rated hardware or a pinned long tenon.",
+  "words": [
+   [
+    "In",
+    0.0,
+    0.32
+   ],
+   [
+    "a",
+    0.32,
+    0.56
+   ],
+   [
+    "bearing",
+    0.56,
+    0.94
+   ],
+   [
+    "wall,",
+    0.94,
+    1.4
+   ],
+   [
+    "Japan's",
+    2.08,
+    2.52
+   ],
+   [
+    "standard",
+    2.52,
+    3.04
+   ],
+   [
+    "detail",
+    3.04,
+    3.54
+   ],
+   [
+    "drawings",
+    3.54,
+    4.2
+   ],
+   [
+    "give",
+    4.2,
+    4.68
+   ],
+   [
+    "a",
+    4.68,
+    4.86
+   ],
+   [
+    "plain",
+    4.86,
+    5.26
+   ],
+   [
+    "short",
+    5.26,
+    5.74
+   ],
+   [
+    "tenon",
+    5.74,
+    6.28
+   ],
+   [
+    "a",
+    6.28,
+    6.58
+   ],
+   [
+    "joint",
+    6.58,
+    6.88
+   ],
+   [
+    "rating",
+    6.88,
+    7.26
+   ],
+   [
+    "of",
+    7.26,
+    7.5
+   ],
+   [
+    "zero.",
+    7.5,
+    7.86
+   ],
+   [
+    "It",
+    8.92,
+    9.12
+   ],
+   [
+    "isn't",
+    9.12,
+    9.42
+   ],
+   [
+    "counted",
+    9.42,
+    9.78
+   ],
+   [
+    "on",
+    9.78,
+    10.04
+   ],
+   [
+    "to",
+    10.04,
+    10.34
+   ],
+   [
+    "stop",
+    10.34,
+    10.7
+   ],
+   [
+    "the",
+    10.7,
+    10.94
+   ],
+   [
+    "post",
+    10.94,
+    11.3
+   ],
+   [
+    "pulling",
+    11.3,
+    11.74
+   ],
+   [
+    "out.",
+    11.74,
+    12.12
+   ],
+   [
+    "That",
+    13.0,
+    13.24
+   ],
+   [
+    "job",
+    13.24,
+    13.52
+   ],
+   [
+    "needs",
+    13.52,
+    14.02
+   ],
+   [
+    "rated",
+    14.02,
+    14.46
+   ],
+   [
+    "hardware",
+    14.46,
+    15.06
+   ],
+   [
+    "or",
+    15.06,
+    15.78
+   ],
+   [
+    "a",
+    15.78,
+    16.04
+   ],
+   [
+    "pinned",
+    16.04,
+    16.54
+   ],
+   [
+    "long",
+    16.54,
+    17.04
+   ],
+   [
+    "tenon.",
+    17.04,
+    17.56
+   ]
+  ],
+  "wpm": 128.9
+ },
+ "N09": {
+  "take": 1,
+  "duration": 20.667,
+  "asr": "The long tenon goes deep into the sill. A hardwood pin, the komisen, is driven sideways through sill and tenon together. Where a tenon passes right through and sticks out, it can instead be pinned through that projecting part, a hanasen.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.22
+   ],
+   [
+    "long",
+    0.22,
+    0.68
+   ],
+   [
+    "tenon",
+    0.68,
+    1.2
+   ],
+   [
+    "goes",
+    1.2,
+    1.62
+   ],
+   [
+    "deep",
+    1.62,
+    2.04
+   ],
+   [
+    "into",
+    2.04,
+    2.5
+   ],
+   [
+    "the",
+    2.5,
+    2.7
+   ],
+   [
+    "sill.",
+    2.7,
+    2.92
+   ],
+   [
+    "A",
+    3.78,
+    4.06
+   ],
+   [
+    "hardwood",
+    4.06,
+    4.46
+   ],
+   [
+    "pin,",
+    4.46,
+    4.82
+   ],
+   [
+    "the",
+    5.54,
+    5.6
+   ],
+   [
+    "komisen,",
+    5.6,
+    6.46
+   ],
+   [
+    "is",
+    6.7,
+    6.98
+   ],
+   [
+    "driven",
+    6.98,
+    7.28
+   ],
+   [
+    "sideways",
+    7.28,
+    7.98
+   ],
+   [
+    "through",
+    7.98,
+    8.56
+   ],
+   [
+    "sill",
+    8.56,
+    8.96
+   ],
+   [
+    "and",
+    8.96,
+    9.32
+   ],
+   [
+    "tenon",
+    9.32,
+    9.84
+   ],
+   [
+    "together.",
+    9.84,
+    10.28
+   ],
+   [
+    "Where",
+    11.58,
+    12.06
+   ],
+   [
+    "a",
+    12.06,
+    12.2
+   ],
+   [
+    "tenon",
+    12.2,
+    12.54
+   ],
+   [
+    "passes",
+    12.54,
+    12.98
+   ],
+   [
+    "right",
+    12.98,
+    13.34
+   ],
+   [
+    "through",
+    13.34,
+    13.78
+   ],
+   [
+    "and",
+    13.78,
+    14.14
+   ],
+   [
+    "sticks",
+    14.14,
+    14.42
+   ],
+   [
+    "out,",
+    14.42,
+    14.84
+   ],
+   [
+    "it",
+    15.28,
+    15.56
+   ],
+   [
+    "can",
+    15.56,
+    15.7
+   ],
+   [
+    "instead",
+    15.7,
+    16.1
+   ],
+   [
+    "be",
+    16.1,
+    16.4
+   ],
+   [
+    "pinned",
+    16.4,
+    16.84
+   ],
+   [
+    "through",
+    16.84,
+    17.28
+   ],
+   [
+    "that",
+    17.28,
+    17.52
+   ],
+   [
+    "projecting",
+    17.52,
+    18.16
+   ],
+   [
+    "part,",
+    18.16,
+    18.66
+   ],
+   [
+    "a",
+    19.36,
+    19.46
+   ],
+   [
+    "hanasen.",
+    19.46,
+    20.5
+   ]
+  ],
+  "wpm": 119.0,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "koh-mee-sen",
+     "heard_kana": "こうみーせん",
+     "correct": false,
+     "note": "The vowels 'o' and 'i' are lengthened following the English phonetic spelling, rather than pronounced as short morae (こみせん)."
+    },
+    {
+     "term": "hah-nah-sen",
+     "heard_kana": "はーなーせん",
+     "correct": false,
+     "note": "Both 'a' vowels are pronounced as prolonged English /ɑː/ sounds rather than short Japanese vowels (はなせん)."
+    }
+   ],
+   "openai/gpt-audio-mini": []
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "koh-mee-sen",
+      "heard_kana": "こうみーせん",
+      "correct": false,
+      "note": "The vowels 'o' and 'i' are lengthened following the English phonetic spelling, rather than pronounced as short morae (こみせん)."
+     },
+     {
+      "term": "hah-nah-sen",
+      "heard_kana": "はーなーせん",
+      "correct": false,
+      "note": "Both 'a' vowels are pronounced as prolonged English /ɑː/ sounds rather than short Japanese vowels (はなせん)."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "raw": "{\n  \"terms\": [\n    {\n      \"term\": \"koh-mee-sen\",\n      \"heard_kana\": \"こーみせん\",\n      \"correct\": false,\n      \"note\": \"Heard as 'コー' suggesting a long vowel in 'ko,' but the intended pronunciation is shorter 'こみせん' with a standard short vowel. Also 'mi' should remain clear, not elongated.\"\n    },\n    {\n      \"term\": \"hah-nah-sen\",\n      \"heard_kana\": \"はーなせん\",\n      \"correct\": false,\n      \"note\": \"Heard with a long 'a' sound ('はー'), while the target should be 'はなせん' with short vowels.\"\n    }\n  ],\n  \"clarity\": 3,\n  \"warmth\": 3,\n  \"naturalness\": 3,\n  \"script_deviations\": [\n    \"koh-mee-sen\" heard as \"ko-mi-sen\" with an extended vowel sound,\n    \"hah-nah-sen\" heard as \"ha-na-sen\" with an extended vowel sound\n  ],\n  \"artifacts\": []\n}",
+    "terms": []
+   }
+  }
+ },
+ "N10": {
+  "take": 1,
+  "duration": 16.684,
+  "asr": "The holes are made so the pin draws the two members together. The hole through the tenon is bored slightly closer to the shoulder than the hole through the sill. Driving the pin pulls the post down tight onto the sill.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.22
+   ],
+   [
+    "holes",
+    0.22,
+    0.56
+   ],
+   [
+    "are",
+    0.56,
+    0.88
+   ],
+   [
+    "made",
+    0.88,
+    1.24
+   ],
+   [
+    "so",
+    1.24,
+    1.78
+   ],
+   [
+    "the",
+    1.78,
+    1.98
+   ],
+   [
+    "pin",
+    1.98,
+    2.28
+   ],
+   [
+    "draws",
+    2.28,
+    2.84
+   ],
+   [
+    "the",
+    2.84,
+    3.16
+   ],
+   [
+    "two",
+    3.16,
+    3.38
+   ],
+   [
+    "members",
+    3.38,
+    3.7
+   ],
+   [
+    "together.",
+    3.7,
+    4.26
+   ],
+   [
+    "The",
+    5.28,
+    5.42
+   ],
+   [
+    "hole",
+    5.42,
+    5.66
+   ],
+   [
+    "through",
+    5.66,
+    5.98
+   ],
+   [
+    "the",
+    5.98,
+    6.14
+   ],
+   [
+    "tenon",
+    6.14,
+    6.66
+   ],
+   [
+    "is",
+    6.66,
+    7.18
+   ],
+   [
+    "bored",
+    7.18,
+    7.5
+   ],
+   [
+    "slightly",
+    7.5,
+    8.02
+   ],
+   [
+    "closer",
+    8.02,
+    8.6
+   ],
+   [
+    "to",
+    8.6,
+    8.94
+   ],
+   [
+    "the",
+    8.94,
+    9.1
+   ],
+   [
+    "shoulder",
+    9.1,
+    9.5
+   ],
+   [
+    "than",
+    9.5,
+    10.08
+   ],
+   [
+    "the",
+    10.08,
+    10.24
+   ],
+   [
+    "hole",
+    10.24,
+    10.44
+   ],
+   [
+    "through",
+    10.44,
+    10.7
+   ],
+   [
+    "the",
+    10.7,
+    10.86
+   ],
+   [
+    "sill.",
+    10.86,
+    11.1
+   ],
+   [
+    "Driving",
+    12.5,
+    12.5
+   ],
+   [
+    "the",
+    12.5,
+    12.86
+   ],
+   [
+    "pin",
+    12.86,
+    13.2
+   ],
+   [
+    "pulls",
+    13.2,
+    13.98
+   ],
+   [
+    "the",
+    13.98,
+    14.26
+   ],
+   [
+    "post",
+    14.26,
+    14.64
+   ],
+   [
+    "down",
+    14.64,
+    15.16
+   ],
+   [
+    "tight",
+    15.16,
+    15.62
+   ],
+   [
+    "onto",
+    15.62,
+    16.1
+   ],
+   [
+    "the",
+    16.1,
+    16.32
+   ],
+   [
+    "sill.",
+    16.32,
+    16.54
+   ]
+  ],
+  "wpm": 147.4
+ },
+ "N11": {
+  "take": 1,
+  "duration": 20.883,
+  "asr": "The Public Works Specification asks for square holes and pins. One lab report notes round pins are now more common. In a bearing wall, the Flat 35 Specification puts a pinned long tenon in the same class as an L -shaped metal corner plate.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.28
+   ],
+   [
+    "Public",
+    0.28,
+    0.7
+   ],
+   [
+    "Works",
+    0.7,
+    1.1
+   ],
+   [
+    "Specification",
+    1.1,
+    2.06
+   ],
+   [
+    "asks",
+    2.06,
+    2.66
+   ],
+   [
+    "for",
+    2.66,
+    3.16
+   ],
+   [
+    "square",
+    3.16,
+    3.64
+   ],
+   [
+    "holes",
+    3.64,
+    4.08
+   ],
+   [
+    "and",
+    4.08,
+    4.4
+   ],
+   [
+    "pins.",
+    4.4,
+    4.78
+   ],
+   [
+    "One",
+    5.8,
+    6.12
+   ],
+   [
+    "lab",
+    6.12,
+    6.44
+   ],
+   [
+    "report",
+    6.44,
+    6.88
+   ],
+   [
+    "notes",
+    6.88,
+    7.44
+   ],
+   [
+    "round",
+    7.44,
+    7.86
+   ],
+   [
+    "pins",
+    7.86,
+    8.38
+   ],
+   [
+    "are",
+    8.38,
+    8.68
+   ],
+   [
+    "now",
+    8.68,
+    8.88
+   ],
+   [
+    "more",
+    8.88,
+    9.1
+   ],
+   [
+    "common.",
+    9.1,
+    9.48
+   ],
+   [
+    "In",
+    10.98,
+    11.24
+   ],
+   [
+    "a",
+    11.24,
+    11.38
+   ],
+   [
+    "bearing",
+    11.38,
+    11.7
+   ],
+   [
+    "wall,",
+    11.7,
+    12.12
+   ],
+   [
+    "the",
+    12.88,
+    13.0
+   ],
+   [
+    "Flat",
+    13.0,
+    13.3
+   ],
+   [
+    "35",
+    13.3,
+    13.98
+   ],
+   [
+    "Specification",
+    13.98,
+    14.9
+   ],
+   [
+    "puts",
+    14.9,
+    15.32
+   ],
+   [
+    "a",
+    15.32,
+    15.68
+   ],
+   [
+    "pinned",
+    15.68,
+    16.14
+   ],
+   [
+    "long",
+    16.14,
+    16.52
+   ],
+   [
+    "tenon",
+    16.52,
+    17.04
+   ],
+   [
+    "in",
+    17.04,
+    17.56
+   ],
+   [
+    "the",
+    17.56,
+    17.76
+   ],
+   [
+    "same",
+    17.76,
+    18.04
+   ],
+   [
+    "class",
+    18.04,
+    18.4
+   ],
+   [
+    "as",
+    18.4,
+    18.82
+   ],
+   [
+    "an",
+    18.82,
+    19.02
+   ],
+   [
+    "L",
+    19.02,
+    19.32
+   ],
+   [
+    "-shaped",
+    19.32,
+    19.62
+   ],
+   [
+    "metal",
+    19.62,
+    20.06
+   ],
+   [
+    "corner",
+    20.06,
+    20.44
+   ],
+   [
+    "plate.",
+    20.44,
+    20.7
+   ]
+  ],
+  "wpm": 120.7
+ },
+ "N12": {
+  "take": 1,
+  "duration": 15.321,
+  "asr": "Cutting the tenon. Rip down the cheeks first, then crosscut the shoulder with the kerf on the waist side of its line. The public works specification warns don't saw the crosscuts too deep.",
+  "words": [
+   [
+    "Cutting",
+    0.0,
+    0.42
+   ],
+   [
+    "the",
+    0.42,
+    0.7
+   ],
+   [
+    "tenon.",
+    0.7,
+    1.46
+   ],
+   [
+    "Rip",
+    2.12,
+    2.4
+   ],
+   [
+    "down",
+    2.4,
+    2.76
+   ],
+   [
+    "the",
+    2.76,
+    2.98
+   ],
+   [
+    "cheeks",
+    2.98,
+    3.3
+   ],
+   [
+    "first,",
+    3.3,
+    3.78
+   ],
+   [
+    "then",
+    4.4,
+    4.74
+   ],
+   [
+    "crosscut",
+    4.74,
+    5.48
+   ],
+   [
+    "the",
+    5.48,
+    5.72
+   ],
+   [
+    "shoulder",
+    5.72,
+    6.12
+   ],
+   [
+    "with",
+    6.12,
+    6.76
+   ],
+   [
+    "the",
+    6.76,
+    7.02
+   ],
+   [
+    "kerf",
+    7.02,
+    7.36
+   ],
+   [
+    "on",
+    7.36,
+    7.56
+   ],
+   [
+    "the",
+    7.56,
+    7.72
+   ],
+   [
+    "waist",
+    7.72,
+    8.04
+   ],
+   [
+    "side",
+    8.04,
+    8.36
+   ],
+   [
+    "of",
+    8.36,
+    8.5
+   ],
+   [
+    "its",
+    8.5,
+    8.66
+   ],
+   [
+    "line.",
+    8.66,
+    8.98
+   ],
+   [
+    "The",
+    10.16,
+    10.32
+   ],
+   [
+    "public",
+    10.32,
+    10.66
+   ],
+   [
+    "works",
+    10.66,
+    10.94
+   ],
+   [
+    "specification",
+    10.94,
+    11.66
+   ],
+   [
+    "warns",
+    11.66,
+    12.26
+   ],
+   [
+    "don't",
+    12.26,
+    13.28
+   ],
+   [
+    "saw",
+    13.28,
+    13.56
+   ],
+   [
+    "the",
+    13.56,
+    13.76
+   ],
+   [
+    "crosscuts",
+    13.76,
+    14.42
+   ],
+   [
+    "too",
+    14.42,
+    14.86
+   ],
+   [
+    "deep.",
+    14.86,
+    15.16
+   ]
+  ],
+  "wpm": 125.3
+ },
+ "N13": {
+  "take": 1,
+  "duration": 11.611,
+  "asr": "In the skills test manual's practice piece, a beam's tenon is cut a little loose in thickness and a little tight in width, as we saw in episode four.",
+  "words": [
+   [
+    "In",
+    0.0,
+    0.4
+   ],
+   [
+    "the",
+    0.4,
+    0.56
+   ],
+   [
+    "skills",
+    0.56,
+    0.84
+   ],
+   [
+    "test",
+    0.84,
+    1.38
+   ],
+   [
+    "manual's",
+    1.38,
+    2.08
+   ],
+   [
+    "practice",
+    2.08,
+    2.32
+   ],
+   [
+    "piece,",
+    2.32,
+    2.92
+   ],
+   [
+    "a",
+    3.46,
+    3.52
+   ],
+   [
+    "beam's",
+    3.52,
+    4.0
+   ],
+   [
+    "tenon",
+    4.0,
+    4.5
+   ],
+   [
+    "is",
+    4.5,
+    4.9
+   ],
+   [
+    "cut",
+    4.9,
+    5.2
+   ],
+   [
+    "a",
+    5.2,
+    5.46
+   ],
+   [
+    "little",
+    5.46,
+    5.78
+   ],
+   [
+    "loose",
+    5.78,
+    6.24
+   ],
+   [
+    "in",
+    6.24,
+    6.56
+   ],
+   [
+    "thickness",
+    6.56,
+    6.92
+   ],
+   [
+    "and",
+    7.48,
+    7.8
+   ],
+   [
+    "a",
+    7.8,
+    8.04
+   ],
+   [
+    "little",
+    8.04,
+    8.28
+   ],
+   [
+    "tight",
+    8.28,
+    8.68
+   ],
+   [
+    "in",
+    8.68,
+    9.14
+   ],
+   [
+    "width,",
+    9.14,
+    9.44
+   ],
+   [
+    "as",
+    9.74,
+    10.2
+   ],
+   [
+    "we",
+    10.2,
+    10.36
+   ],
+   [
+    "saw",
+    10.36,
+    10.6
+   ],
+   [
+    "in",
+    10.6,
+    10.82
+   ],
+   [
+    "episode",
+    10.82,
+    11.08
+   ],
+   [
+    "four.",
+    11.08,
+    11.46
+   ]
+  ],
+  "wpm": 144.7
+ },
+ "N14": {
+  "take": 1,
+  "duration": 15.231,
+  "asr": "Chopping the mortise. Use a mortise chisel a little narrower than the hole. Start a few millimeters inside the lines, rough it out, then pair back to the lines and check the depth.",
+  "words": [
+   [
+    "Chopping",
+    0.0,
+    0.56
+   ],
+   [
+    "the",
+    0.56,
+    0.74
+   ],
+   [
+    "mortise.",
+    0.74,
+    1.42
+   ],
+   [
+    "Use",
+    2.08,
+    2.4
+   ],
+   [
+    "a",
+    2.4,
+    2.7
+   ],
+   [
+    "mortise",
+    2.7,
+    3.18
+   ],
+   [
+    "chisel",
+    3.18,
+    3.72
+   ],
+   [
+    "a",
+    3.72,
+    4.22
+   ],
+   [
+    "little",
+    4.22,
+    4.54
+   ],
+   [
+    "narrower",
+    4.54,
+    5.1
+   ],
+   [
+    "than",
+    5.1,
+    5.48
+   ],
+   [
+    "the",
+    5.48,
+    5.62
+   ],
+   [
+    "hole.",
+    5.62,
+    5.9
+   ],
+   [
+    "Start",
+    6.7,
+    7.18
+   ],
+   [
+    "a",
+    7.18,
+    7.4
+   ],
+   [
+    "few",
+    7.4,
+    7.62
+   ],
+   [
+    "millimeters",
+    7.62,
+    8.2
+   ],
+   [
+    "inside",
+    8.2,
+    8.84
+   ],
+   [
+    "the",
+    8.84,
+    9.1
+   ],
+   [
+    "lines,",
+    9.1,
+    9.66
+   ],
+   [
+    "rough",
+    10.28,
+    10.52
+   ],
+   [
+    "it",
+    10.52,
+    10.68
+   ],
+   [
+    "out,",
+    10.68,
+    11.0
+   ],
+   [
+    "then",
+    11.9,
+    11.96
+   ],
+   [
+    "pair",
+    11.96,
+    12.4
+   ],
+   [
+    "back",
+    12.4,
+    12.74
+   ],
+   [
+    "to",
+    12.74,
+    12.98
+   ],
+   [
+    "the",
+    12.98,
+    13.1
+   ],
+   [
+    "lines",
+    13.1,
+    13.48
+   ],
+   [
+    "and",
+    13.48,
+    14.16
+   ],
+   [
+    "check",
+    14.16,
+    14.52
+   ],
+   [
+    "the",
+    14.52,
+    14.72
+   ],
+   [
+    "depth.",
+    14.72,
+    14.94
+   ]
+  ],
+  "wpm": 130.0
+ },
+ "N15": {
+  "take": 1,
+  "duration": 8.687,
+  "asr": "The manual adds, strike lightly when the edge runs along the grain and a little harder when it cuts across it.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.22
+   ],
+   [
+    "manual",
+    0.22,
+    0.64
+   ],
+   [
+    "adds,",
+    0.64,
+    1.3
+   ],
+   [
+    "strike",
+    1.9,
+    2.36
+   ],
+   [
+    "lightly",
+    2.36,
+    3.16
+   ],
+   [
+    "when",
+    3.16,
+    3.68
+   ],
+   [
+    "the",
+    3.68,
+    3.84
+   ],
+   [
+    "edge",
+    3.84,
+    4.06
+   ],
+   [
+    "runs",
+    4.06,
+    4.42
+   ],
+   [
+    "along",
+    4.42,
+    4.76
+   ],
+   [
+    "the",
+    4.76,
+    4.94
+   ],
+   [
+    "grain",
+    4.94,
+    5.2
+   ],
+   [
+    "and",
+    5.2,
+    6.08
+   ],
+   [
+    "a",
+    6.08,
+    6.24
+   ],
+   [
+    "little",
+    6.24,
+    6.52
+   ],
+   [
+    "harder",
+    6.52,
+    7.1
+   ],
+   [
+    "when",
+    7.1,
+    7.54
+   ],
+   [
+    "it",
+    7.54,
+    7.72
+   ],
+   [
+    "cuts",
+    7.72,
+    7.98
+   ],
+   [
+    "across",
+    7.98,
+    8.28
+   ],
+   [
+    "it.",
+    8.28,
+    8.58
+   ]
+  ],
+  "wpm": 145.0
+ },
+ "N16": {
+  "take": 1,
+  "duration": 19.136,
+  "asr": "Fit it in small steps. In the manual's practice piece, the width goes in with light taps over a block of wood, the thickness by hand. For posts, the public works specification asks for a snug fit, driven in and fully seated.",
+  "words": [
+   [
+    "Fit",
+    0.0,
+    0.34
+   ],
+   [
+    "it",
+    0.34,
+    0.52
+   ],
+   [
+    "in",
+    0.52,
+    0.82
+   ],
+   [
+    "small",
+    0.82,
+    1.3
+   ],
+   [
+    "steps.",
+    1.3,
+    1.88
+   ],
+   [
+    "In",
+    2.9,
+    3.02
+   ],
+   [
+    "the",
+    3.02,
+    3.2
+   ],
+   [
+    "manual's",
+    3.2,
+    3.84
+   ],
+   [
+    "practice",
+    3.84,
+    4.12
+   ],
+   [
+    "piece,",
+    4.12,
+    4.58
+   ],
+   [
+    "the",
+    5.16,
+    5.2
+   ],
+   [
+    "width",
+    5.2,
+    5.56
+   ],
+   [
+    "goes",
+    5.56,
+    5.98
+   ],
+   [
+    "in",
+    5.98,
+    6.26
+   ],
+   [
+    "with",
+    6.26,
+    6.5
+   ],
+   [
+    "light",
+    6.5,
+    6.88
+   ],
+   [
+    "taps",
+    6.88,
+    7.44
+   ],
+   [
+    "over",
+    7.44,
+    7.9
+   ],
+   [
+    "a",
+    7.9,
+    8.12
+   ],
+   [
+    "block",
+    8.12,
+    8.34
+   ],
+   [
+    "of",
+    8.34,
+    8.56
+   ],
+   [
+    "wood,",
+    8.56,
+    8.8
+   ],
+   [
+    "the",
+    9.44,
+    9.68
+   ],
+   [
+    "thickness",
+    9.68,
+    10.1
+   ],
+   [
+    "by",
+    10.1,
+    10.78
+   ],
+   [
+    "hand.",
+    10.78,
+    11.1
+   ],
+   [
+    "For",
+    12.32,
+    12.5
+   ],
+   [
+    "posts,",
+    12.5,
+    12.92
+   ],
+   [
+    "the",
+    13.5,
+    13.58
+   ],
+   [
+    "public",
+    13.58,
+    13.94
+   ],
+   [
+    "works",
+    13.94,
+    14.24
+   ],
+   [
+    "specification",
+    14.24,
+    15.02
+   ],
+   [
+    "asks",
+    15.02,
+    15.62
+   ],
+   [
+    "for",
+    15.62,
+    16.0
+   ],
+   [
+    "a",
+    16.0,
+    16.16
+   ],
+   [
+    "snug",
+    16.16,
+    16.48
+   ],
+   [
+    "fit,",
+    16.48,
+    16.86
+   ],
+   [
+    "driven",
+    17.28,
+    17.54
+   ],
+   [
+    "in",
+    17.54,
+    17.8
+   ],
+   [
+    "and",
+    17.8,
+    18.22
+   ],
+   [
+    "fully",
+    18.22,
+    18.58
+   ],
+   [
+    "seated.",
+    18.58,
+    18.88
+   ]
+  ],
+  "wpm": 128.6
+ },
+ "N17": {
+  "take": 1,
+  "duration": 4.278,
+  "asr": "next time where one beam crosses over another.",
+  "words": [
+   [
+    "next",
+    0.0,
+    0.36
+   ],
+   [
+    "time",
+    0.36,
+    0.8
+   ],
+   [
+    "where",
+    0.8,
+    1.62
+   ],
+   [
+    "one",
+    1.62,
+    2.0
+   ],
+   [
+    "beam",
+    2.0,
+    2.46
+   ],
+   [
+    "crosses",
+    2.46,
+    3.02
+   ],
+   [
+    "over",
+    3.02,
+    3.52
+   ],
+   [
+    "another.",
+    3.52,
+    3.98
+   ]
+  ],
+  "wpm": 112.2
+ },
+ "N18": {
+  "take": 1,
+  "duration": 12.867,
+  "asr": "A short tenon needs hardware to hold. A long tenon can be pinned so it pulls itself tight. And a snug fit, made in small steps, does the rest.",
+  "words": [
+   [
+    "A",
+    0.0,
+    0.22
+   ],
+   [
+    "short",
+    0.22,
+    0.5
+   ],
+   [
+    "tenon",
+    0.5,
+    0.94
+   ],
+   [
+    "needs",
+    0.94,
+    1.38
+   ],
+   [
+    "hardware",
+    1.38,
+    1.86
+   ],
+   [
+    "to",
+    1.86,
+    2.14
+   ],
+   [
+    "hold.",
+    2.14,
+    2.42
+   ],
+   [
+    "A",
+    3.44,
+    3.5
+   ],
+   [
+    "long",
+    3.5,
+    3.84
+   ],
+   [
+    "tenon",
+    3.84,
+    4.42
+   ],
+   [
+    "can",
+    4.42,
+    4.76
+   ],
+   [
+    "be",
+    4.76,
+    4.96
+   ],
+   [
+    "pinned",
+    4.96,
+    5.36
+   ],
+   [
+    "so",
+    5.36,
+    6.1
+   ],
+   [
+    "it",
+    6.1,
+    6.28
+   ],
+   [
+    "pulls",
+    6.28,
+    6.62
+   ],
+   [
+    "itself",
+    6.62,
+    7.04
+   ],
+   [
+    "tight.",
+    7.04,
+    7.42
+   ],
+   [
+    "And",
+    8.5,
+    8.7
+   ],
+   [
+    "a",
+    8.7,
+    8.88
+   ],
+   [
+    "snug",
+    8.88,
+    9.14
+   ],
+   [
+    "fit,",
+    9.14,
+    9.54
+   ],
+   [
+    "made",
+    10.1,
+    10.38
+   ],
+   [
+    "in",
+    10.38,
+    10.64
+   ],
+   [
+    "small",
+    10.64,
+    11.06
+   ],
+   [
+    "steps,",
+    11.06,
+    11.56
+   ],
+   [
+    "does",
+    12.02,
+    12.26
+   ],
+   [
+    "the",
+    12.26,
+    12.44
+   ],
+   [
+    "rest.",
+    12.44,
+    12.66
+   ]
+  ],
+  "wpm": 135.2
+ },
+ "N19": {
+  "take": 1,
+  "duration": 10.429,
+  "asr": "OneNote, sharp tool technique, and how to use these tools safely is best learned from a teacher, at a bench, in person.",
+  "words": [
+   [
+    "OneNote,",
+    0.0,
+    0.94
+   ],
+   [
+    "sharp",
+    2.0,
+    2.06
+   ],
+   [
+    "tool",
+    2.06,
+    2.54
+   ],
+   [
+    "technique,",
+    2.54,
+    3.1
+   ],
+   [
+    "and",
+    3.8,
+    3.9
+   ],
+   [
+    "how",
+    3.9,
+    4.24
+   ],
+   [
+    "to",
+    4.24,
+    4.5
+   ],
+   [
+    "use",
+    4.5,
+    4.8
+   ],
+   [
+    "these",
+    4.8,
+    5.06
+   ],
+   [
+    "tools",
+    5.06,
+    5.38
+   ],
+   [
+    "safely",
+    5.38,
+    5.94
+   ],
+   [
+    "is",
+    5.94,
+    6.72
+   ],
+   [
+    "best",
+    6.72,
+    7.12
+   ],
+   [
+    "learned",
+    7.12,
+    7.44
+   ],
+   [
+    "from",
+    7.44,
+    7.7
+   ],
+   [
+    "a",
+    7.7,
+    7.84
+   ],
+   [
+    "teacher,",
+    7.84,
+    8.18
+   ],
+   [
+    "at",
+    8.5,
+    8.76
+   ],
+   [
+    "a",
+    8.76,
+    8.88
+   ],
+   [
+    "bench,",
+    8.88,
+    9.1
+   ],
+   [
+    "in",
+    9.58,
+    9.8
+   ],
+   [
+    "person.",
+    9.8,
+    10.1
+   ]
+  ],
+  "wpm": 126.6
+ }
+}

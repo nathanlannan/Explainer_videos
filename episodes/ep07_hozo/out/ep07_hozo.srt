@@ -1,0 +1,308 @@
+1
+00:00:00,800 --> 00:00:03,850
+A post comes down onto a sill.
+
+2
+00:00:04,500 --> 00:00:09,740
+A tongue on its end slides
+into a hole, and a square pin
+
+3
+00:00:09,780 --> 00:00:13,890
+is driven across, pulling
+the two tight together.
+
+4
+00:00:14,233 --> 00:00:16,783
+This is the mortise and tenon:
+
+5
+00:00:17,173 --> 00:00:20,366
+in Japanese, hozo and hozo-ana.
+
+6
+00:00:26,290 --> 00:00:28,890
+Hozo is the tenon, the tongue.
+
+7
+00:00:29,215 --> 00:00:34,270
+Hozo-ana, literally tenon
+hole, is the mortise.
+
+8
+00:00:34,940 --> 00:00:37,910
+Dictionaries note an older reading, hoso.
+
+9
+00:00:38,333 --> 00:00:40,523
+There are many named kinds.
+
+10
+00:00:41,013 --> 00:00:47,093
+A stepped tenon, the jūhozo, or
+stacked tenon, for example, goes at
+
+11
+00:00:47,133 --> 00:00:51,423
+the top of a post where a wall
+plate and a beam stack up.
+
+12
+00:00:52,553 --> 00:00:56,723
+This episode looks at the joint
+where a post meets a sill.
+
+13
+00:00:59,833 --> 00:01:04,073
+For posts outside the
+bearing walls, the Flat 35
+
+14
+00:01:04,113 --> 00:01:08,423
+house specification lists
+two families of options.
+
+15
+00:01:08,953 --> 00:01:13,963
+A short tenon, held with a
+metal plate, bracket or staple.
+
+16
+00:01:14,653 --> 00:01:18,177
+Or a long tenon, pinned with a komisen.
+
+17
+00:01:18,767 --> 00:01:24,287
+At an outside corner, the corner
+post can take the ōgi-hozo, a
+
+18
+00:01:24,327 --> 00:01:28,657
+fan tenon with a trapezoid
+section, again with hardware.
+
+19
+00:01:32,300 --> 00:01:34,650
+How big is a short tenon?
+
+20
+00:01:35,260 --> 00:01:39,940
+The test standard for Japan's
+certified joint hardware uses
+
+21
+00:01:39,980 --> 00:01:43,770
+one on a hundred-and-five
+millimeter post and sill:
+
+22
+00:01:43,835 --> 00:01:48,410
+thirty thick, eighty-five
+wide, fifty deep.
+
+23
+00:01:48,800 --> 00:01:52,960
+In a bearing wall, Japan's
+standard detail drawings
+
+24
+00:01:53,000 --> 00:01:56,910
+give a plain short tenon
+a joint rating of zero:
+
+25
+00:01:57,720 --> 00:02:01,170
+it isn't counted on to
+stop the post pulling out.
+
+26
+00:02:01,800 --> 00:02:06,610
+That job needs rated hardware,
+or a pinned long tenon.
+
+27
+00:02:10,667 --> 00:02:13,837
+The long tenon goes deep into the sill.
+
+28
+00:02:14,447 --> 00:02:21,197
+A hardwood pin, the komisen, is driven
+sideways through sill and tenon together.
+
+29
+00:02:22,247 --> 00:02:26,187
+Where a tenon passes right
+through and sticks out, it
+
+30
+00:02:26,227 --> 00:02:29,577
+can instead be pinned
+through that projecting part:
+
+31
+00:02:30,027 --> 00:02:31,417
+a hanasen.
+
+32
+00:02:31,733 --> 00:02:36,243
+The holes are made so the pin
+draws the two members together:
+
+33
+00:02:37,013 --> 00:02:40,293
+the hole through the tenon
+is bored slightly closer
+
+34
+00:02:40,333 --> 00:02:43,083
+to the shoulder than the
+hole through the sill.
+
+35
+00:02:44,233 --> 00:02:48,523
+Driving the pin pulls the
+post down tight onto the sill.
+
+36
+00:02:48,833 --> 00:02:53,863
+The public-works specification
+asks for square holes and pins;
+
+37
+00:02:54,633 --> 00:02:58,563
+one lab report notes round
+pins are now more common.
+
+38
+00:02:59,813 --> 00:03:05,313
+In a bearing wall, the Flat 35
+specification puts a pinned long
+
+39
+00:03:05,353 --> 00:03:09,783
+tenon in the same class as an
+L-shaped metal corner plate.
+
+40
+00:03:13,900 --> 00:03:15,610
+Cutting the tenon:
+
+41
+00:03:16,020 --> 00:03:19,580
+rip down the cheeks
+first, then crosscut the
+
+42
+00:03:19,620 --> 00:03:23,130
+shoulder, with the kerf on
+the waste side of its line.
+
+43
+00:03:24,060 --> 00:03:26,120
+The public-works specification warns:
+
+44
+00:03:26,160 --> 00:03:29,310
+don't saw the crosscuts too deep.
+
+45
+00:03:29,633 --> 00:03:35,373
+In the skills-test manual's practice
+piece, a beam's tenon is cut a little
+
+46
+00:03:35,413 --> 00:03:41,229
+loose in thickness and a little tight
+in width, as we saw in Episode 4.
+
+47
+00:03:41,933 --> 00:03:43,603
+Chopping the mortise:
+
+48
+00:03:44,013 --> 00:03:48,083
+use a mortise chisel a little
+narrower than the hole.
+
+49
+00:03:48,633 --> 00:03:53,183
+Start a few millimeters inside
+the lines, rough it out,
+
+50
+00:03:53,833 --> 00:03:57,123
+then pare back to the
+lines and check the depth.
+
+51
+00:03:57,567 --> 00:03:59,117
+The manual adds:
+
+52
+00:03:59,467 --> 00:04:02,727
+strike lightly when the
+edge runs along the grain,
+
+53
+00:04:02,767 --> 00:04:06,397
+and a little harder
+when it cuts across it.
+
+54
+00:04:09,467 --> 00:04:11,597
+Fit it in small steps.
+
+55
+00:04:12,367 --> 00:04:15,927
+In the manual's practice
+piece, the width goes in with
+
+56
+00:04:15,967 --> 00:04:20,817
+light taps over a block of
+wood; the thickness, by hand.
+
+57
+00:04:21,787 --> 00:04:26,577
+For posts, the public-works
+specification asks for a snug fit:
+
+58
+00:04:26,747 --> 00:04:28,597
+driven in, and fully seated.
+
+59
+00:04:31,300 --> 00:04:32,060
+Next time:
+
+60
+00:04:32,100 --> 00:04:35,530
+where one beam crosses over another.
+
+61
+00:04:36,567 --> 00:04:39,237
+A short tenon needs hardware to hold.
+
+62
+00:04:40,007 --> 00:04:44,237
+A long tenon can be pinned
+so it pulls itself tight.
+
+63
+00:04:45,067 --> 00:04:49,477
+And a snug fit, made in
+small steps, does the rest.
+
+64
+00:04:59,651 --> 00:05:00,853
+One note:
+
+65
+00:05:00,921 --> 00:05:06,013
+sharp-tool technique, and how
+to use these tools safely, is
+
+66
+00:05:06,053 --> 00:05:09,683
+best learned from a teacher,
+at a bench, in person.
