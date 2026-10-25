@@ -1,0 +1,13 @@
+{
+ "fitcheck": "fit check PASS: interference 6/6 pairs ok (worst 0.0 mm^3); gaps 1/1 mates in contact; insertion 4/4 paths clear (worst 0.0 mm^3)",
+ "same_shape_turned_end_for_end_apart_from_slope": true,
+ "slope_reversed_on_upper": true,
+ "locked_against_pull_apart": true,
+ "locked_sideways_+z": true,
+ "locked_sideways_-z": true,
+ "lifts_out_without_pegs": true,
+ "pegs_stop_lift": true,
+ "drops_in_clear": true,
+ "splice_twice_depth": true,
+ "ok": true
+}
