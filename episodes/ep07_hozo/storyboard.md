@@ -1,4 +1,4 @@
-# Episode 2 · Part 1 storyboard (as built)
+# Episode 7 — Mortise and Tenon: Hozo · storyboard (as built)
 
 | Shot | Time | Dur | Camera | On screen | Narration |
 |---|---|---|---|---|---|

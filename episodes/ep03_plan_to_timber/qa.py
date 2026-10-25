@@ -70,6 +70,6 @@ pts = [(s["id"] + "_hold", s["start"] + (a + b) / 2) for s in tl["shots"] for a,
 for name, t in pts:
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", f"{t:.3f}", "-i", str(MP4), "-frames:v", "1", str(out / f"{t:07.2f}_{name}.png")])
 check("Stills exported", len(list(out.glob("*.png"))) >= len(pts), f"{len(pts)} stills in build/qa_stills/ (inspected by eye; notes below)")
-rep = ["# Gate C: QA report, Episode 2", "", f"Overall: **{'PASS' if ok_all else 'FAIL'}**", "", "| Check | Result | Detail |", "|---|---|---|", *rows, ""]
+rep = [f"# Gate C: QA report, {HERE.name}", "", f"Overall: **{'PASS' if ok_all else 'FAIL'}**", "", "| Check | Result | Detail |", "|---|---|---|", *rows, ""]
 (HERE / "build/qa_report.md").write_text("\n".join(rep))
 print("\n".join(rep))

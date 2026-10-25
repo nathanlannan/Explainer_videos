@@ -1,4 +1,4 @@
-# Episode 2 · Part 1 storyboard (as built)
+# Episode 2 · Part 2 — Ink Line, Pen and Gauges · storyboard (as built)
 
 | Shot | Time | Dur | Camera | On screen | Narration |
 |---|---|---|---|---|---|

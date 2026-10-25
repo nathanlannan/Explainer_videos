@@ -1,4 +1,4 @@
-# Episode 2 · Part 1 storyboard (as built)
+# Episode 3 — From Plan to Timber · storyboard (as built)
 
 | Shot | Time | Dur | Camera | On screen | Narration |
 |---|---|---|---|---|---|

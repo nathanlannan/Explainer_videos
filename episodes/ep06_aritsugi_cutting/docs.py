@@ -20,7 +20,7 @@ for s in tl["shots"]:
     for a, b in s["holds"]:
         out.append(f"- {fmt(s['start'] + a)}–{fmt(s['start'] + b)} ({b - a:.1f} s) · {s['id']} {s['title']}")
 (HERE / "script.md").write_text("\n".join(out) + "\n")
-sb = ["# Episode 2 · Part 1 storyboard (as built)", "", "| Shot | Time | Dur | Camera | On screen | Narration |", "|---|---|---|---|---|---|"]
+sb = [out[0].replace(" · final script", " · storyboard (as built)"), "", "| Shot | Time | Dur | Camera | On screen | Narration |", "|---|---|---|---|---|---|"]
 for s in tl["shots"]:
     nar = " ".join(narr[k]["text"] for k in s["lines"]) or "—"
     sb.append(f"| {s['id']} {s['title']} | {fmt(s['start'])} | {s['end'] - s['start']:.1f} s | {s['preset']} | {s['onscreen']}{' Study hold ' + ', '.join(f'{b - a:.1f} s' for a, b in s['holds']) + '.' if s['holds'] else ''} | {nar} |")

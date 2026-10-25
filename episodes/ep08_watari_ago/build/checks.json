@@ -1,0 +1,16 @@
+{
+ "watari_fit": "fit check PASS: interference 1/1 pairs ok (worst 0.0 mm^3); gaps 1/1 mates in contact; insertion 2/2 paths clear (worst 0.0 mm^3)",
+ "aigaki_fit": "fit check PASS: interference 1/1 pairs ok (worst 0.0 mm^3); gaps 1/1 mates in contact; insertion 2/2 paths clear (worst 0.0 mm^3)",
+ "locked_along_lower_+x": true,
+ "locked_along_lower_-x": true,
+ "locked_along_upper_+z": true,
+ "locked_along_upper_-z": true,
+ "free_to_lift": true,
+ "cuts_shallow": true,
+ "different_heights": true,
+ "aigaki_tops_flush": true,
+ "aigaki_half_depth": true,
+ "upper_volume_removed_mm3": 55125,
+ "lower_volume_removed_mm3": 110250,
+ "ok": true
+}

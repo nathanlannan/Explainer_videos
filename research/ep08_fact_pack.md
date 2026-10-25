@@ -58,3 +58,12 @@ Gathered by a research agent, 2026-10-25. Status: **verified** (2+ independent s
 - Web strength figures.
 - あいかき.
 - Treating 渡り欠き as a synonym.
+
+**Added during scripting (2026-10-25):**
+
+| # | Claim | Evidence | Status |
+|---|---|---|---|
+| R8-32 | 渡り as an everyday noun: a place where one crosses (a river etc.); also "crossing" | KD 渡り senses 1, 13 (kotobank) | single-source (dictionary): narration says "can mean" |
+| R8-33 | KN defines 渡腮 verbatim: 「仕口の一つ。上の木の下に溝を作り、下の木の中ほどを残して左右を削りとって両材を組み合わせるもの。水平に直交する二材を、やや高さを変えて接合するときに用いる。あごかき。」 | KN (fetched 2026-10-25) | verified (quote) |
+| R8-34 | 羽子板ボルト: a bolt with a flat plate at one end; the plate is fixed to one member and the bolt passes through the other, tightened with a nut | JP patent JPH0313606Y2; product description (monotaro 01325267); F p.47 names it | verified (description); reading はごいた not verified → kanji only, no reading |
+| R8-35 | 仕口 includes 渡腮 ("仕口の一つ") | KN; J watariago | verified |

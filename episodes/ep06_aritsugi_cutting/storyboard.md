@@ -1,4 +1,4 @@
-# Episode 2 · Part 1 storyboard (as built)
+# Episode 6 — Marking Out and Cutting the Koshikake Ari-tsugi · storyboard (as built)
 
 | Shot | Time | Dur | Camera | On screen | Narration |
 |---|---|---|---|---|---|

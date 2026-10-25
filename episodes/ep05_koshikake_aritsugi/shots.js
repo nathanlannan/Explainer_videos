@@ -77,7 +77,7 @@ const SHOTS = {
       this.b = el2(svg, 'g', {});
       L.woodRect(this.b, 1180, 380, 460, 120, { vertical: false }); L.woodRect(this.b, 1180, 500, 120, 300, { vertical: true });
       el2(this.b, 'path', { d: 'M1180,500 h120', stroke: INK, 'stroke-width': 3, 'stroke-dasharray': '10 6' });
-      this.lb = L.label({ romaji: 'shiguchi', kanji: '仕口', gloss: 'members meeting at an angle (also read shikuchi)', x: 1180, y: 840 });
+      this.lb = L.label({ romaji: 'shiguchi', kanji: '仕口', gloss: 'members meeting at an angle (also read shikuchi)', x: 980, y: 840 });
       this.n = L.text('schematic', { x: 1824, y: 54, size: 36, cls: 'soft', align: 'right' });
     },
     frame(t, sh) {
