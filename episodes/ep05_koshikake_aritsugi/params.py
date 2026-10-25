@@ -3,8 +3,10 @@
 Sources (research/ep05_fact_pack.md):
   * dovetail in the upper half, seat in the lower half, each about half the depth; socket dug to the seat (R6-18)
   * the male (男木) is the upper piece and drops in from above onto the female's (女木) seat (R6-14)
-  * one example set (R6-21, single-source): dovetail length 50, head 50, neck 30 mm -> flare 1:5 per side,
-    inside the 1:4-1:5 range calculated from the engineering sources (R6-22). Shown as "one example", never "standard".
+  * proportions (R6-19, engineering study D1): neck W/4-W/3, dovetail length W/4-W/2. The drawn joint (neck 30, length 50,
+    head 50 on W = 105) sits inside both; its flare, 1:5 per side, is in the 1:4-1:5 range calculated from the
+    engineering sources (R6-22). R6-21 (a video snippet with these same numbers) could not be fetched to confirm, so it
+    is not cited on screen. Shown as "our drawing", never "standard".
   * the seat length has NO source (R6-23): 30 mm here is a modelling assumption and is never stated on screen.
 Fit check (exact solids): no interference, faces in contact, the male drops in from above along -Y, and it
 cannot be pulled apart along the sill (+X) or lifted sideways (Z): only straight up.
@@ -62,6 +64,8 @@ def main():
         "fitcheck": fitcheck.summary(rep),
         "flare_per_side": f"1:{1 / FLARE:g}",
         "flare_in_sourced_range_1to4_1to5": 4 <= 1 / FLARE <= 5 + 1e-9,
+        "neck_in_D1_range_W4_W3": W / 4 <= NECK <= W / 3,
+        "length_in_D1_range_W4_W2": W / 4 <= LD <= W / 2,
         "dovetail_in_upper_half": True,
         "locked_against_pull_apart": blocked["pull_apart_+x"] > 0,
         "locked_against_sideways": blocked["slide_sideways_+z"] > 0,

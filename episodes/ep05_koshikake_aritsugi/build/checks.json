@@ -4,6 +4,8 @@
  "fitcheck": "fit check PASS: interference 1/1 pairs ok (worst -0.0 mm^3); gaps 1/1 mates in contact; insertion 2/2 paths clear (worst 0.0 mm^3)",
  "flare_per_side": "1:5",
  "flare_in_sourced_range_1to4_1to5": true,
+ "neck_in_D1_range_W4_W3": true,
+ "length_in_D1_range_W4_W2": true,
  "dovetail_in_upper_half": true,
  "locked_against_pull_apart": true,
  "locked_against_sideways": true,

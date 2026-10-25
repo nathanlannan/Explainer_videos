@@ -1,0 +1,440 @@
+{
+ "N01": {
+  "take": 1,
+  "duration": 8.431,
+  "asr": "Two sills meet end to end, one piece drops in from above and now they can't slide apart.",
+  "words": [
+   [
+    "Two",
+    0.0,
+    0.44
+   ],
+   [
+    "sills",
+    0.44,
+    1.18
+   ],
+   [
+    "meet",
+    1.18,
+    1.48
+   ],
+   [
+    "end",
+    1.48,
+    2.04
+   ],
+   [
+    "to",
+    2.04,
+    2.4
+   ],
+   [
+    "end,",
+    2.4,
+    2.74
+   ],
+   [
+    "one",
+    3.32,
+    3.8
+   ],
+   [
+    "piece",
+    3.8,
+    4.26
+   ],
+   [
+    "drops",
+    4.26,
+    4.74
+   ],
+   [
+    "in",
+    4.74,
+    5.08
+   ],
+   [
+    "from",
+    5.08,
+    5.28
+   ],
+   [
+    "above",
+    5.28,
+    5.66
+   ],
+   [
+    "and",
+    5.66,
+    6.44
+   ],
+   [
+    "now",
+    6.44,
+    6.74
+   ],
+   [
+    "they",
+    6.74,
+    7.22
+   ],
+   [
+    "can't",
+    7.22,
+    7.62
+   ],
+   [
+    "slide",
+    7.62,
+    7.86
+   ],
+   [
+    "apart.",
+    7.86,
+    8.22
+   ]
+  ],
+  "wpm": 128.1
+ },
+ "N02": {
+  "take": 1,
+  "duration": 4.736,
+  "asr": "This is our first joint, the Koshikake Aritsugi.",
+  "words": [
+   [
+    "This",
+    0.0,
+    0.52
+   ],
+   [
+    "is",
+    0.52,
+    0.9
+   ],
+   [
+    "our",
+    0.9,
+    1.1
+   ],
+   [
+    "first",
+    1.1,
+    1.52
+   ],
+   [
+    "joint,",
+    1.52,
+    2.04
+   ],
+   [
+    "the",
+    2.62,
+    2.66
+   ],
+   [
+    "Koshikake",
+    2.66,
+    3.58
+   ],
+   [
+    "Aritsugi.",
+    3.58,
+    4.48
+   ]
+  ],
+  "wpm": 101.4,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "koh-shee-kah-keh ah-ree-tsoo-gee",
+     "heard_kana": "こしかけありつぎ",
+     "correct": true,
+     "note": "Clean and accurate pronunciation of こしかけありつぎ without unnatural lengthening or English vowel corruption."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "koh-shee-kah-keh ah-ree-tsoo-gee",
+     "heard_kana": "こししかけ ありつうぎ",
+     "correct": false,
+     "note": "The listener hears 'し' where 'し' is 'shi', but also lengthened 'つう' that shouldn't be there; the vowel length is off."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "koh-shee-kah-keh ah-ree-tsoo-gee",
+      "heard_kana": "こしかけありつぎ",
+      "correct": true,
+      "note": "Clean and accurate pronunciation of こしかけありつぎ without unnatural lengthening or English vowel corruption."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "koh-shee-kah-keh ah-ree-tsoo-gee",
+      "heard_kana": "こししかけ ありつうぎ",
+      "correct": false,
+      "note": "The listener hears 'し' where 'し' is 'shi', but also lengthened 'つう' that shouldn't be there; the vowel length is off."
+     }
+    ],
+    "clarity": 3,
+    "warmth": 3,
+    "naturalness": 2,
+    "script_deviations": [
+     "'koo-shee' instead of 'ko-shi'",
+     "'ah-ree-tsoo-gi' instead of 'a-ri-tsu-gi'"
+    ],
+    "artifacts": [
+     "Slight consonant blending and vowel length errors, no major artifacts"
+    ]
+   }
+  }
+ },
+ "N03": {
+  "take": 1,
+  "duration": 12.663,
+  "asr": "It's a splice, a tsu -gi -te, a joint that joins two members end -to -end, in line. A joint between members meeting at an angle is called a shiku -chi.",
+  "words": [
+   [
+    "It's",
+    0.0,
+    0.26
+   ],
+   [
+    "a",
+    0.26,
+    0.36
+   ],
+   [
+    "splice,",
+    0.36,
+    1.12
+   ],
+   [
+    "a",
+    1.64,
+    1.64
+   ],
+   [
+    "tsu",
+    1.64,
+    2.0
+   ],
+   [
+    "-gi",
+    2.0,
+    2.16
+   ],
+   [
+    "-te,",
+    2.16,
+    2.36
+   ],
+   [
+    "a",
+    3.12,
+    3.5
+   ],
+   [
+    "joint",
+    3.5,
+    3.84
+   ],
+   [
+    "that",
+    3.84,
+    4.2
+   ],
+   [
+    "joins",
+    4.2,
+    4.58
+   ],
+   [
+    "two",
+    4.58,
+    4.96
+   ],
+   [
+    "members",
+    4.96,
+    5.34
+   ],
+   [
+    "end",
+    5.34,
+    5.82
+   ],
+   [
+    "-to",
+    5.82,
+    6.1
+   ],
+   [
+    "-end,",
+    6.1,
+    6.62
+   ],
+   [
+    "in",
+    6.78,
+    7.1
+   ],
+   [
+    "line.",
+    7.1,
+    7.38
+   ],
+   [
+    "A",
+    8.4,
+    8.56
+   ],
+   [
+    "joint",
+    8.56,
+    8.78
+   ],
+   [
+    "between",
+    8.78,
+    9.1
+   ],
+   [
+    "members",
+    9.1,
+    9.58
+   ],
+   [
+    "meeting",
+    9.58,
+    9.86
+   ],
+   [
+    "at",
+    9.86,
+    10.2
+   ],
+   [
+    "an",
+    10.2,
+    10.34
+   ],
+   [
+    "angle",
+    10.34,
+    10.8
+   ],
+   [
+    "is",
+    10.8,
+    11.4
+   ],
+   [
+    "called",
+    11.4,
+    11.78
+   ],
+   [
+    "a",
+    11.78,
+    12.0
+   ],
+   [
+    "shiku",
+    12.0,
+    12.32
+   ],
+   [
+    "-chi.",
+    12.32,
+    12.5
+   ]
+  ],
+  "wpm": 132.7,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "tsoo-gee-teh",
+     "heard_kana": "つぎて",
+     "correct": true,
+     "note": "Accurate pronunciation."
+    },
+    {
+     "term": "shee-goo-chee",
+     "heard_kana": "しくち",
+     "correct": false,
+     "note": "Devoiced 'gu' (ぐ) pronounced as 'ku' (く), resulting in 'shikuchi' instead of 'shiguchi'."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "tsoo-gee-teh",
+     "heard_kana": "つぎて",
+     "correct": true,
+     "note": "The pronunciation of 'つぎて' is accurate and matches the target kana exactly."
+    },
+    {
+     "term": "shee-goo-chee",
+     "heard_kana": "しーぐち",
+     "correct": true,
+     "note": "The pronunciation of 'しぐち' was correctly identified with a slightly extended vowel sound on the 'しー', which is close to the intended form. The kana 'しぐち' is correct as per the context."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "tsoo-gee-teh",
+      "heard_kana": "つぎて",
+      "correct": true,
+      "note": "Accurate pronunciation."
+     },
+     {
+      "term": "shee-goo-chee",
+      "heard_kana": "しくち",
+      "correct": false,
+      "note": "Devoiced 'gu' (ぐ) pronounced as 'ku' (く), resulting in 'shikuchi' instead of 'shiguchi'."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "tsoo-gee-teh",
+      "heard_kana": "つぎて",
+      "correct": true,
+      "note": "The pronunciation of 'つぎて' is accurate and matches the target kana exactly."
+     },
+     {
+      "term": "shee-goo-chee",
+      "heard_kana": "しーぐち",
+      "correct": true,
+      "note": "The pronunciation of 'しぐち' was correctly identified with a slightly extended vowel sound on the 'しー', which is close to the intended form. The kana 'しぐち' is correct as per the context."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 3,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ }
+}
