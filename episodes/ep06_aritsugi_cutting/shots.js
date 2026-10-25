@@ -205,7 +205,7 @@ const SHOTS = {
         c.piv.rotation.set(0, 0, -Math.PI / 2); // edge down, handle up; the flat back faces -x (toward the outside: the socket's head wall)
         c.piv.position.set(-G.LD + 2, HALF + 4 + 30 * s, 0);
       }
-      const cam = L.camera('threeQ', [-10, HALF + 10, 0], 820, { orbit: -0.45, lift: 0.7 });
+      const cam = L.camera('threeQ', [-10, HALF + 10, 0], t > e.chop - 0.5 ? 560 : 820, { orbit: -0.45, lift: 0.7 });
       this.items.forEach((x) => x.remove()); this.items = [];
       if (t > e.sides - 0.3 && t < e.chop - 0.3) { // schematic saw strokes along both dovetail sides
         const a1 = arrow3(this.svg, cam, [0, H + 2, -G.NECK / 2], [-G.LD, H + 2, -G.HEAD / 2], { w: 5 }); const a2 = arrow3(this.svg, cam, [0, H + 2, G.NECK / 2], [-G.LD, H + 2, G.HEAD / 2], { w: 5 }); this.items.push(a1, a2);
