@@ -4,7 +4,7 @@
   {
    "id": "N01",
    "section": 1,
-   "text": "One timber comes down across another, at right angles. Both have been cut, so the two settle into each other and lock.",
+   "text": "One timber comes down across another, at right angles. Both have been cut, so the two settle into each other and interlock.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
@@ -42,13 +42,13 @@
   {
    "id": "N07",
    "section": 3,
-   "text": "The upper timber comes down. The standing middle fits up into the groove, and the cut-away sides take the rest. In our model, neither timber can now slide along the other. Nothing stops it lifting, though.",
+   "text": "The upper timber comes down. The standing middle fits up into the groove, and the cut-away sides take the rest. In our model, neither timber can now slide along the other. In the model, nothing stops it lifting, though.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N08",
    "section": 3,
-   "text": "Seen from the end of the lower timber, its top steps down on both sides. The groove in the timber above fits over the step.",
+   "text": "Seen from the end of the lower timber, its top steps down on both sides. The groove in the timber above fits over the raised middle.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
@@ -73,38 +73,38 @@
   {
    "id": "N12",
    "section": 5,
-   "text": "Where is it used? Where a roof beam sits on a wall plate, the Flat 35 specification offers two choices: a dovetail called kabuto-arikake, or the watari-ago. Either one is bolted down with a plate bolt.",
+   "text": "Where is it used? Where a roof beam meets the eaves plate, the Flat 35 specification offers two choices: a dovetail called kabuto-arikake, or the watari-ago. Either one is fastened with a plate bolt.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress. Say 'watari-ago' as five short, even syllables: wa-ta-ri-a-go, with a hard g as in 'go'. Say 'kabuto ari-kah-keh' as ka-bu-to a-ri-ka-ke, all short even syllables.",
-   "tts": "Where is it used? Where a roof beam sits on a wall plate, the Flat 35 specification offers two choices: a dovetail called kabuto ari-kah-keh, or the watari-ago. Either one is bolted down with a plate bolt."
+   "tts": "Where is it used? Where a roof beam meets the eaves plate, the Flat 35 specification offers two choices: a dovetail called kabuto ari-kah-keh, or the watari-ago. Either one is fastened with a plate bolt."
   },
   {
    "id": "N13",
    "section": 5,
-   "text": "Where the tops of the two must finish flush, it calls for a different joint: a let-in dovetail, which isn't a crossing joint at all.",
-   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
+   "text": "Where the tops of the two are to finish flush, it calls for a different joint: a housed dovetail, which isn't a crossing joint at all.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 115 words per minute, unhurried, with a clear pause at the colon, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N14",
    "section": 5,
-   "text": "The same specification uses it where second-floor beams rest on another horizontal member, and where log roof beams cross a support, there held with staples on opposite faces. Traditional framing seats beams on wall plates this way too.",
+   "text": "The same specification uses it where second-floor beams rest on another horizontal member, and where log roof beams cross a support, there held with staples. And according to a Japanese architecture glossary, one traditional framing style, which sets the roof beam on top of the eaves plate, uses this joint or the dovetail there.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N15",
    "section": 6,
-   "text": "Japan's building law requires joints to be fastened with bolts, staples, pins or similar. The specification pairs this joint with a bolt, or with staples.",
+   "text": "Japan's building regulations require the structurally important joints of a timber frame to be fastened, with bolts, staples, pegs or another approved method, so they carry their loads. Depending on where it's used, the specification pairs this joint with a plate bolt, staples, nails or other bolts.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N16",
    "section": 6,
-   "text": "A plate bolt has a flat plate at one end. The plate is fixed to one timber, and the bolt passes through the other and is tightened with a nut.",
+   "text": "A plate bolt is a steel plate with a bolt welded to it. The plate is fixed to one member, and the bolt passes through another and is tightened with a nut.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N17",
    "section": 6,
-   "text": "The law also forbids notching the underside of a beam near the middle of its span, where that would weaken it. The watari-ago's groove sits where the beam crosses its support.",
+   "text": "The regulations also forbid notching the underside of a beam, or other horizontal member, near the middle of its span where that would weaken it. In the uses above, the joint is cut where one timber rests on the other, not out in the open span.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress. Say 'watari-ago' as five short, even syllables: wa-ta-ri-a-go, with a hard g as in 'go'."
   },
   {
@@ -116,7 +116,7 @@
   {
    "id": "N19",
    "section": 8,
-   "text": "The watari-ago: both timbers cut shallow, the middle locked into the groove, and hardware to hold it down.",
+   "text": "The watari-ago: both timbers cut, the middle locked into the groove, and hardware to hold it together.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress. Say 'watari-ago' as five short, even syllables: wa-ta-ri-a-go, with a hard g as in 'go'."
   }
  ]

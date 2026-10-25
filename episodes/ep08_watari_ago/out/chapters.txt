@@ -1,0 +1,30 @@
+Chapter markers (also embedded in the MP4)
+
+0:00.00  Cold open
+0:21.07  The name
+1:03.27  Study: the name
+1:06.27  Both timbers are cut
+2:06.73  Study: the cuts
+2:10.27  Not a half-lap
+2:37.60  Study: watari-ago and aigaki
+2:41.10  Where it goes
+3:39.90  Study: where it goes
+3:43.40  Holding it together
+4:42.40  Study: the rules
+4:49.37  Recap and glossary
+4:58.50  Glossary
+
+YouTube-style:
+0:00 Cold open
+0:21 The name
+1:03 Study: the name
+1:06 Both timbers are cut
+2:06 Study: the cuts
+2:10 Not a half-lap
+2:37 Study: watari-ago and aigaki
+2:41 Where it goes
+3:39 Study: where it goes
+3:43 Holding it together
+4:42 Study: the rules
+4:49 Recap and glossary
+4:58 Glossary

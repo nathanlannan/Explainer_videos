@@ -49,8 +49,9 @@ for s in tl["shots"]:
     for lid, ln in s["lines"].items():
         for w, ws, we in ln["words"]:
             pass
-pairs = [("S03", "tenon", "N03", "tenon"), ("S03", "ana", "N03", "mortise"), ("S04", "short", "N05", "short"), ("S04", "long", "N05", "long"),
-         ("S05", "rating", "N08", "rating"), ("S06", "pin", "N09", "pin"), ("S06", "holes", "N10", "holes"), ("S07", "rip", "N12", "rip"), ("S08", "chisel", "N14", "chisel")]
+pairs = [("S03", "crossing", "N04", "crossing"), ("S03", "jaw", "N04", "jaw"), ("S04", "groove", "N06", "groove"), ("S04", "comes", "N07", "comes"),
+         ("S04", "slide", "N07", "slide"), ("S05", "aigaki", "N10", "aigaki"), ("S06", "roof", "N12", "roof"), ("S06", "flush", "N13", "flush"),
+         ("S07", "plate", "N16", "plate"), ("S07", "forbid", "N17", "forbid")]
 worst = 0
 for sid, ev, lid, word in pairs:
     s = next(x for x in tl["shots"] if x["id"] == sid)
@@ -61,7 +62,7 @@ for sid, ev, lid, word in pairs:
 check("Narration/visual sync (named thing on screen when named)", worst <= 0.6, "; ".join(sync))
 # study holds
 holds = [(s["id"], b - a) for s in tl["shots"] for a, b in s["holds"]]
-need = {"S04": 3, "S05": 3, "S06": 3, "S11": 8}
+need = {"S03": 3, "S04": 3, "S05": 3, "S06": 3, "S07": 3, "S09": 8}
 check("Study holds", all(any(h[0] == k and h[1] >= v for h in holds) for k, v in need.items()), ", ".join(f"{k} {v:.1f}s" for k, v in holds))
 # stills from the final MP4 at every hold midpoint and the 75% point of each shot
 out = HERE / "build/qa_stills"

@@ -65,7 +65,11 @@ def main():
     }
     checks["ok"] = r1["ok"] and r2["ok"] and all(v for k, v in checks.items() if isinstance(v, bool))
     assert checks["ok"], checks
-    geo = {"WA": WA, "AI": AI, "watari": [m.to_json() for m in w], "aigaki": [m.to_json() for m in a], "checks": checks}
+    # cut-away for the end-on view: both timbers sectioned at x = 0 (the near half removed), same cuts
+    near = Box(0, -WA["H_low"] - 10, -WA["len"] / 2 - 10, WA["len"], WA["H_low"] + WA["H_up"] + 20, WA["len"] + 20)
+    sec = [Member(m.name + "_sec", m.kind, m.body, m.axis, cuts=m.cuts + [near]) for m in w]
+    geo = {"WA": WA, "AI": AI, "watari": [m.to_json() for m in w], "section": [m.to_json() for m in sec],
+           "aigaki": [m.to_json() for m in a], "checks": checks}
     (out / "geometry.json").write_text(json.dumps(geo))
     (out / "checks.json").write_text(json.dumps(checks, indent=1))
     print(json.dumps(checks, indent=1))

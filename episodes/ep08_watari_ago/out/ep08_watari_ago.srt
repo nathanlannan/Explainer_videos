@@ -1,0 +1,291 @@
+1
+00:00:00,800 --> 00:00:05,470
+One timber comes down across
+another, at right angles.
+
+2
+00:00:06,360 --> 00:00:11,590
+Both have been cut, so the two
+settle into each other and interlock.
+
+3
+00:00:11,967 --> 00:00:15,917
+This is the watari-ago, a crossing joint.
+
+4
+00:00:21,367 --> 00:00:26,857
+In episode five, a splice
+joined timbers end to end.
+
+5
+00:00:27,607 --> 00:00:31,507
+The other family, shiguchi,
+joins timbers that meet
+
+6
+00:00:31,547 --> 00:00:35,817
+at an angle, and the
+watari-ago is one of them.
+
+7
+00:00:36,100 --> 00:00:40,690
+As an everyday word,
+watari can mean a crossing.
+
+8
+00:00:41,820 --> 00:00:50,590
+The second kanji here is read ago, jaw;
+on its own it can also be read era, gills.
+
+9
+00:00:51,420 --> 00:00:55,690
+The Flat 35 house specification
+writes that part in kana.
+
+10
+00:00:56,067 --> 00:00:58,537
+Which part of the joint is the jaw?
+
+11
+00:00:59,467 --> 00:01:02,857
+None of our sources
+say, so we won't guess.
+
+12
+00:01:06,567 --> 00:01:10,217
+A Japanese dictionary
+describes it like this.
+
+13
+00:01:10,587 --> 00:01:14,397
+The upper timber gets a
+groove across its underside.
+
+14
+00:01:15,227 --> 00:01:21,057
+The lower timber is cut away left and
+right, leaving its middle standing.
+
+15
+00:01:21,533 --> 00:01:23,803
+The upper timber comes down.
+
+16
+00:01:24,493 --> 00:01:27,503
+The standing middle
+fits up into the groove,
+
+17
+00:01:28,013 --> 00:01:30,683
+and the cut-away sides take the rest.
+
+18
+00:01:31,633 --> 00:01:36,363
+In our model, neither timber
+can now slide along the other.
+
+19
+00:01:36,833 --> 00:01:40,023
+In the model, nothing
+stops it lifting, though.
+
+20
+00:01:40,333 --> 00:01:46,823
+Seen from the end of the lower timber,
+its top steps down on both sides.
+
+21
+00:01:47,513 --> 00:01:51,763
+The groove in the timber above
+fits over the raised middle.
+
+22
+00:01:52,100 --> 00:01:54,410
+How deep are the cuts?
+
+23
+00:01:54,960 --> 00:01:59,340
+No modern specification we
+found gives a depth, and an
+
+24
+00:01:59,380 --> 00:02:02,710
+architecture dictionary
+simply calls them shallow.
+
+25
+00:02:03,280 --> 00:02:06,210
+The depths drawn here are
+only for illustration.
+
+26
+00:02:10,567 --> 00:02:12,527
+It isn't a half-lap.
+
+27
+00:02:12,967 --> 00:02:17,627
+In a half-lap, aigaki,
+each timber is cut to
+
+28
+00:02:17,667 --> 00:02:21,477
+half its depth, and
+their faces finish flush.
+
+29
+00:02:21,933 --> 00:02:26,893
+In the watari-ago, the cuts
+are shallow, the timbers sit at
+
+30
+00:02:26,933 --> 00:02:31,243
+different heights, and the uncut
+middle locks into the groove.
+
+31
+00:02:31,833 --> 00:02:34,053
+The dictionary notes it's used where two
+
+32
+00:02:34,093 --> 00:02:36,983
+timbers cross at slightly
+different heights.
+
+33
+00:02:41,400 --> 00:02:42,950
+Where is it used?
+
+34
+00:02:43,700 --> 00:02:46,660
+Where a roof beam meets
+the eaves plate, the
+
+35
+00:02:46,700 --> 00:02:50,090
+Flat 35 specification offers two choices:
+
+36
+00:02:50,540 --> 00:02:56,090
+a dovetail called kabuto-arikake,
+or the watari-ago.
+
+37
+00:02:56,880 --> 00:02:59,330
+Either one is fastened with a plate bolt.
+
+38
+00:02:59,733 --> 00:03:05,653
+Where the tops of the two are to finish
+flush, it calls for a different joint:
+
+39
+00:03:05,693 --> 00:03:10,863
+a housed dovetail, which
+isn't a crossing joint at all.
+
+40
+00:03:11,133 --> 00:03:15,333
+The same specification uses
+it where second-floor beams
+
+41
+00:03:15,373 --> 00:03:20,073
+rest on another horizontal
+member, and where log roof
+
+42
+00:03:20,113 --> 00:03:24,703
+beams cross a support,
+there held with staples.
+
+43
+00:03:25,973 --> 00:03:30,153
+And according to a Japanese
+architecture glossary, one
+
+44
+00:03:30,193 --> 00:03:35,053
+traditional framing style, which
+sets the roof beam on top of
+
+45
+00:03:35,093 --> 00:03:39,623
+the eaves plate, uses this
+joint or the dovetail there.
+
+46
+00:03:43,700 --> 00:03:48,200
+Japan's building regulations
+require the structurally important
+
+47
+00:03:48,240 --> 00:03:54,490
+joints of a timber frame to be
+fastened, with bolts, staples, pegs
+
+48
+00:03:54,880 --> 00:03:58,270
+or another approved method,
+so they carry their loads.
+
+49
+00:03:59,100 --> 00:04:03,280
+Depending on where it's used,
+the specification pairs this
+
+50
+00:04:03,320 --> 00:04:09,010
+joint with a plate bolt,
+staples, nails or other bolts.
+
+51
+00:04:09,433 --> 00:04:14,623
+A plate bolt is a steel plate
+with a bolt welded to it.
+
+52
+00:04:14,953 --> 00:04:18,393
+The plate is fixed to
+one member, and the bolt
+
+53
+00:04:18,433 --> 00:04:22,223
+passes through another and
+is tightened with a nut.
+
+54
+00:04:22,600 --> 00:04:28,800
+The regulations also forbid notching
+the underside of a beam, or other
+
+55
+00:04:28,840 --> 00:04:34,170
+horizontal member, near the middle of
+its span where that would weaken it.
+
+56
+00:04:34,620 --> 00:04:38,200
+In the uses above, the joint
+is cut where one timber
+
+57
+00:04:38,240 --> 00:04:42,010
+rests on the other, not
+out in the open span.
+
+58
+00:04:45,700 --> 00:04:48,690
+Next time, we go back to splices.
+
+59
+00:04:49,767 --> 00:04:51,017
+The watari-ago:
+
+60
+00:04:51,567 --> 00:04:55,047
+both timbers cut, the
+middle locked into the
+
+61
+00:04:55,087 --> 00:04:57,997
+groove, and hardware to hold it together.

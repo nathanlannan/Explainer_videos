@@ -35,7 +35,7 @@ Gathered by a research agent, 2026-10-25. Status: **verified** (2+ independent s
 | R8-19 | Second-floor beams: 「受け材が横架材の場合は…渡りあご掛けとする」 (does not name 胴差し) | F §5.9.5-3ハ p.50 | single-source |
 | R8-20 | Other spec uses: deep joists, joists over floor beams, horizontal braces, outrigger plates, cantilever beams | F pp.49–51 | single-source |
 | R8-21 | MLIT does not specify watari-ago: joint shapes are 特記による | L §5.7.1(3), §5.8.5(2) | verified |
-| R8-22 | Traditional 京呂組: beam on the wall plate by watariago or kabuto-arikake; folk-house roof beams; 校倉 corners | J kyourogumi; J watariago; NK | verified |
+| R8-22 | Traditional 京呂組: beam on the wall plate by watariago or kabuto-arikake; folk-house roof beams; 校倉 corners | J kyourogumi; J watariago; NK | single-source (JAANUS; NK secondary). Gate A: attributed to the glossary; 折置組 reverses beam and plate, so not "traditional framing" in general |
 | R8-23 | No modern spec gives a depth for the notches | F; L; H | verified (absence) |
 | R8-24 | JAANUS: "shallow notches" on the lower member | J | single-source, qualitative |
 | R8-25 | NK: 1寸–1寸5分 (30–45 mm) for 折置 work | NK (secondary) | unverified: not for the script |
@@ -67,3 +67,11 @@ Gathered by a research agent, 2026-10-25. Status: **verified** (2+ independent s
 | R8-33 | KN defines 渡腮 verbatim: 「仕口の一つ。上の木の下に溝を作り、下の木の中ほどを残して左右を削りとって両材を組み合わせるもの。水平に直交する二材を、やや高さを変えて接合するときに用いる。あごかき。」 | KN (fetched 2026-10-25) | verified (quote) |
 | R8-34 | 羽子板ボルト: a bolt with a flat plate at one end; the plate is fixed to one member and the bolt passes through the other, tightened with a nut | JP patent JPH0313606Y2; product description (monotaro 01325267); F p.47 names it | verified (description); reading はごいた not verified → kanji only, no reading |
 | R8-35 | 仕口 includes 渡腮 ("仕口の一つ") | KN; J watariago | verified |
+| R8-36 | 京呂組 = framing with the 軒桁 on the post tops and the 小屋ばり on top of it | J kyourogumi; MLIT 国住指第588号 (R5.3.28) 「京呂組（柱の頂部に軒桁を設け、その上部に小屋ばりを設ける架構法）」 | verified (kanji + meaning); reading not spoken |
+| R8-37 | H p.18's 渡りあご figure (小屋ばり–軒げた) may show the tongue on the upper member and the groove in the lower (the reverse of KN/JAANUS); the scan is small and unclear | H p.18 | unconfirmed: the model follows KN + JAANUS, attributed; no claim either way |
+| R8-38 | 羽子板ボルト: 「厚さ3.2mmの鋼板添え板に径12mmのボルトを溶接した金物」 | F §5.2.2; R8-34 sources | verified |
+| R8-39 | F §5.6.2-2,3: log beams 「受け材上で台持ち継ぎ…かすがい両面打ち…受け材当たりは渡りあごとし、手ちがいかすがい打ち」: "both faces" applies to the splice, not the watari-ago | F | single-source (official spec): narration says "held with staples" |
+| R8-40 | F also pairs 渡りあご with N75 nails (§5.9.4, §5.9.8), 六角ボルト (§5.9.7), 隠しくぎ (§5.10.2) | F | single-source (official spec) |
+| R8-41 | 仕口 read しぐち (ニッポニカ heading) / シクチ (精選版); 継手 つぎて (Ep5 rows) | kotobank 仕口; Ep5 R6-05 | verified |
+| R8-42 | 令47条 scope: 構造耐力上主要な部分である継手又は仕口 … 存在応力を伝えるように緊結 | R | verified (primary law) |
+| R8-43 | Spec spelling 大入れあり掛け (flush-top option; 「Ｔ字取合いは大入れあり掛け」 §5.9.5-3ロ): a housed dovetail, not a crossing joint | F §5.6.2-5, §5.9.5-3ロ; H p.18 | verified |

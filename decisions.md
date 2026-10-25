@@ -187,3 +187,16 @@ $0.3186 of $5.00 over 133 logged calls (actual costs from OpenRouter generation 
 - Long-tenon sizes come from Toda 2015 lab specimens on 120 mm members, tagged on every dimensioned frame. Where short and long tenons are compared, they are drawn at the same member size with no dimensions.
 - The hanasen is drawn on a generic through-tenon (schematic), not on the sill, because no source puts it on a post-to-sill joint.
 - The Ep8 teaser doesn't name the joint until it's researched: "where one beam crosses over another".
+
+## Episode 8: Gate A
+- The reviewer checked KN, JAANUS, e-Gov Art. 44 and 47, the Flat 35 clause text and H p.18. The model (lower timber cut at both edges leaving a middle ridge along it; groove across the upper's underside) matches KN and JAANUS and is attributed to "a Japanese dictionary".
+- H p.18's watari-ago figure may show the reverse arrangement (tongue on the upper member). The scan is unclear, so no claim either way is made, and the spec's roof-beam case is never drawn as a stack (R8-37).
+- Fixes:
+  - log roof beams: "held with staples", not "on opposite faces" (両面打ち applies to the splice);
+  - 京呂組 is attributed to JAANUS as "one traditional style", since 折置組 reverses beam and plate;
+  - "meets the eaves plate", not "sits on";
+  - the plate bolt is a standalone generic part (F §5.2.2);
+  - Art. 47 keeps its scope;
+  - hardware pairings are complete;
+  - the Art. 44 point states facts only;
+  - kanji use the spec spellings かぶとあり掛け / 大入れあり掛け.

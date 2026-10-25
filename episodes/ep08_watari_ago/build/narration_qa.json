@@ -1,0 +1,3365 @@
+{
+ "N01": {
+  "take": 1,
+  "duration": 10.769,
+  "asr": "One timber comes down across another, at right angles. Both have been cut, so the two settle into each other and interlock.",
+  "words": [
+   [
+    "One",
+    0.0,
+    0.7
+   ],
+   [
+    "timber",
+    0.7,
+    1.18
+   ],
+   [
+    "comes",
+    1.18,
+    1.68
+   ],
+   [
+    "down",
+    1.68,
+    2.1
+   ],
+   [
+    "across",
+    2.1,
+    2.62
+   ],
+   [
+    "another,",
+    2.62,
+    3.14
+   ],
+   [
+    "at",
+    3.64,
+    3.74
+   ],
+   [
+    "right",
+    3.74,
+    3.98
+   ],
+   [
+    "angles.",
+    3.98,
+    4.42
+   ],
+   [
+    "Both",
+    5.56,
+    5.74
+   ],
+   [
+    "have",
+    5.74,
+    6.08
+   ],
+   [
+    "been",
+    6.08,
+    6.24
+   ],
+   [
+    "cut,",
+    6.24,
+    6.58
+   ],
+   [
+    "so",
+    7.04,
+    7.24
+   ],
+   [
+    "the",
+    7.24,
+    7.4
+   ],
+   [
+    "two",
+    7.4,
+    7.7
+   ],
+   [
+    "settle",
+    7.7,
+    8.22
+   ],
+   [
+    "into",
+    8.22,
+    8.7
+   ],
+   [
+    "each",
+    8.7,
+    9.0
+   ],
+   [
+    "other",
+    9.0,
+    9.28
+   ],
+   [
+    "and",
+    9.28,
+    9.94
+   ],
+   [
+    "interlock.",
+    9.94,
+    10.54
+   ]
+  ],
+  "wpm": 122.6
+ },
+ "N02": {
+  "take": 1,
+  "duration": 3.909,
+  "asr": "This is the Watariago, a crossing joint.",
+  "words": [
+   [
+    "This",
+    0.0,
+    0.58
+   ],
+   [
+    "is",
+    0.58,
+    0.96
+   ],
+   [
+    "the",
+    0.96,
+    1.22
+   ],
+   [
+    "Watariago,",
+    1.22,
+    2.14
+   ],
+   [
+    "a",
+    2.8,
+    3.02
+   ],
+   [
+    "crossing",
+    3.02,
+    3.38
+   ],
+   [
+    "joint.",
+    3.38,
+    3.7
+   ]
+  ],
+  "wpm": 107.4,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "watari-ago",
+     "heard_kana": "わたりあご",
+     "correct": true,
+     "note": "Phonetically pronounced as 'watari-ago' with standard English-adapted prosody and a mild rhotic 'r', but all mora/vowel counts are accurate."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "わたりあご",
+     "heard_kana": "わたりあご",
+     "correct": true,
+     "note": "Heard exactly as intended."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "watari-ago",
+      "heard_kana": "わたりあご",
+      "correct": true,
+      "note": "Phonetically pronounced as 'watari-ago' with standard English-adapted prosody and a mild rhotic 'r', but all mora/vowel counts are accurate."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "わたりあご",
+      "heard_kana": "わたりあご",
+      "correct": true,
+      "note": "Heard exactly as intended."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ },
+ "N03": {
+  "take": 2,
+  "duration": 14.346,
+  "asr": "In episode five, a splice joined timbers end to end. The other family, Shiguchi, joins timbers that meet at an angle. And the Watariago is one of them.",
+  "words": [
+   [
+    "In",
+    0.0,
+    0.4
+   ],
+   [
+    "episode",
+    0.4,
+    0.92
+   ],
+   [
+    "five,",
+    0.92,
+    1.56
+   ],
+   [
+    "a",
+    2.22,
+    2.24
+   ],
+   [
+    "splice",
+    2.24,
+    2.92
+   ],
+   [
+    "joined",
+    2.92,
+    3.38
+   ],
+   [
+    "timbers",
+    3.38,
+    3.94
+   ],
+   [
+    "end",
+    3.94,
+    4.52
+   ],
+   [
+    "to",
+    4.52,
+    4.84
+   ],
+   [
+    "end.",
+    4.84,
+    5.24
+   ],
+   [
+    "The",
+    6.24,
+    6.38
+   ],
+   [
+    "other",
+    6.38,
+    6.66
+   ],
+   [
+    "family,",
+    6.66,
+    7.2
+   ],
+   [
+    "Shiguchi,",
+    7.72,
+    8.1
+   ],
+   [
+    "joins",
+    8.66,
+    9.08
+   ],
+   [
+    "timbers",
+    9.08,
+    9.64
+   ],
+   [
+    "that",
+    9.64,
+    9.9
+   ],
+   [
+    "meet",
+    9.9,
+    10.18
+   ],
+   [
+    "at",
+    10.18,
+    10.54
+   ],
+   [
+    "an",
+    10.54,
+    10.66
+   ],
+   [
+    "angle.",
+    10.66,
+    11.06
+   ],
+   [
+    "And",
+    11.9,
+    12.12
+   ],
+   [
+    "the",
+    12.12,
+    12.34
+   ],
+   [
+    "Watariago",
+    12.34,
+    13.18
+   ],
+   [
+    "is",
+    13.18,
+    13.74
+   ],
+   [
+    "one",
+    13.74,
+    13.92
+   ],
+   [
+    "of",
+    13.92,
+    14.08
+   ],
+   [
+    "them.",
+    14.08,
+    14.2
+   ]
+  ],
+  "wpm": 117.1,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "shee-goo-chee",
+     "heard_kana": "しぐち",
+     "correct": true,
+     "note": "Accurately pronounced with appropriate short vowels rather than exaggerated English transliteration."
+    },
+    {
+     "term": "watari-ago",
+     "heard_kana": "わたりあご",
+     "correct": true,
+     "note": "Clean and accurate pronunciation matching the target kana."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "shee-goo-chee",
+     "heard_kana": "しぐち",
+     "correct": true,
+     "note": "Heard as 'しぐち', matching the target perfectly for 'shee-goo-chee'. The listener appeared to pronounce it with slightly quicker rhythm but correct pronunciation overall."
+    },
+    {
+     "term": "watari-ago",
+     "heard_kana": "わたりあご",
+     "correct": true,
+     "note": "Heard as 'わたりあご', matching the target exactly. The pronunciation was clear with correct vowel length and syllabic division."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "shee-goo-chee",
+      "heard_kana": "しぐち",
+      "correct": true,
+      "note": "Accurately pronounced with appropriate short vowels rather than exaggerated English transliteration."
+     },
+     {
+      "term": "watari-ago",
+      "heard_kana": "わたりあご",
+      "correct": true,
+      "note": "Clean and accurate pronunciation matching the target kana."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "shee-goo-chee",
+      "heard_kana": "しぐち",
+      "correct": true,
+      "note": "Heard as 'しぐち', matching the target perfectly for 'shee-goo-chee'. The listener appeared to pronounce it with slightly quicker rhythm but correct pronunciation overall."
+     },
+     {
+      "term": "watari-ago",
+      "heard_kana": "わたりあご",
+      "correct": true,
+      "note": "Heard as 'わたりあご', matching the target exactly. The pronunciation was clear with correct vowel length and syllabic division."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 3,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ },
+ "N04": {
+  "take": 1,
+  "duration": 19.559,
+  "asr": "As an everyday word, watari can mean a crossing. The second kanji here is read ago, jaw. On its own, it can also be read eta, gills. The flat 35 house specification writes that part in kana.",
+  "words": [
+   [
+    "As",
+    0.0,
+    0.36
+   ],
+   [
+    "an",
+    0.36,
+    0.6
+   ],
+   [
+    "everyday",
+    0.6,
+    1.06
+   ],
+   [
+    "word,",
+    1.06,
+    1.6
+   ],
+   [
+    "watari",
+    2.28,
+    2.68
+   ],
+   [
+    "can",
+    2.68,
+    3.2
+   ],
+   [
+    "mean",
+    3.2,
+    3.52
+   ],
+   [
+    "a",
+    3.52,
+    3.86
+   ],
+   [
+    "crossing.",
+    3.86,
+    4.34
+   ],
+   [
+    "The",
+    5.72,
+    5.92
+   ],
+   [
+    "second",
+    5.92,
+    6.26
+   ],
+   [
+    "kanji",
+    6.26,
+    6.7
+   ],
+   [
+    "here",
+    6.7,
+    7.02
+   ],
+   [
+    "is",
+    7.02,
+    7.32
+   ],
+   [
+    "read",
+    7.32,
+    7.62
+   ],
+   [
+    "ago,",
+    7.62,
+    8.42
+   ],
+   [
+    "jaw.",
+    8.96,
+    9.3
+   ],
+   [
+    "On",
+    10.28,
+    10.42
+   ],
+   [
+    "its",
+    10.42,
+    10.56
+   ],
+   [
+    "own,",
+    10.56,
+    10.96
+   ],
+   [
+    "it",
+    11.3,
+    11.42
+   ],
+   [
+    "can",
+    11.42,
+    11.6
+   ],
+   [
+    "also",
+    11.6,
+    11.96
+   ],
+   [
+    "be",
+    11.96,
+    12.16
+   ],
+   [
+    "read",
+    12.16,
+    12.52
+   ],
+   [
+    "eta,",
+    12.52,
+    13.24
+   ],
+   [
+    "gills.",
+    13.72,
+    14.24
+   ],
+   [
+    "The",
+    15.32,
+    15.52
+   ],
+   [
+    "flat",
+    15.52,
+    15.82
+   ],
+   [
+    "35",
+    15.82,
+    16.44
+   ],
+   [
+    "house",
+    16.44,
+    16.84
+   ],
+   [
+    "specification",
+    16.84,
+    17.44
+   ],
+   [
+    "writes",
+    17.44,
+    18.18
+   ],
+   [
+    "that",
+    18.18,
+    18.52
+   ],
+   [
+    "part",
+    18.52,
+    18.76
+   ],
+   [
+    "in",
+    18.76,
+    19.06
+   ],
+   [
+    "kana.",
+    19.06,
+    19.34
+   ]
+  ],
+  "wpm": 113.5,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "wa-ta-ri",
+     "heard_kana": "わたり",
+     "correct": true,
+     "note": "Clean and accurate pronunciation."
+    },
+    {
+     "term": "ah-go",
+     "heard_kana": "あご",
+     "correct": true,
+     "note": "Accurate Japanese pronunciation."
+    },
+    {
+     "term": "eh-ra",
+     "heard_kana": "えら",
+     "correct": true,
+     "note": "Accurate Japanese pronunciation."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "wa-ta-ri",
+     "heard_kana": "わたり",
+     "correct": true,
+     "note": "Heard as ‘wa-ta-ri’ with correct pronunciation."
+    },
+    {
+     "term": "ah-go",
+     "heard_kana": "あご",
+     "correct": true,
+     "note": "Heard clearly as ‘あご’ with no doubled consonants, correct vowel length."
+    },
+    {
+     "term": "eh-ra",
+     "heard_kana": "えら",
+     "correct": true,
+     "note": "Heard accurately as ‘えら’ with a clear ‘え’ and ‘ら’ syllables."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "wa-ta-ri",
+      "heard_kana": "わたり",
+      "correct": true,
+      "note": "Clean and accurate pronunciation."
+     },
+     {
+      "term": "ah-go",
+      "heard_kana": "あご",
+      "correct": true,
+      "note": "Accurate Japanese pronunciation."
+     },
+     {
+      "term": "eh-ra",
+      "heard_kana": "えら",
+      "correct": true,
+      "note": "Accurate Japanese pronunciation."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "wa-ta-ri",
+      "heard_kana": "わたり",
+      "correct": true,
+      "note": "Heard as ‘wa-ta-ri’ with correct pronunciation."
+     },
+     {
+      "term": "ah-go",
+      "heard_kana": "あご",
+      "correct": true,
+      "note": "Heard clearly as ‘あご’ with no doubled consonants, correct vowel length."
+     },
+     {
+      "term": "eh-ra",
+      "heard_kana": "えら",
+      "correct": true,
+      "note": "Heard accurately as ‘えら’ with a clear ‘え’ and ‘ら’ syllables."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 3,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ },
+ "N05": {
+  "take": 1,
+  "duration": 6.803,
+  "asr": "Which part of the joint is the jaw? None of our sources say, so we won't guess.",
+  "words": [
+   [
+    "Which",
+    0.0,
+    0.32
+   ],
+   [
+    "part",
+    0.32,
+    0.7
+   ],
+   [
+    "of",
+    0.7,
+    0.94
+   ],
+   [
+    "the",
+    0.94,
+    1.08
+   ],
+   [
+    "joint",
+    1.08,
+    1.38
+   ],
+   [
+    "is",
+    1.38,
+    1.64
+   ],
+   [
+    "the",
+    1.64,
+    1.84
+   ],
+   [
+    "jaw?",
+    1.84,
+    2.22
+   ],
+   [
+    "None",
+    3.4,
+    3.52
+   ],
+   [
+    "of",
+    3.52,
+    3.72
+   ],
+   [
+    "our",
+    3.72,
+    3.9
+   ],
+   [
+    "sources",
+    3.9,
+    4.34
+   ],
+   [
+    "say,",
+    4.34,
+    4.72
+   ],
+   [
+    "so",
+    5.3,
+    5.72
+   ],
+   [
+    "we",
+    5.72,
+    6.04
+   ],
+   [
+    "won't",
+    6.04,
+    6.36
+   ],
+   [
+    "guess.",
+    6.36,
+    6.54
+   ]
+  ],
+  "wpm": 149.9
+ },
+ "N06": {
+  "take": 1,
+  "duration": 14.553,
+  "asr": "A Japanese dictionary describes it like this. The upper timber gets a groove across its underside. The lower timber is cut away left and right, leaving its middle standing.",
+  "words": [
+   [
+    "A",
+    0.0,
+    0.2
+   ],
+   [
+    "Japanese",
+    0.2,
+    0.78
+   ],
+   [
+    "dictionary",
+    0.78,
+    1.5
+   ],
+   [
+    "describes",
+    1.5,
+    2.3
+   ],
+   [
+    "it",
+    2.3,
+    2.52
+   ],
+   [
+    "like",
+    2.52,
+    2.74
+   ],
+   [
+    "this.",
+    2.74,
+    3.4
+   ],
+   [
+    "The",
+    4.02,
+    4.1
+   ],
+   [
+    "upper",
+    4.1,
+    4.48
+   ],
+   [
+    "timber",
+    4.48,
+    4.9
+   ],
+   [
+    "gets",
+    4.9,
+    5.38
+   ],
+   [
+    "a",
+    5.38,
+    5.68
+   ],
+   [
+    "groove",
+    5.68,
+    6.2
+   ],
+   [
+    "across",
+    6.2,
+    6.74
+   ],
+   [
+    "its",
+    6.74,
+    7.06
+   ],
+   [
+    "underside.",
+    7.06,
+    7.58
+   ],
+   [
+    "The",
+    8.66,
+    8.82
+   ],
+   [
+    "lower",
+    8.82,
+    9.14
+   ],
+   [
+    "timber",
+    9.14,
+    9.6
+   ],
+   [
+    "is",
+    9.6,
+    9.98
+   ],
+   [
+    "cut",
+    9.98,
+    10.3
+   ],
+   [
+    "away",
+    10.3,
+    10.7
+   ],
+   [
+    "left",
+    10.7,
+    11.3
+   ],
+   [
+    "and",
+    11.3,
+    11.66
+   ],
+   [
+    "right,",
+    11.66,
+    12.04
+   ],
+   [
+    "leaving",
+    12.4,
+    13.0
+   ],
+   [
+    "its",
+    13.0,
+    13.4
+   ],
+   [
+    "middle",
+    13.4,
+    13.8
+   ],
+   [
+    "standing.",
+    13.8,
+    14.24
+   ]
+  ],
+  "wpm": 119.6
+ },
+ "N07": {
+  "take": 1,
+  "duration": 18.406,
+  "asr": "The upper timber comes down, the standing middle fits up into the groove, and the cutaway sides take the rest. In our model, neither timber can now slide along the other. In the model, nothing stops it lifting, though.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.3
+   ],
+   [
+    "upper",
+    0.3,
+    0.72
+   ],
+   [
+    "timber",
+    0.72,
+    1.12
+   ],
+   [
+    "comes",
+    1.12,
+    1.56
+   ],
+   [
+    "down,",
+    1.56,
+    2.02
+   ],
+   [
+    "the",
+    2.96,
+    3.04
+   ],
+   [
+    "standing",
+    3.04,
+    3.52
+   ],
+   [
+    "middle",
+    3.52,
+    4.04
+   ],
+   [
+    "fits",
+    4.04,
+    4.66
+   ],
+   [
+    "up",
+    4.66,
+    5.0
+   ],
+   [
+    "into",
+    5.0,
+    5.26
+   ],
+   [
+    "the",
+    5.26,
+    5.42
+   ],
+   [
+    "groove,",
+    5.42,
+    5.72
+   ],
+   [
+    "and",
+    6.48,
+    6.86
+   ],
+   [
+    "the",
+    6.86,
+    7.02
+   ],
+   [
+    "cutaway",
+    7.02,
+    7.42
+   ],
+   [
+    "sides",
+    7.42,
+    8.04
+   ],
+   [
+    "take",
+    8.04,
+    8.44
+   ],
+   [
+    "the",
+    8.44,
+    8.62
+   ],
+   [
+    "rest.",
+    8.62,
+    8.9
+   ],
+   [
+    "In",
+    10.1,
+    10.22
+   ],
+   [
+    "our",
+    10.22,
+    10.52
+   ],
+   [
+    "model,",
+    10.52,
+    11.04
+   ],
+   [
+    "neither",
+    11.7,
+    11.98
+   ],
+   [
+    "timber",
+    11.98,
+    12.54
+   ],
+   [
+    "can",
+    12.54,
+    12.9
+   ],
+   [
+    "now",
+    12.9,
+    13.2
+   ],
+   [
+    "slide",
+    13.2,
+    13.68
+   ],
+   [
+    "along",
+    13.68,
+    14.1
+   ],
+   [
+    "the",
+    14.1,
+    14.32
+   ],
+   [
+    "other.",
+    14.32,
+    14.58
+   ],
+   [
+    "In",
+    15.3,
+    15.74
+   ],
+   [
+    "the",
+    15.74,
+    15.92
+   ],
+   [
+    "model,",
+    15.92,
+    16.32
+   ],
+   [
+    "nothing",
+    16.7,
+    16.86
+   ],
+   [
+    "stops",
+    16.86,
+    17.3
+   ],
+   [
+    "it",
+    17.3,
+    17.52
+   ],
+   [
+    "lifting,",
+    17.52,
+    17.9
+   ],
+   [
+    "though.",
+    18.04,
+    18.24
+   ]
+  ],
+  "wpm": 127.1
+ },
+ "N08": {
+  "take": 1,
+  "duration": 11.365,
+  "asr": "Seen from the end of the lower timber, its top steps down on both sides. The groove in the timber above fits over the raised middle.",
+  "words": [
+   [
+    "Seen",
+    0.0,
+    0.4
+   ],
+   [
+    "from",
+    0.4,
+    0.76
+   ],
+   [
+    "the",
+    0.76,
+    1.0
+   ],
+   [
+    "end",
+    1.0,
+    1.34
+   ],
+   [
+    "of",
+    1.34,
+    1.6
+   ],
+   [
+    "the",
+    1.6,
+    1.8
+   ],
+   [
+    "lower",
+    1.8,
+    2.12
+   ],
+   [
+    "timber,",
+    2.12,
+    2.58
+   ],
+   [
+    "its",
+    3.2,
+    3.48
+   ],
+   [
+    "top",
+    3.48,
+    3.94
+   ],
+   [
+    "steps",
+    3.94,
+    4.48
+   ],
+   [
+    "down",
+    4.48,
+    4.92
+   ],
+   [
+    "on",
+    4.92,
+    5.28
+   ],
+   [
+    "both",
+    5.28,
+    5.6
+   ],
+   [
+    "sides.",
+    5.6,
+    6.24
+   ],
+   [
+    "The",
+    7.18,
+    7.28
+   ],
+   [
+    "groove",
+    7.28,
+    7.68
+   ],
+   [
+    "in",
+    7.68,
+    7.98
+   ],
+   [
+    "the",
+    7.98,
+    8.12
+   ],
+   [
+    "timber",
+    8.12,
+    8.48
+   ],
+   [
+    "above",
+    8.48,
+    8.94
+   ],
+   [
+    "fits",
+    8.94,
+    9.62
+   ],
+   [
+    "over",
+    9.62,
+    10.2
+   ],
+   [
+    "the",
+    10.2,
+    10.48
+   ],
+   [
+    "raised",
+    10.48,
+    10.88
+   ],
+   [
+    "middle.",
+    10.88,
+    11.18
+   ]
+  ],
+  "wpm": 137.3
+ },
+ "N09": {
+  "take": 1,
+  "duration": 14.25,
+  "asr": "How deep are the cuts? No modern specification we found gives a depth, and an architecture dictionary simply calls them shallow. The depths drawn here are only for illustration.",
+  "words": [
+   [
+    "How",
+    0.0,
+    0.68
+   ],
+   [
+    "deep",
+    0.68,
+    1.18
+   ],
+   [
+    "are",
+    1.18,
+    1.64
+   ],
+   [
+    "the",
+    1.64,
+    1.78
+   ],
+   [
+    "cuts?",
+    1.78,
+    2.06
+   ],
+   [
+    "No",
+    2.86,
+    3.14
+   ],
+   [
+    "modern",
+    3.14,
+    3.6
+   ],
+   [
+    "specification",
+    3.6,
+    4.36
+   ],
+   [
+    "we",
+    4.36,
+    4.82
+   ],
+   [
+    "found",
+    4.82,
+    5.28
+   ],
+   [
+    "gives",
+    5.28,
+    5.66
+   ],
+   [
+    "a",
+    5.66,
+    5.88
+   ],
+   [
+    "depth,",
+    5.88,
+    6.2
+   ],
+   [
+    "and",
+    6.36,
+    7.02
+   ],
+   [
+    "an",
+    7.02,
+    7.28
+   ],
+   [
+    "architecture",
+    7.28,
+    7.82
+   ],
+   [
+    "dictionary",
+    7.82,
+    8.62
+   ],
+   [
+    "simply",
+    8.62,
+    9.14
+   ],
+   [
+    "calls",
+    9.14,
+    9.54
+   ],
+   [
+    "them",
+    9.54,
+    9.9
+   ],
+   [
+    "shallow.",
+    9.9,
+    10.36
+   ],
+   [
+    "The",
+    11.18,
+    11.4
+   ],
+   [
+    "depths",
+    11.4,
+    11.66
+   ],
+   [
+    "drawn",
+    11.66,
+    11.94
+   ],
+   [
+    "here",
+    11.94,
+    12.36
+   ],
+   [
+    "are",
+    12.36,
+    12.76
+   ],
+   [
+    "only",
+    12.76,
+    13.14
+   ],
+   [
+    "for",
+    13.14,
+    13.42
+   ],
+   [
+    "illustration.",
+    13.42,
+    13.86
+   ]
+  ],
+  "wpm": 122.1
+ },
+ "N10": {
+  "take": 2,
+  "duration": 10.954,
+  "asr": "It isn't a half lap. In a half lap, Aigaki, each timber is cut to half its depth, and their faces finish flush.",
+  "words": [
+   [
+    "It",
+    0.0,
+    0.22
+   ],
+   [
+    "isn't",
+    0.22,
+    0.78
+   ],
+   [
+    "a",
+    0.78,
+    1.02
+   ],
+   [
+    "half",
+    1.02,
+    1.38
+   ],
+   [
+    "lap.",
+    1.38,
+    1.66
+   ],
+   [
+    "In",
+    2.4,
+    2.46
+   ],
+   [
+    "a",
+    2.46,
+    2.62
+   ],
+   [
+    "half",
+    2.62,
+    2.92
+   ],
+   [
+    "lap,",
+    2.92,
+    3.32
+   ],
+   [
+    "Aigaki,",
+    3.84,
+    4.18
+   ],
+   [
+    "each",
+    5.14,
+    5.4
+   ],
+   [
+    "timber",
+    5.4,
+    5.88
+   ],
+   [
+    "is",
+    5.88,
+    6.38
+   ],
+   [
+    "cut",
+    6.38,
+    6.68
+   ],
+   [
+    "to",
+    6.68,
+    7.1
+   ],
+   [
+    "half",
+    7.1,
+    7.52
+   ],
+   [
+    "its",
+    7.52,
+    7.78
+   ],
+   [
+    "depth,",
+    7.78,
+    8.1
+   ],
+   [
+    "and",
+    8.54,
+    8.94
+   ],
+   [
+    "their",
+    8.94,
+    9.12
+   ],
+   [
+    "faces",
+    9.12,
+    9.58
+   ],
+   [
+    "finish",
+    9.58,
+    10.22
+   ],
+   [
+    "flush.",
+    10.22,
+    10.66
+   ]
+  ],
+  "wpm": 115.0,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "ai-gah-kee",
+     "heard_kana": "あいがき",
+     "correct": true,
+     "note": "Accurate pronunciation matching the target kana."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "ai-gah-kee",
+     "heard_kana": "あいがき",
+     "correct": true,
+     "note": "The pronunciation of 'ai-gah-kee' closely matches the target kana. Slightly fluent with the consonants, no doubled consonants or vowels heard incorrectly."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "ai-gah-kee",
+      "heard_kana": "あいがき",
+      "correct": true,
+      "note": "Accurate pronunciation matching the target kana."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "ai-gah-kee",
+      "heard_kana": "あいがき",
+      "correct": true,
+      "note": "The pronunciation of 'ai-gah-kee' closely matches the target kana. Slightly fluent with the consonants, no doubled consonants or vowels heard incorrectly."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ },
+ "N11": {
+  "take": 1,
+  "duration": 15.257,
+  "asr": "In the Watariyago, the cuts are shallow, the timbers sit at different heights, and the uncut middle locks into the groove. The dictionary notes it's used where two timbers cross at slightly different heights.",
+  "words": [
+   [
+    "In",
+    0.0,
+    0.28
+   ],
+   [
+    "the",
+    0.28,
+    0.52
+   ],
+   [
+    "Watariyago,",
+    0.52,
+    1.52
+   ],
+   [
+    "the",
+    2.06,
+    2.16
+   ],
+   [
+    "cuts",
+    2.16,
+    2.4
+   ],
+   [
+    "are",
+    2.4,
+    2.78
+   ],
+   [
+    "shallow,",
+    2.78,
+    3.26
+   ],
+   [
+    "the",
+    3.86,
+    3.98
+   ],
+   [
+    "timbers",
+    3.98,
+    4.38
+   ],
+   [
+    "sit",
+    4.38,
+    4.74
+   ],
+   [
+    "at",
+    4.74,
+    5.0
+   ],
+   [
+    "different",
+    5.0,
+    5.3
+   ],
+   [
+    "heights,",
+    5.3,
+    5.62
+   ],
+   [
+    "and",
+    6.18,
+    6.6
+   ],
+   [
+    "the",
+    6.6,
+    6.8
+   ],
+   [
+    "uncut",
+    6.8,
+    7.4
+   ],
+   [
+    "middle",
+    7.4,
+    7.84
+   ],
+   [
+    "locks",
+    7.84,
+    8.32
+   ],
+   [
+    "into",
+    8.32,
+    8.66
+   ],
+   [
+    "the",
+    8.66,
+    8.8
+   ],
+   [
+    "groove.",
+    8.8,
+    9.06
+   ],
+   [
+    "The",
+    9.9,
+    10.12
+   ],
+   [
+    "dictionary",
+    10.12,
+    10.44
+   ],
+   [
+    "notes",
+    10.44,
+    10.9
+   ],
+   [
+    "it's",
+    10.9,
+    11.32
+   ],
+   [
+    "used",
+    11.32,
+    11.58
+   ],
+   [
+    "where",
+    11.58,
+    11.86
+   ],
+   [
+    "two",
+    11.86,
+    12.16
+   ],
+   [
+    "timbers",
+    12.16,
+    12.62
+   ],
+   [
+    "cross",
+    12.62,
+    12.98
+   ],
+   [
+    "at",
+    12.98,
+    13.52
+   ],
+   [
+    "slightly",
+    13.52,
+    13.96
+   ],
+   [
+    "different",
+    13.96,
+    14.5
+   ],
+   [
+    "heights.",
+    14.5,
+    14.8
+   ]
+  ],
+  "wpm": 133.7,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "watari-ago",
+     "heard_kana": "わたーりあご",
+     "correct": true,
+     "note": "Clear and understandable pronunciation, though with slight English lexical stress/lengthening on the second syllable (ta)."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "watari-ago",
+     "heard_kana": "わたりあご",
+     "correct": true,
+     "note": "Pronounced accurately as 'watari-ago' with correct kana."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "watari-ago",
+      "heard_kana": "わたーりあご",
+      "correct": true,
+      "note": "Clear and understandable pronunciation, though with slight English lexical stress/lengthening on the second syllable (ta)."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "watari-ago",
+      "heard_kana": "わたりあご",
+      "correct": true,
+      "note": "Pronounced accurately as 'watari-ago' with correct kana."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ },
+ "N12": {
+  "take": 1,
+  "duration": 17.927,
+  "asr": "Where is it used? Where a roof beam meets the eavesplate. The flat 35 specification offers two choices. A dovetail called Kabuto Arikake or the Watariago. Either one is fastened with a plate bolt.",
+  "words": [
+   [
+    "Where",
+    0.0,
+    0.4
+   ],
+   [
+    "is",
+    0.4,
+    0.72
+   ],
+   [
+    "it",
+    0.72,
+    0.88
+   ],
+   [
+    "used?",
+    0.88,
+    1.3
+   ],
+   [
+    "Where",
+    2.3,
+    2.54
+   ],
+   [
+    "a",
+    2.54,
+    2.72
+   ],
+   [
+    "roof",
+    2.72,
+    2.96
+   ],
+   [
+    "beam",
+    2.96,
+    3.3
+   ],
+   [
+    "meets",
+    3.3,
+    3.62
+   ],
+   [
+    "the",
+    3.62,
+    3.88
+   ],
+   [
+    "eavesplate.",
+    3.88,
+    4.58
+   ],
+   [
+    "The",
+    5.14,
+    5.3
+   ],
+   [
+    "flat",
+    5.3,
+    5.6
+   ],
+   [
+    "35",
+    5.6,
+    6.16
+   ],
+   [
+    "specification",
+    6.16,
+    6.92
+   ],
+   [
+    "offers",
+    6.92,
+    7.56
+   ],
+   [
+    "two",
+    7.56,
+    8.0
+   ],
+   [
+    "choices.",
+    8.0,
+    8.44
+   ],
+   [
+    "A",
+    9.14,
+    9.34
+   ],
+   [
+    "dovetail",
+    9.34,
+    9.96
+   ],
+   [
+    "called",
+    9.96,
+    10.56
+   ],
+   [
+    "Kabuto",
+    10.56,
+    11.58
+   ],
+   [
+    "Arikake",
+    11.58,
+    12.3
+   ],
+   [
+    "or",
+    12.3,
+    13.28
+   ],
+   [
+    "the",
+    13.28,
+    13.74
+   ],
+   [
+    "Watariago.",
+    13.74,
+    14.44
+   ],
+   [
+    "Either",
+    15.48,
+    15.72
+   ],
+   [
+    "one",
+    15.72,
+    16.08
+   ],
+   [
+    "is",
+    16.08,
+    16.34
+   ],
+   [
+    "fastened",
+    16.34,
+    16.88
+   ],
+   [
+    "with",
+    16.88,
+    17.06
+   ],
+   [
+    "a",
+    17.06,
+    17.2
+   ],
+   [
+    "plate",
+    17.2,
+    17.44
+   ],
+   [
+    "bolt.",
+    17.44,
+    17.68
+   ]
+  ],
+  "wpm": 113.8,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "kabuto ari-kah-keh",
+     "heard_kana": "かぶとありかけ",
+     "correct": true,
+     "note": "Clear and accurate pronunciation with natural pitch."
+    },
+    {
+     "term": "watari-ago",
+     "heard_kana": "わたりあご",
+     "correct": true,
+     "note": "Accurately pronounced with natural mora timing."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "kabuto ari-kah-keh",
+     "heard_kana": "かぶとありかけ",
+     "correct": true,
+     "note": "The pronunciation is correct. The speaker pronounced all syllables as intended with clear enunciation. The vowel lengths and consonant stops match expectations."
+    },
+    {
+     "term": "watari-ago",
+     "heard_kana": "わたりあご",
+     "correct": true,
+     "note": "The pronunciation matches closely. The speaker correctly articulates both syllables. 'A' is short, and 'go' is pronounced correctly. There are no extra syllables."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "kabuto ari-kah-keh",
+      "heard_kana": "かぶとありかけ",
+      "correct": true,
+      "note": "Clear and accurate pronunciation with natural pitch."
+     },
+     {
+      "term": "watari-ago",
+      "heard_kana": "わたりあご",
+      "correct": true,
+      "note": "Accurately pronounced with natural mora timing."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "kabuto ari-kah-keh",
+      "heard_kana": "かぶとありかけ",
+      "correct": true,
+      "note": "The pronunciation is correct. The speaker pronounced all syllables as intended with clear enunciation. The vowel lengths and consonant stops match expectations."
+     },
+     {
+      "term": "watari-ago",
+      "heard_kana": "わたりあご",
+      "correct": true,
+      "note": "The pronunciation matches closely. The speaker correctly articulates both syllables. 'A' is short, and 'go' is pronounced correctly. There are no extra syllables."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ },
+ "N13": {
+  "take": 3,
+  "duration": 11.007,
+  "asr": "Where the tops of the two are to finish flush, it calls for a different joint—a housed dovetail—which isn't a crossing joint at all.",
+  "words": [
+   [
+    "Where",
+    0.0,
+    0.46
+   ],
+   [
+    "the",
+    0.46,
+    0.64
+   ],
+   [
+    "tops",
+    0.64,
+    0.98
+   ],
+   [
+    "of",
+    0.98,
+    1.36
+   ],
+   [
+    "the",
+    1.36,
+    1.5
+   ],
+   [
+    "two",
+    1.5,
+    1.84
+   ],
+   [
+    "are",
+    1.84,
+    2.18
+   ],
+   [
+    "to",
+    2.18,
+    2.38
+   ],
+   [
+    "finish",
+    2.38,
+    2.74
+   ],
+   [
+    "flush,",
+    2.74,
+    3.2
+   ],
+   [
+    "it",
+    3.88,
+    4.04
+   ],
+   [
+    "calls",
+    4.04,
+    4.36
+   ],
+   [
+    "for",
+    4.36,
+    4.66
+   ],
+   [
+    "a",
+    4.66,
+    4.84
+   ],
+   [
+    "different",
+    4.84,
+    5.32
+   ],
+   [
+    "joint—a",
+    5.32,
+    6.6
+   ],
+   [
+    "housed",
+    6.6,
+    7.16
+   ],
+   [
+    "dovetail—which",
+    7.16,
+    8.78
+   ],
+   [
+    "isn't",
+    8.78,
+    9.34
+   ],
+   [
+    "a",
+    9.34,
+    9.48
+   ],
+   [
+    "crossing",
+    9.48,
+    9.86
+   ],
+   [
+    "joint",
+    9.86,
+    10.28
+   ],
+   [
+    "at",
+    10.28,
+    10.64
+   ],
+   [
+    "all.",
+    10.64,
+    10.88
+   ]
+  ],
+  "wpm": 141.7
+ },
+ "N14": {
+  "take": 1,
+  "duration": 28.374,
+  "asr": "The same specification uses it where second floor beams rest on another horizontal member, and where log roof beams cross a support. They're held with staples. And according to a Japanese architecture glossary, one traditional framing style, which sets the roof beam on top of the eavesplate, uses this joint or the dovetail there.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.26
+   ],
+   [
+    "same",
+    0.26,
+    0.62
+   ],
+   [
+    "specification",
+    0.62,
+    1.26
+   ],
+   [
+    "uses",
+    1.26,
+    1.84
+   ],
+   [
+    "it",
+    1.84,
+    2.18
+   ],
+   [
+    "where",
+    2.18,
+    2.74
+   ],
+   [
+    "second",
+    2.74,
+    3.32
+   ],
+   [
+    "floor",
+    3.32,
+    3.76
+   ],
+   [
+    "beams",
+    3.76,
+    4.24
+   ],
+   [
+    "rest",
+    4.24,
+    4.68
+   ],
+   [
+    "on",
+    4.68,
+    4.98
+   ],
+   [
+    "another",
+    4.98,
+    5.42
+   ],
+   [
+    "horizontal",
+    5.42,
+    6.06
+   ],
+   [
+    "member,",
+    6.06,
+    6.6
+   ],
+   [
+    "and",
+    7.2,
+    7.92
+   ],
+   [
+    "where",
+    7.92,
+    8.24
+   ],
+   [
+    "log",
+    8.24,
+    8.58
+   ],
+   [
+    "roof",
+    8.58,
+    8.98
+   ],
+   [
+    "beams",
+    8.98,
+    9.52
+   ],
+   [
+    "cross",
+    9.52,
+    10.04
+   ],
+   [
+    "a",
+    10.04,
+    10.3
+   ],
+   [
+    "support.",
+    10.3,
+    10.72
+   ],
+   [
+    "They're",
+    11.44,
+    12.1
+   ],
+   [
+    "held",
+    12.1,
+    12.64
+   ],
+   [
+    "with",
+    12.64,
+    12.88
+   ],
+   [
+    "staples.",
+    12.88,
+    13.32
+   ],
+   [
+    "And",
+    14.84,
+    15.08
+   ],
+   [
+    "according",
+    15.08,
+    15.62
+   ],
+   [
+    "to",
+    15.62,
+    16.02
+   ],
+   [
+    "a",
+    16.02,
+    16.14
+   ],
+   [
+    "Japanese",
+    16.14,
+    16.68
+   ],
+   [
+    "architecture",
+    16.68,
+    17.4
+   ],
+   [
+    "glossary,",
+    17.4,
+    18.08
+   ],
+   [
+    "one",
+    18.78,
+    19.06
+   ],
+   [
+    "traditional",
+    19.06,
+    19.68
+   ],
+   [
+    "framing",
+    19.68,
+    20.14
+   ],
+   [
+    "style,",
+    20.14,
+    20.68
+   ],
+   [
+    "which",
+    21.22,
+    21.48
+   ],
+   [
+    "sets",
+    21.48,
+    21.86
+   ],
+   [
+    "the",
+    21.86,
+    22.16
+   ],
+   [
+    "roof",
+    22.16,
+    22.46
+   ],
+   [
+    "beam",
+    22.46,
+    22.86
+   ],
+   [
+    "on",
+    22.86,
+    23.14
+   ],
+   [
+    "top",
+    23.14,
+    23.6
+   ],
+   [
+    "of",
+    23.6,
+    23.96
+   ],
+   [
+    "the",
+    23.96,
+    24.08
+   ],
+   [
+    "eavesplate,",
+    24.08,
+    24.76
+   ],
+   [
+    "uses",
+    25.26,
+    25.7
+   ],
+   [
+    "this",
+    25.7,
+    26.18
+   ],
+   [
+    "joint",
+    26.18,
+    26.66
+   ],
+   [
+    "or",
+    26.66,
+    27.22
+   ],
+   [
+    "the",
+    27.22,
+    27.44
+   ],
+   [
+    "dovetail",
+    27.44,
+    27.9
+   ],
+   [
+    "there.",
+    27.9,
+    28.24
+   ]
+  ],
+  "wpm": 114.2
+ },
+ "N15": {
+  "take": 1,
+  "duration": 25.332,
+  "asr": "Japan's building regulations require the structurally important joints of a timber frame to be fastened with bolts, staples, pegs, or another approved method so they carry their loads. Depending on where it's used, the specification pairs this joint with a plate bolt, staples, nails, or other bolts.",
+  "words": [
+   [
+    "Japan's",
+    0.0,
+    0.98
+   ],
+   [
+    "building",
+    0.98,
+    1.3
+   ],
+   [
+    "regulations",
+    1.3,
+    2.0
+   ],
+   [
+    "require",
+    2.0,
+    2.8
+   ],
+   [
+    "the",
+    2.8,
+    3.18
+   ],
+   [
+    "structurally",
+    3.18,
+    3.94
+   ],
+   [
+    "important",
+    3.94,
+    4.54
+   ],
+   [
+    "joints",
+    4.54,
+    4.94
+   ],
+   [
+    "of",
+    4.94,
+    5.38
+   ],
+   [
+    "a",
+    5.38,
+    5.5
+   ],
+   [
+    "timber",
+    5.5,
+    5.74
+   ],
+   [
+    "frame",
+    5.74,
+    6.12
+   ],
+   [
+    "to",
+    6.12,
+    6.68
+   ],
+   [
+    "be",
+    6.68,
+    6.84
+   ],
+   [
+    "fastened",
+    6.84,
+    7.42
+   ],
+   [
+    "with",
+    7.42,
+    8.1
+   ],
+   [
+    "bolts,",
+    8.1,
+    8.56
+   ],
+   [
+    "staples,",
+    9.16,
+    9.5
+   ],
+   [
+    "pegs,",
+    10.18,
+    10.54
+   ],
+   [
+    "or",
+    11.18,
+    11.26
+   ],
+   [
+    "another",
+    11.26,
+    11.76
+   ],
+   [
+    "approved",
+    11.76,
+    12.24
+   ],
+   [
+    "method",
+    12.24,
+    12.68
+   ],
+   [
+    "so",
+    12.68,
+    13.22
+   ],
+   [
+    "they",
+    13.22,
+    13.42
+   ],
+   [
+    "carry",
+    13.42,
+    13.7
+   ],
+   [
+    "their",
+    13.7,
+    13.96
+   ],
+   [
+    "loads.",
+    13.96,
+    14.32
+   ],
+   [
+    "Depending",
+    15.4,
+    15.82
+   ],
+   [
+    "on",
+    15.82,
+    16.16
+   ],
+   [
+    "where",
+    16.16,
+    16.42
+   ],
+   [
+    "it's",
+    16.42,
+    16.72
+   ],
+   [
+    "used,",
+    16.72,
+    17.14
+   ],
+   [
+    "the",
+    17.6,
+    17.82
+   ],
+   [
+    "specification",
+    17.82,
+    18.36
+   ],
+   [
+    "pairs",
+    18.36,
+    19.2
+   ],
+   [
+    "this",
+    19.2,
+    19.62
+   ],
+   [
+    "joint",
+    19.62,
+    19.96
+   ],
+   [
+    "with",
+    19.96,
+    20.42
+   ],
+   [
+    "a",
+    20.42,
+    20.74
+   ],
+   [
+    "plate",
+    20.74,
+    20.98
+   ],
+   [
+    "bolt,",
+    20.98,
+    21.28
+   ],
+   [
+    "staples,",
+    21.84,
+    22.42
+   ],
+   [
+    "nails,",
+    23.22,
+    23.56
+   ],
+   [
+    "or",
+    24.2,
+    24.4
+   ],
+   [
+    "other",
+    24.4,
+    24.76
+   ],
+   [
+    "bolts.",
+    24.76,
+    25.06
+   ]
+  ],
+  "wpm": 111.3
+ },
+ "N16": {
+  "take": 1,
+  "duration": 12.751,
+  "asr": "A plate bolt is a steel plate with a bolt welded to it. The plate is fixed to one member, and the bolt passes through another and is tightened with a nut.",
+  "words": [
+   [
+    "A",
+    0.0,
+    0.22
+   ],
+   [
+    "plate",
+    0.22,
+    0.6
+   ],
+   [
+    "bolt",
+    0.6,
+    1.02
+   ],
+   [
+    "is",
+    1.02,
+    1.56
+   ],
+   [
+    "a",
+    1.56,
+    1.82
+   ],
+   [
+    "steel",
+    1.82,
+    2.22
+   ],
+   [
+    "plate",
+    2.22,
+    2.7
+   ],
+   [
+    "with",
+    2.7,
+    3.22
+   ],
+   [
+    "a",
+    3.22,
+    3.46
+   ],
+   [
+    "bolt",
+    3.46,
+    3.88
+   ],
+   [
+    "welded",
+    3.88,
+    4.44
+   ],
+   [
+    "to",
+    4.44,
+    4.6
+   ],
+   [
+    "it.",
+    4.6,
+    4.94
+   ],
+   [
+    "The",
+    5.52,
+    5.68
+   ],
+   [
+    "plate",
+    5.68,
+    5.92
+   ],
+   [
+    "is",
+    5.92,
+    6.14
+   ],
+   [
+    "fixed",
+    6.14,
+    6.46
+   ],
+   [
+    "to",
+    6.46,
+    6.86
+   ],
+   [
+    "one",
+    6.86,
+    7.16
+   ],
+   [
+    "member,",
+    7.16,
+    7.54
+   ],
+   [
+    "and",
+    8.28,
+    8.42
+   ],
+   [
+    "the",
+    8.42,
+    8.66
+   ],
+   [
+    "bolt",
+    8.66,
+    9.0
+   ],
+   [
+    "passes",
+    9.0,
+    9.66
+   ],
+   [
+    "through",
+    9.66,
+    10.02
+   ],
+   [
+    "another",
+    10.02,
+    10.38
+   ],
+   [
+    "and",
+    10.38,
+    11.16
+   ],
+   [
+    "is",
+    11.16,
+    11.42
+   ],
+   [
+    "tightened",
+    11.42,
+    11.84
+   ],
+   [
+    "with",
+    11.84,
+    12.22
+   ],
+   [
+    "a",
+    12.22,
+    12.36
+   ],
+   [
+    "nut.",
+    12.36,
+    12.54
+   ]
+  ],
+  "wpm": 150.6
+ },
+ "N17": {
+  "take": 1,
+  "duration": 19.406,
+  "asr": "The regulations also forbid notching the underside of a beam, or other horizontal member, near the middle of its span, where that would weaken it. In the uses above, the joint is cut where one timber rests on the other, not out in the open span.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.5
+   ],
+   [
+    "regulations",
+    0.5,
+    1.08
+   ],
+   [
+    "also",
+    1.08,
+    1.88
+   ],
+   [
+    "forbid",
+    1.88,
+    2.36
+   ],
+   [
+    "notching",
+    2.36,
+    3.14
+   ],
+   [
+    "the",
+    3.14,
+    3.38
+   ],
+   [
+    "underside",
+    3.38,
+    4.1
+   ],
+   [
+    "of",
+    4.1,
+    4.52
+   ],
+   [
+    "a",
+    4.52,
+    4.64
+   ],
+   [
+    "beam,",
+    4.64,
+    4.94
+   ],
+   [
+    "or",
+    5.4,
+    5.74
+   ],
+   [
+    "other",
+    5.74,
+    6.24
+   ],
+   [
+    "horizontal",
+    6.24,
+    6.78
+   ],
+   [
+    "member,",
+    6.78,
+    7.28
+   ],
+   [
+    "near",
+    7.72,
+    8.04
+   ],
+   [
+    "the",
+    8.04,
+    8.24
+   ],
+   [
+    "middle",
+    8.24,
+    8.56
+   ],
+   [
+    "of",
+    8.56,
+    8.86
+   ],
+   [
+    "its",
+    8.86,
+    9.04
+   ],
+   [
+    "span,",
+    9.04,
+    9.38
+   ],
+   [
+    "where",
+    9.94,
+    10.22
+   ],
+   [
+    "that",
+    10.22,
+    10.44
+   ],
+   [
+    "would",
+    10.44,
+    10.6
+   ],
+   [
+    "weaken",
+    10.6,
+    10.88
+   ],
+   [
+    "it.",
+    10.88,
+    11.32
+   ],
+   [
+    "In",
+    12.02,
+    12.2
+   ],
+   [
+    "the",
+    12.2,
+    12.32
+   ],
+   [
+    "uses",
+    12.32,
+    12.56
+   ],
+   [
+    "above,",
+    12.56,
+    13.0
+   ],
+   [
+    "the",
+    13.62,
+    13.72
+   ],
+   [
+    "joint",
+    13.72,
+    13.98
+   ],
+   [
+    "is",
+    13.98,
+    14.26
+   ],
+   [
+    "cut",
+    14.26,
+    14.52
+   ],
+   [
+    "where",
+    14.52,
+    14.88
+   ],
+   [
+    "one",
+    14.88,
+    15.22
+   ],
+   [
+    "timber",
+    15.22,
+    15.64
+   ],
+   [
+    "rests",
+    15.64,
+    16.08
+   ],
+   [
+    "on",
+    16.08,
+    16.48
+   ],
+   [
+    "the",
+    16.48,
+    16.64
+   ],
+   [
+    "other,",
+    16.64,
+    17.02
+   ],
+   [
+    "not",
+    17.46,
+    17.8
+   ],
+   [
+    "out",
+    17.8,
+    18.1
+   ],
+   [
+    "in",
+    18.1,
+    18.34
+   ],
+   [
+    "the",
+    18.34,
+    18.44
+   ],
+   [
+    "open",
+    18.44,
+    18.78
+   ],
+   [
+    "span.",
+    18.78,
+    19.16
+   ]
+  ],
+  "wpm": 142.2
+ },
+ "N18": {
+  "take": 1,
+  "duration": 3.076,
+  "asr": "Next time, we go back to splices.",
+  "words": [
+   [
+    "Next",
+    0.0,
+    0.66
+   ],
+   [
+    "time,",
+    0.66,
+    1.02
+   ],
+   [
+    "we",
+    1.38,
+    1.5
+   ],
+   [
+    "go",
+    1.5,
+    1.72
+   ],
+   [
+    "back",
+    1.72,
+    2.0
+   ],
+   [
+    "to",
+    2.0,
+    2.26
+   ],
+   [
+    "splices.",
+    2.26,
+    2.74
+   ]
+  ],
+  "wpm": 136.5
+ },
+ "N19": {
+  "take": 1,
+  "duration": 8.249,
+  "asr": "The Watari Ago, both timbers cut, the middle locked into the groove, and hardware to hold it together.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.2
+   ],
+   [
+    "Watari",
+    0.2,
+    0.7
+   ],
+   [
+    "Ago,",
+    0.7,
+    1.12
+   ],
+   [
+    "both",
+    1.8,
+    2.14
+   ],
+   [
+    "timbers",
+    2.14,
+    2.62
+   ],
+   [
+    "cut,",
+    2.62,
+    2.96
+   ],
+   [
+    "the",
+    3.82,
+    3.92
+   ],
+   [
+    "middle",
+    3.92,
+    4.26
+   ],
+   [
+    "locked",
+    4.26,
+    4.84
+   ],
+   [
+    "into",
+    4.84,
+    5.16
+   ],
+   [
+    "the",
+    5.16,
+    5.32
+   ],
+   [
+    "groove,",
+    5.32,
+    5.64
+   ],
+   [
+    "and",
+    6.16,
+    6.46
+   ],
+   [
+    "hardware",
+    6.46,
+    7.04
+   ],
+   [
+    "to",
+    7.04,
+    7.34
+   ],
+   [
+    "hold",
+    7.34,
+    7.56
+   ],
+   [
+    "it",
+    7.56,
+    7.74
+   ],
+   [
+    "together.",
+    7.74,
+    7.98
+   ]
+  ],
+  "wpm": 123.6,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "watari-ago",
+     "heard_kana": "わたりあご",
+     "correct": true,
+     "note": "Clear and accurate pronunciation of the Japanese term, with only slight natural English cadence."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "watari-ago",
+     "heard_kana": "わたりあご",
+     "correct": true,
+     "note": "Accurate pronunciation; each syllable matches the target kana precisely."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "watari-ago",
+      "heard_kana": "わたりあご",
+      "correct": true,
+      "note": "Clear and accurate pronunciation of the Japanese term, with only slight natural English cadence."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "watari-ago",
+      "heard_kana": "わたりあご",
+      "correct": true,
+      "note": "Accurate pronunciation; each syllable matches the target kana precisely."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 3,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ }
+}
