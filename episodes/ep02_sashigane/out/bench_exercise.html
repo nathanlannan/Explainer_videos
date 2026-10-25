@@ -1,0 +1,59 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Bench exercise · The back scale</title>
+<style>
+@page{size:A4;margin:12mm}
+body{font-family:'Noto Sans','Noto Sans CJK JP',sans-serif;color:#1B1B1B;background:#fff;font-size:9.6pt;line-height:1.32;margin:0}
+h1{font-size:18pt;margin:0 0 2pt}h2{font-size:11pt;margin:7pt 0 3pt;border-bottom:1.5px solid #1B1B1B;padding-bottom:2pt}
+.sub{color:#4A4642;margin:0 0 6pt}ol,ul{margin:3pt 0 3pt 16pt;padding:0}li{margin:2pt 0}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12pt}.kanji{font-family:'Noto Serif CJK JP',serif}.small{font-size:8.3pt;color:#4A4642}
+.warn{border:1.5px solid #1B1B1B;padding:4pt 6pt;margin:4pt 0}
+</style></head><body>
+<h1>Bench exercise: make a back scale and read a log</h1>
+<p class="sub">Japanese Joinery by Hand · Episode 2 · Part 1. You don't need a sashigane: you'll make a paper <i>ura-me</i> <span class="kanji">裏目</span> (√2 scale) and check, with your own hands, that it reads the largest square in a circle. About 30 minutes.</p>
+<div class="warn"><b>Print at 100% / "actual size"</b> (not "fit to page"). Then check the 100 mm calibration bar with a ruler. If it isn't 100 mm, the scales below are wrong; reprint before using them.</div>
+<svg width="180mm" height="62mm" viewBox="0 0 180 62" style="display:block;margin:4pt 0">
+<g font-family="Noto Sans, sans-serif" fill="#1B1B1B">
+<text x="0" y="4" font-size="3.2" font-weight="700">calibration: 100 mm</text>
+<rect x="0" y="6" width="100" height="3" fill="#1B1B1B"/>
+<text x="0" y="17" font-size="3.2" font-weight="700">back scale (ura-me): 1 unit = 1.414 mm. Cut out along the border.</text>
+<rect x="0" y="19" width="178" height="12" fill="none" stroke="#1B1B1B" stroke-width="0.25" stroke-dasharray="1.5 1"/>
+<g id="ura"></g>
+<text x="0" y="40" font-size="3.2" font-weight="700">round scale (marume): 1 unit = 1/π mm = 0.318 mm (ticks every 10 units)</text>
+<rect x="0" y="42" width="178" height="12" fill="none" stroke="#1B1B1B" stroke-width="0.25" stroke-dasharray="1.5 1"/>
+<g id="maru"></g>
+</g></svg>
+<script>
+const ns='http://www.w3.org/2000/svg', g=(id)=>document.getElementById(id);
+function strip(id,unit,y,step,label,every){for(let v=0;v*unit<=176;v+=step){const x=1+v*unit,big=v%every===0,mid=v%(every/2)===0;const l=document.createElementNS(ns,'line');l.setAttribute('x1',x);l.setAttribute('x2',x);l.setAttribute('y1',y);l.setAttribute('y2',y+(big?5:mid?3.5:2));l.setAttribute('stroke','#1B1B1B');l.setAttribute('stroke-width',big?0.3:0.15);g(id).appendChild(l);if(big&&v){const t=document.createElementNS(ns,'text');t.setAttribute('x',x);t.setAttribute('y',y+8.5);t.setAttribute('font-size','2.6');t.setAttribute('text-anchor','middle');t.textContent=v;g(id).appendChild(t)}}}
+strip('ura',Math.SQRT2,19,1,'',10);strip('maru',1/Math.PI,42,10,'',100);
+</script>
+<div class="grid">
+<div>
+<h2>1 · Prove the √2 on paper</h2>
+<ol>
+<li>Draw a square 100 mm on a side, with a good square and a sharp pencil.</li>
+<li>Measure its diagonal with an ordinary ruler. You should get about 141 mm (100 × 1.414).</li>
+<li>Now lay the <b>back scale</b> strip along the same diagonal. It reads <b>100</b>: the side.</li>
+</ol>
+<h2>2 · Read a "log"</h2>
+<ol>
+<li>Find something round with a flat end: a log or branch end, a dowel, a jar lid, a pipe.</li>
+<li>Lay the back scale across the end, <b>straight through the center</b>, zero on one edge. Read it at the far edge. That number is the side of the largest square you could cut from it.</li>
+<li>For a real log, measure at the <b>small end</b>, since a log tapers.</li>
+</ol>
+</div>
+<div>
+<h2>3 · Check it</h2>
+<ol>
+<li>Trace the round end on paper. Draw two diameters at right angles through the center (fold the paper, or use a square).</li>
+<li>Join the four points where they meet the circle. That's the largest inscribed square. Measure its side with an ordinary ruler: it should match your back-scale reading, within about 1 mm.</li>
+<li>Try a square 1 mm bigger: its corners poke outside the circle.</li>
+</ol>
+<h2>4 · Optional: the round scale</h2>
+<ul>
+<li>Lay the <b>marume</b> strip across the same diameter and read it. Then wrap a string around the object and measure the string with an ordinary ruler. The two numbers should agree: the round scale reads the circumference.</li>
+</ul>
+</div></div>
+<h2>What you just did</h2>
+<p>A square's diagonal is its side × √2. A scale stretched by √2 turns any diagonal straight into the side, with no arithmetic. Across a circle, the diameter <i>is</i> the inscribed square's diagonal. That's all the sashigane's back scale is doing.</p>
+<p class="small">The strips are for learning, not precision work: paper stretches and printers vary. On a real sashigane, scale placement varies by model; one common layout has the ura-me on the back of the long arm's outer edge and the marume on the back of the short arm.</p>
+</body></html>

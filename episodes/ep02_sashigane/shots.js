@@ -32,7 +32,7 @@ function scaleCanvas(lengthMM, widthMM, marks, { edge = 'outer', numberEvery = 1
     g.beginPath();
     if (edge === 'outer') { g.moveTo(X, 0); g.lineTo(X, len); } else { g.moveTo(X, H); g.lineTo(X, H - len); }
     g.stroke();
-    if (big && v > 0 && x < lengthMM - 6) { g.font = `600 ${Math.round(0.36 * H)}px 'Noto Sans'`; g.fillText(String(v), X, edge === 'outer' ? len + 0.03 * H : H - len - 0.03 * H); }
+    if (big && x > 20 && x < lengthMM - 6) { g.font = `600 ${Math.round(0.36 * H)}px 'Noto Sans'`; g.fillText(String(v), X, edge === 'outer' ? len + 0.03 * H : H - len - 0.03 * H); }
   }
   if (unitLabel) { g.font = `700 ${Math.round(0.3 * H)}px 'Noto Sans CJK JP'`; g.textAlign = 'right'; g.fillText(unitLabel, c.width - 8, edge === 'outer' ? H - 0.33 * H : 0.33 * H); }
   const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 16;
@@ -58,10 +58,10 @@ function getSashigane() {
   const fS = decal(scaleCanvas(s.overall_short, s.width, S.omote_short), s.overall_short, s.width);
   fS.rotation.set(-Math.PI / 2, 0, -Math.PI / 2); fS.position.set(s.width / 2, s.thickness + 0.06, s.overall_short / 2); grp.add(fS);
   // back scales: ura-me (x√2) on the long arm's outer edge; marume (1/π) on the short arm's inner edge
-  const uraTex = scaleCanvas(s.overall_long, s.width, S.ura_long, { unitLabel: '裏目' }); uraTex.wrapS = THREE.RepeatWrapping; uraTex.repeat.x = -1; uraTex.offset.x = 1;
+  // back decals face -Y; seen from the back with the long arm to the right they read unmirrored. Canvas bottom = the arm's outer edge.
+  const uraTex = scaleCanvas(s.overall_long, s.width, S.ura_long, { edge: 'inner', unitLabel: '裏目' });
   const bL = decal(uraTex, s.overall_long, s.width, 96); bL.rotation.x = Math.PI / 2; bL.position.set(s.overall_long / 2, -0.06, s.width / 2); grp.add(bL);
-  const maruTex = scaleCanvas(s.overall_short, s.width, S.maru_short.map(([v, x]) => [v, x]), { edge: 'inner', numberEvery: 100, unitLabel: '丸目' });
-  maruTex.wrapS = THREE.RepeatWrapping; maruTex.repeat.x = -1; maruTex.offset.x = 1;
+  const maruTex = scaleCanvas(s.overall_short, s.width, S.maru_short.map(([v, x]) => [v, x]), { edge: 'outer', numberEvery: 100, unitLabel: '丸目' });
   const bS = decal(maruTex, s.overall_short, s.width); bS.rotation.set(Math.PI / 2, 0, Math.PI / 2); bS.position.set(s.width / 2, -0.06, s.overall_short / 2); grp.add(bS);
   const base = longG.attributes.position.array.slice(), fBase = fL.geometry.attributes.position.array.slice(), bBase = bL.geometry.attributes.position.array.slice();
   sashi = { grp, longArm, base, fL, bL, fBase, bBase, bend: 0 };
@@ -95,7 +95,7 @@ function getBench() { // sashigane on paper, plus a board for the flex shot
 let logScene;
 function getLog() {
   if (logScene) return logScene;
-  const s = L.makeScene({ shadowBox: 1600, lightDir: [0.5, 0.9, 0.8] });
+  const s = L.makeScene({ floor: false, lightDir: [0.5, 0.9, 0.8] });
   const r = G.log_d / 2, len = G.log_len;
   const bark = new THREE.MeshStandardMaterial({ color: '#6B5440', roughness: 0.95 });
   // end grain texture for the small end
@@ -104,7 +104,7 @@ function getLog() {
   for (let k = 8; k < 512; k += 9 + (k % 7)) { g.strokeStyle = `rgba(150,100,58,${0.18 + (k % 5) * 0.04})`; g.lineWidth = 2; g.beginPath(); g.arc(512 + 6, 512 - 4, k, 0, 6.3); g.stroke(); }
   g.strokeStyle = '#6B5440'; g.lineWidth = 26; g.beginPath(); g.arc(512, 512, 512, 0, 6.3); g.stroke();
   const endTex = new THREE.CanvasTexture(c); endTex.colorSpace = THREE.SRGBColorSpace;
-  const cyl = new THREE.CylinderGeometry(r * 1.06, r, len, 96, 1, false); cyl.rotateX(Math.PI / 2); // small end (radius r) toward +z
+  const cyl = new THREE.CylinderGeometry(r, r * 1.06, len, 96, 1, false); cyl.rotateX(Math.PI / 2); // top (radius r, the small end) ends up toward +z, the camera
   const log = new THREE.Mesh(cyl, [bark, new THREE.MeshStandardMaterial({ map: endTex, roughness: 0.85 }), bark]);
   log.position.set(0, r * 1.06, -len / 2); log.castShadow = log.receiveShadow = true; s.add(log);
   const zEnd = 0, yc = r * 1.06;
@@ -187,13 +187,13 @@ const SHOTS = {
       const fx = 1000, fy = 200;
       this.fs = el2(svg, 'g', {});
       el2(this.fs, 'path', { d: `M${fx},${fy} h${F.body * k} v${F.body_w * k} h${-(F.body - F.tongue_w) * k} v${(F.tongue - F.body_w) * k} h${-F.tongue_w * k} Z`, fill: '#8E9399', stroke: L.C.ink, 'stroke-width': 2 });
-      this.l1 = L.label({ romaji: 'sashigane', gloss: '520 × 270 mm overall · 15 mm wide', x: x0 + 40, y: y0 + 60, size: 40 });
+      this.l1 = L.label({ romaji: 'sashigane', gloss: 'scaled 500 × 250 mm · 15 mm wide', x: x0 + 40, y: y0 + 60, size: 40 });
       this.l2 = L.label({ gloss: '', x: fx + 80, y: y0 + 90 }); this.l2.innerHTML = '<div class="term">Western framing square</div><div class="gloss">24 × 16 in · 2 in blade</div>';
       this.scaleNote = L.text('top view · both drawn to the same scale', { x: 1824, y: 60, size: 36, cls: 'soft', align: 'right' });
       // section inset: sashigane cross-section 15 x ~1.4 mm, magnified
       this.sec = el2(svg, 'g', {}); const M = 18, sx = 140, sy = 820;
       el2(this.sec, 'rect', { x: sx, y: sy, width: s.width * M, height: s.thickness * M, fill: STEEL, stroke: L.C.ink, 'stroke-width': 2 });
-      this.secL = L.text('section, magnified 18×: about 15 mm wide, about 1.4 mm thick at most', { x: sx, y: sy + 50, size: 36 });
+      this.secL = L.text('section, magnified 18×: about 15 mm wide, about 1.4 mm thick', { x: sx, y: sy + 50, size: 36 });
       this.both = L.text('both are squares <i>and</i> rulers', { x: 1080, y: 760, size: 40 });
     },
     frame(t, sh) {
@@ -220,29 +220,20 @@ const SHOTS = {
   },
   S06: {
     build() {
-      const svg = L.svgLayer(), s = SG(), k = 2.2, bx = 330, by = 330, BW = 1260, BH = G.board[1] * k;
-      this.k = k; this.bx = bx; this.by = by;
+      const svg = L.svgLayer(), k = 2.2, bx = 330, by = 330, BW = 1260, BH = G.board[1] * k;
       L.woodRect(svg, bx, by, BW, BH);
-      L.text('board (top view)', { x: bx, y: by + BH + 70, size: 36, cls: 'soft' });
-      this.edgeL = L.text("board's edge", { x: bx + BW + 16, y: by + BH - 26, size: 36, cls: 'soft' });
-      // square: short arm along the board's near edge (outside it), long arm across the board
-      this.sq = el2(svg, 'g', {});
-      const X = 900;
-      const LA = (G.board[1] + 60) * k; el2(this.sq, 'path', { d: `M${X},${by + BH + s.width * k} v${-LA} h${s.width * k} v${LA - s.width * k} h${(s.overall_short - s.width) * k} v${s.width * k} Z`, fill: STEEL, stroke: L.C.ink, 'stroke-width': 2, opacity: 0.95 });
-      this.line = el2(svg, 'line', { x1: X, y1: by + BH, x2: X, y2: by + BH, stroke: L.C.ink, 'stroke-width': 4 });
-      this.lX = X; this.lY0 = by + BH; this.lY1 = by;
-      this.t1 = L.text('short arm against the edge', { x: X + 60, y: by + BH + 50, size: 36 });
-      this.t2 = L.text('hold the long arm near its middle', { x: X + 60, y: by + BH / 2 - 20, size: 36 });
-      this.t3 = L.text('draw along its outer edge', { x: X - 40, y: by - 150, size: 36, align: 'right' });
-      this.ep1 = L.text('the lines across the posts in Episode 1', { x: 96, y: 1000, size: 36, cls: 'soft' });
-      this.note = L.text('long arm drawn shortened', { x: 1824, y: 54, size: 36, cls: 'soft', align: 'right' });
+      this.X = 960; this.y0 = by + BH; this.y1 = by;
+      this.line = el2(svg, 'line', { x1: this.X, y1: this.y0, x2: this.X, y2: this.y0, stroke: L.C.ink, 'stroke-width': 5 });
+      this.ra = el2(svg, 'path', { d: `M${this.X},${this.y0 - 34} h34 v34`, fill: 'none', stroke: L.C.ink, 'stroke-width': 3 });
+      L.text('board (top view)', { x: bx, y: by + BH + 24, size: 36, cls: 'soft' });
+      this.t1 = L.text('a line squared across, at 90° to the edge', { x: this.X + 50, y: by + BH / 2 - 24, size: 40 });
+      this.ep1 = L.text('as the lines were carried across the posts in Episode 1', { x: 96, y: 900, size: 36, cls: 'soft' });
+      this.next = L.text('how to hold the sashigane: Part 2', { x: 96, y: 960, size: 36, cls: 'soft' });
     },
     frame(t, sh) {
-      const e = sh.ev;
-      const kin = L.ramp(t, e.edge - 0.4, e.edge + 0.5); this.sq.setAttribute('transform', `translate(0,${(1 - kin) * 160})`); L.show(this.sq, kin > 0 ? 1 : 0);
-      L.show(this.t1, L.ramp(t, e.edge, e.edge + 0.4)); L.show(this.t2, L.ramp(t, e.hold - 0.1, e.hold + 0.3)); L.show(this.t3, L.ramp(t, e.draw - 0.1, e.draw + 0.3)); L.show(this.note, L.ramp(t, e.edge, e.edge + 0.4));
-      const kd = L.ramp(t, e.draw, e.draw + 1.6); this.line.setAttribute('y2', this.lY0 + (this.lY1 - this.lY0) * kd);
-      L.show(this.ep1, L.ramp(t, e.ep1 - 0.2, e.ep1 + 0.3));
+      const e = sh.ev, kd = L.ramp(t, e.draw - 0.1, e.draw + 1.4);
+      this.line.setAttribute('y2', this.y0 + (this.y1 - this.y0) * kd); L.show(this.ra, L.ramp(t, e.draw + 1.2, e.draw + 1.6));
+      L.show(this.t1, L.ramp(t, e.draw + 1.2, e.draw + 1.6)); L.show(this.ep1, L.ramp(t, e.draw - 0.2, e.draw + 0.3)); L.show(this.next, L.ramp(t, e.next - 0.3, e.next + 0.2));
       return {};
     },
   },
@@ -258,29 +249,29 @@ const SHOTS = {
   },
   S08: {
     build() {
-      const svg = L.svgLayer(), s = SG(), x0 = 230, pxmm = 11, len = 110; // show 0..110 mm
+      const svg = L.svgLayer(), s = SG(), x0 = 160, pxmm = 11, len = 100; // show 0..100 mm
       this.flipG = el2(svg, 'g', {});
-      el2(this.flipG, 'rect', { x: x0, y: 150, width: 1210, height: s.width * 6, fill: STEEL, stroke: L.C.ink, 'stroke-width': 2 });
-      this.flipLab = L.text('turn it over: the back of the long arm', { x: 230, y: 90, size: 40 });
+      el2(this.flipG, 'rect', { x: x0, y: 150, width: 1100, height: s.width * 6, fill: STEEL, stroke: L.C.ink, 'stroke-width': 2 });
+      this.flipLab = L.text('turn it over', { x: 160, y: 80, size: 40 });
       const strip = (y, unit, label, kanji, gloss) => {
         const g = el2(svg, 'g', {});
         el2(g, 'rect', { x: x0, y, width: len * pxmm, height: 90, fill: STEEL, stroke: L.C.ink, 'stroke-width': 2 });
         for (let v = 0; v * unit <= len + 1e-6; v++) {
           const X = x0 + v * unit * pxmm, big = v % 10 === 0, mid = v % 5 === 0;
           el2(g, 'line', { x1: X, y1: y, x2: X, y2: y + (big ? 44 : mid ? 32 : 20), stroke: '#222', 'stroke-width': big ? 3 : 2 });
-          if (big && v) el2(g, 'text', { x: X, y: y + 78, 'font-size': 30, 'text-anchor': 'middle', 'font-family': 'Noto Sans', 'font-weight': 600, fill: '#222' }).textContent = v;
+          if (big && v) el2(g, 'text', { x: X, y: y + 82, 'font-size': 36, 'text-anchor': 'middle', 'font-family': "'Noto Sans CJK JP', sans-serif", 'font-weight': 600, fill: '#222' }).textContent = v;
         }
-        const lb = L.label({ romaji: label, kanji, gloss, x: x0 + len * pxmm + 40, y: y - 6, size: 40 });
+        const lb = L.label({ romaji: label, kanji, gloss, x: x0 + len * pxmm + 60, y: y - 6, size: 40 });
         return { g, lb };
       };
       this.front = strip(380, 1, 'omote-me', '表目', 'front · 1 unit = 1 mm');
       this.back = strip(620, G.root2, 'ura-me', '裏目', 'back · 1 unit = 1.414 mm');
       // ghost guides: 10 back units = 14.14 mm on the front scale
       this.g = el2(svg, 'g', {});
-      [10, 20, 30, 40, 50, 60, 70, 80].forEach((v) => { const X = x0 + v * G.root2 * pxmm; el2(this.g, 'line', { x1: X, y1: 470, x2: X, y2: 620, stroke: L.C.ghost, 'stroke-width': 3, 'stroke-dasharray': '6 6' }); });
-      this.eq = L.text('10 back units = 14.14 mm', { x: x0 + 10 * G.root2 * pxmm + 12, y: 520, size: 36 });
-      this.root = L.text('each back unit = front unit × √2 ≈ 1.414', { x: 230, y: 790, size: 48 }); this.root.style.fontWeight = 700;
-      this.kaku = L.text('formally called <i>kakume</i> <span style="font-family:\'Noto Serif CJK JP\'">角目</span>; one common layout puts it on the long arm\'s outer edge', { x: 230, y: 880, size: 36, cls: 'soft' });
+      [10, 20, 30, 40, 50, 60, 70].forEach((v) => { const X = x0 + v * G.root2 * pxmm; el2(this.g, 'line', { x1: X, y1: 470, x2: X, y2: 620, stroke: L.C.ghost, 'stroke-width': 3, 'stroke-dasharray': '6 6' }); });
+      this.eq = L.text('10 back units = 14.14 mm', { x: x0, y: 300, size: 40 });
+      this.root = L.text('each back unit = front unit × √2 ≈ 1.414', { x: 160, y: 790, size: 48 }); this.root.style.fontWeight = 700;
+      this.kaku = L.text('formally called <i>kakume</i> <span style="font-family:\'Noto Serif CJK JP\'">角目</span>; one common layout puts it on the long arm\'s outer edge', { x: 160, y: 880, size: 36, cls: 'soft' });
     },
     frame(t, sh) {
       const e = sh.ev;
@@ -299,7 +290,7 @@ const SHOTS = {
       this.sq = el2(svg, 'rect', { x: x0, y: y0, width: sz, height: sz, fill: '#E9E1D2', stroke: L.C.ink, 'stroke-width': 4 });
       this.sl = L.text('side 100 mm', { x: x0 + sz / 2, y: y0 + sz + 14, size: 36, align: 'center' });
       this.dg = el2(svg, 'line', { x1: x0, y1: y0 + sz, x2: x0, y2: y0 + sz, stroke: L.C.ink, 'stroke-width': 4 });
-      this.dgl = L.text('diagonal 141.4 mm', { x: x0 + sz / 2 + 40, y: y0 + sz / 2 - 60, size: 36 });
+      this.dgl = L.text('diagonal 141.4 mm', { x: x0 - 10, y: y0 - 70, size: 36 });
       this.eq1 = L.text('side² + side² = diagonal²', { x: 900, y: 330, size: 44 });
       this.eq2 = L.text('diagonal = side × √2', { x: 900, y: 410, size: 56 }); this.eq2.style.fontWeight = 700;
       this.eq3 = L.text('100 × 1.414 = 141.4 mm', { x: 900, y: 500, size: 40, cls: 'soft' });
@@ -308,6 +299,7 @@ const SHOTS = {
       const d = sz * Math.SQRT2;
       el2(this.scale, 'rect', { x: 0, y: -26, width: d + 30, height: 26, fill: STEEL, stroke: L.C.ink, 'stroke-width': 1.5 });
       for (let v = 0; v <= 100; v += 5) { const X = v * G.root2 * 4.2; el2(this.scale, 'line', { x1: X, y1: -26, x2: X, y2: v % 10 ? -14 : -6, stroke: '#222', 'stroke-width': v % 50 ? 1.5 : 3 }); }
+      const nx = 100 * G.root2 * 4.2; const nt = el2(this.scale, 'text', { x: nx, y: -36, 'font-size': 36, 'text-anchor': 'middle', 'font-family': "'Noto Sans CJK JP', sans-serif", 'font-weight': 700 }); nt.textContent = '100';
       this.scale.setAttribute('transform', `translate(${x0},${y0 + sz}) rotate(-45)`);
       this.rd = L.text('back scale reads <b>100</b>: the side', { x: 900, y: 640, size: 48 });
       this.rd2 = L.text('the same 141.4 mm, read on the back = 100', { x: 900, y: 720, size: 36, cls: 'soft' });
@@ -332,15 +324,15 @@ const SHOTS = {
       this.cl = L.text('corners on the circle', { x: 0, y: 0, size: 36 });
       this.dl = L.text('diagonal = diameter = 300 mm', { x: 0, y: 0, size: 36 });
       // magnifier inset on the reading at the right rim
-      this.mag = el2(svg, 'g', {}); const mx = 1330, my = 150, mw = 470, mh = 250;
+      this.mag = el2(svg, 'g', {}); const mx = 1290, my = 130, mw = 530, mh = 290;
       el2(this.mag, 'rect', { x: mx, y: my, width: mw, height: mh, fill: L.C.paper, stroke: L.C.ink, 'stroke-width': 3, rx: 10 });
       const cx = mx + mw / 2, pxu = 16; // px per back unit around the reading
       el2(this.mag, 'rect', { x: mx + 20, y: my + 90, width: mw - 40, height: 70, fill: STEEL, stroke: L.C.ink, 'stroke-width': 1.5 });
       const reading = G.checks.ura_reading_across_diameter;
-      for (let v = 198; v <= 226; v++) { const X = cx + (v - reading) * pxu; if (X < mx + 24 || X > mx + mw - 24) continue; const big = v % 10 === 0, mid = v % 5 === 0; el2(this.mag, 'line', { x1: X, y1: my + 160, x2: X, y2: my + 160 - (big ? 40 : mid ? 28 : 16), stroke: '#222', 'stroke-width': big ? 3 : 2 }); if (big) el2(this.mag, 'text', { x: X, y: my + 112, 'font-size': 28, 'text-anchor': 'middle', 'font-family': 'Noto Sans', 'font-weight': 600 }).textContent = v; }
+      for (let v = 198; v <= 226; v++) { const X = cx + (v - reading) * pxu; if (X < mx + 24 || X > mx + mw - 24) continue; const big = v % 10 === 0, mid = v % 5 === 0; el2(this.mag, 'line', { x1: X, y1: my + 160, x2: X, y2: my + 160 - (big ? 40 : mid ? 28 : 16), stroke: '#222', 'stroke-width': big ? 3 : 2 }); if (big) el2(this.mag, 'text', { x: X, y: my + 120, 'font-size': 36, 'text-anchor': 'middle', 'font-family': "'Noto Sans CJK JP', sans-serif", 'font-weight': 600 }).textContent = v; }
       el2(this.mag, 'line', { x1: cx, y1: my + 70, x2: cx, y2: my + 200, stroke: L.C.ink, 'stroke-width': 3 });
-      el2(this.mag, 'text', { x: cx, y: my + 236, 'font-size': 30, 'text-anchor': 'middle', 'font-family': 'Noto Sans' }).textContent = "log's edge";
-      el2(this.mag, 'text', { x: mx + 20, y: my + 46, 'font-size': 32, 'font-family': 'Noto Sans', 'font-weight': 700 }).textContent = `back scale reads ${reading.toFixed(1)}`;
+      el2(this.mag, 'text', { x: cx, y: my + 250, 'font-size': 36, 'text-anchor': 'middle', 'font-family': "'Noto Sans CJK JP', sans-serif" }).textContent = "log's far edge";
+      el2(this.mag, 'text', { x: mx + 20, y: my + 50, 'font-size': 36, 'font-family': "'Noto Sans CJK JP', sans-serif", 'font-weight': 700 }).textContent = `back scale reads ${reading.toFixed(1)}`;
       this.res = L.text(`largest square beam: <b>212 mm</b> a side <span class="soft">(212.1 = 300 ÷ √2)</span>`, { x: 96, y: 960, size: 44 });
     },
     frame(t, sh) {
@@ -351,7 +343,7 @@ const SHOTS = {
       const cam = L.camera('front', [0, LS.yc, 0], 1500, {});
       const P = (x, y) => L.toScreen(cam, [x, LS.yc + y, 0]);
       const c = [[-1, -1], [1, -1], [1, 1], [-1, 1]].map(([a, b]) => P(a * side / 2, b * side / 2));
-      this.sqG.setAttribute('points', c.map((p) => p.join(',')).join(' ')); L.show(this.sqG, L.ramp(t, e.corners - 0.2, e.corners + 0.4));
+      this.sqG.setAttribute('points', c.map((p) => p.join(',')).join(' ')); L.show(this.sqG, L.ramp(t, e.corners - 0.2, e.corners + 0.4) * (1 - L.ramp(t, e.ink + 1.2, e.ink + 1.8)));
       const a = P(-side / 2, -side / 2), b = P(side / 2, side / 2);
       this.diag.setAttribute('x1', a[0]); this.diag.setAttribute('y1', a[1]); this.diag.setAttribute('x2', b[0]); this.diag.setAttribute('y2', b[1]); L.show(this.diag, L.ramp(t, e.diag - 0.2, e.diag + 0.3));
       anchor(this.cl, cam, [side / 2, LS.yc + side / 2, 0], 24, -60); L.show(this.cl, L.fade(t, e.corners, e.lay, 0.3));
@@ -378,11 +370,11 @@ const SHOTS = {
       this.c = el2(svg, 'circle', { cx, cy, r: rr, fill: '#DDBF94', stroke: L.C.ink, 'stroke-width': 4 });
       this.circ = el2(svg, 'circle', { cx, cy, r: rr, fill: 'none', stroke: L.C.ink, 'stroke-width': 10, 'stroke-dasharray': `${2 * Math.PI * rr}`, 'stroke-dashoffset': `${2 * Math.PI * rr}`, transform: `rotate(-90 ${cx} ${cy})` });
       this.strip = el2(svg, 'g', {}); el2(this.strip, 'rect', { x: cx - rr, y: cy, width: 2 * rr, height: 40, fill: STEEL, stroke: L.C.ink, 'stroke-width': 1.5 });
-      for (let v = 0; v <= 942; v += 10) { const X = cx - rr + v / Math.PI * 2; el2(this.strip, 'line', { x1: X, y1: cy, x2: X, y2: cy + (v % 100 ? 12 : 26), stroke: '#222', 'stroke-width': v % 100 ? 1 : 2.5 }); }
+      for (let v = 0; v <= G.checks.maru_reading_across_diameter; v += 10) { const X = cx - rr + v / Math.PI * (2 * rr / G.checks.maru_demo_diameter); el2(this.strip, 'line', { x1: X, y1: cy, x2: X, y2: cy + (v % 100 ? 12 : 26), stroke: '#222', 'stroke-width': v % 100 ? 1 : 2.5 }); }
       this.lab = L.label({ romaji: 'marume', kanji: '丸目', gloss: 'round scale: 1 unit = 1 mm ÷ π', x: 1060, y: 230 });
-      this.r1 = L.text('across a 300 mm diameter it reads <b>942</b>', { x: 1060, y: 470, size: 44 });
-      this.r2 = L.text('= the circumference, 942 mm (300 × π)', { x: 1060, y: 550, size: 40, cls: 'soft' });
-      this.r3 = L.text('on some squares only · one common place: the back of the short arm', { x: 1060, y: 900, size: 36, cls: 'soft', w: 760 }); this.r3.classList.add('wrap');
+      this.r1 = L.text(`across a ${G.checks.maru_demo_diameter} mm diameter it reads <b>${Math.round(G.checks.maru_reading_across_diameter)}</b>`, { x: 1060, y: 470, size: 44 });
+      this.r2 = L.text(`= the circumference, ${Math.round(G.checks.maru_reading_across_diameter)} mm (${G.checks.maru_demo_diameter} × π)`, { x: 1060, y: 550, size: 40, cls: 'soft' });
+      this.r3 = L.text(`on some squares only · one common place: the back of the short arm (scaled 250 mm, so this circle is ${G.checks.maru_demo_diameter} mm)`, { x: 1060, y: 860, size: 36, cls: 'soft', w: 760 }); this.r3.classList.add('wrap');
     },
     frame(t, sh) {
       const e = sh.ev; L.show(this.c, L.ramp(t, 0, 0.4)); L.show(this.lab, L.ramp(t, e.term - 0.2, e.term + 0.3)); L.show(this.r3, L.ramp(t, e.term + 0.5, e.term + 1));
@@ -413,7 +405,7 @@ const SHOTS = {
   },
   S15: {
     build() {
-      const h = L.text('Front measures lengths. Back reads diagonals.', { x: 96, y: 70, size: 60 }); h.style.fontWeight = 700;
+      const h = L.text('Front measures lengths. Back turns a diagonal into its side.', { x: 96, y: 70, size: 56 }); h.style.fontWeight = 700;
       L.text('A thin, springy square that is also a calculator.', { x: 96, y: 160, size: 40, cls: 'soft' });
       const rows = [
         ['sashigane', '差金', "carpenter's square", 'thin steel L, a square and a ruler; also 曲尺 kanejaku'],

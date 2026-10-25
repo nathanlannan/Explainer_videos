@@ -19,7 +19,7 @@ SFX = ROOT / "shared/audio/sfx"
 TARGET_LUFS, TP_MAX = -16.0, -1.0
 DUCK_SPEECH, DUCK_FREE = -17.5, -12.0    # music loudness relative to voice, during / between speech (LU)
 SFX_REL = -9.0                           # each SFX's own loudness relative to voice (LU)
-SFX_GAIN = {"stick_place": 2, "mark": -7, "pencil": -4, "mark_long": -6, "tape_out": -3, "tape_snap": -3}  # per-sound trims (dB)
+SFX_GAIN = {"steel_set": 2, "stick_place": 2, "mark": -7, "pencil": -4, "mark_long": -3, "tape_out": -3, "tape_snap": -3}  # per-sound trims (dB)
 
 
 def load(p, ch=1):

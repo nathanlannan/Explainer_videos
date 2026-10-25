@@ -5,7 +5,9 @@
  "corner_radius": 150.0,
  "poke_out_at_side_mm3": 0.0,
  "poke_out_at_side_plus_1mm_mm3": 2.0,
- "maru_reading_across_diameter": 942.5,
+ "maru_demo_diameter": 200.0,
+ "maru_reading_across_diameter": 628.3,
+ "maru_fits_short_arm": true,
  "pythagoras_example_diagonal": 141.42,
  "pythagoras_example_ura_reading": 100.0,
  "ok": true

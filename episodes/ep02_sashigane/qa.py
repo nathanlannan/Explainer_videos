@@ -52,7 +52,7 @@ for s in tl["shots"]:
         for w, ws, we in ln["words"]:
             pass
 pairs = [("S03", "term", "N03", "sashigane"), ("S03", "nagate", "N04", "nagate"), ("S03", "tsumate", "N04", "tsumate"), ("S07", "term", "N08", "omote"),
-         ("S08", "term", "N09", "urame"), ("S10", "read", "N13", "read"), ("S12", "term", "N16", "marume"), ("S11", "term", "N15", "own")]
+         ("S08", "term", "N09", "scale"), ("S10", "read", "N13", "read"), ("S12", "term", "N16", "marume"), ("S11", "term", "N15", "own")]
 worst = 0
 for sid, ev, lid, word in pairs:
     s = next(x for x in tl["shots"] if x["id"] == sid)

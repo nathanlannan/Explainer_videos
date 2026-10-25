@@ -18,6 +18,7 @@ LOG_D = 300.0        # small-end diameter of the demo log (model choice: a round
 LOG_LEN = 1800.0     # model choice
 BOARD = (600.0, 180.0)   # board for the squaring demo, length x width (model choice)
 EXAMPLE_SIDE = 100.0      # Pythagoras example square side (model choice)
+MARU_D = 200.0            # marume demo circle: must fit the 250 mm scaled short arm, where the marume sits (R2-12)
 
 
 def checks():
@@ -36,12 +37,14 @@ def checks():
         "corner_radius": round(side / 2 * ROOT2, 4),
         "poke_out_at_side_mm3": round(poke(side - 0.05), 4),
         "poke_out_at_side_plus_1mm_mm3": round(poke(side + 1.0), 2),
-        "maru_reading_across_diameter": round(maru_reading(LOG_D), 1),
+        "maru_demo_diameter": MARU_D,
+        "maru_reading_across_diameter": round(maru_reading(MARU_D), 1),
+        "maru_fits_short_arm": MARU_D <= SQ.short_scale,
         "pythagoras_example_diagonal": round(EXAMPLE_SIDE * ROOT2, 2),
         "pythagoras_example_ura_reading": round(ura_reading(EXAMPLE_SIDE * ROOT2), 2),
     }
     c["ok"] = (c["reading_equals_side"] and c["poke_out_at_side_mm3"] < 0.01 and c["poke_out_at_side_plus_1mm_mm3"] > 1
-               and abs(c["pythagoras_example_ura_reading"] - EXAMPLE_SIDE) < 1e-6)
+               and abs(c["pythagoras_example_ura_reading"] - EXAMPLE_SIDE) < 1e-6 and c["maru_fits_short_arm"])
     return c
 
 

@@ -113,7 +113,7 @@ def main():
     # thin steel square set down on wood: a bright, short metallic tick with a faint ring
     d = 0.5
     ring = sum(a * np.sin(2 * np.pi * f * t(d)) * np.exp(-t(d) * k) for f, a, k in ((3150, 1, 22), (4870, .5, 30), (6900, .3, 40)))
-    write("steel_set", 0.35 * ring * env(int(d * SR), 0.0004, d, 2) + 0.8 * knock(520, d, noise=0.5), 0.6)
+    write("steel_set", 0.75 * ring * env(int(d * SR), 0.0004, d, 2) + 0.8 * knock(520, d, noise=0.5), 0.6)
 
     # --- later episodes (built now so the library is complete) ---
     # pull-stroke saw: five strokes; cutting on the pull (louder, toothy), quiet return

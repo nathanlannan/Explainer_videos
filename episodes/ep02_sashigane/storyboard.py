@@ -47,11 +47,10 @@ def _(s):
     s.line("N06", {"flex": "flexes", "springs": "springs", "press": "press"}, gap=0.5)
 
 
-@shot("S06", "Squaring a line", "2d", "Top view: short arm against the board's edge, long arm across; a line drawn along the long arm's outer edge.")
+@shot("S06", "Used as a square", "2d", "Top view: a line squared across a board (right-angle mark); how to hold the square is deferred to Part 2.")
 def _(s):
     s.pause(0.3)
-    s.line("N07", {"edge": "edge", "hold": "hold", "draw": "draw", "ep1": "carried"}, gap=0.6, sfx={"draw": "mark_long"})
-    s.sfx.append((q(s.ev["edge"] + 0.5), "steel_set"))
+    s.line("N07", {"draw": "carried", "next": "next"}, gap=0.6, sfx={"draw": "mark_long"})
 
 
 # ---------------- 3. The two scales ----------------
@@ -65,9 +64,9 @@ def _(s):
 @shot("S08", "Back scale", "2d", "The square flips; the back scale ura-me 裏目; front and back scales compared side by side: 10 back units = 14.14 mm.")
 def _(s):
     s.pause(0.2)
-    s.line("N09", {"turn": "turn", "term": "urame", "wider": "wider", "root": "root"}, gap=0.5)
+    s.line("N09", {"turn": "turn", "term": ("scale", 0.5), "wider": "wider", "root": "root"}, gap=0.5)
     s.sfx.append((q(s.ev["turn"] + 0.4), "steel_set"))
-    s.hold(1.5)
+    s.hold(3.5, "Study: front scale vs. back scale")
 
 
 @shot("S09", "Why root two", "2d", "A 100 mm square, its diagonal 141.4 mm; s² + s² = d²; the back scale laid along the diagonal reads 100.")

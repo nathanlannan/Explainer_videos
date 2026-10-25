@@ -78,3 +78,45 @@ Each line is a decision and its one-line reason. Times are UTC on 2026-10-24.
 
 ## Final spend
 $0.3186 of $5.00 over 133 logged calls (actual costs from OpenRouter generation stats).
+
+---
+
+# Episode 2 · Part 1: The Marking Kit, The Sashigane
+
+## Planning
+- **Split.** "The Marking Kit" covers six tools, each beside its Western cousin, and won't fit generously in 5 minutes. So Ep 2 is split: **Part 1, the sashigane** (with the √2 back scale), and **Part 2, the ink line, ink pen and gauges**. I numbered it "Episode 2 · Part 1" rather than renumbering, so that Episode 1's spoken line "That board is episode three" stays true.
+- **One idea:** the back scale is the front × √2, so it turns a diagonal into the side. Across a log's small end it gives the largest square beam directly.
+- **Research** (rows R2-01 to R2-19): JIS B 7534:2005 plus Japanese dictionaries (Kotobank), the MHLW manual and a Yamaguchi University paper.
+  - Two traps were avoided. **The MHLW manual gets the marume wrong**: it gives the log-to-beam use to the marume and its unit as "3.14 cm". "**Flexes to wrap round logs**" has no source, so it isn't used.
+- **Dimensions** (`shared/geometry/tools.py`, all from JIS A形 except where noted):
+  - scaled 500 / 250 mm; long arm 520 mm overall; 15 mm wide; 1.4 mm thick
+  - short-arm overall length 270 mm: a model choice, not shown as a JIS figure
+  - framing square 24 × 2 in / 16 × 1.5 in
+  - demo log 300 mm; marume demo circle 200 mm, so it fits the 250 mm short arm
+- **Scales** are computed: front tick k at k mm, back tick k at k·√2 mm, marume tick k at k/π mm. `params.py` proves with exact solids (manifold3d) that the back-scale reading across 300 mm (212.13) equals the largest inscribed square's side. Corners sit at r = 150.000; a square 1 mm larger pokes out by 2 mm³ per mm of depth.
+- **Squaring-a-line technique cut from Part 1.** The research gives the words (MHLW: short arm to the edge, draw along the long arm's outer edge). But I couldn't settle the 3D registration: is the blade held flat on the face, or on edge? A wrong grip shown in close-up would teach something false, so Part 1 shows only a squared line and defers how to hold it to Part 2, after a targeted check.
+- **Narration:** 551 words, 251 s of speech, 131 wpm while speaking; runtime 4:57.
+- **Pronunciation:** Gemini TTS turns a final "-me" into "-may". Fixed with the respellings `omote-meh` and `maroo-meh`, both confirmed by the two listeners. This is now a series rule in `pronunciation.md`.
+
+## Gate A (self + independent reviewer)
+- **Self:** the sashigane went invisible after the cold open (visibility leaked between shots; now reset in every frame). Steel rendered near-black (metalness lowered). The S03/S04/S06/S07/S08/S13 layouts were rescaled and relabelled.
+- **Reviewer BLOCKERS, all fixed:**
+  1. The log was built with its big end toward the camera, so the square didn't look inscribed. The geometry was corrected and the corners now meet the circle.
+  2. The 3D back scale was mirrored and on the wrong edge. Fixed and verified by zooming: it reads 212 at the far edge.
+  3. The marume demo used a 300 mm circle that the 250 mm arm can't span. It now uses a 200 mm circle reading 628, with a check in `params.py`.
+- **Reviewer should-fixes, fixed:**
+  - N09 no longer asserts the scale placement.
+  - "1.4 mm at most" → "about 1.4 mm"; spoken as "about one and a half millimeters".
+  - S04 shows "scaled 500 × 250 mm".
+  - S08 hold 3.5 s, with a chapter.
+  - S08/S09/S10 layout and type fixes; SVG text now uses an installed font (Noto Sans CJK JP; plain Noto Sans isn't installed).
+  - N12/N13 say "small end, because a log tapers" and "straight through the center".
+  - N14 says "no calculator" instead of "no tables" (which N17 praises).
+  - Units are spoken in mm; the recap title reads "Back turns a diagonal into its side".
+- **Reviewer item 7** (explain how a flat L registers on an edge): resolved by cutting the technique, as above.
+
+## Gate B (test sequence: `episodes/ep02_sashigane/gates/B_test_sequence/test_sequence.mp4`, the log demo)
+- The listener rated narration and music clean; SFX too quiet, and steel_set lacking metallic character. Fixed: the ring is doubled, steel_set +2 dB, mark_long +3 dB. These shared mixer trims apply to later mixes; Episode 1's delivered mix is unchanged.
+
+## Bench exercise
+- A printable 1:1 back scale and marume strip with a 100 mm calibration bar. The first PDF printed 2% small: the strip was wider than A4's printable area, so Chromium shrank the page. Fixed, then verified by rasterizing at 254 dpi: the bar measures exactly 1,000 px = 100.0 mm.

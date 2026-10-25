@@ -22,13 +22,13 @@
   {
    "id": "N04",
    "section": 2,
-   "text": "The long arm is the nagate. The short arm is the tsumate. The common size is scaled to fifty centimeters on the long arm, and twenty-five on the short.",
+   "text": "The long arm is the nagate. The short arm is the tsumate. The common size is scaled to five hundred millimeters on the long arm, and two hundred fifty on the short.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
   },
   {
    "id": "N05",
    "section": 2,
-   "text": "Beside it, the Western framing square: twenty-four inches by sixteen, with a two-inch blade. Both are squares and rulers at once. But the sashigane is only about fifteen millimeters wide, and barely more than a millimeter thick.",
+   "text": "Beside it, the Western framing square: twenty-four inches by sixteen, with a two-inch blade. Both are squares and rulers at once. But the sashigane is only about fifteen millimeters wide, and only about one and a half millimeters thick.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
   },
   {
@@ -40,8 +40,8 @@
   {
    "id": "N07",
    "section": 2,
-   "text": "To square a line across a board, the short arm goes against the board's edge. Hold the long arm near its middle, and draw along its outer edge. It's the tool that carried the lines across the posts in the last episode.",
-   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
+   "text": "Used as a square, it carried the lines across the posts in the last episode. How to hold it? That comes next time, with the rest of the marking kit.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 115 words per minute, unhurried, with a clear pause after each sentence, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
   },
   {
    "id": "N08",
@@ -53,7 +53,7 @@
   {
    "id": "N09",
    "section": 3,
-   "text": "Turn it over, and the long arm carries a second scale, the ura-me. Its marks are spaced wider. Each unit is a front unit times the square root of two: about one point four one four.",
+   "text": "Turn it over, and the back carries a second scale, the ura-me. Its marks are spaced wider. Each unit is a front unit times the square root of two: about one point four one four.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
   },
   {
@@ -71,19 +71,19 @@
   {
    "id": "N12",
    "section": 4,
-   "text": "Back to the log. The biggest square you can cut from a round end has its corners on the circle. So its diagonal is the log's diameter.",
+   "text": "Back to the log. Measure at the small end, because a log tapers and the small end limits the beam. The biggest square you can cut there has its corners on the circle, so its diagonal is the log's diameter.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
   },
   {
    "id": "N13",
    "section": 4,
-   "text": "Lay the back scale across the small end, and read it. Two hundred twelve. That's the side of the largest square beam this log can give: two hundred twelve millimeters.",
+   "text": "Lay the back scale across the small end, straight through the center, and read it at the far edge. Two hundred twelve. That's the side of the largest square beam this log can give: two hundred twelve millimeters.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
   },
   {
    "id": "N14",
    "section": 4,
-   "text": "No multiplying, no tables, no chance to slip a digit. The arithmetic is built into the tool.",
+   "text": "No calculator, no pencil arithmetic, no chance to slip a digit. The arithmetic is built into the tool.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 130 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress."
   },
   {

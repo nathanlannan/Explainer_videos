@@ -1,0 +1,292 @@
+1
+00:00:00,800 --> 00:00:05,450
+This log measures three hundred
+millimeters across its small end.
+
+2
+00:00:06,040 --> 00:00:09,450
+What is the biggest square
+beam you could cut from it?
+
+3
+00:00:09,633 --> 00:00:12,923
+A Japanese carpenter doesn't
+reach for a calculator.
+
+4
+00:00:13,373 --> 00:00:15,183
+They turn their square over.
+
+5
+00:00:21,567 --> 00:00:25,717
+This is a sashigane, the
+Japanese carpenter's square.
+
+6
+00:00:26,227 --> 00:00:29,327
+It's a thin L of steel, today usually
+
+7
+00:00:29,367 --> 00:00:32,837
+stainless, marked as a
+ruler along its edges.
+
+8
+00:00:33,233 --> 00:00:35,803
+The long arm is the nagate.
+
+9
+00:00:36,353 --> 00:00:38,483
+The short arm is the tsumate.
+
+10
+00:00:39,193 --> 00:00:43,093
+The common size is scaled to
+five hundred millimeters on
+
+11
+00:00:43,133 --> 00:00:46,423
+the long arm, and two
+hundred fifty on the short.
+
+12
+00:00:47,233 --> 00:00:50,063
+Beside it, the Western framing square:
+
+13
+00:00:50,103 --> 00:00:54,223
+twenty-four inches by sixteen,
+with a two-inch blade.
+
+14
+00:00:55,213 --> 00:00:58,083
+Both are squares and rulers at once.
+
+15
+00:00:58,733 --> 00:01:03,153
+But the sashigane is only
+about fifteen millimeters wide,
+
+16
+00:01:03,193 --> 00:01:06,903
+and only about one and a
+half millimeters thick.
+
+17
+00:01:09,133 --> 00:01:11,243
+That thinness is deliberate.
+
+18
+00:01:11,813 --> 00:01:17,793
+The blade flexes and springs back, so the
+carpenter can bend it slightly with their
+
+19
+00:01:17,833 --> 00:01:22,383
+fingers and press it flat against
+the wood, right where the line goes.
+
+20
+00:01:23,200 --> 00:01:28,830
+Used as a square, it carried the lines
+across the posts in the last episode.
+
+21
+00:01:29,720 --> 00:01:30,950
+How to hold it?
+
+22
+00:01:31,200 --> 00:01:34,570
+That comes next time, with
+the rest of the marking kit.
+
+23
+00:01:35,400 --> 00:01:39,770
+The front carries ordinary
+measurements, the omote-me.
+
+24
+00:01:40,580 --> 00:01:42,950
+Today that's usually millimeters.
+
+25
+00:01:43,540 --> 00:01:47,050
+Some squares carry the
+traditional shaku units instead.
+
+26
+00:01:47,700 --> 00:01:53,050
+Turn it over, and the back carries
+a second scale, the ura-me.
+
+27
+00:01:53,540 --> 00:01:55,490
+Its marks are spaced wider.
+
+28
+00:01:56,300 --> 00:02:00,640
+Each unit is a front unit
+times the square root of two:
+
+29
+00:02:00,980 --> 00:02:03,284
+about one point four one four.
+
+30
+00:02:07,700 --> 00:02:10,490
+Why would anyone want a stretched ruler?
+
+31
+00:02:11,320 --> 00:02:14,670
+Because of one shape that
+is everywhere in timber:
+
+32
+00:02:15,100 --> 00:02:16,100
+the square.
+
+33
+00:02:16,480 --> 00:02:22,144
+A square's diagonal is always its
+side times the square root of two.
+
+34
+00:02:22,467 --> 00:02:29,037
+So measure a diagonal with the back scale,
+and the number you read is the side.
+
+35
+00:02:29,927 --> 00:02:33,867
+A square one hundred
+millimeters on a side has a
+
+36
+00:02:33,907 --> 00:02:37,377
+diagonal of one hundred
+forty-one point four.
+
+37
+00:02:37,587 --> 00:02:41,769
+On the back scale, that same
+length reads one hundred.
+
+38
+00:02:46,667 --> 00:02:47,897
+Back to the log.
+
+39
+00:02:48,507 --> 00:02:54,837
+Measure at the small end, because a log
+tapers and the small end limits the beam.
+
+40
+00:02:55,567 --> 00:02:59,427
+The biggest square you can
+cut there has its corners on
+
+41
+00:02:59,467 --> 00:03:03,437
+the circle, so its diagonal
+is the log's diameter.
+
+42
+00:03:03,867 --> 00:03:07,627
+Lay the back scale across
+the small end, straight
+
+43
+00:03:07,667 --> 00:03:11,237
+through the center, and
+read it at the far edge.
+
+44
+00:03:11,347 --> 00:03:13,397
+Two hundred twelve.
+
+45
+00:03:13,867 --> 00:03:18,204
+That's the side of the largest
+square beam this log can give:
+
+46
+00:03:18,244 --> 00:03:20,457
+two hundred twelve millimeters.
+
+47
+00:03:20,933 --> 00:03:27,143
+No calculator, no pencil arithmetic,
+no chance to slip a digit.
+
+48
+00:03:27,873 --> 00:03:30,583
+The arithmetic is built into the tool.
+
+49
+00:03:35,700 --> 00:03:41,830
+The same scale is used in laying out
+roofs, where hips run on diagonals.
+
+50
+00:03:42,460 --> 00:03:48,150
+That craft has its own name,
+kikujutsu, and it's beyond this series.
+
+51
+00:03:49,000 --> 00:03:52,930
+Some squares add one
+more scale, the marume.
+
+52
+00:03:53,540 --> 00:03:57,170
+Its units are a front unit divided by pi.
+
+53
+00:03:57,820 --> 00:04:01,770
+Lay it across a log's diameter,
+and it reads the circumference.
+
+54
+00:04:04,300 --> 00:04:08,390
+The framing square plays the
+same trick in its own way.
+
+55
+00:04:08,760 --> 00:04:13,690
+Its rafter and board-measure tables
+put the arithmetic on the steel too.
+
+56
+00:04:14,440 --> 00:04:16,970
+Two traditions, one idea:
+
+57
+00:04:17,540 --> 00:04:19,250
+let the tool do the math.
+
+58
+00:04:20,100 --> 00:04:23,210
+Next time, the rest of the marking kit:
+
+59
+00:04:23,740 --> 00:04:28,800
+the ink line and the ink pen,
+and the gauges that scribe
+
+60
+00:04:28,840 --> 00:04:32,970
+parallel lines, each
+beside its Western cousin.
+
+61
+00:04:33,900 --> 00:04:38,490
+A thin, springy square
+that is also a calculator.
+
+62
+00:04:39,200 --> 00:04:40,950
+The front measures lengths.
+
+63
+00:04:41,340 --> 00:04:45,230
+The back measures diagonals,
+and reads you the side.

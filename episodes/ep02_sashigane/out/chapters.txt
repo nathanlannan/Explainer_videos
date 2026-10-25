@@ -1,0 +1,24 @@
+Chapter markers (also embedded in the MP4)
+
+0:00.00  Cold open
+0:21.17  Meet the sashigane
+1:35.10  Front and back scales
+2:03.90  Study: front scale vs. back scale
+2:42.37  Study: why the back scale is ×√2
+2:46.37  The log: largest square beam
+3:30.90  Study: log diameter → largest beam
+4:04.00  Same idea, two traditions
+4:33.50  Recap and glossary
+4:45.70  Glossary
+
+YouTube-style:
+0:00 Cold open
+0:21 Meet the sashigane
+1:35 Front and back scales
+2:03 Study: front scale vs. back scale
+2:42 Study: why the back scale is ×√2
+2:46 The log: largest square beam
+3:30 Study: log diameter → largest beam
+4:04 Same idea, two traditions
+4:33 Recap and glossary
+4:45 Glossary
