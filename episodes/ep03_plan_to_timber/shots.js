@@ -264,9 +264,9 @@ function titleCard() {
   el2(svg, 'line', { x1: 96, y1: 470, x2: 560, y2: 470, stroke: INK, 'stroke-width': 4, 'stroke-dasharray': '60 14 10 14' });
   const a = L.text('JAPANESE JOINERY BY HAND', { x: 96, y: 300, size: 40 }); a.style.letterSpacing = '0.18em';
   const b = L.text('EPISODE 3', { x: 96, y: 370, size: 48 }); b.style.fontWeight = 700; b.style.letterSpacing = '0.12em';
-  const c = L.text('From Plan to Timber', { x: 96, y: 510, size: 110 }); c.style.fontWeight = 700;
+  const c = L.text('From Plan to Timber', { x: 96, y: 510, size: 96 }); c.style.fontWeight = 700;
   L.text('The Board Plan and Its Addresses', { x: 96, y: 650, size: 64, cls: 'soft' });
-  const p = drawPlan(svg, 1260, 380, 170, { labels: true }); void p;
+  const p = drawPlan(svg, 1380, 380, 145, { labels: true }); void p; // right of the title, labels clear of it
 }
 function endCard() {
   const a = L.text('JAPANESE JOINERY BY HAND', { x: 96, y: 330, size: 40 }); a.style.letterSpacing = '0.18em';

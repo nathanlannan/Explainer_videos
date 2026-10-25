@@ -34,12 +34,17 @@ Rows are numbered R5-xx and are cited from `research_table.md`.
 | R5-17 | Mukōmachi-nomi: a thick mortise chisel for deep holes | 向待鑿 むこうまち | WBH; Tokyo vocational-training log | verified |
 | R5-18 | Struck chisels carry an iron hoop on the handle end | 桂 かつら (kana only in JAANUS); 冠 | JAANUS nomi; WBH; Fox13 | verified (kana) |
 | R5-19 | Laminated blades: a thin layer of hard steel forge-welded to a softer iron body | 鋼 はがね; 地金 じがね | Odate81; Okimoto90; Fox13; Harima; K-鋼 | verified |
-| R5-20 | A shallow hollow in the back (not a hollow-ground bevel) | 裏スキ うらすき | Odate81; Fox13 | verified |
+| R5-20 | A shallow hollow in the back (not a hollow-ground bevel); it makes the back easier to flatten | 裏スキ うらすき | Odate81 ("hollowed-out to facilitate keeping the back completely flat"); Fox13; Kakuri (maker) 「刃裏が有った方が簡単に裏を出せ」 | verified |
 | R5-21 | Gennō: one flat face and one slightly domed face; the domed face gives the last blows so the surface isn't marred | 玄能 げんのう; 木殺し面 きごろしめん | Nip (K-玄能); JAANUS gennou | verified (for nailing) |
 | R5-22 | The kanna is pulled toward you (Western and Chinese planes are pushed) | 鉋 かんな | WBH; JAANUS kanna | verified |
 | R5-23 | The blade sits in a wooden block, usually oak | 台 だい | WBH; マイペディア; JAANUS | verified |
 | R5-24 | Two-blade plane: the chip-breaker stops tear-out; a Meiji innovation | 二枚鉋 にまいがんな; 裏金 うらがね | Nip; K-二枚鉋; WBH; JAANUS; MHLW p.12 | verified |
-| R5-25 | The blade is set by tapping it with a hammer | — | MHLW pp.12–14 | single-source (authoritative manual) |
+| R5-25 | The blade is set by tapping with a hammer: on the blade's head to advance it; on the corners of the block's head end (台頭) to draw it back | — | MHLW pp.12–14 (「かなづちで、本刃の頭を軽くたたいて刃を出す」; retract by tapping the corners of the 台頭) | single-source (authoritative manual) |
+| R5-27 | Woodworking chisels are single-bevelled | 片刃 かたば | K-鑿 (WBH, マイペディア: woodworking chisels are all 片刃); Odate81 ("Most blades are beveled on one side") | verified |
+| R5-28 | The softer iron supports the thin hard steel: it gives mass and shock damping and keeps the brittle steel from breaking | 地金 | Odate81 ("supported by a thick, soft steel"); Fox, "Choosing and Using Japanese Chisels", FWW #233 (2013): "provides mass and shock dampening and prevents the hard, brittle steel from fracturing" | verified |
+| R5-29 | On a chisel the hard steel is on the back (flat) side; flattening the back wears it away until the iron shows | 鋼 on 裏 | Kakuri (maker): 「裏を研磨して行きますとだんだん裏側に付いている鋼が減っていく…最後は地金が出て」; kanna-ya.net (strike the soft iron, not the steel) | single-source (maker), used for the section drawing only |
+| R5-30 | A Japanese maker contrasts foreign blades (one piece of steel) with Japanese laminated blades (合わせ刃物) | 合わせ刃物 | Harima Quarterly no. 49 (常三郎, 魚住徹): 「海外の刃物はオールスティールの１枚もの…日本の刃物は合わせ刃物というのが特徴です」 | single-source, attributed on screen and in narration |
+| R5-31 | Sharpen chisels and planes well after use | — | MHLW p.2: 「特にのみ・かんなは使用後良く研いでおく」 | single-source (authoritative manual), attributed |
 | R5-26 | A dull tool invites injury; never point a chisel edge at yourself or others | — | MHLW pp.2, 28 | single-source. "Learn from a teacher" is the series' own advice, not a citation. |
 
 **Avoid:**

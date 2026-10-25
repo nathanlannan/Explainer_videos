@@ -18,7 +18,7 @@ import listen  # noqa: E402
 MODEL, VOICE, PRICE = "google/gemini-3.8-flash-tts", "Sulafat", 0.00001
 INSTR = ("A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Steady pace of about 135 words per minute. "
          "Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.")
-TERMS = {}  # TODO: romaji/respelling -> kana for this episode's terms
+TERMS = {"nee-my gahnn-nah": "にまいがんな", "kahnn-nah": "かんな", "tataki": "たたき", "tsuki": "つき", "nomi": "のみ", "Tataki": "たたき", "Tsuki": "つき", "kan-na": "かんな", "the dai": "だい", "its dai": "だい", "kee-go-roh-shee men": "きごろしめん", "nee-my-gan-na": "にまいがんな", "noh-mee": "のみ", "Tah-tah-kee": "たたき", "Tsoo-kee": "つき", "kah-tsoo-rah": "かつら", "oh-ee-reh": "おいれ", "oh-ee-ee-reh": "おいいれ", "oh-oh-ee-reh": "おおいれ", "moo-koh-mah-chee": "むこうまち", "hah-gah-neh": "はがね", "jee-gah-neh": "じがね", "oo-rah-soo-kee": "うらすき", "gen-noh": "げんのう", "kee-goh-roh-shee-men": "きごろしめん", "kahn-nah": "かんな", "dye": "だい", "nee-my gahn-nah": "にまいがんな", "oo-rah-gah-neh": "うらがね", "ryohh-bah": "りょうば", "May-jee": "めいじ", "koh-shee-kah-keh ah-ree-tsoo-gee": "こしかけありつぎ"}
 LISTENERS = ["google/gemini-3.8-flash", "openai/gpt-audio-mini"]
 AUD = HERE / "audio"
 QA = HERE / "build" / "narration_qa.json"
@@ -68,7 +68,7 @@ def main():
         QA.parent.mkdir(exist_ok=True)
         QA.write_text(json.dumps(qa, indent=1, ensure_ascii=False))
         print(ln["id"], q["take"], q["duration"], q["wpm"], "|", q["asr"][:90],
-              "|", json.dumps({m: [(t.get("heard_kana"), t.get("correct")) for t in v] for m, v in q.get("listen", {}).items()}, ensure_ascii=False))
+              "|", json.dumps({m: ([(t.get("heard_kana"), t.get("correct")) for t in v] if isinstance(v, list) else str(v)[:160]) for m, v in q.get("listen", {}).items()}, ensure_ascii=False))
     tot = sum(qa[l["id"]]["duration"] for l in lines)
     print(f"total speech {tot:.1f}s; spent ${o.spent():.4f}")
 

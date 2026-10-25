@@ -1,0 +1,3350 @@
+{
+ "N01": {
+  "take": 1,
+  "duration": 6.745,
+  "asr": "A Japanese plane is pulled toward you. A thin shaving curls up out of the block.",
+  "words": [
+   [
+    "A",
+    0.0,
+    0.2
+   ],
+   [
+    "Japanese",
+    0.2,
+    0.72
+   ],
+   [
+    "plane",
+    0.72,
+    1.26
+   ],
+   [
+    "is",
+    1.26,
+    1.6
+   ],
+   [
+    "pulled",
+    1.6,
+    2.0
+   ],
+   [
+    "toward",
+    2.0,
+    2.5
+   ],
+   [
+    "you.",
+    2.5,
+    2.96
+   ],
+   [
+    "A",
+    3.74,
+    3.76
+   ],
+   [
+    "thin",
+    3.76,
+    4.18
+   ],
+   [
+    "shaving",
+    4.18,
+    4.76
+   ],
+   [
+    "curls",
+    4.76,
+    5.32
+   ],
+   [
+    "up",
+    5.32,
+    5.7
+   ],
+   [
+    "out",
+    5.7,
+    6.08
+   ],
+   [
+    "of",
+    6.08,
+    6.22
+   ],
+   [
+    "the",
+    6.22,
+    6.3
+   ],
+   [
+    "block.",
+    6.3,
+    6.54
+   ]
+  ],
+  "wpm": 142.3
+ },
+ "N02": {
+  "take": 1,
+  "duration": 9.429,
+  "asr": "This time, the rest of the cutting kit, chisels, the hammer, and the plane, each one beside its western cousin.",
+  "words": [
+   [
+    "This",
+    0.0,
+    0.3
+   ],
+   [
+    "time,",
+    0.3,
+    0.66
+   ],
+   [
+    "the",
+    1.04,
+    1.1
+   ],
+   [
+    "rest",
+    1.1,
+    1.42
+   ],
+   [
+    "of",
+    1.42,
+    1.76
+   ],
+   [
+    "the",
+    1.76,
+    1.92
+   ],
+   [
+    "cutting",
+    1.92,
+    2.18
+   ],
+   [
+    "kit,",
+    2.18,
+    2.52
+   ],
+   [
+    "chisels,",
+    3.08,
+    3.72
+   ],
+   [
+    "the",
+    4.34,
+    4.38
+   ],
+   [
+    "hammer,",
+    4.38,
+    4.72
+   ],
+   [
+    "and",
+    5.42,
+    5.66
+   ],
+   [
+    "the",
+    5.66,
+    5.82
+   ],
+   [
+    "plane,",
+    5.82,
+    6.16
+   ],
+   [
+    "each",
+    7.02,
+    7.22
+   ],
+   [
+    "one",
+    7.22,
+    7.64
+   ],
+   [
+    "beside",
+    7.64,
+    8.18
+   ],
+   [
+    "its",
+    8.18,
+    8.5
+   ],
+   [
+    "western",
+    8.5,
+    8.9
+   ],
+   [
+    "cousin.",
+    8.9,
+    9.2
+   ]
+  ],
+  "wpm": 127.3
+ },
+ "N03": {
+  "take": 3,
+  "duration": 10.994,
+  "asr": "Japanese chisels, nomi, come in two families. Tataki nomi are struck with a hammer. Tsuki nomi are pushed by hand with no hammer.",
+  "words": [
+   [
+    "Japanese",
+    0.0,
+    0.64
+   ],
+   [
+    "chisels,",
+    0.64,
+    1.26
+   ],
+   [
+    "nomi,",
+    1.7,
+    2.3
+   ],
+   [
+    "come",
+    2.46,
+    2.74
+   ],
+   [
+    "in",
+    2.74,
+    2.96
+   ],
+   [
+    "two",
+    2.96,
+    3.22
+   ],
+   [
+    "families.",
+    3.22,
+    3.8
+   ],
+   [
+    "Tataki",
+    4.72,
+    5.08
+   ],
+   [
+    "nomi",
+    5.08,
+    5.56
+   ],
+   [
+    "are",
+    5.56,
+    5.84
+   ],
+   [
+    "struck",
+    5.84,
+    6.14
+   ],
+   [
+    "with",
+    6.14,
+    6.36
+   ],
+   [
+    "a",
+    6.36,
+    6.5
+   ],
+   [
+    "hammer.",
+    6.5,
+    6.8
+   ],
+   [
+    "Tsuki",
+    7.9,
+    8.08
+   ],
+   [
+    "nomi",
+    8.08,
+    8.56
+   ],
+   [
+    "are",
+    8.56,
+    8.82
+   ],
+   [
+    "pushed",
+    8.82,
+    9.04
+   ],
+   [
+    "by",
+    9.04,
+    9.32
+   ],
+   [
+    "hand",
+    9.32,
+    9.66
+   ],
+   [
+    "with",
+    9.66,
+    10.2
+   ],
+   [
+    "no",
+    10.2,
+    10.54
+   ],
+   [
+    "hammer.",
+    10.54,
+    10.82
+   ]
+  ],
+  "wpm": 114.6,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "nomi",
+     "heard_kana": "のみ",
+     "correct": true,
+     "note": "Pronounced accurately with clean morae."
+    },
+    {
+     "term": "Tataki",
+     "heard_kana": "たたき",
+     "correct": true,
+     "note": "Clear and accurate pronunciation."
+    },
+    {
+     "term": "Tsuki",
+     "heard_kana": "すき",
+     "correct": false,
+     "note": "The initial dental affricate /ts/ is de-affricated to /s/, sounding like 'suki' (すき) instead of 'tsuki' (つき)."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "nomi",
+     "heard_kana": "のみ",
+     "correct": true,
+     "note": "The pronunciation of 'nomi' (のみ) was accurate. The listener delivered the short vowel 'o', and the single 'n' sound clearly, matching the script."
+    },
+    {
+     "term": "Tataki",
+     "heard_kana": "たたき",
+     "correct": true,
+     "note": "The pronunciation of 'Tataki' (たたき) was accurate. The speaker correctly doubled the 't' sound into a lengthened 't' as intended by the small 'つ' sound."
+    },
+    {
+     "term": "Tsuki",
+     "heard_kana": "つき",
+     "correct": true,
+     "note": "The pronunciation of 'Tsuki' (つき) was accurate. The 't' and 's' consonants merged smoothly, and the vowel sounds were correct."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "nomi",
+      "heard_kana": "のみ",
+      "correct": true,
+      "note": "Pronounced accurately with clean morae."
+     },
+     {
+      "term": "Tataki",
+      "heard_kana": "たたき",
+      "correct": true,
+      "note": "Clear and accurate pronunciation."
+     },
+     {
+      "term": "Tsuki",
+      "heard_kana": "すき",
+      "correct": false,
+      "note": "The initial dental affricate /ts/ is de-affricated to /s/, sounding like 'suki' (すき) instead of 'tsuki' (つき)."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "nomi",
+      "heard_kana": "のみ",
+      "correct": true,
+      "note": "The pronunciation of 'nomi' (のみ) was accurate. The listener delivered the short vowel 'o', and the single 'n' sound clearly, matching the script."
+     },
+     {
+      "term": "Tataki",
+      "heard_kana": "たたき",
+      "correct": true,
+      "note": "The pronunciation of 'Tataki' (たたき) was accurate. The speaker correctly doubled the 't' sound into a lengthened 't' as intended by the small 'つ' sound."
+     },
+     {
+      "term": "Tsuki",
+      "heard_kana": "つき",
+      "correct": true,
+      "note": "The pronunciation of 'Tsuki' (つき) was accurate. The 't' and 's' consonants merged smoothly, and the vowel sounds were correct."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ },
+ "N04": {
+  "take": 1,
+  "duration": 8.791,
+  "asr": "A struck chisel has an iron hoop fitted around the end of its handle. This hoop is called the katsura.",
+  "words": [
+   [
+    "A",
+    0.0,
+    0.36
+   ],
+   [
+    "struck",
+    0.36,
+    0.78
+   ],
+   [
+    "chisel",
+    0.78,
+    1.34
+   ],
+   [
+    "has",
+    1.34,
+    1.82
+   ],
+   [
+    "an",
+    1.82,
+    2.02
+   ],
+   [
+    "iron",
+    2.02,
+    2.48
+   ],
+   [
+    "hoop",
+    2.48,
+    2.88
+   ],
+   [
+    "fitted",
+    2.88,
+    3.4
+   ],
+   [
+    "around",
+    3.4,
+    3.82
+   ],
+   [
+    "the",
+    3.82,
+    4.02
+   ],
+   [
+    "end",
+    4.02,
+    4.3
+   ],
+   [
+    "of",
+    4.3,
+    4.5
+   ],
+   [
+    "its",
+    4.5,
+    4.66
+   ],
+   [
+    "handle.",
+    4.66,
+    5.06
+   ],
+   [
+    "This",
+    5.94,
+    6.16
+   ],
+   [
+    "hoop",
+    6.16,
+    6.52
+   ],
+   [
+    "is",
+    6.52,
+    7.02
+   ],
+   [
+    "called",
+    7.02,
+    7.52
+   ],
+   [
+    "the",
+    7.52,
+    7.92
+   ],
+   [
+    "katsura.",
+    7.92,
+    8.54
+   ]
+  ],
+  "wpm": 136.5,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "kah-tsoo-rah",
+     "heard_kana": "かつら",
+     "correct": true,
+     "note": "Clean and accurate pronunciation of かつら."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "kah-tsoo-rah",
+     "heard_kana": "かつラ",
+     "correct": false,
+     "note": "The ending sound 'ラ' is heard instead of the target 'ら'. The consonant and vowel are slightly different; there’s an extra elongation on the 'ラ'. Missing the doubling of 'ツ'."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "kah-tsoo-rah",
+      "heard_kana": "かつら",
+      "correct": true,
+      "note": "Clean and accurate pronunciation of かつら."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "kah-tsoo-rah",
+      "heard_kana": "かつラ",
+      "correct": false,
+      "note": "The ending sound 'ラ' is heard instead of the target 'ら'. The consonant and vowel are slightly different; there’s an extra elongation on the 'ラ'. Missing the doubling of 'ツ'."
+     }
+    ],
+    "clarity": 2,
+    "warmth": 3,
+    "naturalness": 2,
+    "script_deviations": [
+     "No major English word deviations, but the pronunciation of 'chisel' and 'kah-tsoo-rah' has slight inaccuracies."
+    ],
+    "artifacts": []
+   }
+  }
+ },
+ "N05": {
+  "take": 2,
+  "duration": 16.989,
+  "asr": "The general bench chisel, struck with a hammer, is the oire nomi. You'll also see it read oiide, or written ooide. For deep mortises, there's the mukomachi nomi, with a thick blade.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.22
+   ],
+   [
+    "general",
+    0.22,
+    0.66
+   ],
+   [
+    "bench",
+    0.66,
+    1.14
+   ],
+   [
+    "chisel,",
+    1.14,
+    1.78
+   ],
+   [
+    "struck",
+    2.06,
+    2.34
+   ],
+   [
+    "with",
+    2.34,
+    2.54
+   ],
+   [
+    "a",
+    2.54,
+    2.68
+   ],
+   [
+    "hammer,",
+    2.68,
+    3.04
+   ],
+   [
+    "is",
+    3.4,
+    3.68
+   ],
+   [
+    "the",
+    3.68,
+    3.88
+   ],
+   [
+    "oire",
+    3.88,
+    4.46
+   ],
+   [
+    "nomi.",
+    4.46,
+    5.16
+   ],
+   [
+    "You'll",
+    5.72,
+    5.94
+   ],
+   [
+    "also",
+    5.94,
+    6.26
+   ],
+   [
+    "see",
+    6.26,
+    6.58
+   ],
+   [
+    "it",
+    6.58,
+    6.72
+   ],
+   [
+    "read",
+    6.72,
+    7.06
+   ],
+   [
+    "oiide,",
+    7.06,
+    8.2
+   ],
+   [
+    "or",
+    8.64,
+    8.9
+   ],
+   [
+    "written",
+    8.9,
+    9.38
+   ],
+   [
+    "ooide.",
+    9.38,
+    10.66
+   ],
+   [
+    "For",
+    11.56,
+    11.9
+   ],
+   [
+    "deep",
+    11.9,
+    12.32
+   ],
+   [
+    "mortises,",
+    12.32,
+    12.92
+   ],
+   [
+    "there's",
+    13.48,
+    13.8
+   ],
+   [
+    "the",
+    13.8,
+    13.94
+   ],
+   [
+    "mukomachi",
+    13.94,
+    14.92
+   ],
+   [
+    "nomi,",
+    14.92,
+    15.38
+   ],
+   [
+    "with",
+    15.68,
+    15.86
+   ],
+   [
+    "a",
+    15.86,
+    16.0
+   ],
+   [
+    "thick",
+    16.0,
+    16.32
+   ],
+   [
+    "blade.",
+    16.32,
+    16.72
+   ]
+  ],
+  "wpm": 109.5,
+  "listen": {
+   "google/gemini-3.8-flash": [],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "nomi",
+     "heard_kana": "のみ",
+     "correct": true,
+     "note": "Accurate pronunciation of 'のみ'."
+    },
+    {
+     "term": "oh-ee-reh",
+     "heard_kana": "おいやれ",
+     "correct": false,
+     "note": "The pronunciation is heard as 'おいやれ' with an extra 'ya' sound instead of 'いれ'."
+    },
+    {
+     "term": "oh-ee-ee-reh",
+     "heard_kana": "おいいれ",
+     "correct": true,
+     "note": "Accurate pronunciation of 'おいいれ'. Long 'い' sound noted."
+    },
+    {
+     "term": "oh-oh-ee-reh",
+     "heard_kana": "おおいいれ",
+     "correct": true,
+     "note": "Accurate pronunciation of 'おおいれ', with correctly lengthened 'おお'."
+    },
+    {
+     "term": "moo-koh-mah-chee",
+     "heard_kana": "むこうまち",
+     "correct": false,
+     "note": "Pronounced close to 'むこうまち', but it was slightly off, with a softer 'チ' sound. Target 'チェ'."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "raw": "```json\n{\n  \"terms\": [\n    {\n      \"term\": \"oh-ee-reh\",\n      \"heard_kana\": \"おいれ\",\n      \"correct\": true,\n      \"note\": \"Accurately pronounced.\"\n    },\n    {\n      \"term\": \"nomi\",\n      \"heard_kana\": \"のみ\",\n      \"correct\": true,\n      \"note\": \"Clean and accurate pronunciation.\"\n    },\n    {\n      \"term\": \"oh-ee-ee-reh\",\n      \"heard_kana\": \"おいいれ\",\n      \"correct\": true,\n      \"note\": \"Pronounced with proper vowel separation.\"\n    },\n    {\n      \"term\": \"oh-oh-ee-reh\",\n      \"heard_kana\": \"おおいれ\",\n      \"correct\": true,\n      \"note\": \"Accurately pronounced with elongated initial vowel.\"\n    },\n    {\n      \"term\": \"moo-koh-mah-chee\",\n      \"heard_kana\": \"むこまち\",\n      \"correct\": false,\n      \"note\": \"Pronounced with a short 'ko' (むこまち) rather than the required long vowel (むこうまち).\"\n    }\n  ],\n  \"clarity\": 5,\n  \"warmth\": 4,\n  \"naturalness\": 4,",
+    "terms": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "nomi",
+      "heard_kana": "のみ",
+      "correct": true,
+      "note": "Accurate pronunciation of 'のみ'."
+     },
+     {
+      "term": "oh-ee-reh",
+      "heard_kana": "おいやれ",
+      "correct": false,
+      "note": "The pronunciation is heard as 'おいやれ' with an extra 'ya' sound instead of 'いれ'."
+     },
+     {
+      "term": "oh-ee-ee-reh",
+      "heard_kana": "おいいれ",
+      "correct": true,
+      "note": "Accurate pronunciation of 'おいいれ'. Long 'い' sound noted."
+     },
+     {
+      "term": "oh-oh-ee-reh",
+      "heard_kana": "おおいいれ",
+      "correct": true,
+      "note": "Accurate pronunciation of 'おおいれ', with correctly lengthened 'おお'."
+     },
+     {
+      "term": "moo-koh-mah-chee",
+      "heard_kana": "むこうまち",
+      "correct": false,
+      "note": "Pronounced close to 'むこうまち', but it was slightly off, with a softer 'チ' sound. Target 'チェ'."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 3,
+    "script_deviations": [
+     "Mispronounced 'oh-ee-reh' as 'おいやれ' instead of 'おいれ'",
+     "Slightly off on 'むこうまち', pronounced more softly"
+    ],
+    "artifacts": []
+   }
+  }
+ },
+ "N06": {
+  "take": 1,
+  "duration": 33.897,
+  "asr": "Now look at the blade itself. A woodworking chisel is beveled on one side only and it's made of two layers. A thin layer of hard steel, hagane, forge welded to a thicker body of softer iron, jigane. The softer iron supports the brittle steel and absorbs shock so the steel doesn't break. One Japanese blade maker puts it simply, foreign blades are usually one piece of steel. Japanese blades are laminated.",
+  "words": [
+   [
+    "Now",
+    0.0,
+    0.3
+   ],
+   [
+    "look",
+    0.3,
+    0.64
+   ],
+   [
+    "at",
+    0.64,
+    0.8
+   ],
+   [
+    "the",
+    0.8,
+    0.92
+   ],
+   [
+    "blade",
+    0.92,
+    1.2
+   ],
+   [
+    "itself.",
+    1.2,
+    1.62
+   ],
+   [
+    "A",
+    2.4,
+    2.54
+   ],
+   [
+    "woodworking",
+    2.54,
+    3.06
+   ],
+   [
+    "chisel",
+    3.06,
+    3.5
+   ],
+   [
+    "is",
+    3.5,
+    3.84
+   ],
+   [
+    "beveled",
+    3.84,
+    4.4
+   ],
+   [
+    "on",
+    4.4,
+    4.54
+   ],
+   [
+    "one",
+    4.54,
+    4.94
+   ],
+   [
+    "side",
+    4.94,
+    5.4
+   ],
+   [
+    "only",
+    5.4,
+    5.84
+   ],
+   [
+    "and",
+    5.84,
+    6.76
+   ],
+   [
+    "it's",
+    6.76,
+    7.12
+   ],
+   [
+    "made",
+    7.12,
+    7.26
+   ],
+   [
+    "of",
+    7.26,
+    7.42
+   ],
+   [
+    "two",
+    7.42,
+    7.7
+   ],
+   [
+    "layers.",
+    7.7,
+    8.16
+   ],
+   [
+    "A",
+    8.7,
+    8.92
+   ],
+   [
+    "thin",
+    8.92,
+    9.28
+   ],
+   [
+    "layer",
+    9.28,
+    9.7
+   ],
+   [
+    "of",
+    9.7,
+    9.96
+   ],
+   [
+    "hard",
+    9.96,
+    10.34
+   ],
+   [
+    "steel,",
+    10.34,
+    10.8
+   ],
+   [
+    "hagane,",
+    11.6,
+    11.86
+   ],
+   [
+    "forge",
+    12.46,
+    12.9
+   ],
+   [
+    "welded",
+    12.9,
+    13.46
+   ],
+   [
+    "to",
+    13.46,
+    13.74
+   ],
+   [
+    "a",
+    13.74,
+    13.98
+   ],
+   [
+    "thicker",
+    13.98,
+    14.4
+   ],
+   [
+    "body",
+    14.4,
+    14.82
+   ],
+   [
+    "of",
+    14.82,
+    15.1
+   ],
+   [
+    "softer",
+    15.1,
+    15.58
+   ],
+   [
+    "iron,",
+    15.58,
+    16.1
+   ],
+   [
+    "jigane.",
+    16.86,
+    17.1
+   ],
+   [
+    "The",
+    17.78,
+    18.3
+   ],
+   [
+    "softer",
+    18.3,
+    18.72
+   ],
+   [
+    "iron",
+    18.72,
+    19.2
+   ],
+   [
+    "supports",
+    19.2,
+    19.86
+   ],
+   [
+    "the",
+    19.86,
+    20.18
+   ],
+   [
+    "brittle",
+    20.18,
+    20.5
+   ],
+   [
+    "steel",
+    20.5,
+    20.94
+   ],
+   [
+    "and",
+    20.94,
+    21.6
+   ],
+   [
+    "absorbs",
+    21.6,
+    22.0
+   ],
+   [
+    "shock",
+    22.0,
+    22.42
+   ],
+   [
+    "so",
+    22.42,
+    23.14
+   ],
+   [
+    "the",
+    23.14,
+    23.32
+   ],
+   [
+    "steel",
+    23.32,
+    23.62
+   ],
+   [
+    "doesn't",
+    23.62,
+    23.98
+   ],
+   [
+    "break.",
+    23.98,
+    24.2
+   ],
+   [
+    "One",
+    25.13,
+    25.52
+   ],
+   [
+    "Japanese",
+    25.52,
+    25.96
+   ],
+   [
+    "blade",
+    25.96,
+    26.38
+   ],
+   [
+    "maker",
+    26.38,
+    26.78
+   ],
+   [
+    "puts",
+    26.78,
+    27.06
+   ],
+   [
+    "it",
+    27.06,
+    27.26
+   ],
+   [
+    "simply,",
+    27.26,
+    27.66
+   ],
+   [
+    "foreign",
+    28.54,
+    28.8
+   ],
+   [
+    "blades",
+    28.8,
+    29.28
+   ],
+   [
+    "are",
+    29.28,
+    29.54
+   ],
+   [
+    "usually",
+    29.54,
+    29.92
+   ],
+   [
+    "one",
+    29.92,
+    30.36
+   ],
+   [
+    "piece",
+    30.36,
+    30.62
+   ],
+   [
+    "of",
+    30.62,
+    30.82
+   ],
+   [
+    "steel.",
+    30.82,
+    31.06
+   ],
+   [
+    "Japanese",
+    32.18,
+    32.26
+   ],
+   [
+    "blades",
+    32.26,
+    32.78
+   ],
+   [
+    "are",
+    32.78,
+    33.16
+   ],
+   [
+    "laminated.",
+    33.16,
+    33.7
+   ]
+  ],
+  "wpm": 125.7,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "hah-gah-neh",
+     "heard_kana": "はがね",
+     "correct": true,
+     "note": "Accurate, clean pronunciation with natural pitch."
+    },
+    {
+     "term": "jee-gah-neh",
+     "heard_kana": "じがね",
+     "correct": true,
+     "note": "Accurate and clear pronunciation."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "hah-gah-neh",
+     "heard_kana": "はがね",
+     "correct": true,
+     "note": "Accurate pronunciation of each syllable, smooth and clear, matches the target."
+    },
+    {
+     "term": "jee-gah-neh",
+     "heard_kana": "じがね",
+     "correct": true,
+     "note": "Accurate pronunciation of syllables, clear, matches the target."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "hah-gah-neh",
+      "heard_kana": "はがね",
+      "correct": true,
+      "note": "Accurate, clean pronunciation with natural pitch."
+     },
+     {
+      "term": "jee-gah-neh",
+      "heard_kana": "じがね",
+      "correct": true,
+      "note": "Accurate and clear pronunciation."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 5,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "hah-gah-neh",
+      "heard_kana": "はがね",
+      "correct": true,
+      "note": "Accurate pronunciation of each syllable, smooth and clear, matches the target."
+     },
+     {
+      "term": "jee-gah-neh",
+      "heard_kana": "じがね",
+      "correct": true,
+      "note": "Accurate pronunciation of syllables, clear, matches the target."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 3,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ },
+ "N07": {
+  "take": 1,
+  "duration": 13.933,
+  "asr": "The back of the blade has a shallow hollow, the urasuki. It makes the back easier to flatten. The hollow is in the back, not the bevel. The chisel is not hollow ground.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.22
+   ],
+   [
+    "back",
+    0.22,
+    0.58
+   ],
+   [
+    "of",
+    0.58,
+    0.76
+   ],
+   [
+    "the",
+    0.76,
+    0.96
+   ],
+   [
+    "blade",
+    0.96,
+    1.3
+   ],
+   [
+    "has",
+    1.3,
+    1.88
+   ],
+   [
+    "a",
+    1.88,
+    2.2
+   ],
+   [
+    "shallow",
+    2.2,
+    2.66
+   ],
+   [
+    "hollow,",
+    2.66,
+    3.16
+   ],
+   [
+    "the",
+    3.76,
+    3.96
+   ],
+   [
+    "urasuki.",
+    3.96,
+    4.82
+   ],
+   [
+    "It",
+    5.6,
+    5.82
+   ],
+   [
+    "makes",
+    5.82,
+    6.06
+   ],
+   [
+    "the",
+    6.06,
+    6.32
+   ],
+   [
+    "back",
+    6.32,
+    6.74
+   ],
+   [
+    "easier",
+    6.74,
+    7.32
+   ],
+   [
+    "to",
+    7.32,
+    7.58
+   ],
+   [
+    "flatten.",
+    7.58,
+    8.06
+   ],
+   [
+    "The",
+    8.86,
+    9.0
+   ],
+   [
+    "hollow",
+    9.0,
+    9.3
+   ],
+   [
+    "is",
+    9.3,
+    9.58
+   ],
+   [
+    "in",
+    9.58,
+    9.72
+   ],
+   [
+    "the",
+    9.72,
+    9.86
+   ],
+   [
+    "back,",
+    9.86,
+    10.2
+   ],
+   [
+    "not",
+    10.38,
+    10.62
+   ],
+   [
+    "the",
+    10.62,
+    10.86
+   ],
+   [
+    "bevel.",
+    10.86,
+    11.14
+   ],
+   [
+    "The",
+    11.64,
+    11.84
+   ],
+   [
+    "chisel",
+    11.84,
+    12.16
+   ],
+   [
+    "is",
+    12.16,
+    12.42
+   ],
+   [
+    "not",
+    12.42,
+    12.82
+   ],
+   [
+    "hollow",
+    12.82,
+    13.28
+   ],
+   [
+    "ground.",
+    13.28,
+    13.66
+   ]
+  ],
+  "wpm": 137.8,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "oo-rah-soo-kee",
+     "heard_kana": "うらすき",
+     "correct": true,
+     "note": "Clean, accurate pronunciation with natural vowel lengths and pitch accent."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "oo-rah-soo-kee",
+     "heard_kana": "うーらすきー",
+     "correct": false,
+     "note": "The heard pronunciation includes a prolonged 'u' sound at the beginning ('uu') and extra lengthening on the 'ki' ('-kee')."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "oo-rah-soo-kee",
+      "heard_kana": "うらすき",
+      "correct": true,
+      "note": "Clean, accurate pronunciation with natural vowel lengths and pitch accent."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "oo-rah-soo-kee",
+      "heard_kana": "うーらすきー",
+      "correct": false,
+      "note": "The heard pronunciation includes a prolonged 'u' sound at the beginning ('uu') and extra lengthening on the 'ki' ('-kee')."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 4,
+    "script_deviations": [
+     "The pronunciation of 'oo-rah-soo-kee' deviates by adding extra vowel length."
+    ],
+    "artifacts": []
+   }
+  }
+ },
+ "N08": {
+  "take": 1,
+  "duration": 7.499,
+  "asr": "The hammer is the ken -no. One face is flat, the other is slightly domed.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.28
+   ],
+   [
+    "hammer",
+    0.28,
+    0.76
+   ],
+   [
+    "is",
+    0.76,
+    1.38
+   ],
+   [
+    "the",
+    1.38,
+    1.72
+   ],
+   [
+    "ken",
+    1.72,
+    2.14
+   ],
+   [
+    "-no.",
+    2.14,
+    2.46
+   ],
+   [
+    "One",
+    3.22,
+    3.56
+   ],
+   [
+    "face",
+    3.56,
+    3.92
+   ],
+   [
+    "is",
+    3.92,
+    4.28
+   ],
+   [
+    "flat,",
+    4.28,
+    4.66
+   ],
+   [
+    "the",
+    5.26,
+    5.48
+   ],
+   [
+    "other",
+    5.48,
+    5.84
+   ],
+   [
+    "is",
+    5.84,
+    6.24
+   ],
+   [
+    "slightly",
+    6.24,
+    6.66
+   ],
+   [
+    "domed.",
+    6.66,
+    7.46
+   ]
+  ],
+  "wpm": 112.0,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "gen-noh",
+     "heard_kana": "げんのう",
+     "correct": true,
+     "note": "Pronounced clearly with proper vowel length and double-n articulation (げんのう)."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "gen-noh",
+     "heard_kana": "げんのー",
+     "correct": false,
+     "note": "The listener heard a long vowel sound ('noー') instead of the correct short vowel 'のう'. Rounded vowel lengthening was present."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "gen-noh",
+      "heard_kana": "げんのう",
+      "correct": true,
+      "note": "Pronounced clearly with proper vowel length and double-n articulation (げんのう)."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": [
+     "Slight unnatural hesitation/gap between 'the' and 'gen-noh'"
+    ]
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "gen-noh",
+      "heard_kana": "げんのー",
+      "correct": false,
+      "note": "The listener heard a long vowel sound ('noー') instead of the correct short vowel 'のう'. Rounded vowel lengthening was present."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 3,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ },
+ "N09": {
+  "take": 2,
+  "duration": 14.075,
+  "asr": "Driving a nail, you strike with the flat face, then give the last blows with the domed face, so the surface isn't marked. The domed face is the Kigoroshi men, literally the wood -killing face.",
+  "words": [
+   [
+    "Driving",
+    0.0,
+    0.48
+   ],
+   [
+    "a",
+    0.48,
+    0.7
+   ],
+   [
+    "nail,",
+    0.7,
+    1.0
+   ],
+   [
+    "you",
+    1.4,
+    1.5
+   ],
+   [
+    "strike",
+    1.5,
+    1.84
+   ],
+   [
+    "with",
+    1.84,
+    2.2
+   ],
+   [
+    "the",
+    2.2,
+    2.38
+   ],
+   [
+    "flat",
+    2.38,
+    2.68
+   ],
+   [
+    "face,",
+    2.68,
+    3.1
+   ],
+   [
+    "then",
+    3.56,
+    3.84
+   ],
+   [
+    "give",
+    3.84,
+    4.24
+   ],
+   [
+    "the",
+    4.24,
+    4.42
+   ],
+   [
+    "last",
+    4.42,
+    4.74
+   ],
+   [
+    "blows",
+    4.74,
+    5.1
+   ],
+   [
+    "with",
+    5.1,
+    5.54
+   ],
+   [
+    "the",
+    5.54,
+    5.72
+   ],
+   [
+    "domed",
+    5.72,
+    6.1
+   ],
+   [
+    "face,",
+    6.1,
+    6.34
+   ],
+   [
+    "so",
+    6.68,
+    6.9
+   ],
+   [
+    "the",
+    6.9,
+    7.08
+   ],
+   [
+    "surface",
+    7.08,
+    7.42
+   ],
+   [
+    "isn't",
+    7.42,
+    7.92
+   ],
+   [
+    "marked.",
+    7.92,
+    8.24
+   ],
+   [
+    "The",
+    9.16,
+    9.36
+   ],
+   [
+    "domed",
+    9.36,
+    9.72
+   ],
+   [
+    "face",
+    9.72,
+    9.92
+   ],
+   [
+    "is",
+    9.92,
+    10.32
+   ],
+   [
+    "the",
+    10.32,
+    10.5
+   ],
+   [
+    "Kigoroshi",
+    10.5,
+    11.16
+   ],
+   [
+    "men,",
+    11.16,
+    11.46
+   ],
+   [
+    "literally",
+    12.12,
+    12.44
+   ],
+   [
+    "the",
+    12.44,
+    12.96
+   ],
+   [
+    "wood",
+    12.96,
+    13.2
+   ],
+   [
+    "-killing",
+    13.2,
+    13.46
+   ],
+   [
+    "face.",
+    13.46,
+    13.78
+   ]
+  ],
+  "wpm": 140.7,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "kee-go-roh-shee men",
+     "heard_kana": "きごろしめん",
+     "correct": true,
+     "note": "Clean, accurate pronunciation of the compound term."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "kee-go-roh-shee men",
+     "heard_kana": "きいごろしめん",
+     "correct": false,
+     "note": "Heard an extra 'i' sound in 'kee', making it 'きい'. Target is 'きごろしめん'."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "kee-go-roh-shee men",
+      "heard_kana": "きごろしめん",
+      "correct": true,
+      "note": "Clean, accurate pronunciation of the compound term."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "kee-go-roh-shee men",
+      "heard_kana": "きいごろしめん",
+      "correct": false,
+      "note": "Heard an extra 'i' sound in 'kee', making it 'きい'. Target is 'きごろしめん'."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ },
+ "N10": {
+  "take": 2,
+  "duration": 7.657,
+  "asr": "The plane is the Kanna. Like the saw, it's pulled toward you. Western and Chinese planes are pushed.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.24
+   ],
+   [
+    "plane",
+    0.24,
+    0.58
+   ],
+   [
+    "is",
+    0.58,
+    1.1
+   ],
+   [
+    "the",
+    1.1,
+    1.34
+   ],
+   [
+    "Kanna.",
+    1.34,
+    1.7
+   ],
+   [
+    "Like",
+    2.6,
+    2.76
+   ],
+   [
+    "the",
+    2.76,
+    2.96
+   ],
+   [
+    "saw,",
+    2.96,
+    3.2
+   ],
+   [
+    "it's",
+    3.58,
+    3.74
+   ],
+   [
+    "pulled",
+    3.74,
+    4.02
+   ],
+   [
+    "toward",
+    4.02,
+    4.32
+   ],
+   [
+    "you.",
+    4.32,
+    4.68
+   ],
+   [
+    "Western",
+    5.42,
+    5.64
+   ],
+   [
+    "and",
+    5.64,
+    5.96
+   ],
+   [
+    "Chinese",
+    5.96,
+    6.38
+   ],
+   [
+    "planes",
+    6.38,
+    6.72
+   ],
+   [
+    "are",
+    6.72,
+    7.1
+   ],
+   [
+    "pushed.",
+    7.1,
+    7.36
+   ]
+  ],
+  "wpm": 141.1,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "kan-na",
+     "heard_kana": "かな",
+     "correct": false,
+     "note": "Pronounced with a single 'n' ('kah-nuh' / かな) without the moraic nasal (ん) required for かんな."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "kan-na",
+     "heard_kana": "カンナ",
+     "correct": true,
+     "note": "Hit the spacing exactly as expected; correct long vowel handling."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "kan-na",
+      "heard_kana": "かな",
+      "correct": false,
+      "note": "Pronounced with a single 'n' ('kah-nuh' / かな) without the moraic nasal (ん) required for かんな."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "kan-na",
+      "heard_kana": "カンナ",
+      "correct": true,
+      "note": "Hit the spacing exactly as expected; correct long vowel handling."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ },
+ "N11": {
+  "take": 2,
+  "duration": 19.509,
+  "asr": "The blade sits in a wooden block, the die, usually of oak. In the National Skills Test Manual, the blade is set by tapping with a hammer, on the blade's head to set it deeper, and on the corners of the block's head end to draw it back.",
+  "words": [
+   [
+    "The",
+    0.0,
+    0.26
+   ],
+   [
+    "blade",
+    0.26,
+    0.72
+   ],
+   [
+    "sits",
+    0.72,
+    1.18
+   ],
+   [
+    "in",
+    1.18,
+    1.56
+   ],
+   [
+    "a",
+    1.56,
+    1.72
+   ],
+   [
+    "wooden",
+    1.72,
+    2.0
+   ],
+   [
+    "block,",
+    2.0,
+    2.52
+   ],
+   [
+    "the",
+    3.24,
+    3.28
+   ],
+   [
+    "die,",
+    3.28,
+    3.6
+   ],
+   [
+    "usually",
+    4.14,
+    4.4
+   ],
+   [
+    "of",
+    4.4,
+    4.86
+   ],
+   [
+    "oak.",
+    4.86,
+    5.2
+   ],
+   [
+    "In",
+    6.12,
+    6.26
+   ],
+   [
+    "the",
+    6.26,
+    6.4
+   ],
+   [
+    "National",
+    6.4,
+    6.82
+   ],
+   [
+    "Skills",
+    6.82,
+    7.24
+   ],
+   [
+    "Test",
+    7.24,
+    7.66
+   ],
+   [
+    "Manual,",
+    7.66,
+    8.08
+   ],
+   [
+    "the",
+    8.74,
+    8.92
+   ],
+   [
+    "blade",
+    8.92,
+    9.2
+   ],
+   [
+    "is",
+    9.2,
+    9.38
+   ],
+   [
+    "set",
+    9.38,
+    9.7
+   ],
+   [
+    "by",
+    9.7,
+    10.14
+   ],
+   [
+    "tapping",
+    10.14,
+    10.6
+   ],
+   [
+    "with",
+    10.6,
+    10.9
+   ],
+   [
+    "a",
+    10.9,
+    11.08
+   ],
+   [
+    "hammer,",
+    11.08,
+    11.4
+   ],
+   [
+    "on",
+    12.3,
+    12.46
+   ],
+   [
+    "the",
+    12.46,
+    12.6
+   ],
+   [
+    "blade's",
+    12.6,
+    13.06
+   ],
+   [
+    "head",
+    13.06,
+    13.34
+   ],
+   [
+    "to",
+    13.34,
+    13.78
+   ],
+   [
+    "set",
+    13.78,
+    14.06
+   ],
+   [
+    "it",
+    14.06,
+    14.16
+   ],
+   [
+    "deeper,",
+    14.16,
+    14.58
+   ],
+   [
+    "and",
+    15.28,
+    15.6
+   ],
+   [
+    "on",
+    15.6,
+    15.84
+   ],
+   [
+    "the",
+    15.84,
+    16.02
+   ],
+   [
+    "corners",
+    16.02,
+    16.42
+   ],
+   [
+    "of",
+    16.42,
+    16.9
+   ],
+   [
+    "the",
+    16.9,
+    17.06
+   ],
+   [
+    "block's",
+    17.06,
+    17.58
+   ],
+   [
+    "head",
+    17.58,
+    17.76
+   ],
+   [
+    "end",
+    17.76,
+    18.1
+   ],
+   [
+    "to",
+    18.1,
+    18.56
+   ],
+   [
+    "draw",
+    18.56,
+    18.84
+   ],
+   [
+    "it",
+    18.84,
+    19.0
+   ],
+   [
+    "back.",
+    19.0,
+    19.3
+   ]
+  ],
+  "wpm": 144.5,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "the dai",
+     "heard_kana": "だい",
+     "correct": true,
+     "note": "Pronounced naturally as 'the die' (/daɪ/), matching the target Japanese pronunciation だい."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "the dai",
+     "heard_kana": "だい",
+     "correct": true,
+     "note": "Clear and accurate pronunciation heard."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "the dai",
+      "heard_kana": "だい",
+      "correct": true,
+      "note": "Pronounced naturally as 'the die' (/daɪ/), matching the target Japanese pronunciation だい."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "the dai",
+      "heard_kana": "だい",
+      "correct": true,
+      "note": "Clear and accurate pronunciation heard."
+     }
+    ],
+    "clarity": 4,
+    "warmth": 3,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   }
+  }
+ },
+ "N12": {
+  "take": 3,
+  "duration": 17.113,
+  "asr": "A two -blade plane, nimi kana, adds a second iron behind the blade, the chip breaker, uragane. It helps stop tear -out. Like the Ryoba, it is a Meiji -era development, not an ancient one.",
+  "words": [
+   [
+    "A",
+    0.0,
+    0.16
+   ],
+   [
+    "two",
+    0.16,
+    0.56
+   ],
+   [
+    "-blade",
+    0.56,
+    0.88
+   ],
+   [
+    "plane,",
+    0.88,
+    1.42
+   ],
+   [
+    "nimi",
+    2.2,
+    2.44
+   ],
+   [
+    "kana,",
+    2.44,
+    2.9
+   ],
+   [
+    "adds",
+    3.44,
+    3.86
+   ],
+   [
+    "a",
+    3.86,
+    4.14
+   ],
+   [
+    "second",
+    4.14,
+    4.58
+   ],
+   [
+    "iron",
+    4.58,
+    5.04
+   ],
+   [
+    "behind",
+    5.04,
+    5.64
+   ],
+   [
+    "the",
+    5.64,
+    5.9
+   ],
+   [
+    "blade,",
+    5.9,
+    6.16
+   ],
+   [
+    "the",
+    6.76,
+    6.98
+   ],
+   [
+    "chip",
+    6.98,
+    7.2
+   ],
+   [
+    "breaker,",
+    7.2,
+    7.62
+   ],
+   [
+    "uragane.",
+    8.32,
+    8.7
+   ],
+   [
+    "It",
+    9.52,
+    9.78
+   ],
+   [
+    "helps",
+    9.78,
+    10.08
+   ],
+   [
+    "stop",
+    10.08,
+    10.56
+   ],
+   [
+    "tear",
+    10.56,
+    10.98
+   ],
+   [
+    "-out.",
+    10.98,
+    11.3
+   ],
+   [
+    "Like",
+    12.24,
+    12.44
+   ],
+   [
+    "the",
+    12.44,
+    12.64
+   ],
+   [
+    "Ryoba,",
+    12.64,
+    12.9
+   ],
+   [
+    "it",
+    13.54,
+    13.68
+   ],
+   [
+    "is",
+    13.68,
+    13.92
+   ],
+   [
+    "a",
+    13.92,
+    14.12
+   ],
+   [
+    "Meiji",
+    14.12,
+    14.54
+   ],
+   [
+    "-era",
+    14.54,
+    14.82
+   ],
+   [
+    "development,",
+    14.82,
+    15.34
+   ],
+   [
+    "not",
+    15.92,
+    16.22
+   ],
+   [
+    "an",
+    16.22,
+    16.38
+   ],
+   [
+    "ancient",
+    16.38,
+    16.68
+   ],
+   [
+    "one.",
+    16.68,
+    16.96
+   ]
+  ],
+  "wpm": 108.7,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "nee-my gahnn-nah",
+     "heard_kana": "にまいかんな",
+     "correct": false,
+     "note": "Pronounced with an unvoiced 'k' (かんな) instead of the voiced 'g' (がんな) expected from rendaku and the prompt."
+    },
+    {
+     "term": "oo-rah-gah-neh",
+     "heard_kana": "うらがね",
+     "correct": true,
+     "note": "Clean and accurate pronunciation."
+    },
+    {
+     "term": "ryohh-bah",
+     "heard_kana": "りょば",
+     "correct": false,
+     "note": "The first vowel is pronounced short (りょ) rather than extended (りょう)."
+    },
+    {
+     "term": "May-jee",
+     "heard_kana": "めいじ",
+     "correct": true,
+     "note": "Accurate pronunciation."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "nee-my gahnn-nah",
+     "heard_kana": "にーまいがんあ",
+     "correct": false,
+     "note": "The speaker said 'にー' instead of 'に' and 'がんあ' instead of 'がんな'. The vowel length was slightly longer, and a weak vowel at the end was also heard."
+    },
+    {
+     "term": "oo-rah-gah-neh",
+     "heard_kana": "うらがね",
+     "correct": true,
+     "note": "The pronunciation mostly matches the target kana, though some syllables may have been slightly softened."
+    },
+    {
+     "term": "ryohh-bah",
+     "heard_kana": "りょうば",
+     "correct": true,
+     "note": "This matches the target kana, though the length of 'ō' was a little unclear and not noticeably lengthened."
+    },
+    {
+     "term": "May-jee",
+     "heard_kana": "めいじ",
+     "correct": false,
+     "note": "The speaker did not elongate the 'い' vowel sound significantly—'めいじ' should have a clearer long vowel sound."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "nee-my gahnn-nah",
+      "heard_kana": "にまいかんな",
+      "correct": false,
+      "note": "Pronounced with an unvoiced 'k' (かんな) instead of the voiced 'g' (がんな) expected from rendaku and the prompt."
+     },
+     {
+      "term": "oo-rah-gah-neh",
+      "heard_kana": "うらがね",
+      "correct": true,
+      "note": "Clean and accurate pronunciation."
+     },
+     {
+      "term": "ryohh-bah",
+      "heard_kana": "りょば",
+      "correct": false,
+      "note": "The first vowel is pronounced short (りょ) rather than extended (りょう)."
+     },
+     {
+      "term": "May-jee",
+      "heard_kana": "めいじ",
+      "correct": true,
+      "note": "Accurate pronunciation."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 4,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "nee-my gahnn-nah",
+      "heard_kana": "にーまいがんあ",
+      "correct": false,
+      "note": "The speaker said 'にー' instead of 'に' and 'がんあ' instead of 'がんな'. The vowel length was slightly longer, and a weak vowel at the end was also heard."
+     },
+     {
+      "term": "oo-rah-gah-neh",
+      "heard_kana": "うらがね",
+      "correct": true,
+      "note": "The pronunciation mostly matches the target kana, though some syllables may have been slightly softened."
+     },
+     {
+      "term": "ryohh-bah",
+      "heard_kana": "りょうば",
+      "correct": true,
+      "note": "This matches the target kana, though the length of 'ō' was a little unclear and not noticeably lengthened."
+     },
+     {
+      "term": "May-jee",
+      "heard_kana": "めいじ",
+      "correct": false,
+      "note": "The speaker did not elongate the 'い' vowel sound significantly—'めいじ' should have a clearer long vowel sound."
+     }
+    ],
+    "clarity": 3,
+    "warmth": 3,
+    "naturalness": 3,
+    "script_deviations": [
+     "nee-my gahnn-nah was pronounced as 'にーまいがんあ'",
+     "May-jee was not elongated properly to 'めいじ'"
+    ],
+    "artifacts": [
+     "Some slight nasal sounds noticed."
+    ],
+    "mispronounced_words": [
+     "nee-my gahnn-nah wrong length of vowel",
+     "May-jee short vowel"
+    ]
+   }
+  }
+ },
+ "N13": {
+  "take": 1,
+  "duration": 13.864,
+  "asr": "If you work with Western tools, the jobs are the same. Bench chisels, a hammer or mallet, a bench plane. The plane is the clearest difference. A Western plane is pushed.",
+  "words": [
+   [
+    "If",
+    0.0,
+    0.22
+   ],
+   [
+    "you",
+    0.22,
+    0.42
+   ],
+   [
+    "work",
+    0.42,
+    0.66
+   ],
+   [
+    "with",
+    0.66,
+    0.96
+   ],
+   [
+    "Western",
+    0.96,
+    1.4
+   ],
+   [
+    "tools,",
+    1.4,
+    1.86
+   ],
+   [
+    "the",
+    2.3,
+    2.36
+   ],
+   [
+    "jobs",
+    2.36,
+    2.58
+   ],
+   [
+    "are",
+    2.58,
+    2.8
+   ],
+   [
+    "the",
+    2.8,
+    2.94
+   ],
+   [
+    "same.",
+    2.94,
+    3.2
+   ],
+   [
+    "Bench",
+    4.12,
+    4.28
+   ],
+   [
+    "chisels,",
+    4.28,
+    4.88
+   ],
+   [
+    "a",
+    5.58,
+    5.6
+   ],
+   [
+    "hammer",
+    5.6,
+    5.9
+   ],
+   [
+    "or",
+    5.9,
+    6.2
+   ],
+   [
+    "mallet,",
+    6.2,
+    6.7
+   ],
+   [
+    "a",
+    7.28,
+    7.42
+   ],
+   [
+    "bench",
+    7.42,
+    7.64
+   ],
+   [
+    "plane.",
+    7.64,
+    7.94
+   ],
+   [
+    "The",
+    8.82,
+    9.08
+   ],
+   [
+    "plane",
+    9.08,
+    9.52
+   ],
+   [
+    "is",
+    9.52,
+    9.9
+   ],
+   [
+    "the",
+    9.9,
+    10.06
+   ],
+   [
+    "clearest",
+    10.06,
+    10.58
+   ],
+   [
+    "difference.",
+    10.58,
+    11.04
+   ],
+   [
+    "A",
+    11.74,
+    11.94
+   ],
+   [
+    "Western",
+    11.94,
+    12.34
+   ],
+   [
+    "plane",
+    12.34,
+    12.72
+   ],
+   [
+    "is",
+    12.72,
+    13.02
+   ],
+   [
+    "pushed.",
+    13.02,
+    13.4
+   ]
+  ],
+  "wpm": 134.2
+ },
+ "N14": {
+  "take": 1,
+  "duration": 17.353,
+  "asr": "Chisels and planes depend on a sharp edge. The skills test manual warns that a dull tool invites injury and never to point a chisel's edge at yourself or anyone else. It also says to sharpen chisels and planes well after use.",
+  "words": [
+   [
+    "Chisels",
+    0.0,
+    0.52
+   ],
+   [
+    "and",
+    0.52,
+    0.76
+   ],
+   [
+    "planes",
+    0.76,
+    1.14
+   ],
+   [
+    "depend",
+    1.14,
+    1.78
+   ],
+   [
+    "on",
+    1.78,
+    2.1
+   ],
+   [
+    "a",
+    2.1,
+    2.26
+   ],
+   [
+    "sharp",
+    2.26,
+    2.5
+   ],
+   [
+    "edge.",
+    2.5,
+    2.86
+   ],
+   [
+    "The",
+    3.84,
+    3.9
+   ],
+   [
+    "skills",
+    3.9,
+    4.18
+   ],
+   [
+    "test",
+    4.18,
+    4.5
+   ],
+   [
+    "manual",
+    4.5,
+    4.96
+   ],
+   [
+    "warns",
+    4.96,
+    5.4
+   ],
+   [
+    "that",
+    5.4,
+    5.68
+   ],
+   [
+    "a",
+    5.68,
+    6.12
+   ],
+   [
+    "dull",
+    6.12,
+    6.18
+   ],
+   [
+    "tool",
+    6.18,
+    6.62
+   ],
+   [
+    "invites",
+    6.62,
+    7.22
+   ],
+   [
+    "injury",
+    7.22,
+    7.8
+   ],
+   [
+    "and",
+    8.26,
+    8.62
+   ],
+   [
+    "never",
+    8.62,
+    9.08
+   ],
+   [
+    "to",
+    9.08,
+    9.36
+   ],
+   [
+    "point",
+    9.36,
+    9.6
+   ],
+   [
+    "a",
+    9.6,
+    9.78
+   ],
+   [
+    "chisel's",
+    9.78,
+    10.24
+   ],
+   [
+    "edge",
+    10.24,
+    10.42
+   ],
+   [
+    "at",
+    10.42,
+    10.72
+   ],
+   [
+    "yourself",
+    10.72,
+    11.2
+   ],
+   [
+    "or",
+    11.2,
+    11.74
+   ],
+   [
+    "anyone",
+    11.74,
+    12.22
+   ],
+   [
+    "else.",
+    12.22,
+    12.52
+   ],
+   [
+    "It",
+    13.3,
+    13.5
+   ],
+   [
+    "also",
+    13.5,
+    13.8
+   ],
+   [
+    "says",
+    13.8,
+    14.16
+   ],
+   [
+    "to",
+    14.16,
+    14.46
+   ],
+   [
+    "sharpen",
+    14.46,
+    14.98
+   ],
+   [
+    "chisels",
+    14.98,
+    15.38
+   ],
+   [
+    "and",
+    15.38,
+    15.6
+   ],
+   [
+    "planes",
+    15.6,
+    15.92
+   ],
+   [
+    "well",
+    15.92,
+    16.32
+   ],
+   [
+    "after",
+    16.32,
+    16.82
+   ],
+   [
+    "use.",
+    16.82,
+    17.06
+   ]
+  ],
+  "wpm": 141.8
+ },
+ "N15": {
+  "take": 1,
+  "duration": 4.953,
+  "asr": "Next time, our first joint, the Koshikake Aritsugi.",
+  "words": [
+   [
+    "Next",
+    0.0,
+    0.38
+   ],
+   [
+    "time,",
+    0.38,
+    0.82
+   ],
+   [
+    "our",
+    1.1,
+    1.2
+   ],
+   [
+    "first",
+    1.2,
+    1.6
+   ],
+   [
+    "joint,",
+    1.6,
+    2.06
+   ],
+   [
+    "the",
+    2.72,
+    2.78
+   ],
+   [
+    "Koshikake",
+    2.78,
+    3.88
+   ],
+   [
+    "Aritsugi.",
+    3.88,
+    4.72
+   ]
+  ],
+  "wpm": 96.9,
+  "listen": {
+   "google/gemini-3.8-flash": [
+    {
+     "term": "koh-shee-kah-keh ah-ree-tsoo-gee",
+     "heard_kana": "こしかけありつぎ",
+     "correct": true,
+     "note": "Clean, natural, and accurate pronunciation matching the target kana."
+    }
+   ],
+   "openai/gpt-audio-mini": [
+    {
+     "term": "koh-shee-kah-keh",
+     "heard_kana": "こうしかけ",
+     "correct": false,
+     "note": "I heard 'こうしかけ' with a long 'o' sound, though the target was 'こしかけ' with a short 'o'. No doubling or extra sounds, but the length was off."
+    },
+    {
+     "term": "ah-ree-tsoo-gee",
+     "heard_kana": "ありがつぎ",
+     "correct": false,
+     "note": "I heard 'ありがつぎ' instead of 'ありつぎ'. The 'r' and 'tsu' sound shifted into 'ri' and 'ga', and the double consonant was missing. Also the vowel sounds were slightly altered."
+    }
+   ]
+  },
+  "listen_full": {
+   "google/gemini-3.8-flash": {
+    "terms": [
+     {
+      "term": "koh-shee-kah-keh ah-ree-tsoo-gee",
+      "heard_kana": "こしかけありつぎ",
+      "correct": true,
+      "note": "Clean, natural, and accurate pronunciation matching the target kana."
+     }
+    ],
+    "clarity": 5,
+    "warmth": 4,
+    "naturalness": 5,
+    "script_deviations": [],
+    "artifacts": []
+   },
+   "openai/gpt-audio-mini": {
+    "terms": [
+     {
+      "term": "koh-shee-kah-keh",
+      "heard_kana": "こうしかけ",
+      "correct": false,
+      "note": "I heard 'こうしかけ' with a long 'o' sound, though the target was 'こしかけ' with a short 'o'. No doubling or extra sounds, but the length was off."
+     },
+     {
+      "term": "ah-ree-tsoo-gee",
+      "heard_kana": "ありがつぎ",
+      "correct": false,
+      "note": "I heard 'ありがつぎ' instead of 'ありつぎ'. The 'r' and 'tsu' sound shifted into 'ri' and 'ga', and the double consonant was missing. Also the vowel sounds were slightly altered."
+     }
+    ],
+    "clarity": 3,
+    "warmth": 3,
+    "naturalness": 3,
+    "script_deviations": [
+     "koh-shee-kah-keh was quite close in syllable pattern but the vowel length was off",
+     "ahi-ree-tsoo-gee diverged in consonant sounds significantly"
+    ],
+    "artifacts": []
+   }
+  }
+ },
+ "N16": {
+  "take": 4,
+  "duration": 10.623,
+  "asr": "strike the chisel or push it, tap the blade into its block, pull the plane, and keep every edge sharp.",
+  "words": [
+   [
+    "strike",
+    0.0,
+    0.44
+   ],
+   [
+    "the",
+    0.44,
+    0.66
+   ],
+   [
+    "chisel",
+    0.66,
+    1.08
+   ],
+   [
+    "or",
+    1.08,
+    1.74
+   ],
+   [
+    "push",
+    1.74,
+    2.1
+   ],
+   [
+    "it,",
+    2.1,
+    2.76
+   ],
+   [
+    "tap",
+    3.18,
+    3.56
+   ],
+   [
+    "the",
+    3.56,
+    3.86
+   ],
+   [
+    "blade",
+    3.86,
+    4.24
+   ],
+   [
+    "into",
+    4.24,
+    4.74
+   ],
+   [
+    "its",
+    4.74,
+    5.06
+   ],
+   [
+    "block,",
+    5.06,
+    5.46
+   ],
+   [
+    "pull",
+    6.24,
+    6.88
+   ],
+   [
+    "the",
+    6.88,
+    7.16
+   ],
+   [
+    "plane,",
+    7.16,
+    7.52
+   ],
+   [
+    "and",
+    8.26,
+    8.7
+   ],
+   [
+    "keep",
+    8.7,
+    9.02
+   ],
+   [
+    "every",
+    9.02,
+    9.58
+   ],
+   [
+    "edge",
+    9.58,
+    10.0
+   ],
+   [
+    "sharp.",
+    10.0,
+    10.4
+   ]
+  ],
+  "wpm": 113.0
+ },
+ "N17": {
+  "take": 1,
+  "duration": 10.007,
+  "asr": "One note, sharp tool technique and how to use these tools safely is best learned from a teacher, at a bench, in person.",
+  "words": [
+   [
+    "One",
+    0.0,
+    0.28
+   ],
+   [
+    "note,",
+    0.28,
+    0.72
+   ],
+   [
+    "sharp",
+    1.56,
+    1.64
+   ],
+   [
+    "tool",
+    1.64,
+    2.12
+   ],
+   [
+    "technique",
+    2.12,
+    2.64
+   ],
+   [
+    "and",
+    2.64,
+    3.26
+   ],
+   [
+    "how",
+    3.26,
+    3.66
+   ],
+   [
+    "to",
+    3.66,
+    3.9
+   ],
+   [
+    "use",
+    3.9,
+    4.16
+   ],
+   [
+    "these",
+    4.16,
+    4.44
+   ],
+   [
+    "tools",
+    4.44,
+    4.76
+   ],
+   [
+    "safely",
+    4.76,
+    5.34
+   ],
+   [
+    "is",
+    5.34,
+    6.0
+   ],
+   [
+    "best",
+    6.0,
+    6.46
+   ],
+   [
+    "learned",
+    6.46,
+    6.84
+   ],
+   [
+    "from",
+    6.84,
+    7.14
+   ],
+   [
+    "a",
+    7.14,
+    7.32
+   ],
+   [
+    "teacher,",
+    7.32,
+    7.7
+   ],
+   [
+    "at",
+    8.1,
+    8.38
+   ],
+   [
+    "a",
+    8.38,
+    8.5
+   ],
+   [
+    "bench,",
+    8.5,
+    8.76
+   ],
+   [
+    "in",
+    9.16,
+    9.4
+   ],
+   [
+    "person.",
+    9.4,
+    9.68
+   ]
+  ],
+  "wpm": 131.9
+ }
+}

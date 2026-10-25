@@ -74,7 +74,12 @@ def tts(text, out_path, model, voice, purpose, price_per_char, instructions=None
         audio = r.read()
     pathlib.Path(out_path).parent.mkdir(parents=True, exist_ok=True)
     pathlib.Path(out_path).write_bytes(audio)
-    cost = generation_cost(gen_id)
+    try:
+        cost = generation_cost(gen_id)
+    except RuntimeError:
+        # stats never arrived: log a conservative estimate (observed ~1.7e-5 $/char for this model, x1.5), marked as such
+        cost = len(text) * 1.7e-5 * 1.5
+        purpose += " (cost ESTIMATED: no /generation stats)"
     _log(model, purpose, f"{len(text)} chars", cost, gen_id)
     return cost
 
