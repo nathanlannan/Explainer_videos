@@ -29,7 +29,7 @@ Gathered by a research agent, 2026-10-25. Status: **verified** (2+ independent s
 | R8-13 | It differs from 相欠き (half-depth from each member, flush faces): shallow cuts, members at different heights, the uncut middle locking into the groove | J aigaki; J watariago; KN | verified (by comparison) |
 | R8-14 | Upper member grooved only = 渡欠 watarikaki (JAANUS); 渡り欠き is used inconsistently | J; NK; L | inconsistent terms |
 | R8-15 | Which part is the "jaw" | — | unverified: don't claim |
-| R8-16 | Roof beam to wall plate: 「かぶとあり掛け又は渡りあごとし、いずれも羽子板ボルト締めとする」; flush tops: 大入れあり掛け | F §5.6.2-5 p.47; H p.18 | verified |
+| R8-16 | Roof beam to wall plate: 「かぶとあり掛け又は渡りあごとし、いずれも羽子板ボルト締めとする」; flush tops: 大入れあり掛け | F §5.6.2-5 (p.48 in the 2025 sample PDF; earlier noted as p.47); H p.18 | verified |
 | R8-17 | 大入れ蟻掛け is the flush-top option, not a crossing joint | F §5.6.2-5, §5.9.5-3ロ; H | verified |
 | R8-18 | Log roof beams: splice 台持ち継ぎ over a support; 「受け材当たりは渡りあごとし、手ちがいかすがい打ち」 | F §5.6.2-2,3 | single-source (official spec) |
 | R8-19 | Second-floor beams: 「受け材が横架材の場合は…渡りあご掛けとする」 (does not name 胴差し) | F §5.9.5-3ハ p.50 | single-source |
