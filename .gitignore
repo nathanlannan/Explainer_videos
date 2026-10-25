@@ -16,3 +16,4 @@ episodes/*/out/chunks/
 episodes/*/build/render.log
 episodes/*/build/stills*/
 shared/audio/voice/auditions/*.pcm
+episodes/*/build/render2.log
