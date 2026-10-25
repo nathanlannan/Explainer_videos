@@ -1,0 +1,32 @@
+Chapter markers (also embedded in the MP4)
+
+0:00.00  Cold open
+0:19.77  A splice: tsugite
+0:59.63  Study: the name
+1:02.63  Where it goes
+1:40.77  Study: where the splice goes
+1:43.77  The parts
+2:03.67  Study: the parts
+2:26.10  How it goes together
+2:59.23  Proportions
+3:35.47  Study: proportions
+3:38.97  Limits
+4:19.50  Study: limits
+4:28.67  Recap and glossary
+4:41.10  Glossary
+
+YouTube-style:
+0:00 Cold open
+0:19 A splice: tsugite
+0:59 Study: the name
+1:02 Where it goes
+1:40 Study: where the splice goes
+1:43 The parts
+2:03 Study: the parts
+2:26 How it goes together
+2:59 Proportions
+3:35 Study: proportions
+3:38 Limits
+4:19 Study: limits
+4:28 Recap and glossary
+4:41 Glossary

@@ -468,3 +468,34 @@ timestamp,model,purpose,units,cost_usd,generation_id
 2026-10-25T04:00:23Z,google/gemini-3.8-flash-tts,ep05 narration N04 take 1,274 chars,0.005374,gen-tts-1792900803-guh7kT1Gfr3eRNebLFd9
 2026-10-25T04:00:57Z,google/gemini-3.8-flash,ep05 listen N04,1709 tokens,0.003775,gen-1792900843-OTJADYR9u5jihImofLg9
 2026-10-25T04:00:59Z,openai/gpt-audio-mini,ep05 listen N04,814 tokens,0.000994,gen-1792900860-3U63Tv5M19C1PuvCYB8L
+2026-10-25T04:01:20Z,google/gemini-3.8-flash-tts,ep05 narration N05 take 1,146 chars,0.002476,gen-tts-1792900863-O7IIAqzTSC7xYd9e7Vc8
+2026-10-25T04:01:36Z,google/gemini-3.8-flash,ep05 listen N05,1214 tokens,0.003076,gen-1792900891-KhWgiq9PUkKEE1fUR8uB
+2026-10-25T04:01:38Z,openai/gpt-audio-mini,ep05 listen N05,492 tokens,0.000571,gen-1792900900-oTGll4cWC8btD5RlxgGB
+2026-10-25T04:02:01Z,google/gemini-3.8-flash-tts,ep05 narration N06 take 1,343 chars,0.006015,gen-tts-1792900901-FlwrhEEtNJB3QNLl6SXd
+2026-10-25T04:02:34Z,google/gemini-3.8-flash-tts,ep05 narration N07 take 1,127 chars,0.002447,gen-tts-1792900937-BbFVKnl0DGArFUBvbCT6
+2026-10-25T04:02:47Z,google/gemini-3.8-flash,ep05 listen N07,1177 tokens,0.002950,gen-1792900965-sehY9Uqi1GsbiegGbB5p
+2026-10-25T04:02:49Z,openai/gpt-audio-mini,ep05 listen N07,543 tokens,0.000693,gen-1792900971-OYMosDH7wnqm4jk7oLEU
+2026-10-25T04:03:10Z,google/gemini-3.8-flash-tts,ep05 narration N08 take 1,165 chars,0.002849,gen-tts-1792900974-maYSG8LmTEwBbOfPzdAU
+2026-10-25T04:03:27Z,google/gemini-3.8-flash-tts,ep05 narration N09 take 1,107 chars,0.002047,gen-tts-1792901001-ETEmBeHrZ91Gfep8ePUr
+2026-10-25T04:03:56Z,google/gemini-3.8-flash-tts,ep05 narration N10 take 1,242 chars,0.004684,gen-tts-1792901017-W8XcgM8oCkN5U2VOJoqW
+2026-10-25T04:04:17Z,google/gemini-3.8-flash-tts,ep05 narration N11 take 1,147 chars,0.002826,gen-tts-1792901049-c902ppCB635e6W0Wn0An
+2026-10-25T04:04:37Z,google/gemini-3.8-flash-tts,ep05 narration N12 take 1,208 chars,0.004006,gen-tts-1792901068-cmFHpkjTDFDVVONN74s8
+2026-10-25T04:05:05Z,google/gemini-3.8-flash-tts,ep05 narration N13 take 1,113 chars,0.002037,gen-tts-1792901090-IzkhovfBeFpQhGKRi9Od
+2026-10-25T04:05:20Z,google/gemini-3.8-flash-tts,ep05 narration N14 take 1,121 chars,0.001924,gen-tts-1792901114-hCwIc2fSwDDqNT7YcjIX
+2026-10-25T04:05:38Z,google/gemini-3.8-flash,ep05 listen N14,1187 tokens,0.003188,gen-1792901131-ggMZukLxeYGRSghhUDNj
+2026-10-25T04:05:40Z,openai/gpt-audio-mini,ep05 listen N14,451 tokens,0.000524,gen-1792901142-MY4tj3DXvZECDgkE5XDy
+2026-10-25T04:06:02Z,google/gemini-3.8-flash-tts,ep05 narration N15 take 1,325 chars,0.005762,gen-tts-1792901143-vxA4POtiEyYZQAxOF8md
+2026-10-25T04:06:35Z,google/gemini-3.8-flash-tts,ep05 narration N16 take 1,179 chars,0.003424,gen-tts-1792901178-G1uhIvRqnlQl5Mp9efaW
+2026-10-25T04:06:59Z,google/gemini-3.8-flash-tts,ep05 narration N17 take 1,54 chars,0.001062,gen-tts-1792901204-guD5zKURy6yG8LKSGhfA
+2026-10-25T04:07:22Z,google/gemini-3.8-flash-tts,ep05 narration N18 take 1,126 chars,0.002707,gen-tts-1792901226-8MCYgXUdrr2xx5PBfpbu
+2026-10-25T04:07:53Z,google/gemini-3.8-flash-tts,ep05 narration N07 take 2,129 chars,0.002420,gen-tts-1792901267-c34kkrZB6I8YjGvT8QZZ
+2026-10-25T04:08:06Z,google/gemini-3.8-flash,ep05 listen N07,1014 tokens,0.002380,gen-1792901284-SkwdAuD3FLJFln0CdZ1G
+2026-10-25T04:08:08Z,openai/gpt-audio-mini,ep05 listen N07,602 tokens,0.000847,gen-1792901290-LsYD3RerWMZKP682L8tv
+2026-10-25T04:08:30Z,google/gemini-3.8-flash-tts,ep05 narration N08 take 2,165 chars,0.003677,gen-tts-1792901292-N0BfUizNKIeethiGGPwA
+2026-10-25T04:08:54Z,google/gemini-3.8-flash-tts,ep05 narration N14 take 2,121 chars,0.002143,gen-tts-1792901319-tgRJzylaDIDrAuIzWlwH
+2026-10-25T04:09:07Z,google/gemini-3.8-flash,ep05 listen N14,908 tokens,0.002049,gen-1792901343-O3Tf6POZ27lkfHlYNcWZ
+2026-10-25T04:09:08Z,openai/gpt-audio-mini,ep05 listen N14,444 tokens,0.000486,gen-1792901350-aszYHFn0fdKZXW3G4f58
+2026-10-25T04:09:17Z,google/gemini-3.8-flash-tts,ep05 narration N17 take 2,54 chars,0.001344,gen-tts-1792901351-qxU4HxO73FOWtNqY8kLs
+2026-10-25T04:09:38Z,google/gemini-3.8-flash-tts,ep05 narration N07 take 3,121 chars,0.002410,gen-tts-1792901371-H9MMeGgbRNIUAzRiaybP
+2026-10-25T04:09:53Z,google/gemini-3.8-flash,ep05 listen N07,1182 tokens,0.003008,gen-1792901389-ZmG3X35F5WX2cqN08s9k
+2026-10-25T04:09:55Z,openai/gpt-audio-mini,ep05 listen N07,532 tokens,0.000683,gen-1792901396-CQjjuGitR8f7sAnyx0LS

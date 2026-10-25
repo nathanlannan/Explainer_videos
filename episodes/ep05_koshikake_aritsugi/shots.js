@@ -32,7 +32,7 @@ function getJoint() {
   if (J) return J;
   const s = L.makeScene({ shadowBox: 1600, lightDir: [0.45, 1, 0.7] });
   const [fm, mm] = G.members;
-  const female = L.memberMesh(fm, { seed: 3 }), male = L.memberMesh(mm, { seed: 7 });
+  const female = L.memberMesh(fm, { seed: 3 }), male = L.memberMesh(mm, { seed: 7, tint: '#EAD3AE' }); // male slightly darker so the seam reads
   const fG = new THREE.Group(), mG = new THREE.Group(); fG.add(female); mG.add(male); s.add(fG, mG);
   // ghost copies of the male for the "wrong way in" attempts
   const ghostMat = new THREE.MeshBasicMaterial({ color: GHOST, transparent: true, opacity: 0.3, depthWrite: false });
@@ -55,12 +55,12 @@ const SHOTS = {
       const j = getJoint(), e = sh.ev; j.gEnd.visible = j.gSide.visible = false;
       const k = L.ease(L.ramp(t, e.drops - 0.2, e.drops + 1.5));
       j.mG.position.set(0, 260 * (1 - k), 0);
-      const cam = L.camera('threeQ', [0, 40, 0], 1500, { orbit: 0.1 + 0.01 * t, lift: 0.25 });
+      const cam = L.camera('threeQ', [0, 60 + 110 * (1 - k), 0], 1250, { orbit: -0.35 + 0.01 * t, lift: 0.5 });
       if (this.arr) this.arr.remove();
       const pa = L.ramp(t, e.apart - 0.3, e.apart + 0.3);
       // a short tug: the arrow pulls, the piece doesn't move
-      this.arr = arrow3(this.svg, cam, [260, H() + 60, 0], [480, H() + 60, 0], { w: 6, head: 26 }); this.arr.setAttribute('opacity', pa);
-      anchor(this.held, cam, [370, H() + 60, 0], -160, -90); L.show(this.held, pa);
+      this.arr = arrow3(this.svg, cam, [60, H() + 60, 0], [260, H() + 60, 0], { w: 6, head: 26 }); this.arr.setAttribute('opacity', pa);
+      anchor(this.held, cam, [160, H() + 60, 0], -200, -100); L.show(this.held, pa);
       return { scene: j.s, camera: cam };
     },
   },
@@ -77,7 +77,7 @@ const SHOTS = {
       this.b = el2(svg, 'g', {});
       L.woodRect(this.b, 1180, 380, 460, 120, { vertical: false }); L.woodRect(this.b, 1180, 500, 120, 300, { vertical: true });
       el2(this.b, 'path', { d: 'M1180,500 h120', stroke: INK, 'stroke-width': 3, 'stroke-dasharray': '10 6' });
-      this.lb = L.label({ romaji: 'shiguchi', kanji: '仕口', gloss: 'members meeting at an angle · dictionaries also read it shikuchi', x: 1180, y: 840 });
+      this.lb = L.label({ romaji: 'shiguchi', kanji: '仕口', gloss: 'members meeting at an angle (also read shikuchi)', x: 1180, y: 840 });
       this.n = L.text('schematic', { x: 1824, y: 54, size: 36, cls: 'soft', align: 'right' });
     },
     frame(t, sh) {
@@ -154,9 +154,9 @@ const SHOTS = {
     frame(t, sh) {
       const j = getJoint(), e = sh.ev; j.gEnd.visible = j.gSide.visible = false;
       j.mG.position.set(60, 230, 0);
-      const cam = L.camera('threeQ', [0, 90, 0], 1350, { orbit: 0.35, lift: 0.45 });
+      const cam = L.camera('threeQ', [40, 130, 0], 1600, { orbit: -0.3, lift: 0.3 });
       const r = (a) => L.ramp(t, a - 0.3, a + 0.3);
-      anchor(this.ogi, cam, [260, 230 + H(), 0], -100, -90); anchor(this.megi, cam, [-300, H(), 0], -100, -90);
+      anchor(this.ogi, cam, [200, 230 + H(), 0], -200, -100); anchor(this.megi, cam, [-300, H(), 0], -100, -90);
       anchor(this.head, cam, [60 - G.LD, 230 + H(), 0], -160, -60); anchor(this.neck, cam, [60 - 4, 230 + H(), 0], -40, -110);
       anchor(this.sho, cam, [60, 230 + H() * 0.75, G.W / 2], 20, -20);
       anchor(this.seat, cam, [G.SEAT / 2, H() / 2, G.W / 2], 20, 20); anchor(this.sock, cam, [-G.LD / 2, H(), 0], -60, -80);
@@ -205,14 +205,14 @@ const SHOTS = {
       j.gSide.visible = t > e.side - 0.3 && t < e.drops; j.gSide.material.opacity = 0.3 * r(e.side); j.gSide.position.set(0, 0, G.W / 2 + G.HEAD / 2 + 160 * (1 - L.ease(L.ramp(t, e.side, e.side + 1.2))) + 2);
       const k = L.ease(L.ramp(t, e.drops - 0.1, e.drops + 1.2));
       j.mG.position.set(0, t < e.drops - 0.1 ? 260 : 260 * (1 - k), 0);
-      const cam = L.camera('threeQ', [0, 60, 40], 1500, { orbit: 0.3, lift: 0.4 });
+      const cam = L.camera('threeQ', [80, 110, 60], 1550, { orbit: -0.3, lift: 0.5 });
       this.items.forEach((x) => x.remove()); this.items = [];
       if (j.gEnd.visible) { const [x, y] = L.toScreen(cam, [G.LD + 2 + 60, H() + 10, 0]); this.items.push(xMark(this.svg, x, y - 40)); }
       if (j.gSide.visible) { const [x, y] = L.toScreen(cam, [0, H() + 10, G.W / 2 + G.HEAD / 2 + 40]); this.items.push(xMark(this.svg, x, y - 40)); }
-      anchor(this.lEnd, cam, [G.LD + 200, H(), 0], -40, -110); L.show(this.lEnd, j.gEnd.visible ? r(e.end) : 0);
+      anchor(this.lEnd, cam, [G.LD + 200, H(), 0], -360, -120); L.show(this.lEnd, j.gEnd.visible ? r(e.end) : 0);
       anchor(this.lSide, cam, [0, H(), G.W / 2 + 140], -80, 30); L.show(this.lSide, j.gSide.visible ? r(e.side) : 0);
-      const dn = r(e.drops) * (1 - r(e.hooks)); const da = arrow3(this.svg, cam, [150, H() + 360, 0], [150, H() + 120, 0], { w: 6, head: 26 }); da.setAttribute('opacity', dn); this.items.push(da);
-      anchor(this.lDown, cam, [150, H() + 360, 0], 20, -30); L.show(this.lDown, dn);
+      const dn = r(e.drops) * (1 - r(e.hooks)); const da = arrow3(this.svg, cam, [420, H() + 260, 0], [420, H() + 60, 0], { w: 6, head: 26 }); da.setAttribute('opacity', dn); this.items.push(da);
+      anchor(this.lDown, cam, [420, H() + 200, 0], 24, -20); L.show(this.lDown, dn);
       const ha = r(e.hooks); const pa = arrow3(this.svg, cam, [260, H() + 40, 0], [460, H() + 40, 0], { w: 6, head: 26 }); pa.setAttribute('opacity', ha); this.items.push(pa);
       L.show(this.held, ha); anchor(this.rest, cam, [G.SEAT / 2, H() / 2, G.W / 2], 30, 10); L.show(this.rest, r(e.rests));
       return { scene: j.s, camera: cam };
@@ -237,7 +237,7 @@ const SHOTS = {
       el2(this.bl, 'rect', { x: cx - G.W / 4 * S, y: cy + W / 2 + 14, width: G.W / 4 * S, height: 18, fill: GHOST, opacity: 0.6 });
       this.ln = L.text('neck: ¼ to ⅓ of the width', { x: cx + 440, y: cy - 30, size: 40 });
       this.ll = L.text('length: ¼ to ½ of the width', { x: cx - G.W / 2 * S, y: cy + W / 2 + 50, size: 40 });
-      this.lo = L.text('our drawing: inside both · each side slopes about 1 in 5', { x: cx + 440, y: cy + 50, size: 40, w: 520 }); this.lo.classList.add('wrap');
+      this.lo = L.text('our drawing: inside both<br>each side slopes about 1 in 5', { x: cx + 440, y: cy + 50, size: 40, w: 620 }); this.lo.classList.add('wrap');
       // schematic: a sashigane's blade laid along the side (unscaled)
       this.sq = el2(svg, 'g', {});
       el2(this.sq, 'rect', { x: 1420, y: 820, width: 380, height: 26, fill: '#D3D7DB', stroke: INK, 'stroke-width': 2, transform: 'rotate(-11 1420 833)' });

@@ -1,0 +1,285 @@
+1
+00:00:00,800 --> 00:00:03,790
+Two sills meet end to end.
+
+2
+00:00:04,120 --> 00:00:09,270
+One piece drops in from above,
+and now they can't slide apart.
+
+3
+00:00:09,633 --> 00:00:11,923
+This is our first joint:
+
+4
+00:00:12,253 --> 00:00:14,363
+the koshikake ari-tsugi.
+
+5
+00:00:20,067 --> 00:00:22,697
+It's a splice, a tsugite:
+
+6
+00:00:23,187 --> 00:00:27,697
+a joint that joins two
+members end to end, in line.
+
+7
+00:00:28,467 --> 00:00:32,648
+A joint between members meeting
+at an angle is called a shiguchi.
+
+8
+00:00:36,033 --> 00:00:38,083
+Ari is the dovetail:
+
+9
+00:00:38,473 --> 00:00:41,343
+a shape that flares
+out like a dove's tail.
+
+10
+00:00:42,433 --> 00:00:44,423
+Koshikake is the seat:
+
+11
+00:00:45,093 --> 00:00:47,363
+the ledge the upper piece sits on.
+
+12
+00:00:48,153 --> 00:00:52,203
+So this is a dovetail splice, with a seat.
+
+13
+00:00:53,013 --> 00:00:56,193
+You'll also see it called
+shikimen ari-tsugi;
+
+14
+00:00:56,733 --> 00:00:59,223
+shikimen is another word for the seat.
+
+15
+00:01:02,933 --> 00:01:08,203
+It's used mainly to splice sills, the
+timbers that sit on the foundation,
+
+16
+00:01:08,693 --> 00:01:13,603
+and also ōbiki, the ground-floor
+beams that carry the floor joists.
+
+17
+00:01:14,000 --> 00:01:18,800
+The building specification
+behind Japan's Flat 35 home loans
+
+18
+00:01:18,840 --> 00:01:24,160
+names it as one of two splices
+for sills, and says to keep
+
+19
+00:01:24,200 --> 00:01:28,010
+the splice away from posts
+and underfloor vents.
+
+20
+00:01:28,580 --> 00:01:32,770
+It asks for sills at least a
+hundred and five millimeters square.
+
+21
+00:01:33,280 --> 00:01:36,430
+The government's public-works
+specification adds:
+
+22
+00:01:36,640 --> 00:01:40,210
+put the anchor bolt in the
+upper piece, next to the joint.
+
+23
+00:01:44,067 --> 00:01:45,717
+There are two pieces.
+
+24
+00:01:46,367 --> 00:01:49,577
+The male piece, ogi, carries the dovetail.
+
+25
+00:01:50,127 --> 00:01:54,197
+The female piece, megi, carries
+the socket and the seat.
+
+26
+00:01:54,567 --> 00:01:56,617
+Carpenters name the parts:
+
+27
+00:01:57,167 --> 00:02:03,297
+the wide head, the narrow neck, and the
+shoulder, where the neck meets the body.
+
+28
+00:02:07,467 --> 00:02:13,777
+The dovetail and its socket take
+roughly the upper half of the sill.
+
+29
+00:02:14,447 --> 00:02:16,497
+The seat takes the lower half.
+
+30
+00:02:17,387 --> 00:02:23,157
+The male piece's lower half is
+cut back, so it sits on that seat.
+
+31
+00:02:26,400 --> 00:02:28,850
+The male piece goes in from above.
+
+32
+00:02:29,520 --> 00:02:33,340
+The flare stops it coming
+in from the end, and the
+
+33
+00:02:33,380 --> 00:02:36,590
+socket walls stop it
+coming in from the side.
+
+34
+00:02:37,280 --> 00:02:39,770
+So it drops straight down:
+
+35
+00:02:40,340 --> 00:02:46,410
+the dovetail settles into its socket, and
+the cut-back underside lands on the seat.
+
+36
+00:02:46,767 --> 00:02:50,827
+Once it's down, the flare
+hooks the two pieces together,
+
+37
+00:02:50,867 --> 00:02:55,057
+so they can't simply slide
+apart along their length.
+
+38
+00:02:55,107 --> 00:02:58,817
+And the male piece rests on the seat.
+
+39
+00:02:59,533 --> 00:03:00,533
+How big?
+
+40
+00:03:00,913 --> 00:03:02,043
+Proportions vary.
+
+41
+00:03:02,773 --> 00:03:06,103
+One engineering study
+works within these ranges:
+
+42
+00:03:06,553 --> 00:03:10,853
+a neck a quarter to a third
+of the sill's width, and a
+
+43
+00:03:10,893 --> 00:03:14,143
+dovetail a quarter to a
+half of the width long.
+
+44
+00:03:14,693 --> 00:03:16,663
+Our drawing sits inside both.
+
+45
+00:03:17,100 --> 00:03:22,640
+In our drawing, each side slopes
+about one in five, in line
+
+46
+00:03:22,680 --> 00:03:25,470
+with what the test reports
+describe for these joints.
+
+47
+00:03:25,933 --> 00:03:30,433
+In one training course, the
+slope of the sides is set out
+
+48
+00:03:30,473 --> 00:03:34,803
+with the sashigane itself,
+using the width of its blade.
+
+49
+00:03:39,267 --> 00:03:41,837
+Be clear about what it isn't.
+
+50
+00:03:41,947 --> 00:03:47,657
+The hook holds only a modest pull,
+so it's counted as weak in tension.
+
+51
+00:03:48,287 --> 00:03:51,317
+One test report treats
+it almost as a hinge,
+
+52
+00:03:51,567 --> 00:03:53,717
+with very little resistance to bending.
+
+53
+00:03:54,447 --> 00:03:59,067
+In a house, an anchor bolt holds the
+upper piece down beside the joint.
+
+54
+00:03:59,107 --> 00:04:04,157
+Never put the bolt in the female
+piece, or inside the joint itself.
+
+55
+00:04:04,633 --> 00:04:06,703
+And it fails suddenly:
+
+56
+00:04:07,493 --> 00:04:12,583
+the female piece can split at the
+notch, or the dovetail can shear off.
+
+57
+00:04:13,373 --> 00:04:16,453
+Keep knots out of the
+joint, and don't expect
+
+58
+00:04:16,493 --> 00:04:19,063
+a longer dovetail to make it stronger.
+
+59
+00:04:22,800 --> 00:04:28,150
+Next time, we'll mark it out
+and cut it, step by step.
+
+60
+00:04:29,067 --> 00:04:32,237
+A dovetail above, a seat below.
+
+61
+00:04:32,887 --> 00:04:36,377
+The upper piece, the
+male, drops in from above.
+
+62
+00:04:37,067 --> 00:04:40,517
+And the splice goes away
+from posts and vents.
