@@ -1,7 +1,9 @@
 """Episode 6 -- marking out and cutting the koshikake ari-tsugi: the cut states of both pieces, fit-checked.
 
 Builds on Episode 5's joint (same section and proportions) with two refinements from the training course (WBT):
-  * the socket's tip is dug about 1 bu (~3 mm) past the line, so the dovetail's tip can't bottom out (R6-28)
+  * at the tip, the socket is dug about 1 bu (~3 mm) more than the line (R6-28). The source text is ambiguous about the
+    direction; it follows the step "dig down to the seat level", so this model reads it as DEEPER at the tip: the floor
+    under the dovetail's head end is 3 mm below the seat level, and the tip cannot bear (recorded in decisions.md).
   * the male's dovetail cheeks taper in elevation: line left at the top, taken at the bottom (R6-24) -> modelled
     as TAPER mm per side narrower at the bottom of the dovetail; the 2D inset exaggerates it, labelled as such.
 States (exact solids, exported for the renderer): female F0 blank -> F1 seat cut -> F2 socket chopped;
@@ -27,8 +29,16 @@ FL = (HEAD - NECK) / 2 / LD              # flare per side per mm of length
 
 
 def socket(dig):
-    hw = HEAD / 2 + FL * dig             # the flare continues past the line into the over-dig
-    return PlanPrism([(0, -NECK / 2), (0, NECK / 2), (-LD - dig, hw), (-LD - dig, -hw)], HALF, H + 1)
+    return PlanPrism([(0, -NECK / 2), (0, NECK / 2), (-LD, HEAD / 2), (-LD, -HEAD / 2)], HALF, H + 1)
+
+
+TIPLEN = 15.0   # length of the deepened pocket at the head end (model choice, not stated)
+
+
+def tip_pocket(dig):
+    """The socket's head end, TIPLEN long, dug DIG deeper than the seat level."""
+    x0 = -LD + TIPLEN; hw0 = NECK / 2 + FL * (LD - TIPLEN)
+    return PlanPrism([(x0, -hw0), (x0, hw0), (-LD, HEAD / 2), (-LD, -HEAD / 2)], HALF - dig, HALF + 0.5)
 
 
 def dovetail_tapered(t):
@@ -42,7 +52,7 @@ def states():
     seat_cut = Box(0, HALF, -W / 2 - 1, SEAT + 1, HALF + 1, W + 2)
     F0 = Member("female", "sill", Box(-LF, 0, -W / 2, LF + SEAT, H, W), "x")
     F1 = Member("female", "sill", F0.body, "x", cuts=[seat_cut])
-    F2 = Member("female", "sill", F0.body, "x", cuts=[seat_cut, socket(DIG)])
+    F2 = Member("female", "sill", F0.body, "x", cuts=[seat_cut, socket(DIG), tip_pocket(DIG)])
     M0 = Member("male", "sill", Box(-LD, 0, -W / 2, LM + LD, H, W), "x")
     lower = Box(-LD - 1, -1, -W / 2 - 1, LD + SEAT + 1, HALF + 1, W + 2)
     M1 = Member("male", "sill", M0.body, "x", cuts=[lower])
@@ -63,14 +73,15 @@ def main():
     fe, ma = _S("female", f2), _S("male", m2)
     rep = fitcheck.run([fitcheck.Step(fe, (0, 0, 0), 0), fitcheck.Step(ma, (0, 1, 0), H + 20)], [fitcheck.Mate("female", "male", 0.1)])
     fitcheck.assert_ok(rep)
-    # the tip doesn't bottom out: a slab DIG-0.2 mm thick at the socket tip is empty of the male
-    tip = Box(-LD - DIG + 0.1, HALF, -HEAD, DIG - 0.2, HALF, 2 * HEAD).solid()
+    # the tip doesn't bottom out: the male's head end has empty space under it (the pocket), and dropping the male a
+    # further DIG - 0.2 mm would still not touch the female under the head end
+    tip = Box(-LD + 0.5, HALF - DIG + 0.1, -20, TIPLEN - 1, DIG - 0.2, 40).solid()   # inside the pocket
     # the taper: at the bottom of the dovetail there is a gap each side; at the top, contact
     low = Box(-LD, HALF, -W / 2, LD, 2, W).solid(); top = Box(-LD, H - 2, -W / 2, LD, 2, W).solid()
     socket_low = (F0.solid() ^ low) - (f2 ^ low)          # the socket's empty space in the bottom 2 mm
     checks = {
         "fitcheck": fitcheck.summary(rep),
-        "tip_does_not_bottom_out": (m2 ^ tip).volume() == 0,
+        "tip_does_not_bottom_out": (f2 ^ tip).volume() == 0 and (m2 ^ tip).volume() == 0,
         "taper_gap_at_bottom_mm3": round(socket_low.volume() - (m2 ^ low).volume(), 1),
         "taper_contact_at_top": (fitcheck._grow(m2 ^ top, 0.1) ^ f2).volume() > 0,
         "locked_against_pull_apart": (m2.translate([5, 0, 0]) ^ f2).volume() > 0,

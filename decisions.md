@@ -165,3 +165,18 @@ $0.3186 of $5.00 over 133 logged calls (actual costs from OpenRouter generation 
 - Joint: dovetail and socket in the upper half, seat in the lower half (R6-18); the male is the upper piece and drops in (R6-14). Example dimensions 50/50/30 on 105 mm (R6-21, single-source, shown as "one carpenter's example"), giving a 1:5 flare (R6-22).
 - The seat length has no source, so the model uses 30 mm and the length is never stated on screen.
 - The fit check proves: no interference; faces in contact; a clear drop-in path; locked against pulling apart (+X) and sliding sideways (+Z); free to lift; cannot be slid in along or across the sill.
+
+## Episode 5: Gate A
+- The example dimensions 50/50/30 (R6-21) came from a video search snippet. The video could not be fetched (YouTube blocks it), so they are not cited. The drawn proportions are justified by the engineering study's ranges instead (neck W/4–W/3, length W/4–W/2; R6-19), and params.py checks both.
+- The Western 1:6–1:8 comparison was cut, because it was unsourced and on the Avoid list.
+- The spec attribution is split: the Flat 35 loan specification (JHF) for "one of two sill splices" and "avoid posts/vents"; the public-works specification (MLIT) for the anchor bolt in the upper piece.
+- TTS: "ogi"/"megi" were never voiced quite right after three takes (vowels long). I accepted take 3 and noted it; the kanji 男木/女木 are on screen.
+
+## Episode 6: Gate A
+- The reviewer fetched all 14 WBT pages. Fixes:
+  - The male's end is cut at the end line *before* the centre and dovetail lines go on its end grain.
+  - The finishing steps are "chisel the corners the saw couldn't reach; chamfer with the chisel".
+  - The rips and crosscuts "split the line" and stop at the line, never in the seat.
+  - Kigoroshi is attributed to a general manual (MHLW p.1). The MHLW 3級 manual doesn't cover this joint, so it isn't presented as doing so.
+- Over-dig direction: WBT 「墨よりさらに１分ほど多めに掘る」 follows "dig down to the seat level", so the model reads it as 3 mm *deeper* at the tip (a 15 mm pocket under the head end). The text is ambiguous, so the episode says "deeper than the line" and captions it as one training course's practice.
+- The reading of 砂切り is unverified (すなきり vs すなぎり), so the narration says "end line" and the kanji is shown without a reading.

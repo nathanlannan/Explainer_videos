@@ -10,7 +10,7 @@
   {
    "id": "N02",
    "section": 1,
-   "text": "We'll follow one training course's sequence, step by step. Other carpenters order things differently.",
+   "text": "We'll follow one training course's sequence, step by step. Others may order things differently.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
@@ -22,57 +22,56 @@
   {
    "id": "N04",
    "section": 2,
-   "text": "Then the center lines, struck on every face, just as in Episode 1. Every line that follows is measured from them. One carpenter warns: if they're off, the joint will twist.",
+   "text": "Then the center lines, as in Episode 1. The dovetail is laid out from them, evenly on either side, so they need to be right before anything else.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N05",
    "section": 3,
-   "text": "On the female piece, start with the end line, the sunakiri, squared across. Then the seat lines. Then the dovetail, laid out evenly on either side of the center line.",
-   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress.",
-   "tts": "On the female piece, start with the end line, the soo-nah-kee-ree, squared across. Then the seat lines. Then the dovetail, laid out evenly on either side of the center line."
+   "text": "On the female piece, start on the top face with the end line. Then the seat lines. Then the dovetail lines, laid out evenly on either side of the center line.",
+   "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N06",
    "section": 3,
-   "text": "The sides of the dovetail are angled using the width of the sashigane's blade. Finally, the seat lines are carried down both side faces.",
+   "text": "The sides of the dovetail are angled using the width of the sashigane's blade, running from the seat line toward the dovetail line. Finally, the seat lines are carried down both side faces.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress.",
-   "tts": "The sides of the dovetail are angled using the width of the sah-shee-gah-neh's blade. Finally, the seat lines are carried down both side faces."
+   "tts": "The sides of the dovetail are angled using the width of the sah-shee-gah-neh's blade, running from the seat line toward the dovetail line. Finally, the seat lines are carried down both side faces."
   },
   {
    "id": "N07",
    "section": 4,
-   "text": "On the male piece: the end line, the tip of the dovetail, and the cut lines. Then the center line and the dovetail are carried onto the end grain, so you can see them while you saw.",
+   "text": "On the male piece: the end line, the tip of the dovetail, and the cut lines.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N08",
    "section": 5,
-   "text": "Now cut the female. Rip down the seat, splitting the line, then crosscut to take off the waste above the seat.",
+   "text": "Now cut the female. Rip in from the end along the seat line, splitting it. Then crosscut down to it, also splitting the line, and the waste above the seat comes away.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N09",
    "section": 5,
-   "text": "Rip the sides of the dovetail socket, taking care not to saw into the seat below.",
+   "text": "Rip the sides of the dovetail socket, splitting the line, without sawing past the end of the dovetail or into the seat below.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N10",
    "section": 5,
-   "text": "Then chop out the socket with a chisel, down to the level of the seat. Keep the chisel's flat back toward the outside of the socket, so the wall stays true.",
+   "text": "Chop out the socket, keeping the chisel's flat back toward the outside of the socket. Then work down to the level of the seat.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N11",
    "section": 5,
-   "text": "One detail matters: dig the tip of the socket about three millimeters past the line. Then the dovetail's tip can't bottom out and hold the joint open somewhere else.",
+   "text": "One detail matters: at the tip, dig the socket about three millimeters deeper than the line. Then the tip can't touch first and leave a gap somewhere else in the joint.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N12",
    "section": 6,
-   "text": "Now the male. Rip down to the shoulder, then crosscut away the lower half, leaving the cut-back underside that will sit on the seat.",
+   "text": "Now the male. First cut the end square at the end line, then carry the center line and the dovetail lines onto the fresh end grain. Rip in to the shoulder, then crosscut away the lower half, leaving the cut-back underside that will sit on the seat.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
@@ -84,28 +83,28 @@
   {
    "id": "N14",
    "section": 6,
-   "text": "Crosscut the shoulders, then pare the faces clean, and chamfer the edges lightly.",
+   "text": "Crosscut the shoulders, splitting the line. Then chisel away what the saw couldn't reach in the corners, and chamfer the edges with the chisel.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N15",
    "section": 7,
-   "text": "Test the fit by dropping the male in from above. If it's a little too tight, the skills-test manual's answer is kigoroshi: compressing the wood fibers with the domed face of the gennō.",
+   "text": "Test the fit by dropping the male in from above. If it's a little too tight, a general carpentry manual suggests kigoroshi. The gennō's slightly domed face carries the same name: the kigoroshi face.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress.",
-   "tts": "Test the fit by dropping the male in from above. If it's a little too tight, the skills test manual's answer is kee-goh-roh-shee: compressing the wood fibers with the domed face of the gen-noh."
+   "tts": "Test the fit by dropping the male in from above. If it's a little too tight, a general carpentry manual suggests kee-goh-roh-shee. The gen-noh's slightly domed face carries the same name: the kee-goh-roh-shee face."
   },
   {
    "id": "N16",
    "section": 7,
-   "text": "And remember why the tip was dug deep: the joint should seat on its faces, not on its tip.",
+   "text": "And remember why the tip was dug deep: the joint should bear everywhere else, never on its tip.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress."
   },
   {
    "id": "N17",
    "section": 8,
-   "text": "Next time, a new joint: the mortise and tenon, hozo.",
+   "text": "Next time, a new joint: the mortise and tenon, hozo and hozo-ana.",
    "instr": "A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Slow, steady pace of about 125 words per minute, with a short natural pause after each sentence. Japanese words are pronounced the Japanese way: even syllables, short crisp vowels, no English stress.",
-   "tts": "Next time, a new joint: the mortise and tenon, hoh-zoh."
+   "tts": "Next time, a new joint: the mortise and tenon, hoh-zoh and hoh-zoh ah-nah."
   },
   {
    "id": "N18",

@@ -18,7 +18,7 @@ import listen  # noqa: E402
 MODEL, VOICE, PRICE = "google/gemini-3.8-flash-tts", "Sulafat", 0.00001
 INSTR = ("A calm, warm, unhurried documentary narrator teaching a hand craft to a friend. Steady pace of about 135 words per minute. "
          "Japanese words are pronounced the Japanese way: even syllables, pure vowels, no English stress.")
-TERMS = {}  # TODO: romaji/respelling -> kana for this episode's terms
+TERMS = {"sah-shee-gah-neh": "さしがね", "kee-goh-roh-shee": "きごろし", "gen-noh": "げんのう", "hoh-zoh": "ほぞ", "ah-nah": "あな"}
 LISTENERS = ["google/gemini-3.8-flash", "openai/gpt-audio-mini"]
 AUD = HERE / "audio"
 QA = HERE / "build" / "narration_qa.json"
@@ -68,7 +68,7 @@ def main():
         QA.parent.mkdir(exist_ok=True)
         QA.write_text(json.dumps(qa, indent=1, ensure_ascii=False))
         print(ln["id"], q["take"], q["duration"], q["wpm"], "|", q["asr"][:90],
-              "|", json.dumps({m: [(t.get("heard_kana"), t.get("correct")) for t in v] for m, v in q.get("listen", {}).items()}, ensure_ascii=False))
+              "|", json.dumps({m: ([(t.get("heard_kana"), t.get("correct")) for t in v] if isinstance(v, list) else str(v)[:160]) for m, v in q.get("listen", {}).items()}, ensure_ascii=False))
     tot = sum(qa[l["id"]]["duration"] for l in lines)
     print(f"total speech {tot:.1f}s; spent ${o.spent():.4f}")
 
