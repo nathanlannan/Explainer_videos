@@ -272,6 +272,6 @@ function endCard() {
   const a = L.text('JAPANESE JOINERY BY HAND', { x: 96, y: 330, size: 40 }); a.style.letterSpacing = '0.18em';
   const b = L.text('Next · Episode 4', { x: 96, y: 420, size: 48 }); b.style.fontWeight = 700;
   const c = L.text('The Cutting Kit and the Line', { x: 96, y: 500, size: 96 }); c.style.fontWeight = 700;
-  L.text('ryōba, dozuki, nomi and gennō, kanna — each beside its Western cousin', { x: 96, y: 640, size: 40, cls: 'soft' });
+  L.text('ryōba, dōzuki, nomi and gennō, kanna — each beside its Western cousin', { x: 96, y: 640, size: 40, cls: 'soft' });
   const svg = L.svgLayer(); el2(svg, 'line', { x1: 96, y1: 740, x2: 560, y2: 740, stroke: INK, 'stroke-width': 4, 'stroke-dasharray': '60 14 10 14' });
 }
